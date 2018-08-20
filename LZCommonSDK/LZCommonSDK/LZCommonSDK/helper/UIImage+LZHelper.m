@@ -7,6 +7,7 @@
 //
 
 #import "UIImage+LZHelper.h"
+#import "NSMutableArray+LZHelper.h"
 
 @implementation UIImage (LZHelper)
 

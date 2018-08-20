@@ -5,7 +5,7 @@
 //  Copyright (c) 2013 Kevin Renskers. All rights reserved.
 //
 
-#import "NSString+GSUrlEncode.h"
+#import "NSString+LZUrlEncode.h"
 
 @implementation NSString (GSUrlEncode)
 

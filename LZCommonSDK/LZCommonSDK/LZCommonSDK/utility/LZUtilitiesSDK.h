@@ -16,7 +16,7 @@
 #import <GSCommonSDK/GSDeviceUtil.h>
 #import <GSCommonSDK/GSEncryptUtl.h>
 #import <GSCommonSDK/GSJSONParseUtil.h>
-#import <GSCommonSDK/GSReachabilityUtil.h>
+#import <GSCommonSDK/LZReachabilityUtil.h>
 #import <GSCommonSDK/GSScreenUtil.h>
 #import <GSCommonSDK/GSStringUtil.h>
 #import <GSCommonSDK/CGRectExtension.h>

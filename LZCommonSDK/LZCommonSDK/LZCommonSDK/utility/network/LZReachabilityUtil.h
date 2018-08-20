@@ -1,5 +1,5 @@
 //
-//  GSReachabilityUtil.h
+//  LZReachabilityUtil.h
 //  GSCoreCommon
 //
 //  Created by zhenwei on 13-11-14.

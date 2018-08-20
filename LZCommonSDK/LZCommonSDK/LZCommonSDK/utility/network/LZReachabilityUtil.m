@@ -1,5 +1,5 @@
 //
-//  GSReachabilityUtil.m
+//  LZReachabilityUtil.m
 //  GSCoreCommon
 //
 //  Created by zhenwei on 13-11-14.
@@ -7,7 +7,7 @@
 //
 
 #import "LZReachabilityUtil.h"
-#import "GSReachability.h"
+#import "LZReachability.h"
 
 
 @implementation LZReachabilityUtil
@@ -36,24 +36,24 @@
         NSUserDefaults* uesrDefaults = [NSUserDefaults standardUserDefaults];
         [uesrDefaults setInteger:[LZReachabilityUtil getCurrentNetworkStatus] forKey:NETWORK_STATUS_KEY];
         
-        GSReachability * reach = [GSReachability reachabilityWithHostname:@"www.baidu.com"];
+        LZReachability * reach = [LZReachability reachabilityWithHostname:@"www.baidu.com"];
         
         if (observer != nil && aSelector != nil) //外部自定义网络变化监听
         {
             [[NSNotificationCenter defaultCenter] addObserver:observer
                                                      selector:aSelector
-                                                         name:kGSReachabilityChangedNotification
+                                                         name:kLZReachabilityChangedNotification
                                                        object:anObject];
         }
         else
         {
             
-//            [[NSNotificationCenter defaultCenter] addObserver:[GSReachabilityUtil sharedInstance]
+//            [[NSNotificationCenter defaultCenter] addObserver:[LZReachabilityUtil sharedInstance]
 //                                                     selector:@selector(handleReachabilityChanged:)
 //                                                         name:kReachabilityChangedNotification
 //                                                       object:anObject];
             
-            reach.reachableBlock = ^(GSReachability * reachability)
+            reach.reachableBlock = ^(LZReachability * reachability)
             {
                 NetworkStatus status = [reachability currentReachabilityStatus];
                 
@@ -70,7 +70,7 @@
                 
             };
 
-            reach.unreachableBlock = ^(GSReachability * reachability)
+            reach.unreachableBlock = ^(LZReachability * reachability)
             {
                 NSLog(@"block-无网络");
                 [uesrDefaults setInteger:GSNetworkStatusOFFLINE forKey:NETWORK_STATUS_KEY];
@@ -91,7 +91,7 @@
 // add by zhenwei
 + (void)unregisterReachabilityChangedObserver:(id)observer
 {
-    [[NSNotificationCenter defaultCenter] removeObserver:self name:kGSReachabilityChangedNotification object:nil];
+    [[NSNotificationCenter defaultCenter] removeObserver:self name:kLZReachabilityChangedNotification object:nil];
 }
 // end
 
@@ -111,7 +111,7 @@
 + (GSNetworkStatus)getCurrentNetworkStatus
 {
     GSNetworkStatus result = GSNetworkStatusWIFI;
-    GSReachability * reach = [GSReachability reachabilityWithHostname:@"www.baidu.com"];
+    LZReachability * reach = [LZReachability reachabilityWithHostname:@"www.baidu.com"];
     
     switch ([reach currentReachabilityStatus]) {
         case NotReachable:// 没有网络连接
@@ -130,7 +130,7 @@
 
 - (void)handleReachabilityChanged:(NSNotification *)note
 {
-    GSReachability *currReach = [note object];
+    LZReachability *currReach = [note object];
     
     NSUserDefaults* uesrDefaults = [NSUserDefaults standardUserDefaults];
     

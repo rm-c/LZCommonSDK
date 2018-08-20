@@ -6,7 +6,7 @@
 //  Copyright © 2017年 MaoChao Network Co. Ltd. All rights reserved.
 //
 
-#import "UIView+GSFrame.h"
+#import "UIView+LZFrame.h"
 
 @implementation UIView (GSFrame)
 

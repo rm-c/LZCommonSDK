@@ -47,13 +47,6 @@
 - (int)realLength;
 
 /**
- *  md5加密
- *
- *  @return 加密字符串
- */
-- (NSString *)md5HexDigest;
-
-/**
  *  删除字符串头尾空格
  *
  *  @return 删除头尾空格后的字符串

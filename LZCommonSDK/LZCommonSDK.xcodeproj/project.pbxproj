@@ -65,7 +65,8 @@
 		48E3C580212AB2CD00D6FAE2 /* LZVideoUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E3C56B212AB2CD00D6FAE2 /* LZVideoUtil.m */; };
 		48E3C581212AB2CD00D6FAE2 /* LZAudioUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E3C56C212AB2CD00D6FAE2 /* LZAudioUtil.m */; };
 		48E3C582212AB2CD00D6FAE2 /* LZFileUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E3C570212AB2CD00D6FAE2 /* LZFileUtil.m */; };
-		48E3C58B212ABB2C00D6FAE2 /* KeychainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E3C589212ABB2C00D6FAE2 /* KeychainItemWrapper.m */; };
+		48E3C58B212ABB2C00D6FAE2 /* KeychainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E3C589212ABB2C00D6FAE2 /* KeychainItemWrapper.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		48E3C58F212AC0ED00D6FAE2 /* LZReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E3C58D212AC0ED00D6FAE2 /* LZReachability.m */; };
 		E28AAF6BA1D367BA8224D4D8 /* libPods-LZCommonSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 91DE5AD76EB7AF67337DE318 /* libPods-LZCommonSDK.a */; };
 /* End PBXBuildFile section */
 
@@ -188,6 +189,8 @@
 		48E3C583212AB82E00D6FAE2 /* LZCommonSDK-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LZCommonSDK-Prefix.pch"; sourceTree = "<group>"; };
 		48E3C589212ABB2C00D6FAE2 /* KeychainItemWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainItemWrapper.m; sourceTree = "<group>"; };
 		48E3C58A212ABB2C00D6FAE2 /* KeychainItemWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainItemWrapper.h; sourceTree = "<group>"; };
+		48E3C58D212AC0ED00D6FAE2 /* LZReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZReachability.m; sourceTree = "<group>"; };
+		48E3C58E212AC0ED00D6FAE2 /* LZReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZReachability.h; sourceTree = "<group>"; };
 		6614E53D96524DC4BB3DB801 /* Pods-LZCommonSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LZCommonSDK.release.xcconfig"; path = "Pods/Target Support Files/Pods-LZCommonSDK/Pods-LZCommonSDK.release.xcconfig"; sourceTree = "<group>"; };
 		853A9CF5A80B191CB1532BB1 /* Pods-LZCommonSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LZCommonSDK.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LZCommonSDK/Pods-LZCommonSDK.debug.xcconfig"; sourceTree = "<group>"; };
 		91DE5AD76EB7AF67337DE318 /* libPods-LZCommonSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LZCommonSDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -445,6 +448,7 @@
 		48E3C587212ABB2C00D6FAE2 /* thirdParty */ = {
 			isa = PBXGroup;
 			children = (
+				48E3C58C212AC0ED00D6FAE2 /* Reachability */,
 				48E3C588212ABB2C00D6FAE2 /* KeychainItemWrapper */,
 			);
 			path = thirdParty;
@@ -457,6 +461,15 @@
 				48E3C58A212ABB2C00D6FAE2 /* KeychainItemWrapper.h */,
 			);
 			path = KeychainItemWrapper;
+			sourceTree = "<group>";
+		};
+		48E3C58C212AC0ED00D6FAE2 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				48E3C58D212AC0ED00D6FAE2 /* LZReachability.m */,
+				48E3C58E212AC0ED00D6FAE2 /* LZReachability.h */,
+			);
+			path = Reachability;
 			sourceTree = "<group>";
 		};
 		ED4EE6B8751F90B767E28100 /* Pods */ = {
@@ -618,6 +631,7 @@
 				48E3C545212AB2A700D6FAE2 /* NSObject+LZHelper.m in Sources */,
 				48E3C537212AB2A700D6FAE2 /* UIImageView+LZHelper.m in Sources */,
 				48E3C571212AB2CD00D6FAE2 /* LZDispatch.m in Sources */,
+				48E3C58F212AC0ED00D6FAE2 /* LZReachability.m in Sources */,
 				48E3C574212AB2CD00D6FAE2 /* LZRandomUtil.m in Sources */,
 				48E3C546212AB2A700D6FAE2 /* UIColor+LZHelper.m in Sources */,
 				48E3C538212AB2A700D6FAE2 /* UILabel+LZHelper.m in Sources */,
@@ -783,6 +797,17 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"Aspects\"",
+					"-l\"RegexKitLite\"",
+					"-l\"SVProgressHUD\"",
+					"-l\"icucore\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-licucore",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = zhenwei.LZCommonSDK;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -801,6 +826,17 @@
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"Aspects\"",
+					"-l\"RegexKitLite\"",
+					"-l\"SVProgressHUD\"",
+					"-l\"icucore\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-licucore",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = zhenwei.LZCommonSDK;
 				PRODUCT_NAME = "$(TARGET_NAME)";
