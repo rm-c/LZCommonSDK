@@ -60,12 +60,4 @@
  */
 - (void)setImageFrame:(CGRect)imageFrame titleFrame:(CGRect)titieFrame;
 
-/**
- *  设置背景图片
- *
- *  @param url 背景图片url
- *  @param placeholderImage 默认图片
- */
-- (void)setBackgroundImageWithURL:(NSString*)url placeholderImage:(UIImage*)placeholderImage;
-
 @end

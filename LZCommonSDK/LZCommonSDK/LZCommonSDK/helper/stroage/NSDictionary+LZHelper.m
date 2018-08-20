@@ -7,6 +7,7 @@
 //
 
 #import "NSDictionary+LZHelper.h"
+#import <Foundation/Foundation.h>
 
 @implementation NSDictionary (LZHelper)
 

@@ -6,7 +6,7 @@
 //  Copyright © 2017年 MaoChao Network Co. Ltd. All rights reserved.
 //
 
-#import "UIView+GSGusture.h"
+#import "UIView+LZGusture.h"
 #import <objc/runtime.h>
 
 const char tapGestureHandlerKey;

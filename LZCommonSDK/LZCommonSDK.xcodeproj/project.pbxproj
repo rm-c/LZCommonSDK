@@ -184,6 +184,7 @@
 		48E3C56E212AB2CD00D6FAE2 /* LZAudioUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZAudioUtil.h; sourceTree = "<group>"; };
 		48E3C56F212AB2CD00D6FAE2 /* LZVideoUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZVideoUtil.h; sourceTree = "<group>"; };
 		48E3C570212AB2CD00D6FAE2 /* LZFileUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZFileUtil.m; sourceTree = "<group>"; };
+		48E3C583212AB82E00D6FAE2 /* LZCommonSDK-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LZCommonSDK-Prefix.pch"; sourceTree = "<group>"; };
 		6614E53D96524DC4BB3DB801 /* Pods-LZCommonSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LZCommonSDK.release.xcconfig"; path = "Pods/Target Support Files/Pods-LZCommonSDK/Pods-LZCommonSDK.release.xcconfig"; sourceTree = "<group>"; };
 		853A9CF5A80B191CB1532BB1 /* Pods-LZCommonSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LZCommonSDK.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LZCommonSDK/Pods-LZCommonSDK.debug.xcconfig"; sourceTree = "<group>"; };
 		91DE5AD76EB7AF67337DE318 /* libPods-LZCommonSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LZCommonSDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -237,6 +238,7 @@
 				48E3C4BB212AA37600D6FAE2 /* LZCommonSDK */,
 				48E3C4A9212A95E200D6FAE2 /* Main.storyboard */,
 				48E3C4AC212A95E300D6FAE2 /* Assets.xcassets */,
+				48E3C583212AB82E00D6FAE2 /* LZCommonSDK-Prefix.pch */,
 				48E3C4AE212A95E300D6FAE2 /* LaunchScreen.storyboard */,
 				48E3C4B1212A95E300D6FAE2 /* Info.plist */,
 				48E3C4B2212A95E400D6FAE2 /* main.m */,
@@ -753,6 +755,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GY5979G82V;
+				GCC_PREFIX_HEADER = "LZCommonSDK/LZCommonSDK-Prefix.pch";
 				INFOPLIST_FILE = LZCommonSDK/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -771,6 +774,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GY5979G82V;
+				GCC_PREFIX_HEADER = "LZCommonSDK/LZCommonSDK-Prefix.pch";
 				INFOPLIST_FILE = LZCommonSDK/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

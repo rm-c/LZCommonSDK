@@ -62,30 +62,6 @@
     }
 }
 
-/**
- *  设置背景图片
- *
- *  @param url 背景图片url
- *  @param placeholderImage 默认图片
- */
-- (void)setBackgroundImageWithURL:(NSString*)url placeholderImage:(UIImage*)placeholderImage
-{
-    if (url) {
-        UIImage* image = [self imageForState:UIControlStateNormal];
-        if (image == nil) {
-            image = placeholderImage;
-        }
-        [self setImageWithURL:[NSURL URLWithString:url]
-                     forState:UIControlStateNormal placeholderImage:image];
-        
-    }
-    else{
-        if ([self backgroundImageForState:UIControlStateNormal] == nil) {
-            [self setBackgroundImage:placeholderImage forState:UIControlStateNormal];
-        }
-    }
-}
-
 - (void)setImageFrame:(CGRect)imageFrame titleFrame:(CGRect)titieFrame
 {
     [self aspect_hookSelector:@selector(layoutSubviews) withOptions:AspectPositionAfter usingBlock:^(id<AspectInfo> info){
