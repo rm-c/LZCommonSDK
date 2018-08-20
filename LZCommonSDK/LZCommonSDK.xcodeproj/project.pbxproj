@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4898EF6F212AC1AF006E225D /* libAspects.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4898EF6E212AC1AF006E225D /* libAspects.a */; };
 		48E3C4A5212A95E100D6FAE2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E3C4A4212A95E100D6FAE2 /* AppDelegate.m */; };
 		48E3C4A8212A95E200D6FAE2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E3C4A7212A95E200D6FAE2 /* ViewController.m */; };
 		48E3C4AB212A95E200D6FAE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48E3C4A9212A95E200D6FAE2 /* Main.storyboard */; };
@@ -71,6 +72,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4898EF6E212AC1AF006E225D /* libAspects.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libAspects.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		48E3C4A0212A95E100D6FAE2 /* LZCommonSDK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LZCommonSDK.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48E3C4A3212A95E100D6FAE2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		48E3C4A4212A95E100D6FAE2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -201,6 +203,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4898EF6F212AC1AF006E225D /* libAspects.a in Frameworks */,
 				E28AAF6BA1D367BA8224D4D8 /* libPods-LZCommonSDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -211,6 +214,7 @@
 		0289555860D875E20DDB7B85 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4898EF6E212AC1AF006E225D /* libAspects.a */,
 				91DE5AD76EB7AF67337DE318 /* libPods-LZCommonSDK.a */,
 			);
 			name = Frameworks;
@@ -807,6 +811,7 @@
 					"-framework",
 					"\"QuartzCore\"",
 					"-licucore",
+					"-lresolv",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = zhenwei.LZCommonSDK;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -837,6 +842,7 @@
 					"-framework",
 					"\"QuartzCore\"",
 					"-licucore",
+					"-lresolv",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = zhenwei.LZCommonSDK;
 				PRODUCT_NAME = "$(TARGET_NAME)";
