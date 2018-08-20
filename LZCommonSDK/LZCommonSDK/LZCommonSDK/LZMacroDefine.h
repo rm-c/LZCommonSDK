@@ -56,8 +56,8 @@
 #define FileExistsAtPath(filePath)          [[NSFileManager defaultManager] fileExistsAtPath:filePath]
 
 //空值判断
-#define IsEmpty(thing)                      [GSCommonUtil isEmpty:(thing)]
-#define IsNotEmpty(thing)                   [GSCommonUtil isNotEmpty:(thing)]
+#define IsEmpty(thing)                      [LZCommonUtil isEmpty:(thing)]
+#define IsNotEmpty(thing)                   [LZCommonUtil isNotEmpty:(thing)]
 
 // 强引用弱引用转换
 #define DECLARE_WEAK_SELF                   __weak __typeof(self) weakSelf = self               //声明self弱引用

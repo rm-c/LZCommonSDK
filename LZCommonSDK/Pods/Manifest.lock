@@ -1,14 +1,17 @@
 PODS:
   - Aspects (1.4.1)
+  - RegexKitLite (4.0)
   - SVProgressHUD (2.2.5)
 
 DEPENDENCIES:
   - Aspects (~> 1.4.1)
+  - RegexKitLite
   - SVProgressHUD (from `https://github.com/SVProgressHUD/SVProgressHUD.git`)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Aspects
+    - RegexKitLite
 
 EXTERNAL SOURCES:
   SVProgressHUD:
@@ -21,8 +24,9 @@ CHECKOUT OPTIONS:
 
 SPEC CHECKSUMS:
   Aspects: 7595ba96a6727a58ebcbfc954497fc5d2fdde546
+  RegexKitLite: c0e4c12e6e7de0769f3a3ed679f0f61604170661
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
 
-PODFILE CHECKSUM: 3093d8f47fff9dc1aeb3963af39a5ea482c0d18a
+PODFILE CHECKSUM: 4cf0c381d9c9743f53e5cbc2d670cf2c22b9726a
 
 COCOAPODS: 1.5.2

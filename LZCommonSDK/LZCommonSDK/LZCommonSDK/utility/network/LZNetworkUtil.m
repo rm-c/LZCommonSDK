@@ -6,7 +6,7 @@
 //  Copyright © 2017年 MaoChao Network Co. Ltd. All rights reserved.
 //
 
-#import "GSNetworkUtil.h"
+#import "LZNetworkUtil.h"
 #include <sys/param.h>
 #include <sys/mount.h>
 #import "sys/utsname.h"

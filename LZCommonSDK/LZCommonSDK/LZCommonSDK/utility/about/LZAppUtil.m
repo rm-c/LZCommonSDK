@@ -7,6 +7,8 @@
 //
 
 #import "LZAppUtil.h"
+#import "LZCommonUtil.h"
+#import "LZMacroDefine.h"
 
 @implementation LZAppUtil
 
