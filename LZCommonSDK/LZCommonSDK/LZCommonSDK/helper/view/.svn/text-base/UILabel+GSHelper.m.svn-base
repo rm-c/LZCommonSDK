@@ -1,0 +1,43 @@
+//
+//  UILabel+GSHelper.m
+//  MMC_Core
+//
+//  Created by maochao04 on 2017/2/27.
+//  Copyright © 2017年 MaoChao Network Co. Ltd. All rights reserved.
+//
+
+#import "UILabel+GSHelper.h"
+
+@implementation UILabel (GSHelper)
+
+
++ (UILabel*)labelWithFrame:(CGRect)frame text:(NSString*)text textColor:(UIColor*)textColor font:(UIFont*)font
+{
+    UILabel* label = [[UILabel alloc]initWithFrame:frame];
+    label.text = text;
+    if (textColor) {
+        label.textColor = textColor;
+    }
+    if (font) {
+        label.font = font;
+    }
+    label.backgroundColor = [UIColor clearColor];
+    return label;
+}
+
++ (UILabel*)labelWithFrame:(CGRect)frame text:(NSString*)text textAliment:(NSTextAlignment)aliment textColor:(UIColor*)textColor font:(UIFont*)font
+{
+    UILabel* label = [[UILabel alloc]initWithFrame:frame];
+    label.text = text;
+    label.textAlignment = aliment;
+    if (textColor) {
+        label.textColor = textColor;
+    }
+    if (font) {
+        label.font = font;
+    }
+    label.backgroundColor = [UIColor clearColor];
+    return label;
+}
+
+@end
