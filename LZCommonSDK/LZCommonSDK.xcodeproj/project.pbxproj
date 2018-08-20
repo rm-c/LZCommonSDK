@@ -28,6 +28,7 @@
 		48E3C4B1212A95E300D6FAE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		48E3C4B2212A95E400D6FAE2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		48E3C4B9212AA26500D6FAE2 /* LZCommonSDK.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LZCommonSDK.podspec; path = ../../LZCommonSDK.podspec; sourceTree = "<group>"; };
+		48E3C4BC212AA3E100D6FAE2 /* LZMacroDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZMacroDefine.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,12 +65,21 @@
 				48E3C4A4212A95E100D6FAE2 /* AppDelegate.m */,
 				48E3C4A6212A95E200D6FAE2 /* ViewController.h */,
 				48E3C4A7212A95E200D6FAE2 /* ViewController.m */,
+				48E3C4BB212AA37600D6FAE2 /* LZCommonSDK */,
 				48E3C4A9212A95E200D6FAE2 /* Main.storyboard */,
 				48E3C4AC212A95E300D6FAE2 /* Assets.xcassets */,
 				48E3C4AE212A95E300D6FAE2 /* LaunchScreen.storyboard */,
 				48E3C4B1212A95E300D6FAE2 /* Info.plist */,
 				48E3C4B2212A95E400D6FAE2 /* main.m */,
 				48E3C4B9212AA26500D6FAE2 /* LZCommonSDK.podspec */,
+			);
+			path = LZCommonSDK;
+			sourceTree = "<group>";
+		};
+		48E3C4BB212AA37600D6FAE2 /* LZCommonSDK */ = {
+			isa = PBXGroup;
+			children = (
+				48E3C4BC212AA3E100D6FAE2 /* LZMacroDefine.h */,
 			);
 			path = LZCommonSDK;
 			sourceTree = "<group>";
