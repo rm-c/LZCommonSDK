@@ -7,21 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		11AB350D02B679F289F0D414BDCB6578 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE9643DB8043B787A216801C8320C13 /* SVIndefiniteAnimatedView.m */; };
+		0773750B225AC08B7149DD0A4615047E /* Aspects-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 588581F4F0892F203AC9ED2752663AC2 /* Aspects-dummy.m */; };
+		18E652EC0CBEE8BBFD566C1B4EA44092 /* SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B823747532F1DE55159F0D35A17A9FA7 /* SVProgressHUD-dummy.m */; };
+		1B1DA5A75CC37F06A8A6489B241DD61F /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3627B7F5162B3CD11E2BA1C7CBD28A /* SVProgressAnimatedView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		21AC49BE7628ECF9E1AC8040571C2E87 /* RegexKitLite.h in Headers */ = {isa = PBXBuildFile; fileRef = 806DAA0510B77B624B923A5E1A2F55BB /* RegexKitLite.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		32E49E540376495A9176600A0BD4F567 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB5E7C2F07C7BFA19238313C3044E95 /* SVRadialGradientLayer.m */; };
+		400078FE7C2813ADA97EDFFF8DF925EB /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = 6132474FDD69DAA9A258B273E2D8194B /* RegexKitLite.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		4265519DEE8A996AF3030FCC957DFA23 /* Aspects.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FA5B87D6FF508FFF008F40013141E65 /* Aspects.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		4CF49E1B1BBEE7829336B5C054AE2AEA /* SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B823747532F1DE55159F0D35A17A9FA7 /* SVProgressHUD-dummy.m */; };
-		4E38EA94DD6BE5E735AF7D5E631B7FEC /* Aspects.m in Sources */ = {isa = PBXBuildFile; fileRef = F2679D6EE0DB61E82541E05DF2A22894 /* Aspects.m */; };
-		50A46E44A514E83C9BB4868DBA6B02A6 /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3627B7F5162B3CD11E2BA1C7CBD28A /* SVProgressAnimatedView.m */; };
 		51D8A49EECDBFB3F9C79B9794B990354 /* SVProgressAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 26BD9C2C2CCE36E7662C9610582D3DFF /* SVProgressAnimatedView.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		52AAB1166E0E48DE5E1BEBD28E4250FA /* RegexKitLite-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B7B8FF3AD324EFD04EA1D3E1F55C16 /* RegexKitLite-dummy.m */; };
-		73081191B1B3C35D12327B07246170F4 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = F0400E3BC9E8741B956408869505048F /* SVProgressHUD.m */; };
 		73F35F0376A280497C0B5DD99DD92543 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0804D7D53D0917DB092DCD84E9B64127 /* QuartzCore.framework */; };
-		80BB672F8A110CC0F59478620FEAA47C /* Aspects-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 588581F4F0892F203AC9ED2752663AC2 /* Aspects-dummy.m */; };
+		7A435A7CB447FE3744FE15BED8A662B4 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = F0400E3BC9E8741B956408869505048F /* SVProgressHUD.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		871D4516FC6DA63D3C6D9B5C8A1984D9 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB5E7C2F07C7BFA19238313C3044E95 /* SVRadialGradientLayer.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		8C83E82594E00707F59A2BEDC385E360 /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = A0A03E24B87993B7F2CD1575B88A0E68 /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		A01637CBEF5F33E88E80568BE4046864 /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = 6132474FDD69DAA9A258B273E2D8194B /* RegexKitLite.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9F78EB14BF906BA008D5008C43FC933B /* Aspects.m in Sources */ = {isa = PBXBuildFile; fileRef = F2679D6EE0DB61E82541E05DF2A22894 /* Aspects.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		A77700A9A79EA282D8C9E9F35124BB74 /* Pods-LZCommonSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3643AD981F967FEC02C98DF0FC011CE2 /* Pods-LZCommonSDK-dummy.m */; };
+		B0AF5E90451DC16258C5E9ABEB47C29B /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE9643DB8043B787A216801C8320C13 /* SVIndefiniteAnimatedView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		D3306A44CFF13BFD476CF97035372C81 /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C0B388285F8C6A610377D9D547D115D /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		DC087DF0AB8DEDCE510D34EC35745D0A /* SVRadialGradientLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = D4493DA4E12E8A85B742FC1A3F72E3F6 /* SVRadialGradientLayer.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
@@ -329,7 +329,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8AB64521B3C6C55EB1FB276884CCE535 /* Build configuration list for PBXNativeTarget "Aspects" */;
 			buildPhases = (
-				AC711A56514CE12B8DD95980F5D399B0 /* Sources */,
+				8152B019D21D5926DC7B047FEB2ADDDE /* Sources */,
 				27AA5FB9E116F8D6FFBA379B53B03D1B /* Frameworks */,
 				CB302CA4EBA9FFF481429AC873FB1DB8 /* Headers */,
 			);
@@ -346,7 +346,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 91E7D2E3DAD531095DF90F43C95ECF31 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */;
 			buildPhases = (
-				B26CD6E076654F42804C9E6E816EED70 /* Sources */,
+				ADA9507823CF762835D749D8D4AA15B9 /* Sources */,
 				292055F5E61381400DC06D275A3BD7A8 /* Frameworks */,
 				F85330BB86AB4492C1FD207876D2B17D /* Headers */,
 			);
@@ -406,6 +406,15 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		8152B019D21D5926DC7B047FEB2ADDDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0773750B225AC08B7149DD0A4615047E /* Aspects-dummy.m in Sources */,
+				9F78EB14BF906BA008D5008C43FC933B /* Aspects.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A5D9D0DF709B98A23F176EB7AEDCDAE4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -414,24 +423,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AC711A56514CE12B8DD95980F5D399B0 /* Sources */ = {
+		ADA9507823CF762835D749D8D4AA15B9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80BB672F8A110CC0F59478620FEAA47C /* Aspects-dummy.m in Sources */,
-				4E38EA94DD6BE5E735AF7D5E631B7FEC /* Aspects.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B26CD6E076654F42804C9E6E816EED70 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				11AB350D02B679F289F0D414BDCB6578 /* SVIndefiniteAnimatedView.m in Sources */,
-				50A46E44A514E83C9BB4868DBA6B02A6 /* SVProgressAnimatedView.m in Sources */,
-				4CF49E1B1BBEE7829336B5C054AE2AEA /* SVProgressHUD-dummy.m in Sources */,
-				73081191B1B3C35D12327B07246170F4 /* SVProgressHUD.m in Sources */,
-				32E49E540376495A9176600A0BD4F567 /* SVRadialGradientLayer.m in Sources */,
+				B0AF5E90451DC16258C5E9ABEB47C29B /* SVIndefiniteAnimatedView.m in Sources */,
+				1B1DA5A75CC37F06A8A6489B241DD61F /* SVProgressAnimatedView.m in Sources */,
+				18E652EC0CBEE8BBFD566C1B4EA44092 /* SVProgressHUD-dummy.m in Sources */,
+				7A435A7CB447FE3744FE15BED8A662B4 /* SVProgressHUD.m in Sources */,
+				871D4516FC6DA63D3C6D9B5C8A1984D9 /* SVRadialGradientLayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,7 +440,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				52AAB1166E0E48DE5E1BEBD28E4250FA /* RegexKitLite-dummy.m in Sources */,
-				A01637CBEF5F33E88E80568BE4046864 /* RegexKitLite.m in Sources */,
+				400078FE7C2813ADA97EDFFF8DF925EB /* RegexKitLite.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

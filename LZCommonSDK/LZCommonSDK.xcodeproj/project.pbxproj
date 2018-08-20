@@ -66,7 +66,7 @@
 		48E3C580212AB2CD00D6FAE2 /* LZVideoUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E3C56B212AB2CD00D6FAE2 /* LZVideoUtil.m */; };
 		48E3C581212AB2CD00D6FAE2 /* LZAudioUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E3C56C212AB2CD00D6FAE2 /* LZAudioUtil.m */; };
 		48E3C582212AB2CD00D6FAE2 /* LZFileUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E3C570212AB2CD00D6FAE2 /* LZFileUtil.m */; };
-		48E3C58B212ABB2C00D6FAE2 /* KeychainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E3C589212ABB2C00D6FAE2 /* KeychainItemWrapper.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		48E3C58B212ABB2C00D6FAE2 /* KeychainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E3C589212ABB2C00D6FAE2 /* KeychainItemWrapper.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Wno-logical-not-parentheses"; }; };
 		48E3C58F212AC0ED00D6FAE2 /* LZReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E3C58D212AC0ED00D6FAE2 /* LZReachability.m */; };
 		E28AAF6BA1D367BA8224D4D8 /* libPods-LZCommonSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 91DE5AD76EB7AF67337DE318 /* libPods-LZCommonSDK.a */; };
 /* End PBXBuildFile section */
@@ -85,7 +85,7 @@
 		48E3C4B2212A95E400D6FAE2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		48E3C4B9212AA26500D6FAE2 /* LZCommonSDK.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LZCommonSDK.podspec; path = ../../LZCommonSDK.podspec; sourceTree = "<group>"; };
 		48E3C4BC212AA3E100D6FAE2 /* LZMacroDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZMacroDefine.h; sourceTree = "<group>"; };
-		48E3C4DF212AAFF600D6FAE2 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; };
+		48E3C4DF212AAFF600D6FAE2 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		48E3C4E2212AB2A700D6FAE2 /* UIImage+LZHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+LZHelper.m"; sourceTree = "<group>"; };
 		48E3C4E3212AB2A700D6FAE2 /* NSNumber+LZHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+LZHelper.h"; sourceTree = "<group>"; };
 		48E3C4E4212AB2A700D6FAE2 /* UIApplication+LZHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+LZHelper.m"; sourceTree = "<group>"; };
@@ -470,8 +470,8 @@
 		48E3C58C212AC0ED00D6FAE2 /* Reachability */ = {
 			isa = PBXGroup;
 			children = (
-				48E3C58D212AC0ED00D6FAE2 /* LZReachability.m */,
 				48E3C58E212AC0ED00D6FAE2 /* LZReachability.h */,
+				48E3C58D212AC0ED00D6FAE2 /* LZReachability.m */,
 			);
 			path = Reachability;
 			sourceTree = "<group>";
@@ -816,6 +816,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = zhenwei.LZCommonSDK;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				WARNING_CFLAGS = (
+					"-Wno-deprecated-declarations",
+					"-Wno-strict-prototypes",
+				);
 			};
 			name = Debug;
 		};
@@ -847,6 +851,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = zhenwei.LZCommonSDK;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				WARNING_CFLAGS = (
+					"-Wno-deprecated-declarations",
+					"-Wno-strict-prototypes",
+				);
 			};
 			name = Release;
 		};
