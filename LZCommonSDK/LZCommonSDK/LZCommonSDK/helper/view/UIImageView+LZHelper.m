@@ -24,9 +24,4 @@
     return imageView;
 }
 
-- (void)loadImageWithUrl:(NSString*)url placeHolder:(NSString*)image
-{
-    [GSCoreImageProvider loadImageWith:url forView:self placeholderImage:image];
-}
-
 @end

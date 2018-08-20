@@ -6,7 +6,8 @@
 //  Copyright (c) 2014年 4399 Network Co. Ltd. All rights reserved.
 //
 
-#import "GSDispatch.h"
+#import "LZDispatch.h"
+#import "NSUserDefaults+LZHelper.h"
 
 const NSString* dispatchedTag = @"dispatched";
 

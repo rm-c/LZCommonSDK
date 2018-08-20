@@ -3,7 +3,7 @@ PODS:
   - SVProgressHUD (2.2.5)
 
 DEPENDENCIES:
-  - Aspects
+  - Aspects (~> 1.4.1)
   - SVProgressHUD (from `https://github.com/SVProgressHUD/SVProgressHUD.git`)
 
 SPEC REPOS:
@@ -23,6 +23,6 @@ SPEC CHECKSUMS:
   Aspects: 7595ba96a6727a58ebcbfc954497fc5d2fdde546
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
 
-PODFILE CHECKSUM: 958d0a449816190adcb80f7238be5fee07ee9696
+PODFILE CHECKSUM: 3093d8f47fff9dc1aeb3963af39a5ea482c0d18a
 
 COCOAPODS: 1.5.2

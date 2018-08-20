@@ -6,11 +6,11 @@
 //  Copyright (c) 2013年 linzhenwei. All rights reserved.
 //
 
-#import "GSReachabilityUtil.h"
+#import "LZReachabilityUtil.h"
 #import "GSReachability.h"
 
 
-@implementation GSReachabilityUtil
+@implementation LZReachabilityUtil
 
 + (id)sharedInstance
 {
@@ -22,7 +22,7 @@
     
     //执行对象初始化，程序生命周期内，只执行一次
     dispatch_once(&p, ^{
-        _sharedObject = [[GSReachabilityUtil alloc] init];
+        _sharedObject = [[LZReachabilityUtil alloc] init];
     });
     
     return _sharedObject;
@@ -34,7 +34,7 @@
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
         
         NSUserDefaults* uesrDefaults = [NSUserDefaults standardUserDefaults];
-        [uesrDefaults setInteger:[GSReachabilityUtil getCurrentNetworkStatus] forKey:NETWORK_STATUS_KEY];
+        [uesrDefaults setInteger:[LZReachabilityUtil getCurrentNetworkStatus] forKey:NETWORK_STATUS_KEY];
         
         GSReachability * reach = [GSReachability reachabilityWithHostname:@"www.baidu.com"];
         
@@ -97,7 +97,7 @@
 
 + (void)registerReachabilityChangedObserver
 {
-    [GSReachabilityUtil registerReachabilityChangedObserver:nil selector:nil object:nil];
+    [LZReachabilityUtil registerReachabilityChangedObserver:nil selector:nil object:nil];
 }
 
 + (GSNetworkStatus)getCachedNetworkStatus

@@ -28,7 +28,7 @@
 #import <mach/mach_host.h>
 #import <mach/processor_info.h>
 
-@implementation GSNetworkUtil
+@implementation LZNetworkUtil
 
 + (NSString *)getDNSServers
 {

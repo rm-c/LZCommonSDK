@@ -7,6 +7,7 @@
 //
 
 #import "LZMathUtil.h"
+#import "LZCommonUtil.h"
 
 @implementation LZMathUtil
 

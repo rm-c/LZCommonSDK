@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface GSNetworkUtil : NSObject
+@interface LZNetworkUtil : NSObject
 
 + (NSString *)getDNSServers;   // 获取dns服务器
 + (NSString*)getIPAderess;  // 获取ip地址

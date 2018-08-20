@@ -27,7 +27,7 @@
 		48E3C530212AB2A700D6FAE2 /* NSDictionary+LZHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E3C4F9212AB2A700D6FAE2 /* NSDictionary+LZHelper.m */; };
 		48E3C531212AB2A700D6FAE2 /* NSNumber+LZHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E3C4FA212AB2A700D6FAE2 /* NSNumber+LZHelper.m */; };
 		48E3C532212AB2A700D6FAE2 /* NSMutableString+LZHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E3C4FF212AB2A700D6FAE2 /* NSMutableString+LZHelper.m */; };
-		48E3C533212AB2A700D6FAE2 /* NSString+GSUrlEncode.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E3C501212AB2A700D6FAE2 /* NSString+GSUrlEncode.m */; };
+		48E3C533212AB2A700D6FAE2 /* NSString+LZUrlEncode.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E3C501212AB2A700D6FAE2 /* NSString+LZUrlEncode.m */; };
 		48E3C534212AB2A700D6FAE2 /* NSString+LZHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E3C503212AB2A700D6FAE2 /* NSString+LZHelper.m */; };
 		48E3C535212AB2A700D6FAE2 /* NSMutableAttributedString+LZHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E3C504212AB2A700D6FAE2 /* NSMutableAttributedString+LZHelper.m */; };
 		48E3C536212AB2A700D6FAE2 /* UITableView+LZHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E3C50A212AB2A700D6FAE2 /* UITableView+LZHelper.m */; };
@@ -51,8 +51,8 @@
 		48E3C572212AB2CD00D6FAE2 /* CGRectExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E3C549212AB2CD00D6FAE2 /* CGRectExtension.m */; };
 		48E3C573212AB2CD00D6FAE2 /* LZCommonUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E3C54A212AB2CD00D6FAE2 /* LZCommonUtil.m */; };
 		48E3C574212AB2CD00D6FAE2 /* LZRandomUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E3C54B212AB2CD00D6FAE2 /* LZRandomUtil.m */; };
-		48E3C575212AB2CD00D6FAE2 /* GSNetworkUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E3C54D212AB2CD00D6FAE2 /* GSNetworkUtil.m */; };
-		48E3C576212AB2CD00D6FAE2 /* GSReachabilityUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E3C54E212AB2CD00D6FAE2 /* GSReachabilityUtil.m */; };
+		48E3C575212AB2CD00D6FAE2 /* LZNetworkUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E3C54D212AB2CD00D6FAE2 /* LZNetworkUtil.m */; };
+		48E3C576212AB2CD00D6FAE2 /* LZReachabilityUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E3C54E212AB2CD00D6FAE2 /* LZReachabilityUtil.m */; };
 		48E3C577212AB2CD00D6FAE2 /* LZMathUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E3C552212AB2CD00D6FAE2 /* LZMathUtil.m */; };
 		48E3C578212AB2CD00D6FAE2 /* LZDeviceUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E3C559212AB2CD00D6FAE2 /* LZDeviceUtil.m */; };
 		48E3C579212AB2CD00D6FAE2 /* LZAppUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E3C55A212AB2CD00D6FAE2 /* LZAppUtil.m */; };
@@ -65,6 +65,7 @@
 		48E3C580212AB2CD00D6FAE2 /* LZVideoUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E3C56B212AB2CD00D6FAE2 /* LZVideoUtil.m */; };
 		48E3C581212AB2CD00D6FAE2 /* LZAudioUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E3C56C212AB2CD00D6FAE2 /* LZAudioUtil.m */; };
 		48E3C582212AB2CD00D6FAE2 /* LZFileUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E3C570212AB2CD00D6FAE2 /* LZFileUtil.m */; };
+		48E3C58B212ABB2C00D6FAE2 /* KeychainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E3C589212ABB2C00D6FAE2 /* KeychainItemWrapper.m */; };
 		E28AAF6BA1D367BA8224D4D8 /* libPods-LZCommonSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 91DE5AD76EB7AF67337DE318 /* libPods-LZCommonSDK.a */; };
 /* End PBXBuildFile section */
 
@@ -90,7 +91,7 @@
 		48E3C4E7212AB2A700D6FAE2 /* UIEvent+LZHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIEvent+LZHelper.h"; sourceTree = "<group>"; };
 		48E3C4E8212AB2A700D6FAE2 /* NSDate+LZHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+LZHelper.m"; sourceTree = "<group>"; };
 		48E3C4E9212AB2A700D6FAE2 /* NSFileManager+LZHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+LZHelper.m"; sourceTree = "<group>"; };
-		48E3C4EA212AB2A700D6FAE2 /* GSHelperSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSHelperSDK.h; sourceTree = "<group>"; };
+		48E3C4EA212AB2A700D6FAE2 /* LZHelperSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZHelperSDK.h; sourceTree = "<group>"; };
 		48E3C4EB212AB2A700D6FAE2 /* NSUserDefaults+LZHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+LZHelper.m"; sourceTree = "<group>"; };
 		48E3C4EC212AB2A700D6FAE2 /* UIColor+LZHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+LZHelper.h"; sourceTree = "<group>"; };
 		48E3C4ED212AB2A700D6FAE2 /* NSObject+LZHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+LZHelper.h"; sourceTree = "<group>"; };
@@ -106,11 +107,11 @@
 		48E3C4F9212AB2A700D6FAE2 /* NSDictionary+LZHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+LZHelper.m"; sourceTree = "<group>"; };
 		48E3C4FA212AB2A700D6FAE2 /* NSNumber+LZHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+LZHelper.m"; sourceTree = "<group>"; };
 		48E3C4FB212AB2A700D6FAE2 /* UIApplication+LZHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+LZHelper.h"; sourceTree = "<group>"; };
-		48E3C4FD212AB2A700D6FAE2 /* NSString+GSUrlEncode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+GSUrlEncode.h"; sourceTree = "<group>"; };
+		48E3C4FD212AB2A700D6FAE2 /* NSString+LZUrlEncode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+LZUrlEncode.h"; sourceTree = "<group>"; };
 		48E3C4FE212AB2A700D6FAE2 /* NSString+LZHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+LZHelper.h"; sourceTree = "<group>"; };
 		48E3C4FF212AB2A700D6FAE2 /* NSMutableString+LZHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableString+LZHelper.m"; sourceTree = "<group>"; };
 		48E3C500212AB2A700D6FAE2 /* NSMutableAttributedString+LZHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+LZHelper.h"; sourceTree = "<group>"; };
-		48E3C501212AB2A700D6FAE2 /* NSString+GSUrlEncode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+GSUrlEncode.m"; sourceTree = "<group>"; };
+		48E3C501212AB2A700D6FAE2 /* NSString+LZUrlEncode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+LZUrlEncode.m"; sourceTree = "<group>"; };
 		48E3C502212AB2A700D6FAE2 /* NSMutableString+LZHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableString+LZHelper.h"; sourceTree = "<group>"; };
 		48E3C503212AB2A700D6FAE2 /* NSString+LZHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+LZHelper.m"; sourceTree = "<group>"; };
 		48E3C504212AB2A700D6FAE2 /* NSMutableAttributedString+LZHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+LZHelper.m"; sourceTree = "<group>"; };
@@ -151,10 +152,10 @@
 		48E3C549212AB2CD00D6FAE2 /* CGRectExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGRectExtension.m; sourceTree = "<group>"; };
 		48E3C54A212AB2CD00D6FAE2 /* LZCommonUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZCommonUtil.m; sourceTree = "<group>"; };
 		48E3C54B212AB2CD00D6FAE2 /* LZRandomUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZRandomUtil.m; sourceTree = "<group>"; };
-		48E3C54D212AB2CD00D6FAE2 /* GSNetworkUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSNetworkUtil.m; sourceTree = "<group>"; };
-		48E3C54E212AB2CD00D6FAE2 /* GSReachabilityUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSReachabilityUtil.m; sourceTree = "<group>"; };
-		48E3C54F212AB2CD00D6FAE2 /* GSNetworkUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSNetworkUtil.h; sourceTree = "<group>"; };
-		48E3C550212AB2CD00D6FAE2 /* GSReachabilityUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSReachabilityUtil.h; sourceTree = "<group>"; };
+		48E3C54D212AB2CD00D6FAE2 /* LZNetworkUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZNetworkUtil.m; sourceTree = "<group>"; };
+		48E3C54E212AB2CD00D6FAE2 /* LZReachabilityUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZReachabilityUtil.m; sourceTree = "<group>"; };
+		48E3C54F212AB2CD00D6FAE2 /* LZNetworkUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZNetworkUtil.h; sourceTree = "<group>"; };
+		48E3C550212AB2CD00D6FAE2 /* LZReachabilityUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZReachabilityUtil.h; sourceTree = "<group>"; };
 		48E3C551212AB2CD00D6FAE2 /* LZStringUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZStringUtil.h; sourceTree = "<group>"; };
 		48E3C552212AB2CD00D6FAE2 /* LZMathUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZMathUtil.m; sourceTree = "<group>"; };
 		48E3C553212AB2CD00D6FAE2 /* LZImageUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZImageUtil.h; sourceTree = "<group>"; };
@@ -185,6 +186,8 @@
 		48E3C56F212AB2CD00D6FAE2 /* LZVideoUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZVideoUtil.h; sourceTree = "<group>"; };
 		48E3C570212AB2CD00D6FAE2 /* LZFileUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZFileUtil.m; sourceTree = "<group>"; };
 		48E3C583212AB82E00D6FAE2 /* LZCommonSDK-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LZCommonSDK-Prefix.pch"; sourceTree = "<group>"; };
+		48E3C589212ABB2C00D6FAE2 /* KeychainItemWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainItemWrapper.m; sourceTree = "<group>"; };
+		48E3C58A212ABB2C00D6FAE2 /* KeychainItemWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainItemWrapper.h; sourceTree = "<group>"; };
 		6614E53D96524DC4BB3DB801 /* Pods-LZCommonSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LZCommonSDK.release.xcconfig"; path = "Pods/Target Support Files/Pods-LZCommonSDK/Pods-LZCommonSDK.release.xcconfig"; sourceTree = "<group>"; };
 		853A9CF5A80B191CB1532BB1 /* Pods-LZCommonSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LZCommonSDK.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LZCommonSDK/Pods-LZCommonSDK.debug.xcconfig"; sourceTree = "<group>"; };
 		91DE5AD76EB7AF67337DE318 /* libPods-LZCommonSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LZCommonSDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -251,6 +254,7 @@
 		48E3C4BB212AA37600D6FAE2 /* LZCommonSDK */ = {
 			isa = PBXGroup;
 			children = (
+				48E3C587212ABB2C00D6FAE2 /* thirdParty */,
 				48E3C4BC212AA3E100D6FAE2 /* LZMacroDefine.h */,
 				48E3C547212AB2CD00D6FAE2 /* utility */,
 				48E3C4E1212AB2A700D6FAE2 /* helper */,
@@ -277,7 +281,7 @@
 				48E3C4E8212AB2A700D6FAE2 /* NSDate+LZHelper.m */,
 				48E3C522212AB2A700D6FAE2 /* NSFileManager+LZHelper.h */,
 				48E3C4E9212AB2A700D6FAE2 /* NSFileManager+LZHelper.m */,
-				48E3C4EA212AB2A700D6FAE2 /* GSHelperSDK.h */,
+				48E3C4EA212AB2A700D6FAE2 /* LZHelperSDK.h */,
 				48E3C521212AB2A700D6FAE2 /* NSUserDefaults+LZHelper.h */,
 				48E3C4EB212AB2A700D6FAE2 /* NSUserDefaults+LZHelper.m */,
 				48E3C4EC212AB2A700D6FAE2 /* UIColor+LZHelper.h */,
@@ -321,8 +325,8 @@
 		48E3C4FC212AB2A700D6FAE2 /* NSString */ = {
 			isa = PBXGroup;
 			children = (
-				48E3C4FD212AB2A700D6FAE2 /* NSString+GSUrlEncode.h */,
-				48E3C501212AB2A700D6FAE2 /* NSString+GSUrlEncode.m */,
+				48E3C4FD212AB2A700D6FAE2 /* NSString+LZUrlEncode.h */,
+				48E3C501212AB2A700D6FAE2 /* NSString+LZUrlEncode.m */,
 				48E3C4FE212AB2A700D6FAE2 /* NSString+LZHelper.h */,
 				48E3C503212AB2A700D6FAE2 /* NSString+LZHelper.m */,
 				48E3C502212AB2A700D6FAE2 /* NSMutableString+LZHelper.h */,
@@ -391,10 +395,10 @@
 		48E3C54C212AB2CD00D6FAE2 /* network */ = {
 			isa = PBXGroup;
 			children = (
-				48E3C54D212AB2CD00D6FAE2 /* GSNetworkUtil.m */,
-				48E3C54E212AB2CD00D6FAE2 /* GSReachabilityUtil.m */,
-				48E3C54F212AB2CD00D6FAE2 /* GSNetworkUtil.h */,
-				48E3C550212AB2CD00D6FAE2 /* GSReachabilityUtil.h */,
+				48E3C54F212AB2CD00D6FAE2 /* LZNetworkUtil.h */,
+				48E3C54D212AB2CD00D6FAE2 /* LZNetworkUtil.m */,
+				48E3C550212AB2CD00D6FAE2 /* LZReachabilityUtil.h */,
+				48E3C54E212AB2CD00D6FAE2 /* LZReachabilityUtil.m */,
 			);
 			path = network;
 			sourceTree = "<group>";
@@ -436,6 +440,23 @@
 				48E3C570212AB2CD00D6FAE2 /* LZFileUtil.m */,
 			);
 			path = media;
+			sourceTree = "<group>";
+		};
+		48E3C587212ABB2C00D6FAE2 /* thirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				48E3C588212ABB2C00D6FAE2 /* KeychainItemWrapper */,
+			);
+			path = thirdParty;
+			sourceTree = "<group>";
+		};
+		48E3C588212ABB2C00D6FAE2 /* KeychainItemWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				48E3C589212ABB2C00D6FAE2 /* KeychainItemWrapper.m */,
+				48E3C58A212ABB2C00D6FAE2 /* KeychainItemWrapper.h */,
+			);
+			path = KeychainItemWrapper;
 			sourceTree = "<group>";
 		};
 		ED4EE6B8751F90B767E28100 /* Pods */ = {
@@ -565,7 +586,7 @@
 				48E3C52C212AB2A700D6FAE2 /* UIScreen+LZHelper.m in Sources */,
 				48E3C531212AB2A700D6FAE2 /* NSNumber+LZHelper.m in Sources */,
 				48E3C529212AB2A700D6FAE2 /* NSDate+LZHelper.m in Sources */,
-				48E3C575212AB2CD00D6FAE2 /* GSNetworkUtil.m in Sources */,
+				48E3C575212AB2CD00D6FAE2 /* LZNetworkUtil.m in Sources */,
 				48E3C543212AB2A700D6FAE2 /* NSURL+LZHelper.m in Sources */,
 				48E3C581212AB2CD00D6FAE2 /* LZAudioUtil.m in Sources */,
 				48E3C52B212AB2A700D6FAE2 /* NSUserDefaults+LZHelper.m in Sources */,
@@ -604,15 +625,16 @@
 				48E3C579212AB2CD00D6FAE2 /* LZAppUtil.m in Sources */,
 				48E3C580212AB2CD00D6FAE2 /* LZVideoUtil.m in Sources */,
 				48E3C57C212AB2CD00D6FAE2 /* LZEncryptUtl.m in Sources */,
+				48E3C58B212ABB2C00D6FAE2 /* KeychainItemWrapper.m in Sources */,
 				48E3C527212AB2A700D6FAE2 /* UIImage+LZHelper.m in Sources */,
 				48E3C57B212AB2CD00D6FAE2 /* LZSystemUtil.m in Sources */,
 				48E3C539212AB2A700D6FAE2 /* UIView+LZHelper.m in Sources */,
 				48E3C53D212AB2A700D6FAE2 /* UIView+LZFrame.m in Sources */,
 				48E3C536212AB2A700D6FAE2 /* UITableView+LZHelper.m in Sources */,
 				48E3C52F212AB2A700D6FAE2 /* NSMutableArray+LZHelper.m in Sources */,
-				48E3C533212AB2A700D6FAE2 /* NSString+GSUrlEncode.m in Sources */,
+				48E3C533212AB2A700D6FAE2 /* NSString+LZUrlEncode.m in Sources */,
 				48E3C53E212AB2A700D6FAE2 /* UITextField+LZHelper.m in Sources */,
-				48E3C576212AB2CD00D6FAE2 /* GSReachabilityUtil.m in Sources */,
+				48E3C576212AB2CD00D6FAE2 /* LZReachabilityUtil.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

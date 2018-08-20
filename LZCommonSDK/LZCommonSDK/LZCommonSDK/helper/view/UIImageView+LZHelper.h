@@ -30,12 +30,4 @@
  */
 + (UIImageView*)imageViewWithImage:(UIImage*)image originPosition:(CGPoint)position;
 
-/**
- *  加载图片
- *
- *  @param url   地址
- *  @param image 默认图片
- */
-- (void)loadImageWithUrl:(NSString*)url placeHolder:(NSString*)image;
-
 @end

@@ -19,7 +19,7 @@ typedef enum
 #define NETWORK_STATUS_KEY   @"GSNetworkStatusKey"
 #define NETWORK_TEST_WEBSITE @"www.baidu.com"
 
-@interface GSReachabilityUtil : NSObject
+@interface LZReachabilityUtil : NSObject
 
 /**
  *  注册网络状态变化监听者
