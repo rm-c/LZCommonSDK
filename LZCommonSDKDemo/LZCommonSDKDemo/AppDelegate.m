@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import <LZCommonSDK/AppDelegate.h>
 
 @interface AppDelegate ()
 
