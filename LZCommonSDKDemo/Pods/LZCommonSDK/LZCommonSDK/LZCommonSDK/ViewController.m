@@ -1,13 +1,12 @@
 //
 //  ViewController.m
-//  LZCommonSDKDemo
+//  LZCommonSDK
 //
 //  Created by Macye on 2018/8/20.
 //  Copyright © 2018年 zhenwei. All rights reserved.
 //
 
 #import "ViewController.h"
-
 
 @interface ViewController ()
 
