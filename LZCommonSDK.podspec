@@ -7,7 +7,7 @@ s.homepage     = "https://github.com/linzhenwei8888/LZCommonSDK"      #项目主
 s.license      = { :type => "MIT", :file => "LICENSE" }   #开源协议
 s.author             = { "linzhenwei8888" => "linzhenwei8888@gmail.com" }  #作者
 s.platform     = :ios, "7.0"                  #支持的平台和版本号
-s.source       = { :git => "https://github.com/linzhenwei8888/LZCommonSDK.git", :tag => "0.0.1" }         #存储库的git地址，以及tag值
+s.source       = { :git => "https://github.com/linzhenwei8888/LZCommonSDK.git", :tag => tag => s.version.to_s }         #存储库的git地址，以及tag值
 s.source_files  =  "LZCommonSDK/LZCommonSDK/**/*.{h,m}" #需要托管的源代码路径
 s.requires_arc = true #是否支持ARC
 
