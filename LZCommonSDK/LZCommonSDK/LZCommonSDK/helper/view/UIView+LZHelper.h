@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
+typedef void(^LZAddedSubviewHandler)(UIView* subView, UIView* superView);
+
+
 @interface UIView (LZHelper)
 
 - (UIViewController *)viewController; // 视图对应的控制器
@@ -44,5 +47,7 @@
 - (void)removeBlurEffect; //删除毛玻璃效果
 
 - (UIImage*)capture;//截图
+
++ (void)addSubView:(UIView*)subView toSuperView:(UIView*)superView addedCallback:(LZAddedSubviewHandler)handler;
 
 @end
