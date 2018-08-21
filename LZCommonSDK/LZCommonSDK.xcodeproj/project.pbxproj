@@ -72,6 +72,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4844048F212C0A880018A713 /* LZCommonSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZCommonSDK.h; sourceTree = "<group>"; };
 		4898EF6E212AC1AF006E225D /* libAspects.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libAspects.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		48E3C4A0212A95E100D6FAE2 /* LZCommonSDK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LZCommonSDK.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48E3C4A3212A95E100D6FAE2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -245,6 +246,7 @@
 				48E3C4A4212A95E100D6FAE2 /* AppDelegate.m */,
 				48E3C4A6212A95E200D6FAE2 /* ViewController.h */,
 				48E3C4A7212A95E200D6FAE2 /* ViewController.m */,
+				4844048F212C0A880018A713 /* LZCommonSDK.h */,
 				48E3C4BB212AA37600D6FAE2 /* LZCommonSDK */,
 				48E3C4A9212A95E200D6FAE2 /* Main.storyboard */,
 				48E3C4AC212A95E300D6FAE2 /* Assets.xcassets */,
