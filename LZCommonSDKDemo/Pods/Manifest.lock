@@ -1,6 +1,6 @@
 PODS:
   - Aspects (1.4.1)
-  - LZCommonSDK (0.0.3):
+  - LZCommonSDK (1.0.1):
     - Masonry (~> 1.0.0)
   - Masonry (1.0.2)
   - RegexKitLite (4.0)
@@ -30,7 +30,7 @@ CHECKOUT OPTIONS:
 
 SPEC CHECKSUMS:
   Aspects: 7595ba96a6727a58ebcbfc954497fc5d2fdde546
-  LZCommonSDK: 7946af664d4ff08224be0fc32803207998b9c4a1
+  LZCommonSDK: ea83edc0d6ba91bc89d3b41d0d34544aa36d387d
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
   RegexKitLite: c0e4c12e6e7de0769f3a3ed679f0f61604170661
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
