@@ -10,25 +10,25 @@
 #define GSUtilitiesSDK_GSUtilitiesSDK_h
 
 // helper
-#import <GSCommonSDK/CGRectExtension.h>
+#import <LZCommonSDK/CGRectExtension.h>
 
-#import <GSCommonSDK/GSCommonUtil.h>
-#import <GSCommonSDK/GSDeviceUtil.h>
-#import <GSCommonSDK/GSEncryptUtl.h>
-#import <GSCommonSDK/GSJSONParseUtil.h>
-#import <GSCommonSDK/LZReachabilityUtil.h>
-#import <GSCommonSDK/GSScreenUtil.h>
-#import <GSCommonSDK/GSStringUtil.h>
-#import <GSCommonSDK/CGRectExtension.h>
-#import <GSCommonSDK/GSFileUtil.h>
-#import <GSCommonSDK/GSSystemUtil.h>
-#import <GSCommonSDK/GSAppUtil.h>
-#import <GSCommonSDK/GSImageUtil.h>
-#import <GSCommonSDK/GSAudioUtil.h>
-#import <GSCommonSDK/GSNetworkUtil.h>
-#import <GSCommonSDK/GSRandomUtil.h>
-#import <GSCommonSDK/GSVideoUtil.h>
-#import <GSCommonSDK/GSMathUtil.h>
-#import <GSCommonSDK/GSDispatch.h>
+#import <LZCommonSDK/LZCommonUtil.h>
+#import <LZCommonSDK/LZDeviceUtil.h>
+#import <LZCommonSDK/LZEncryptUtl.h>
+#import <LZCommonSDK/LZJSONParseUtil.h>
+#import <LZCommonSDK/LZReachabilityUtil.h>
+#import <LZCommonSDK/LZScreenUtil.h>
+#import <LZCommonSDK/LZStringUtil.h>
+#import <LZCommonSDK/CGRectExtension.h>
+#import <LZCommonSDK/LZFileUtil.h>
+#import <LZCommonSDK/LZSystemUtil.h>
+#import <LZCommonSDK/LZAppUtil.h>
+#import <LZCommonSDK/LZImageUtil.h>
+#import <LZCommonSDK/LZAudioUtil.h>
+#import <LZCommonSDK/LZNetworkUtil.h>
+#import <LZCommonSDK/LZRandomUtil.h>
+#import <LZCommonSDK/LZVideoUtil.h>
+#import <LZCommonSDK/LZMathUtil.h>
+#import <LZCommonSDK/LZDispatch.h>
 
 #endif

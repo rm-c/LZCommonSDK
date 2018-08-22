@@ -10,46 +10,46 @@
 #define LZHelperSDK_h
 
 // NSString
-#import <GSCommonSDK/NSString+LZHelper.h>
-#import <GSCommonSDK/NSString+GSUrlEncode.h>
-#import <GSCommonSDK/NSMutableString+LZHelper.h>
-#import <GSCommonSDK/NSMutableAttributedString+LZHelper.h>
+#import <LZCommonSDK/NSString+LZHelper.h>
+#import <LZCommonSDK/NSString+GSUrlEncode.h>
+#import <LZCommonSDK/NSMutableString+LZHelper.h>
+#import <LZCommonSDK/NSMutableAttributedString+LZHelper.h>
 
 // storage
-#import <GSCommonSDK/NSArray+LZHelper.h>
-#import <GSCommonSDK/NSDictionary+LZHelper.h>
-#import <GSCommonSDK/NSMutableArray+LZHelper.h>
+#import <LZCommonSDK/NSArray+LZHelper.h>
+#import <LZCommonSDK/NSDictionary+LZHelper.h>
+#import <LZCommonSDK/NSMutableArray+LZHelper.h>
 
 // view
-#import <GSCommonSDK/UIWebView+LZHelper.h>
-#import <GSCommonSDK/UIButton+LZHelper.h>
-#import <GSCommonSDK/UIImageView+LZHelper.h>
-#import <GSCommonSDK/UILabel+LZHelper.h>
-#import <GSCommonSDK/UIScrollView+LZHelper.h>
-#import <GSCommonSDK/UITableView+LZHelper.h>
-#import <GSCommonSDK/UIView+LZHelper.h>
-#import <GSCommonSDK/UIView+GSFrame.h>
-#import <GSCommonSDK/UIView+GSGusture.h>
-#import <GSCommonSDK/UITextField+LZHelper.h>
-#import <GSCommonSDK/UITableViewCell+LZHelper.h>
+#import <LZCommonSDK/UIWebView+LZHelper.h>
+#import <LZCommonSDK/UIButton+LZHelper.h>
+#import <LZCommonSDK/UIImageView+LZHelper.h>
+#import <LZCommonSDK/UILabel+LZHelper.h>
+#import <LZCommonSDK/UIScrollView+LZHelper.h>
+#import <LZCommonSDK/UITableView+LZHelper.h>
+#import <LZCommonSDK/UIView+LZHelper.h>
+#import <LZCommonSDK/UIView+GSFrame.h>
+#import <LZCommonSDK/UIView+GSGusture.h>
+#import <LZCommonSDK/UITextField+LZHelper.h>
+#import <LZCommonSDK/UITableViewCell+LZHelper.h>
 
 // controller
-#import <GSCommonSDK/UIViewController+LZHelper.h>
+#import <LZCommonSDK/UIViewController+LZHelper.h>
 
 // other
-#import <GSCommonSDK/NSDate+LZHelper.h>
-#import <GSCommonSDK/NSObject+LZHelper.h>
-#import <GSCommonSDK/UIScreen+LZHelper.h>
-#import <GSCommonSDK/UIImage+LZHelper.h>
-#import <GSCommonSDK/UIEvent+LZHelper.h>
-#import <GSCommonSDK/NSUserDefaults+LZHelper.h>
-#import <GSCommonSDK/NSURL+LZHelper.h>
-#import <GSCommonSDK/NSTimer+LZHelper.h>
-#import <GSCommonSDK/UIApplication+LZHelper.h>
-#import <GSCommonSDK/UIPasteboard+LZHelper.h>
-#import <GSCommonSDK/UIColor+LZHelper.h>
-#import <GSCommonSDK/NSNumber+LZHelper.h>
-#import <GSCommonSDK/NSFileManager+LZHelper.h>
+#import <LZCommonSDK/NSDate+LZHelper.h>
+#import <LZCommonSDK/NSObject+LZHelper.h>
+#import <LZCommonSDK/UIScreen+LZHelper.h>
+#import <LZCommonSDK/UIImage+LZHelper.h>
+#import <LZCommonSDK/UIEvent+LZHelper.h>
+#import <LZCommonSDK/NSUserDefaults+LZHelper.h>
+#import <LZCommonSDK/NSURL+LZHelper.h>
+#import <LZCommonSDK/NSTimer+LZHelper.h>
+#import <LZCommonSDK/UIApplication+LZHelper.h>
+#import <LZCommonSDK/UIPasteboard+LZHelper.h>
+#import <LZCommonSDK/UIColor+LZHelper.h>
+#import <LZCommonSDK/NSNumber+LZHelper.h>
+#import <LZCommonSDK/NSFileManager+LZHelper.h>
 
 
 #endif /* LZHelperSDK_h */
