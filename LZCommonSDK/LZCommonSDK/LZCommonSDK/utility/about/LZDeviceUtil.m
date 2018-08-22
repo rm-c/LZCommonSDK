@@ -20,7 +20,7 @@
 #import <mach/mach.h>
 #import <mach/mach_host.h>
 #import <mach/processor_info.h>
-#import "KeychainItemWrapper.h"
+#import <SSKeychain.h>
 
 @implementation LZDeviceUtil
 
@@ -156,21 +156,13 @@
 
 + (NSString*)getDeviceUUID
 {
-    NSDictionary *keyChainDict = [NSDictionary dictionaryWithContentsOfFile:[[NSBundle mainBundle].bundlePath stringByAppendingString:@"/KeychainAccessGroups.plist"]];
-    NSString *accessGroup = [[keyChainDict objectForKey:@"keychain-access-groups"] lastObject];
-    KeychainItemWrapper *keychain = [[KeychainItemWrapper alloc] initWithIdentifier:@"userSecret" accessGroup:accessGroup];
-    
-    NSString *strUUID = [keychain objectForKey:(id)CFBridgingRelease(kSecValueData)];
-    
-    if ([strUUID isEqualToString:@""])
+    NSString *strUUID = [SSKeychain passwordForService:@"keychain-access-groups"account:@"userSecret"];
+    if (strUUID.length <= 0)
     {
-        
-        CFUUIDRef uuidRef = CFUUIDCreate(kCFAllocatorDefault);
-        
-        strUUID = (NSString *)CFBridgingRelease(CFUUIDCreateString (kCFAllocatorDefault,uuidRef));
-        
-        [keychain setObject:strUUID forKey:(id)CFBridgingRelease(kSecValueData)];
-        
+        CFUUIDRef uuid = CFUUIDCreate(NULL);
+        assert(uuid != NULL);
+        CFStringRef uuidStr = CFUUIDCreateString(NULL, uuid);
+        [SSKeychain setPassword:[NSString stringWithFormat:@"%@", uuidStr] forService:@"keychain-access-groups" account:@"userSecret"];
     }
     
     return strUUID;

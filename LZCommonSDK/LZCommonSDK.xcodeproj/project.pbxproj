@@ -66,7 +66,6 @@
 		48E3C580212AB2CD00D6FAE2 /* LZVideoUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E3C56B212AB2CD00D6FAE2 /* LZVideoUtil.m */; };
 		48E3C581212AB2CD00D6FAE2 /* LZAudioUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E3C56C212AB2CD00D6FAE2 /* LZAudioUtil.m */; };
 		48E3C582212AB2CD00D6FAE2 /* LZFileUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E3C570212AB2CD00D6FAE2 /* LZFileUtil.m */; };
-		48E3C58B212ABB2C00D6FAE2 /* KeychainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E3C589212ABB2C00D6FAE2 /* KeychainItemWrapper.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Wno-logical-not-parentheses"; }; };
 		48E3C58F212AC0ED00D6FAE2 /* LZReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E3C58D212AC0ED00D6FAE2 /* LZReachability.m */; };
 		E28AAF6BA1D367BA8224D4D8 /* libPods-LZCommonSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 91DE5AD76EB7AF67337DE318 /* libPods-LZCommonSDK.a */; };
 /* End PBXBuildFile section */
@@ -190,8 +189,6 @@
 		48E3C56F212AB2CD00D6FAE2 /* LZVideoUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZVideoUtil.h; sourceTree = "<group>"; };
 		48E3C570212AB2CD00D6FAE2 /* LZFileUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZFileUtil.m; sourceTree = "<group>"; };
 		48E3C583212AB82E00D6FAE2 /* LZCommonSDK-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LZCommonSDK-Prefix.pch"; sourceTree = "<group>"; };
-		48E3C589212ABB2C00D6FAE2 /* KeychainItemWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainItemWrapper.m; sourceTree = "<group>"; };
-		48E3C58A212ABB2C00D6FAE2 /* KeychainItemWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainItemWrapper.h; sourceTree = "<group>"; };
 		48E3C58D212AC0ED00D6FAE2 /* LZReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZReachability.m; sourceTree = "<group>"; };
 		48E3C58E212AC0ED00D6FAE2 /* LZReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZReachability.h; sourceTree = "<group>"; };
 		6614E53D96524DC4BB3DB801 /* Pods-LZCommonSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LZCommonSDK.release.xcconfig"; path = "Pods/Target Support Files/Pods-LZCommonSDK/Pods-LZCommonSDK.release.xcconfig"; sourceTree = "<group>"; };
@@ -455,18 +452,8 @@
 			isa = PBXGroup;
 			children = (
 				48E3C58C212AC0ED00D6FAE2 /* Reachability */,
-				48E3C588212ABB2C00D6FAE2 /* KeychainItemWrapper */,
 			);
 			path = thirdParty;
-			sourceTree = "<group>";
-		};
-		48E3C588212ABB2C00D6FAE2 /* KeychainItemWrapper */ = {
-			isa = PBXGroup;
-			children = (
-				48E3C589212ABB2C00D6FAE2 /* KeychainItemWrapper.m */,
-				48E3C58A212ABB2C00D6FAE2 /* KeychainItemWrapper.h */,
-			);
-			path = KeychainItemWrapper;
 			sourceTree = "<group>";
 		};
 		48E3C58C212AC0ED00D6FAE2 /* Reachability */ = {
@@ -564,10 +551,12 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-LZCommonSDK/Pods-LZCommonSDK-resources.sh",
+				"${PODS_ROOT}/SSKeychain/Support/SSKeychain.bundle",
 				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SSKeychain.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -645,7 +634,6 @@
 				48E3C579212AB2CD00D6FAE2 /* LZAppUtil.m in Sources */,
 				48E3C580212AB2CD00D6FAE2 /* LZVideoUtil.m in Sources */,
 				48E3C57C212AB2CD00D6FAE2 /* LZEncryptUtl.m in Sources */,
-				48E3C58B212ABB2C00D6FAE2 /* KeychainItemWrapper.m in Sources */,
 				48E3C527212AB2A700D6FAE2 /* UIImage+LZHelper.m in Sources */,
 				48E3C57B212AB2CD00D6FAE2 /* LZSystemUtil.m in Sources */,
 				48E3C539212AB2A700D6FAE2 /* UIView+LZHelper.m in Sources */,
