@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LZCommonSDK_Example' do
+  pod 'LZCommonSDK', :path => '../'
+
+  target 'LZCommonSDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

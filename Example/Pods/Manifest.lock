@@ -1,0 +1,16 @@
+PODS:
+  - LZCommonSDK (0.1.0)
+
+DEPENDENCIES:
+  - LZCommonSDK (from `../`)
+
+EXTERNAL SOURCES:
+  LZCommonSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LZCommonSDK: 7db72c836454cd3aaa0ddec12fabf0ea5f48352c
+
+PODFILE CHECKSUM: 3ef25c4a206ab9e553cb620c2c753a9ca4eca983
+
+COCOAPODS: 1.5.0

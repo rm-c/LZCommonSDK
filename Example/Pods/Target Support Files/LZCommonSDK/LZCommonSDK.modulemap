@@ -1,0 +1,6 @@
+framework module LZCommonSDK {
+  umbrella header "LZCommonSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
