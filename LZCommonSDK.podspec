@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name         = "LZCommonSDK"    #存储库名称
-s.version      = "1.0.5"      #版本号，与tag值一致
+s.version      = "1.0.7"      #版本号，与tag值一致
 s.summary      = "a repository demo"  #简介
 s.description  = "a repository demo"  #描述
 s.homepage     = "https://github.com/linzhenwei8888/LZCommonSDK"      #项目主页，不是git地址
@@ -12,6 +12,10 @@ s.public_header_files = 'LZCommonSDK/LZCommonSDK/LZCommonSDK/**/*.h'#公共的�
 s.source_files  =  "LZCommonSDK/LZCommonSDK/LZCommonSDK/**/*.{h,m}" #需要托管的源代码路径
 s.requires_arc = true #是否支持ARC
 
-s.dependency "Masonry", "~> 1.0.0"    #所依赖的第三方库，没有就不用写
+s.dependency "Masonry"   #所依赖的第三方库，没有就不用写
+s.dependency "SVProgressHUD"
+s.dependency "Aspects"
+s.dependency "SSKeychain"
+s.dependency "RegexKitLite"
 
 end

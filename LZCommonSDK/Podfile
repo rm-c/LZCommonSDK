@@ -11,10 +11,9 @@ target 'LZCommonSDK' do
 
   # Pods for LZCommonSDK
 
-    pod 'SVProgressHUD', :git => 'https://github.com/SVProgressHUD/SVProgressHUD.git'
-    pod 'Aspects', '~> 1.4.1'
+    pod 'SVProgressHUD'
+    pod 'Aspects'
     pod 'SSKeychain'
-    #pod 'KeychainItemWrapper', '~> 1.2'
     pod 'RegexKitLite'
 
 end
