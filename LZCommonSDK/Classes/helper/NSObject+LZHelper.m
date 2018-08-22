@@ -7,6 +7,8 @@
 //
 
 #import "NSObject+LZHelper.h"
+#import "Aspects.h"
+#import <objc/runtime.h>
 
 const char performEventHandlerKey;
 

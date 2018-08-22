@@ -1,22 +1,33 @@
 {
   "name": "LZCommonSDK",
-  "version": "0.1.0",
-  "summary": "A short description of LZCommonSDK.",
+  "version": "2.0.0",
+  "summary": "LZCommonSDK.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/zhenglinmao/LZCommonSDK",
+  "homepage": "https://github.com/linzhenwei8888/LZCommonSDK",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "zhenglinmao": "hanbocci@163.com"
+    "linzhenwei8888": "linzhenwei8888@gmail.com"
   },
   "source": {
-    "git": "https://github.com/zhenglinmao/LZCommonSDK.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/linzhenwei8888/LZCommonSDK.git",
+    "tag": "2.0.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "LZCommonSDK/Classes/**/*"
+  "source_files": "LZCommonSDK/Classes/**/*",
+  "dependencies": {
+    "SSKeychain": [
+
+    ],
+    "Aspects": [
+
+    ],
+    "RegexKitLite": [
+
+    ]
+  }
 }

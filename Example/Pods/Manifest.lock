@@ -1,16 +1,31 @@
 PODS:
-  - LZCommonSDK (0.1.0)
+  - Aspects (1.4.1)
+  - LZCommonSDK (2.0.0):
+    - Aspects
+    - RegexKitLite
+    - SSKeychain
+  - RegexKitLite (4.0)
+  - SSKeychain (1.4.1)
 
 DEPENDENCIES:
   - LZCommonSDK (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Aspects
+    - RegexKitLite
+    - SSKeychain
 
 EXTERNAL SOURCES:
   LZCommonSDK:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LZCommonSDK: 7db72c836454cd3aaa0ddec12fabf0ea5f48352c
+  Aspects: 7595ba96a6727a58ebcbfc954497fc5d2fdde546
+  LZCommonSDK: dc937e455230129143a3c8a23c7c62c4890e82a4
+  RegexKitLite: c0e4c12e6e7de0769f3a3ed679f0f61604170661
+  SSKeychain: 55cc80f66f5c73da827e3077f02e43528897db41
 
 PODFILE CHECKSUM: 3ef25c4a206ab9e553cb620c2c753a9ca4eca983
 
-COCOAPODS: 1.5.0
+COCOAPODS: 1.5.2

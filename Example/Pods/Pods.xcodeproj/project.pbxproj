@@ -7,121 +7,143 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0071AFAD6F839C60F2D0991E7AA81D69 /* RegexKitLite.h in Headers */ = {isa = PBXBuildFile; fileRef = 8087307779ADD0AD973FC22F672A6F09 /* RegexKitLite.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		03CDF77543047DED70FBEA61DA3DAD84 /* LZRandomUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = A2FCB1933DC44436BD0B59C492BFCA43 /* LZRandomUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0997358892837A27BEA81053D769170A /* UIView+LZHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE2435C55888E3057A803781A19AE98 /* UIView+LZHelper.m */; };
+		0BE21F55B8CB1697C934A34C3D1150BE /* RegexKitLite-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 192AA91937AF794C0B4EFBC5685B41D1 /* RegexKitLite-dummy.m */; };
+		0CE6293F1695D41EC86DAB8E8E7BB6EF /* UITableViewCell+LZHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 885719FA8BD3BA561AC5F2F834E2D373 /* UITableViewCell+LZHelper.m */; };
 		0DB5F51BEB807797E0C55C81AAB2EB1E /* Pods-LZCommonSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0EB8A1F89E1681E9C174FB2EB67C6D /* Pods-LZCommonSDK_Tests-dummy.m */; };
-		28FC97C93C6C0BB27D915A341B4E457B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		0DF85CCA55C1B99EEAF8C2418BDA3F1A /* LZFileUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = B89058FC8C99A87242F444F82488C9DF /* LZFileUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E4294ECBBA92B3E6F62EDF37EA8B2C1 /* LZImageUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B8EB8A4B6B55CB99FFB8653034306E0 /* LZImageUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0ECC8007E9EA6D0EFF8E4FDDD38290C5 /* LZAudioUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = A41C1A4D0A94007663FC8A83B241E45D /* LZAudioUtil.m */; };
+		0F89894D82CADBE46B60B2584313DD84 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 415D34C9359813C824B0F16E1A2580A2 /* Foundation.framework */; };
+		11875210AC8D1A4CBB0FED796FAB7ACF /* NSDate+LZHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = F2F9AA20C6DA061E8B7B6F48611B96E2 /* NSDate+LZHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1215D7E033A55DC07483D9327D0F08AD /* Aspects.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C3D67448070AF09FFE3B1F5A86BCA5F /* Aspects.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16C5926D2F7889956E9295080EF2564A /* LZReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FEF0F827EEE0322BE263F6A46D2FC0B /* LZReachability.m */; };
+		16F359D24FC247D4D76030AAD5763AC2 /* Aspects.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6092161D5935D24EED5123B87A64C2AF /* Aspects.framework */; };
+		173740894EAC9E857423BB5041EE5826 /* SSKeychain.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6953600BBFE5FEB720B08580BED48A94 /* SSKeychain.bundle */; };
+		175B75B6AD85C7A0BB003F909E1579EB /* UIView+LZGusture.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B7ACF7C12617B865712EF3AD9085077 /* UIView+LZGusture.m */; };
+		19242560FB97A5CDE918CD7C4B84453B /* UILabel+LZHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 894AF0C00EA4F9AE14C6B7A00C740794 /* UILabel+LZHelper.m */; };
+		1940835D23ED4933E2D6E6E1860C7CE8 /* Aspects.m in Sources */ = {isa = PBXBuildFile; fileRef = 5702A38DD2568A55FAC0957E9E50F3BA /* Aspects.m */; };
+		1AED62239C6AE3E0D77BD42855302D5D /* UIColor+LZHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC1DC193B8F90C6C1068EA5060C6107 /* UIColor+LZHelper.m */; };
+		1DC710F0EC32B9DE4BB30CC8895609A7 /* LZAppUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 13BCAE6320E4EDA6A6C6FDF93C8507D2 /* LZAppUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1EE9E71D12884EE7EDE25D6047B526F8 /* UIWebView+LZHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = ED9D107EF29D3EF13F66C31FF7BDB9A3 /* UIWebView+LZHelper.m */; };
+		249533644C526D572BDE9F6DDBE39125 /* LZReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 012D611F7630308AF5E519CE2F5D34E4 /* LZReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		25C521692353CCE02A3E0615A05B3508 /* LZMathUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 1066D4C704B3F30ECD76E6A0889766C8 /* LZMathUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26D0F1AFD4C46F26E393689965F297DF /* UIApplication+LZHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B05683C5404A512D03535822FCF6A30 /* UIApplication+LZHelper.m */; };
+		2B2A8C925B8AC3B4DDF7DF3289C1435B /* NSUserDefaults+LZHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9ABEB90D4593066B2525471DAE710B /* NSUserDefaults+LZHelper.m */; };
+		2FB54530FEACAAA6BDB0920F2D362CFA /* LZScreenUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA5C487A4E348415825610894E5AC40 /* LZScreenUtil.m */; };
+		302E336B176D8803ABEFF2F574E28689 /* LZFileUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 6063BC02EA5745F7AE803BFA9804B150 /* LZFileUtil.m */; };
+		305FC89D26392843C9B3465A046C0E0A /* LZHelperSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = D86193A285BFACD0784ACDB493DFB8A7 /* LZHelperSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3065CFAA6FE1DE17ECC4AFFEEC691E52 /* Pods-LZCommonSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D3142771BE39BB499F6E69E0EBDCC695 /* Pods-LZCommonSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		36F6A29556227F25974370CDCAD749E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		4889F1A1212D5C3300983A82 /* LZReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 4889F12D212D5C3200983A82 /* LZReachability.m */; };
-		4889F1A2212D5C3300983A82 /* LZReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 4889F12E212D5C3200983A82 /* LZReachability.h */; };
-		4889F1A3212D5C3300983A82 /* LZMacroDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 4889F12F212D5C3200983A82 /* LZMacroDefine.h */; };
-		4889F1A4212D5C3300983A82 /* UIImage+LZHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4889F131212D5C3200983A82 /* UIImage+LZHelper.m */; };
-		4889F1A5212D5C3300983A82 /* LZHelperSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 4889F132212D5C3200983A82 /* LZHelperSDK.h */; };
-		4889F1A6212D5C3300983A82 /* UIApplication+LZHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4889F133212D5C3200983A82 /* UIApplication+LZHelper.m */; };
-		4889F1A7212D5C3300983A82 /* NSNumber+LZHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 4889F134212D5C3200983A82 /* NSNumber+LZHelper.h */; };
-		4889F1A8212D5C3300983A82 /* NSURL+LZHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 4889F135212D5C3200983A82 /* NSURL+LZHelper.h */; };
-		4889F1A9212D5C3300983A82 /* UIPasteboard+LZHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 4889F136212D5C3200983A82 /* UIPasteboard+LZHelper.h */; };
-		4889F1AA212D5C3300983A82 /* UIEvent+LZHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 4889F137212D5C3200983A82 /* UIEvent+LZHelper.h */; };
-		4889F1AB212D5C3300983A82 /* NSDate+LZHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4889F138212D5C3200983A82 /* NSDate+LZHelper.m */; };
-		4889F1AC212D5C3300983A82 /* NSFileManager+LZHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4889F139212D5C3200983A82 /* NSFileManager+LZHelper.m */; };
-		4889F1AD212D5C3300983A82 /* NSUserDefaults+LZHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4889F13A212D5C3200983A82 /* NSUserDefaults+LZHelper.m */; };
-		4889F1AE212D5C3300983A82 /* UIColor+LZHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 4889F13B212D5C3200983A82 /* UIColor+LZHelper.h */; };
-		4889F1AF212D5C3300983A82 /* NSObject+LZHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 4889F13C212D5C3200983A82 /* NSObject+LZHelper.h */; };
-		4889F1B0212D5C3300983A82 /* NSTimer+LZHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 4889F13D212D5C3200983A82 /* NSTimer+LZHelper.h */; };
-		4889F1B1212D5C3300983A82 /* UIScreen+LZHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4889F13E212D5C3200983A82 /* UIScreen+LZHelper.m */; };
-		4889F1B2212D5C3300983A82 /* UIViewController+LZHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 4889F140212D5C3200983A82 /* UIViewController+LZHelper.h */; };
-		4889F1B3212D5C3300983A82 /* UIViewController+LZHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4889F141212D5C3200983A82 /* UIViewController+LZHelper.m */; };
-		4889F1B4212D5C3300983A82 /* NSArray+LZHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4889F143212D5C3200983A82 /* NSArray+LZHelper.m */; };
-		4889F1B5212D5C3300983A82 /* NSMutableArray+LZHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 4889F144212D5C3200983A82 /* NSMutableArray+LZHelper.h */; };
-		4889F1B6212D5C3300983A82 /* NSDictionary+LZHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 4889F145212D5C3200983A82 /* NSDictionary+LZHelper.h */; };
-		4889F1B7212D5C3300983A82 /* NSArray+LZHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 4889F146212D5C3200983A82 /* NSArray+LZHelper.h */; };
-		4889F1B8212D5C3300983A82 /* NSMutableArray+LZHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4889F147212D5C3200983A82 /* NSMutableArray+LZHelper.m */; };
-		4889F1B9212D5C3300983A82 /* NSDictionary+LZHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4889F148212D5C3200983A82 /* NSDictionary+LZHelper.m */; };
-		4889F1BA212D5C3300983A82 /* UIApplication+LZHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 4889F149212D5C3200983A82 /* UIApplication+LZHelper.h */; };
-		4889F1BB212D5C3300983A82 /* NSNumber+LZHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4889F14A212D5C3200983A82 /* NSNumber+LZHelper.m */; };
-		4889F1BC212D5C3300983A82 /* NSString+LZHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 4889F14C212D5C3200983A82 /* NSString+LZHelper.h */; };
-		4889F1BD212D5C3300983A82 /* NSMutableString+LZHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4889F14D212D5C3200983A82 /* NSMutableString+LZHelper.m */; };
-		4889F1BE212D5C3300983A82 /* NSString+LZUrlEncode.h in Headers */ = {isa = PBXBuildFile; fileRef = 4889F14E212D5C3200983A82 /* NSString+LZUrlEncode.h */; };
-		4889F1BF212D5C3300983A82 /* NSMutableAttributedString+LZHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 4889F14F212D5C3200983A82 /* NSMutableAttributedString+LZHelper.h */; };
-		4889F1C0212D5C3300983A82 /* NSMutableString+LZHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 4889F150212D5C3200983A82 /* NSMutableString+LZHelper.h */; };
-		4889F1C1212D5C3300983A82 /* NSString+LZHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4889F151212D5C3200983A82 /* NSString+LZHelper.m */; };
-		4889F1C2212D5C3300983A82 /* NSMutableAttributedString+LZHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4889F152212D5C3200983A82 /* NSMutableAttributedString+LZHelper.m */; };
-		4889F1C3212D5C3300983A82 /* NSString+LZUrlEncode.m in Sources */ = {isa = PBXBuildFile; fileRef = 4889F153212D5C3200983A82 /* NSString+LZUrlEncode.m */; };
-		4889F1C4212D5C3300983A82 /* UIImage+LZHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 4889F154212D5C3200983A82 /* UIImage+LZHelper.h */; };
-		4889F1C5212D5C3300983A82 /* NSDate+LZHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 4889F155212D5C3200983A82 /* NSDate+LZHelper.h */; };
-		4889F1C6212D5C3300983A82 /* UIScrollView+LZHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 4889F157212D5C3200983A82 /* UIScrollView+LZHelper.h */; };
-		4889F1C7212D5C3300983A82 /* UIWebView+LZHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 4889F158212D5C3200983A82 /* UIWebView+LZHelper.h */; };
-		4889F1C8212D5C3300983A82 /* UITableView+LZHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4889F159212D5C3200983A82 /* UITableView+LZHelper.m */; };
-		4889F1C9212D5C3300983A82 /* UIView+LZFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 4889F15A212D5C3200983A82 /* UIView+LZFrame.m */; };
-		4889F1CA212D5C3300983A82 /* UIImageView+LZHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4889F15B212D5C3200983A82 /* UIImageView+LZHelper.m */; };
-		4889F1CB212D5C3300983A82 /* UILabel+LZHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4889F15C212D5C3200983A82 /* UILabel+LZHelper.m */; };
-		4889F1CC212D5C3300983A82 /* UIView+LZHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4889F15D212D5C3200983A82 /* UIView+LZHelper.m */; };
-		4889F1CD212D5C3300983A82 /* UIView+LZGusture.m in Sources */ = {isa = PBXBuildFile; fileRef = 4889F15E212D5C3200983A82 /* UIView+LZGusture.m */; };
-		4889F1CE212D5C3300983A82 /* UIButton+LZHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4889F15F212D5C3200983A82 /* UIButton+LZHelper.m */; };
-		4889F1CF212D5C3300983A82 /* UITableViewCell+LZHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 4889F160212D5C3200983A82 /* UITableViewCell+LZHelper.h */; };
-		4889F1D0212D5C3300983A82 /* UITextField+LZHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 4889F161212D5C3200983A82 /* UITextField+LZHelper.h */; };
-		4889F1D1212D5C3300983A82 /* UITableView+LZHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 4889F162212D5C3200983A82 /* UITableView+LZHelper.h */; };
-		4889F1D2212D5C3300983A82 /* UIScrollView+LZHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4889F163212D5C3200983A82 /* UIScrollView+LZHelper.m */; };
-		4889F1D3212D5C3300983A82 /* UIWebView+LZHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4889F164212D5C3200983A82 /* UIWebView+LZHelper.m */; };
-		4889F1D4212D5C3300983A82 /* UIImageView+LZHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 4889F165212D5C3200983A82 /* UIImageView+LZHelper.h */; };
-		4889F1D5212D5C3300983A82 /* UIView+LZFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 4889F166212D5C3200983A82 /* UIView+LZFrame.h */; };
-		4889F1D6212D5C3300983A82 /* UILabel+LZHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 4889F167212D5C3200983A82 /* UILabel+LZHelper.h */; };
-		4889F1D7212D5C3300983A82 /* UITableViewCell+LZHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4889F168212D5C3200983A82 /* UITableViewCell+LZHelper.m */; };
-		4889F1D8212D5C3300983A82 /* UITextField+LZHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4889F169212D5C3200983A82 /* UITextField+LZHelper.m */; };
-		4889F1D9212D5C3300983A82 /* UIButton+LZHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 4889F16A212D5C3200983A82 /* UIButton+LZHelper.h */; };
-		4889F1DA212D5C3300983A82 /* UIView+LZGusture.h in Headers */ = {isa = PBXBuildFile; fileRef = 4889F16B212D5C3200983A82 /* UIView+LZGusture.h */; };
-		4889F1DB212D5C3300983A82 /* UIView+LZHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 4889F16C212D5C3200983A82 /* UIView+LZHelper.h */; };
-		4889F1DC212D5C3300983A82 /* UIEvent+LZHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4889F16D212D5C3200983A82 /* UIEvent+LZHelper.m */; };
-		4889F1DD212D5C3300983A82 /* UIPasteboard+LZHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4889F16E212D5C3200983A82 /* UIPasteboard+LZHelper.m */; };
-		4889F1DE212D5C3300983A82 /* NSURL+LZHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4889F16F212D5C3200983A82 /* NSURL+LZHelper.m */; };
-		4889F1DF212D5C3300983A82 /* NSUserDefaults+LZHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 4889F170212D5C3200983A82 /* NSUserDefaults+LZHelper.h */; };
-		4889F1E0212D5C3300983A82 /* NSFileManager+LZHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 4889F171212D5C3200983A82 /* NSFileManager+LZHelper.h */; };
-		4889F1E1212D5C3300983A82 /* UIScreen+LZHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 4889F172212D5C3200983A82 /* UIScreen+LZHelper.h */; };
-		4889F1E2212D5C3300983A82 /* NSTimer+LZHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4889F173212D5C3200983A82 /* NSTimer+LZHelper.m */; };
-		4889F1E3212D5C3300983A82 /* NSObject+LZHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4889F174212D5C3200983A82 /* NSObject+LZHelper.m */; };
-		4889F1E4212D5C3300983A82 /* UIColor+LZHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4889F175212D5C3200983A82 /* UIColor+LZHelper.m */; };
-		4889F1E5212D5C3300983A82 /* LZRandomUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 4889F177212D5C3300983A82 /* LZRandomUtil.m */; };
-		4889F1E6212D5C3300983A82 /* CGRectExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4889F178212D5C3300983A82 /* CGRectExtension.m */; };
-		4889F1E7212D5C3300983A82 /* LZMathUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 4889F179212D5C3300983A82 /* LZMathUtil.m */; };
-		4889F1E8212D5C3300983A82 /* LZStringUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 4889F17A212D5C3300983A82 /* LZStringUtil.h */; };
-		4889F1E9212D5C3300983A82 /* LZImageUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 4889F17B212D5C3300983A82 /* LZImageUtil.h */; };
-		4889F1EA212D5C3300983A82 /* LZNetworkUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 4889F17D212D5C3300983A82 /* LZNetworkUtil.m */; };
-		4889F1EB212D5C3300983A82 /* LZReachabilityUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 4889F17E212D5C3300983A82 /* LZReachabilityUtil.h */; };
-		4889F1EC212D5C3300983A82 /* LZReachabilityUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 4889F17F212D5C3300983A82 /* LZReachabilityUtil.m */; };
-		4889F1ED212D5C3300983A82 /* LZNetworkUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 4889F180212D5C3300983A82 /* LZNetworkUtil.h */; };
-		4889F1EE212D5C3300983A82 /* LZCommonUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 4889F181212D5C3300983A82 /* LZCommonUtil.m */; };
-		4889F1EF212D5C3300983A82 /* LZDispatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 4889F182212D5C3300983A82 /* LZDispatch.m */; };
-		4889F1F0212D5C3300983A82 /* LZSystemUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 4889F184212D5C3300983A82 /* LZSystemUtil.h */; };
-		4889F1F1212D5C3300983A82 /* LZScreenUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 4889F185212D5C3300983A82 /* LZScreenUtil.h */; };
-		4889F1F2212D5C3300983A82 /* LZAppUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 4889F186212D5C3300983A82 /* LZAppUtil.m */; };
-		4889F1F3212D5C3300983A82 /* LZDeviceUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 4889F187212D5C3300983A82 /* LZDeviceUtil.h */; };
-		4889F1F4212D5C3300983A82 /* LZAppUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 4889F188212D5C3300983A82 /* LZAppUtil.h */; };
-		4889F1F5212D5C3300983A82 /* LZScreenUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 4889F189212D5C3300983A82 /* LZScreenUtil.m */; };
-		4889F1F6212D5C3300983A82 /* LZSystemUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 4889F18A212D5C3300983A82 /* LZSystemUtil.m */; };
-		4889F1F7212D5C3300983A82 /* LZDeviceUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 4889F18B212D5C3300983A82 /* LZDeviceUtil.m */; };
-		4889F1F8212D5C3300983A82 /* LZMathUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 4889F18C212D5C3300983A82 /* LZMathUtil.h */; };
-		4889F1F9212D5C3300983A82 /* CGRectExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 4889F18D212D5C3300983A82 /* CGRectExtension.h */; };
-		4889F1FA212D5C3300983A82 /* LZRandomUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 4889F18E212D5C3300983A82 /* LZRandomUtil.h */; };
-		4889F1FB212D5C3300983A82 /* LZImageUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 4889F18F212D5C3300983A82 /* LZImageUtil.m */; };
-		4889F1FC212D5C3300983A82 /* LZJSONParseUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 4889F191212D5C3300983A82 /* LZJSONParseUtil.m */; };
-		4889F1FD212D5C3300983A82 /* LZEncryptUtl.m in Sources */ = {isa = PBXBuildFile; fileRef = 4889F192212D5C3300983A82 /* LZEncryptUtl.m */; };
-		4889F1FE212D5C3300983A82 /* LZJSONParseUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 4889F193212D5C3300983A82 /* LZJSONParseUtil.h */; };
-		4889F1FF212D5C3300983A82 /* LZEncryptUtl.h in Headers */ = {isa = PBXBuildFile; fileRef = 4889F194212D5C3300983A82 /* LZEncryptUtl.h */; };
-		4889F200212D5C3300983A82 /* LZStringUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 4889F195212D5C3300983A82 /* LZStringUtil.m */; };
-		4889F201212D5C3300983A82 /* LZDispatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 4889F196212D5C3300983A82 /* LZDispatch.h */; };
-		4889F202212D5C3300983A82 /* LZCommonUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 4889F197212D5C3300983A82 /* LZCommonUtil.h */; };
-		4889F203212D5C3300983A82 /* LZUtilitiesSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 4889F198212D5C3300983A82 /* LZUtilitiesSDK.h */; };
-		4889F204212D5C3300983A82 /* LZVideoUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 4889F19A212D5C3300983A82 /* LZVideoUtil.m */; };
-		4889F205212D5C3300983A82 /* LZFileUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 4889F19B212D5C3300983A82 /* LZFileUtil.h */; };
-		4889F206212D5C3300983A82 /* LZAudioUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 4889F19C212D5C3300983A82 /* LZAudioUtil.m */; };
-		4889F207212D5C3300983A82 /* LZAudioUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 4889F19D212D5C3300983A82 /* LZAudioUtil.h */; };
-		4889F208212D5C3300983A82 /* LZFileUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 4889F19E212D5C3300983A82 /* LZFileUtil.m */; };
-		4889F209212D5C3300983A82 /* LZVideoUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 4889F19F212D5C3300983A82 /* LZVideoUtil.h */; };
-		4889F20A212D5C3300983A82 /* GSAudioUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 4889F1A0212D5C3300983A82 /* GSAudioUtil.h */; };
-		5BC5F714314FC99B5643461FE21E00CA /* Pods-LZCommonSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FB91FCB49CA8B77089F35932D61C215D /* Pods-LZCommonSDK_Example-dummy.m */; };
-		641123D26392B197FDBC9FC94CD56909 /* Pods-LZCommonSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B87AC56ADE9B2C17DCF72EFF61FD0BD6 /* Pods-LZCommonSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A4BD980E6EDCC283D18028555396B934 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		C4CECF2EE7692744522236A942B6B34C /* LZCommonSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B7460EC7F3444ED54FFFAD3C54498DE3 /* LZCommonSDK-dummy.m */; };
-		F57034C6F6D3091E7975CA7BA84DD361 /* LZCommonSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AC712BD31415ADB1BFF05999E78F9977 /* LZCommonSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3066B8505EDA9D09F7F3239AF1BA63F3 /* UITextField+LZHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E5E45044D8C4036F6188B4C7232F3F /* UITextField+LZHelper.m */; };
+		311FDFCE15F7A1F4086F3BE193CFD96C /* NSFileManager+LZHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = C013F1C4534273C5D6FDD2FB1071E0C6 /* NSFileManager+LZHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		321BC378F9A6D8A60F03005BA078771B /* SSKeychainQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 9490D2AEAF2D1DB7B6A7491D9B76F047 /* SSKeychainQuery.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		32303E15AF4699BA02B886B3E02ED479 /* NSMutableArray+LZHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0118BE0C3DDA37902D7597EE8C822EF9 /* NSMutableArray+LZHelper.m */; };
+		3417C148AA5AEF0E6F3A94C14AB567DD /* LZStringUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = BB499C62F09A07D32B55EF161C26B430 /* LZStringUtil.m */; };
+		3BB75F63089129C3454B557AB238EAA4 /* NSString+LZUrlEncode.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D3FCC47E2CA333DA93D3C2FF8DA4550 /* NSString+LZUrlEncode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D445374FD627F69AB54E63EF2FD6A90 /* UIColor+LZHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 86A1D7B6465E8D1E5FB1C0DF36FED606 /* UIColor+LZHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3DFAA0F6FB2124DF62F41651A946F115 /* LZAppUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E2913BBB15E0FCA1AC88D9616400469 /* LZAppUtil.m */; };
+		3EFF2307875F3081C549674AE2BB4D98 /* CGRectExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E7B11C902905100B89D914619AC7B8D /* CGRectExtension.m */; };
+		3F1553108816DD7DECBE146D72244983 /* SSKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9E82430A400E730E0BF66CEACC2A42 /* SSKeychain.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		3FDF7C2D0A9D2A25F0D17A88002E8F78 /* NSMutableString+LZHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = D5C87C552DE5930365A3DE875C348EC2 /* NSMutableString+LZHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43D70C0BDEEB050CC0A07D7768D7EC2D /* LZCommonSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 77F99D8E65E1C7D14D3C5D8C1EE40C7A /* LZCommonSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4558BA358604C01460E88BE50D7FBAC5 /* LZEncryptUtl.m in Sources */ = {isa = PBXBuildFile; fileRef = 726F2274FC650A02557BDB7EBF69A4BA /* LZEncryptUtl.m */; };
+		45D5DA0EC62FDFF85A703BC4776F3A54 /* UIPasteboard+LZHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 60BDDFB280DB2D83920CD349D2D76634 /* UIPasteboard+LZHelper.m */; };
+		47468568DF52A71113AE86EC004CD082 /* NSTimer+LZHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 96CDF6C5C0D7E258E8403EB17FF9697E /* NSTimer+LZHelper.m */; };
+		4AEA549FF1284057ABBF17D3821C66D2 /* GSAudioUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = FE77BFCA5F021049114E251D2F165993 /* GSAudioUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C49088079BB360378F372061CEEAFD8 /* UIEvent+LZHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DF719C4A30CB8D28A14F2392F4340FC /* UIEvent+LZHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C566A7E9587FD8C3BDE7BE153200FEF /* LZSystemUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EF283296BBDE25F90DC13AE2630DD25 /* LZSystemUtil.m */; };
+		4F180DEA63269C0BC14E97A64B753503 /* UITextField+LZHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = F11DEBAB384B6688B16FA0F2A024AE37 /* UITextField+LZHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50F259ECC28742C66A269FD4FEA18A86 /* UIView+LZGusture.h in Headers */ = {isa = PBXBuildFile; fileRef = 572FDCFA3EAE203828D87DD2E349E45B /* UIView+LZGusture.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		51253B2322EC7EF147CB316ADC7809B8 /* UITableViewCell+LZHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CEB56551B3DB9A007490B8A5AE45B98 /* UITableViewCell+LZHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		516A3CA1467A239505C95A48758BCEA8 /* LZMathUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 95B9E7C847F802EAE4A3CA09477B47D8 /* LZMathUtil.m */; };
+		5248571629AEF03B6AFB6DFC0C182853 /* LZDispatch.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1374D6EF71FFCA4E2A5A01D26B4754 /* LZDispatch.m */; };
+		526368E8FC99A161A55C7B82E80897E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 415D34C9359813C824B0F16E1A2580A2 /* Foundation.framework */; };
+		52B15613B79078AEE5C89D8247FB725C /* NSURL+LZHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = BCACB34959E89703144E18137CF25B01 /* NSURL+LZHelper.m */; };
+		56BA23437FBA21D8CAE2F712B75E7226 /* UIScreen+LZHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 480E3C4496A0E3F6307E6A0CFDF441E6 /* UIScreen+LZHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5708735EC22F1F6D4332B41FBE868811 /* LZCommonSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F404EC36F6A3C8EC23BB8A8354711ECE /* LZCommonSDK-dummy.m */; };
+		57D07F5F6AA087F540D9E02E9D7C0666 /* UIImage+LZHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 3078BFCAF10AE08CB68F36C162196DE4 /* UIImage+LZHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C097FEE61C72D1E15A27DCCD76A5166 /* NSURL+LZHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = FEBD8BF251CA73C865D8F06D64AAD170 /* NSURL+LZHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C226B86E033F5A0B3FE395919B9FBB8 /* NSDictionary+LZHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A823FF1B3BB8BE2B5D6FBD0D4C97A6 /* NSDictionary+LZHelper.m */; };
+		5DFCAFAA067077BE8E5BE76A4DB51919 /* UIPasteboard+LZHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 50830D630A767894FC9313A4015194E4 /* UIPasteboard+LZHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5EE9CCDE1EDADDEB06CA09D2B2CCB786 /* NSObject+LZHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 087504E0AA38AD0134CEFEB043E99E74 /* NSObject+LZHelper.m */; };
+		5FE033B33153FCCD6C83784F930A812A /* UIImageView+LZHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = CD053FF045EAB0E45CEA94201DC08E17 /* UIImageView+LZHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		601DE5978F463E2996D33CF448F13ADD /* CGRectExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 94FFA94200A2D5EB0E1DC81A8BC15BAF /* CGRectExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6061EE42FA3F992A369DD987098EFB75 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 415D34C9359813C824B0F16E1A2580A2 /* Foundation.framework */; };
+		63DF0E7CD144E4BE04F80F887B15E613 /* NSString+LZHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B0773D0C75EAA72818591575BBE87335 /* NSString+LZHelper.m */; };
+		644F3B4552ED02783BBB2E0105CA70ED /* LZMacroDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AB0F337D0EDEFC6B489D2991C3E5C0E /* LZMacroDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		653B24881B913F52189C6E87B5138CC6 /* LZRandomUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A8B575530C3401A3D06A2AA810EBC7 /* LZRandomUtil.m */; };
+		669E019FE352EC84575ECE1BE2A8E320 /* LZReachabilityUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 74E7C7EC3393F66DCBB35E7B3BD2E39F /* LZReachabilityUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6900727C4E1DFB57F23340E462B0914D /* NSNumber+LZHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = D510635F8C05A75B97C4624817BD0862 /* NSNumber+LZHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		69A4043356BBC5EB52EAA4CAFF2595F3 /* UITableView+LZHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B4948FA52BE3F5E485E9CAECC0C55DEB /* UITableView+LZHelper.m */; };
+		6ACBD7AA81BC32DE0E90C733498C7E34 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 415D34C9359813C824B0F16E1A2580A2 /* Foundation.framework */; };
+		6D23F138B59454BDB00D992525CA81B1 /* NSObject+LZHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 182F0C9FB1ECD37A43C0C4F113B82A46 /* NSObject+LZHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6DB9DFC656AC7614AEF777A4A63F65CD /* UIApplication+LZHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = B0381F5838316686406E228CA180A3A6 /* UIApplication+LZHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7026DB94555E0592504F389F74D32B43 /* NSArray+LZHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 31FD034FA6FD8A1857E949E5B38E1F71 /* NSArray+LZHelper.m */; };
+		7229B182A392FF577FA24236AD3FBA56 /* Aspects-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C09D10E980BB3007DE9348AD8D7EEBD3 /* Aspects-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		726F126878F15D91E4823536163155C3 /* Pods-LZCommonSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FB91FCB49CA8B77089F35932D61C215D /* Pods-LZCommonSDK_Example-dummy.m */; };
+		78AC0C3F86385EB1264EEA3CAAD8DA50 /* LZNetworkUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 79BBA8A0BEBB8F5B8A1CEE4FFD2E81DA /* LZNetworkUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		794DBF407FDD67C95EA7F1333050B502 /* UIScrollView+LZHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F8F3EBEB86FA9F07D74EC0FEA8D1B7B /* UIScrollView+LZHelper.m */; };
+		7C782FCEB0E8F296EC9955E59F5727A3 /* UIViewController+LZHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B340CED5D9DEBDC061A2A619147502E3 /* UIViewController+LZHelper.m */; };
+		80CDC487C12EA3569F1717205A03432F /* UIEvent+LZHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = FBDA38B0095C8C7FAD0B357F6CACB167 /* UIEvent+LZHelper.m */; };
+		81138FE08F5A2DDF792325C49CBBE209 /* RegexKitLite-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BF301FC6DE1D63FD51401535E56E2DF /* RegexKitLite-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8652DC190C391B812C8A53487013651D /* LZImageUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A7B1CB1FF498637A61EFA9947A6A164 /* LZImageUtil.m */; };
+		8A66E949809B3C99B202E0CEEF28BD53 /* LZDispatch.h in Headers */ = {isa = PBXBuildFile; fileRef = E033975C7B117076CE682FE5D049B09E /* LZDispatch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B0AE8047754EA3A2E7F18CAA623FAA1 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAF5613575658D124C34B3BFA3A7D3DF /* Security.framework */; };
+		913B42B99B8C74D6678CDF7A9C90D7FA /* LZDeviceUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F1921A02EF5371903E089FE4C32DB14 /* LZDeviceUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94F718F084AF8A5B4994FA04FCDD7C17 /* UIView+LZFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = D80D7D0E74D3F39C1C6BA4EF60B0D141 /* UIView+LZFrame.m */; };
+		97089AAAE2972808CD97DBED0E058BA9 /* UIImage+LZHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE74B41EECCCEED4D6767D121214E20 /* UIImage+LZHelper.m */; };
+		983E42F8F0BD0C68DC1EC12865F66956 /* LZReachabilityUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = D92CD7C381ED419A9285889A92CD813F /* LZReachabilityUtil.m */; };
+		9B0921B775D31C18EFCF573A70673549 /* NSTimer+LZHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = CAFE7A952F4F7794DB6BDB9BDE0844DD /* NSTimer+LZHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D1F4169CA65F6A51C9CAD2AA65EBD61 /* NSNumber+LZHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D8DF327AAC3BD333248C360C5FB79340 /* NSNumber+LZHelper.m */; };
+		9D6CA42F32CE2D084861C878F11611DA /* LZDeviceUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C9BE0B3EF7B4D20AB81F011E3844C1A /* LZDeviceUtil.m */; };
+		9DE3C5937EE668051E70461B64A5DD1A /* LZAudioUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = D2C1A5B315535B102E78CB6F34B5EBE0 /* LZAudioUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A093CB0C3AEE316BC1D48ABABCC38D15 /* NSString+LZHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = BB02D1F5F962A846CF0247B68EC4A6BE /* NSString+LZHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1568757F9CA221AB86595D0770AB05C /* LZScreenUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 6565D1B347828C35796FD8F8F30040CB /* LZScreenUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5F76BCD45B4A76CE475338BE0EAC285 /* NSFileManager+LZHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 496ED027B460F5311D2DE7380FDF78DA /* NSFileManager+LZHelper.m */; };
+		ADA18BBE68FA436F04AD9C34FCAB7862 /* SSKeychain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D1865A3631C5935261BDE705B9E209A /* SSKeychain.framework */; };
+		B0C10C43C3471F3F84E2C7A975FA9AB5 /* LZUtilitiesSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = D66FBE54DD297E0B7ED13B705266AB8D /* LZUtilitiesSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B39DB0B9D5AD338B4B6D587D9A653E88 /* UIWebView+LZHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = BD9752D556BB1661E5FE909ADDDBA0BD /* UIWebView+LZHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B46FF1DBCB3A9D21CF2D1940D160F50B /* Pods-LZCommonSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B87AC56ADE9B2C17DCF72EFF61FD0BD6 /* Pods-LZCommonSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6DD1A3AD8E61AB5FEF65837729503F7 /* NSMutableString+LZHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F6393AAE0CD97F07882CB328A1A119 /* NSMutableString+LZHelper.m */; };
+		BCCABA5593B3694E6F1AF2EEABE71042 /* NSArray+LZHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A37FFBEAFF0157EA6DA418C762E6FBC /* NSArray+LZHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD26EED7815B277148FF1C1174975332 /* NSMutableArray+LZHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 17B58754CE48E7BE6D34F34F6387ABA0 /* NSMutableArray+LZHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C35906BF23BF54E9AC98A841613B18EF /* LZEncryptUtl.h in Headers */ = {isa = PBXBuildFile; fileRef = B264DB86AB3BBC03FA92E4F219A2E2BF /* LZEncryptUtl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C40C953A591723F560725406842978D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 415D34C9359813C824B0F16E1A2580A2 /* Foundation.framework */; };
+		C7CD67230D7C194159A6221F061BEF41 /* UIViewController+LZHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 88B6BA87D4437890068499852309F050 /* UIViewController+LZHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA0355BC386DF0203EA44E7AE97B4037 /* RegexKitLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17526E0FD3B7E57000CC0178EB9B399D /* RegexKitLite.framework */; };
+		CCFFDED14FDF3B948A611AF64823F26A /* NSUserDefaults+LZHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C1151B8E5DA97A4DF4617499B797032 /* NSUserDefaults+LZHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD8EEBDC0A58B8046F73596F7ECA8631 /* SSKeychainQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 37DBC9D57711A98DD6D0BB474164F86E /* SSKeychainQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFFACB60DA021D6FF639EF7B3FE5C03F /* LZStringUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = DB357D1047767C646383F49BEF565D91 /* LZStringUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D47BF722384752E95FB17318F6A7F4C2 /* UIView+LZHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = AFEEB797961340C5D4BC7EF925DC31DC /* UIView+LZHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D49C3594F0CF740F7BF4DF86DB40CD74 /* UILabel+LZHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E4292F7BE1C57F0A90A9497231DD0A4 /* UILabel+LZHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5A853EB430190DFA4A334468A7BDD01 /* UIScrollView+LZHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B130AFBB39221E23D0B7E216F5DD208 /* UIScrollView+LZHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D667DE188AA5E610A664ACEAE07302D2 /* LZSystemUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 63D46B8DB248C952A7A97F82830BE32F /* LZSystemUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D787D6D6035B36A381165BFF4649E9D0 /* LZCommonUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 4214842954A8E1D69DB808641EC49726 /* LZCommonUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D86DCB0797B1F4FE558921132C122468 /* SSKeychain.h in Headers */ = {isa = PBXBuildFile; fileRef = 657E6FBF98CFF9D2E9F188DE9CD6ED84 /* SSKeychain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DACACE2FF421EBACDFFB6DCEFBB424E9 /* LZJSONParseUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = DC82BDF1A1A0FD301CE2B5333EA9AAC9 /* LZJSONParseUtil.m */; };
+		DC42E5E575689FC2513F5320127F586A /* UITableView+LZHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = C5C4C446706D2F873330259F6284C9D1 /* UITableView+LZHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCBEA97C17A9CB4056EB3BF151223BA8 /* LZVideoUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 81E37B052794178754C4B49066DAD2B8 /* LZVideoUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD522240D5D8DB7E823FEA0B9EC92748 /* NSDate+LZHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F4FCAE4FD83C9751E0025DF43B3891FE /* NSDate+LZHelper.m */; };
+		DD661A39106CFF77B303A8004CD65A03 /* LZJSONParseUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = ED6D3E66235CD98A6F3C68B108FB6F0E /* LZJSONParseUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDEFAABDE90FAF41E42FF855E8AB7D47 /* SSKeychain-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D58DE3B77D2F67EE750A95B70D609540 /* SSKeychain-dummy.m */; };
+		DEF2EFE3BE882FC4A6F4226258F250A5 /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A32F2FB03313ED7899051EB5D1658A /* RegexKitLite.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2CB7695E7D51CDA1477C496C0782A5A /* NSDictionary+LZHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FC7E45A9F380D0EB2B56DC8FE713108 /* NSDictionary+LZHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E322B2A11EFF33225409B2FDE25461B4 /* NSMutableAttributedString+LZHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 765AEB6928ED9D47041F3B1B79F80F2E /* NSMutableAttributedString+LZHelper.m */; };
+		E4F779011EB232124D530CDFC9EA7CA9 /* UIImageView+LZHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = AB84746E48159999A128BD5F93124469 /* UIImageView+LZHelper.m */; };
+		E676133F96AB3BF7F7A5CEDFADE860ED /* UIButton+LZHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 1620D494DCAEC7A9474C364B9ADDD256 /* UIButton+LZHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA8EEEE587B2AC41D348FDAE2406D2EA /* NSString+LZUrlEncode.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F516C5A76851566263F89E218523DA /* NSString+LZUrlEncode.m */; };
+		EF863607F024BED02322224EE5F57A1A /* LZNetworkUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBCF4167284783F56FB82F0DF9AD5E2 /* LZNetworkUtil.m */; };
+		F0AE7A90DC17757A4799C5FB36EEB83A /* Aspects-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C931430AC377BBDF72D41F937C51D873 /* Aspects-dummy.m */; };
+		F218CCA218FD681C2ABFC2A9E9DD955D /* SSKeychain-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 55A69C6B43D866FF7AB15A859C743B73 /* SSKeychain-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F295401A49378CC7005286F15145FF55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 415D34C9359813C824B0F16E1A2580A2 /* Foundation.framework */; };
+		F8B5229E3A985163914D704BAE60975B /* LZVideoUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 971FF753E32967B01D810C9CD4BACA53 /* LZVideoUtil.m */; };
+		FBCD388DE486E4AE30FD542EB18852F8 /* UIView+LZFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 4590AB0815EA7C57C4FE49B197B1C467 /* UIView+LZFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD2E6D47B5B1E15D6E62DFD43DED59C7 /* NSMutableAttributedString+LZHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F218F10C9C52A1FC3BB74E6B748D45A /* NSMutableAttributedString+LZHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD866315D38A13BA3ECABACCF54AA418 /* UIScreen+LZHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C448881B65B470881BA6F4C2782F71D7 /* UIScreen+LZHelper.m */; };
+		FDEB820D58FC28E711A6B8DD194FC1DF /* UIButton+LZHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA000A7703545703F51646AADF3DDB9 /* UIButton+LZHelper.m */; };
+		FFB8BFC81B6C65C40F439ECEB2CE3987 /* LZCommonUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 130C7A8313B3DA55CFE15BEA6F02C9A9 /* LZCommonUtil.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -129,175 +151,271 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C9FBACD526C3FFB2C681161847F1BC30;
+			remoteGlobalIDString = 085A148379FF76CC3413073AAB7DD829;
 			remoteInfo = "Pods-LZCommonSDK_Example";
 		};
-		8C58214CEE0CE419A51D85AFC62C9EBF /* PBXContainerItemProxy */ = {
+		5CEEB9627B69596A335A5B4B70E17E1E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6EB19C4C4395CA7DD6BC54C06D22C67F;
+			remoteGlobalIDString = F768458E596D76F0041F653B446C0788;
+			remoteInfo = SSKeychain;
+		};
+		AF5CC6F56FDB5D01818AFD8F7A911B59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDAE3D54CBAA4D24A73E2AD3B9863F79;
+			remoteInfo = RegexKitLite;
+		};
+		C40A709E70A8B59B94CDC36E5E1A1054 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FE394C39AC89A793C75CF8D2E6C8643;
+			remoteInfo = Aspects;
+		};
+		CCD0D337CA6BD38E3359E2BF1E55416C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FE394C39AC89A793C75CF8D2E6C8643;
+			remoteInfo = Aspects;
+		};
+		D69B61FF5366E1F28BC622EEE1C5F75A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B55F31D317B070DB9D75883165CB2C8E;
 			remoteInfo = LZCommonSDK;
+		};
+		E4210D44A80C73D34EAFCC67221DE4CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDAE3D54CBAA4D24A73E2AD3B9863F79;
+			remoteInfo = RegexKitLite;
+		};
+		EC12E77699B3859F7C8AC4CE69A4756E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F768458E596D76F0041F653B446C0788;
+			remoteInfo = SSKeychain;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01B43ACC89CA0D622486B26368ACED5B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		0118BE0C3DDA37902D7597EE8C822EF9 /* NSMutableArray+LZHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+LZHelper.m"; sourceTree = "<group>"; };
+		012D611F7630308AF5E519CE2F5D34E4 /* LZReachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LZReachability.h; sourceTree = "<group>"; };
 		03FD958F8382D5D500737744016F5205 /* Pods-LZCommonSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LZCommonSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
+		087504E0AA38AD0134CEFEB043E99E74 /* NSObject+LZHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LZHelper.m"; sourceTree = "<group>"; };
+		08F6393AAE0CD97F07882CB328A1A119 /* NSMutableString+LZHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSMutableString+LZHelper.m"; sourceTree = "<group>"; };
+		0AE2435C55888E3057A803781A19AE98 /* UIView+LZHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+LZHelper.m"; sourceTree = "<group>"; };
+		0B05683C5404A512D03535822FCF6A30 /* UIApplication+LZHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+LZHelper.m"; sourceTree = "<group>"; };
+		0B7ACF7C12617B865712EF3AD9085077 /* UIView+LZGusture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+LZGusture.m"; sourceTree = "<group>"; };
+		0D1865A3631C5935261BDE705B9E209A /* SSKeychain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SSKeychain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E7B11C902905100B89D914619AC7B8D /* CGRectExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CGRectExtension.m; sourceTree = "<group>"; };
+		1066D4C704B3F30ECD76E6A0889766C8 /* LZMathUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LZMathUtil.h; sourceTree = "<group>"; };
+		119E59C8F866790666E89609A1037431 /* LZCommonSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = LZCommonSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		130C7A8313B3DA55CFE15BEA6F02C9A9 /* LZCommonUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LZCommonUtil.m; sourceTree = "<group>"; };
+		13BCAE6320E4EDA6A6C6FDF93C8507D2 /* LZAppUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LZAppUtil.h; sourceTree = "<group>"; };
+		1416EDFF71584ECC42FF23B4C17874FD /* RegexKitLite.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RegexKitLite.xcconfig; sourceTree = "<group>"; };
+		1620D494DCAEC7A9474C364B9ADDD256 /* UIButton+LZHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButton+LZHelper.h"; sourceTree = "<group>"; };
+		17526E0FD3B7E57000CC0178EB9B399D /* RegexKitLite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RegexKitLite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		17B58754CE48E7BE6D34F34F6387ABA0 /* NSMutableArray+LZHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+LZHelper.h"; sourceTree = "<group>"; };
+		182F0C9FB1ECD37A43C0C4F113B82A46 /* NSObject+LZHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+LZHelper.h"; sourceTree = "<group>"; };
+		18A8B575530C3401A3D06A2AA810EBC7 /* LZRandomUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LZRandomUtil.m; sourceTree = "<group>"; };
+		192AA91937AF794C0B4EFBC5685B41D1 /* RegexKitLite-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RegexKitLite-dummy.m"; sourceTree = "<group>"; };
+		1BC1DC193B8F90C6C1068EA5060C6107 /* UIColor+LZHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+LZHelper.m"; sourceTree = "<group>"; };
+		1CF8113D6958EE1DAA09AEC83A7DE58B /* SSKeychain.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SSKeychain.modulemap; sourceTree = "<group>"; };
+		1EF283296BBDE25F90DC13AE2630DD25 /* LZSystemUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LZSystemUtil.m; sourceTree = "<group>"; };
 		249D24C15ED9914BB8D0BA4905409791 /* Pods-LZCommonSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LZCommonSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2F218F10C9C52A1FC3BB74E6B748D45A /* NSMutableAttributedString+LZHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+LZHelper.h"; sourceTree = "<group>"; };
+		2F8F3EBEB86FA9F07D74EC0FEA8D1B7B /* UIScrollView+LZHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+LZHelper.m"; sourceTree = "<group>"; };
+		2F9E82430A400E730E0BF66CEACC2A42 /* SSKeychain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SSKeychain.m; path = Sources/SSKeychain.m; sourceTree = "<group>"; };
 		2FC7D76233DE26EB35E5F543096FD1F9 /* Pods-LZCommonSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LZCommonSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
-		396139CB649B3B83C1067EEACF29EBA9 /* LZCommonSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LZCommonSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FEF0F827EEE0322BE263F6A46D2FC0B /* LZReachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LZReachability.m; sourceTree = "<group>"; };
+		3078BFCAF10AE08CB68F36C162196DE4 /* UIImage+LZHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+LZHelper.h"; sourceTree = "<group>"; };
+		310B0750B558FA646EEF6B085E16BBD4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31FD034FA6FD8A1857E949E5B38E1F71 /* NSArray+LZHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+LZHelper.m"; sourceTree = "<group>"; };
+		32A32F2FB03313ED7899051EB5D1658A /* RegexKitLite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RegexKitLite.m; sourceTree = "<group>"; };
+		37DBC9D57711A98DD6D0BB474164F86E /* SSKeychainQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSKeychainQuery.h; path = Sources/SSKeychainQuery.h; sourceTree = "<group>"; };
+		37F24574E68BC513334A90CE4CDC5CB4 /* Aspects-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Aspects-prefix.pch"; sourceTree = "<group>"; };
 		39E7C48AC16DF06965FE9FDFC66A44F5 /* Pods-LZCommonSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LZCommonSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		3A240F542882D35A26AA7AE8122F30D4 /* LZCommonSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LZCommonSDK-prefix.pch"; sourceTree = "<group>"; };
+		3A7B1CB1FF498637A61EFA9947A6A164 /* LZImageUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LZImageUtil.m; sourceTree = "<group>"; };
+		3C1151B8E5DA97A4DF4617499B797032 /* NSUserDefaults+LZHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+LZHelper.h"; sourceTree = "<group>"; };
+		3DE74B41EECCCEED4D6767D121214E20 /* UIImage+LZHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+LZHelper.m"; sourceTree = "<group>"; };
+		415D34C9359813C824B0F16E1A2580A2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4214842954A8E1D69DB808641EC49726 /* LZCommonUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LZCommonUtil.h; sourceTree = "<group>"; };
 		43E60325AC0F726DB3E69BEF72D19680 /* Pods-LZCommonSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LZCommonSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4889F12D212D5C3200983A82 /* LZReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZReachability.m; sourceTree = "<group>"; };
-		4889F12E212D5C3200983A82 /* LZReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZReachability.h; sourceTree = "<group>"; };
-		4889F12F212D5C3200983A82 /* LZMacroDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LZMacroDefine.h; path = LZCommonSDK/Classes/LZMacroDefine.h; sourceTree = "<group>"; };
-		4889F131212D5C3200983A82 /* UIImage+LZHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+LZHelper.m"; sourceTree = "<group>"; };
-		4889F132212D5C3200983A82 /* LZHelperSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZHelperSDK.h; sourceTree = "<group>"; };
-		4889F133212D5C3200983A82 /* UIApplication+LZHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+LZHelper.m"; sourceTree = "<group>"; };
-		4889F134212D5C3200983A82 /* NSNumber+LZHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+LZHelper.h"; sourceTree = "<group>"; };
-		4889F135212D5C3200983A82 /* NSURL+LZHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+LZHelper.h"; sourceTree = "<group>"; };
-		4889F136212D5C3200983A82 /* UIPasteboard+LZHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIPasteboard+LZHelper.h"; sourceTree = "<group>"; };
-		4889F137212D5C3200983A82 /* UIEvent+LZHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIEvent+LZHelper.h"; sourceTree = "<group>"; };
-		4889F138212D5C3200983A82 /* NSDate+LZHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+LZHelper.m"; sourceTree = "<group>"; };
-		4889F139212D5C3200983A82 /* NSFileManager+LZHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+LZHelper.m"; sourceTree = "<group>"; };
-		4889F13A212D5C3200983A82 /* NSUserDefaults+LZHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+LZHelper.m"; sourceTree = "<group>"; };
-		4889F13B212D5C3200983A82 /* UIColor+LZHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+LZHelper.h"; sourceTree = "<group>"; };
-		4889F13C212D5C3200983A82 /* NSObject+LZHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+LZHelper.h"; sourceTree = "<group>"; };
-		4889F13D212D5C3200983A82 /* NSTimer+LZHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+LZHelper.h"; sourceTree = "<group>"; };
-		4889F13E212D5C3200983A82 /* UIScreen+LZHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+LZHelper.m"; sourceTree = "<group>"; };
-		4889F140212D5C3200983A82 /* UIViewController+LZHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+LZHelper.h"; sourceTree = "<group>"; };
-		4889F141212D5C3200983A82 /* UIViewController+LZHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+LZHelper.m"; sourceTree = "<group>"; };
-		4889F143212D5C3200983A82 /* NSArray+LZHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+LZHelper.m"; sourceTree = "<group>"; };
-		4889F144212D5C3200983A82 /* NSMutableArray+LZHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+LZHelper.h"; sourceTree = "<group>"; };
-		4889F145212D5C3200983A82 /* NSDictionary+LZHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+LZHelper.h"; sourceTree = "<group>"; };
-		4889F146212D5C3200983A82 /* NSArray+LZHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+LZHelper.h"; sourceTree = "<group>"; };
-		4889F147212D5C3200983A82 /* NSMutableArray+LZHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+LZHelper.m"; sourceTree = "<group>"; };
-		4889F148212D5C3200983A82 /* NSDictionary+LZHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+LZHelper.m"; sourceTree = "<group>"; };
-		4889F149212D5C3200983A82 /* UIApplication+LZHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+LZHelper.h"; sourceTree = "<group>"; };
-		4889F14A212D5C3200983A82 /* NSNumber+LZHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+LZHelper.m"; sourceTree = "<group>"; };
-		4889F14C212D5C3200983A82 /* NSString+LZHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+LZHelper.h"; sourceTree = "<group>"; };
-		4889F14D212D5C3200983A82 /* NSMutableString+LZHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableString+LZHelper.m"; sourceTree = "<group>"; };
-		4889F14E212D5C3200983A82 /* NSString+LZUrlEncode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+LZUrlEncode.h"; sourceTree = "<group>"; };
-		4889F14F212D5C3200983A82 /* NSMutableAttributedString+LZHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+LZHelper.h"; sourceTree = "<group>"; };
-		4889F150212D5C3200983A82 /* NSMutableString+LZHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableString+LZHelper.h"; sourceTree = "<group>"; };
-		4889F151212D5C3200983A82 /* NSString+LZHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+LZHelper.m"; sourceTree = "<group>"; };
-		4889F152212D5C3200983A82 /* NSMutableAttributedString+LZHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+LZHelper.m"; sourceTree = "<group>"; };
-		4889F153212D5C3200983A82 /* NSString+LZUrlEncode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+LZUrlEncode.m"; sourceTree = "<group>"; };
-		4889F154212D5C3200983A82 /* UIImage+LZHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+LZHelper.h"; sourceTree = "<group>"; };
-		4889F155212D5C3200983A82 /* NSDate+LZHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+LZHelper.h"; sourceTree = "<group>"; };
-		4889F157212D5C3200983A82 /* UIScrollView+LZHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+LZHelper.h"; sourceTree = "<group>"; };
-		4889F158212D5C3200983A82 /* UIWebView+LZHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+LZHelper.h"; sourceTree = "<group>"; };
-		4889F159212D5C3200983A82 /* UITableView+LZHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+LZHelper.m"; sourceTree = "<group>"; };
-		4889F15A212D5C3200983A82 /* UIView+LZFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LZFrame.m"; sourceTree = "<group>"; };
-		4889F15B212D5C3200983A82 /* UIImageView+LZHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+LZHelper.m"; sourceTree = "<group>"; };
-		4889F15C212D5C3200983A82 /* UILabel+LZHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+LZHelper.m"; sourceTree = "<group>"; };
-		4889F15D212D5C3200983A82 /* UIView+LZHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LZHelper.m"; sourceTree = "<group>"; };
-		4889F15E212D5C3200983A82 /* UIView+LZGusture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LZGusture.m"; sourceTree = "<group>"; };
-		4889F15F212D5C3200983A82 /* UIButton+LZHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+LZHelper.m"; sourceTree = "<group>"; };
-		4889F160212D5C3200983A82 /* UITableViewCell+LZHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+LZHelper.h"; sourceTree = "<group>"; };
-		4889F161212D5C3200983A82 /* UITextField+LZHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+LZHelper.h"; sourceTree = "<group>"; };
-		4889F162212D5C3200983A82 /* UITableView+LZHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+LZHelper.h"; sourceTree = "<group>"; };
-		4889F163212D5C3200983A82 /* UIScrollView+LZHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+LZHelper.m"; sourceTree = "<group>"; };
-		4889F164212D5C3200983A82 /* UIWebView+LZHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+LZHelper.m"; sourceTree = "<group>"; };
-		4889F165212D5C3200983A82 /* UIImageView+LZHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+LZHelper.h"; sourceTree = "<group>"; };
-		4889F166212D5C3200983A82 /* UIView+LZFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LZFrame.h"; sourceTree = "<group>"; };
-		4889F167212D5C3200983A82 /* UILabel+LZHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+LZHelper.h"; sourceTree = "<group>"; };
-		4889F168212D5C3200983A82 /* UITableViewCell+LZHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+LZHelper.m"; sourceTree = "<group>"; };
-		4889F169212D5C3200983A82 /* UITextField+LZHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+LZHelper.m"; sourceTree = "<group>"; };
-		4889F16A212D5C3200983A82 /* UIButton+LZHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+LZHelper.h"; sourceTree = "<group>"; };
-		4889F16B212D5C3200983A82 /* UIView+LZGusture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LZGusture.h"; sourceTree = "<group>"; };
-		4889F16C212D5C3200983A82 /* UIView+LZHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LZHelper.h"; sourceTree = "<group>"; };
-		4889F16D212D5C3200983A82 /* UIEvent+LZHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIEvent+LZHelper.m"; sourceTree = "<group>"; };
-		4889F16E212D5C3200983A82 /* UIPasteboard+LZHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIPasteboard+LZHelper.m"; sourceTree = "<group>"; };
-		4889F16F212D5C3200983A82 /* NSURL+LZHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+LZHelper.m"; sourceTree = "<group>"; };
-		4889F170212D5C3200983A82 /* NSUserDefaults+LZHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+LZHelper.h"; sourceTree = "<group>"; };
-		4889F171212D5C3200983A82 /* NSFileManager+LZHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+LZHelper.h"; sourceTree = "<group>"; };
-		4889F172212D5C3200983A82 /* UIScreen+LZHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScreen+LZHelper.h"; sourceTree = "<group>"; };
-		4889F173212D5C3200983A82 /* NSTimer+LZHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+LZHelper.m"; sourceTree = "<group>"; };
-		4889F174212D5C3200983A82 /* NSObject+LZHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LZHelper.m"; sourceTree = "<group>"; };
-		4889F175212D5C3200983A82 /* UIColor+LZHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+LZHelper.m"; sourceTree = "<group>"; };
-		4889F177212D5C3300983A82 /* LZRandomUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZRandomUtil.m; sourceTree = "<group>"; };
-		4889F178212D5C3300983A82 /* CGRectExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGRectExtension.m; sourceTree = "<group>"; };
-		4889F179212D5C3300983A82 /* LZMathUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZMathUtil.m; sourceTree = "<group>"; };
-		4889F17A212D5C3300983A82 /* LZStringUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZStringUtil.h; sourceTree = "<group>"; };
-		4889F17B212D5C3300983A82 /* LZImageUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZImageUtil.h; sourceTree = "<group>"; };
-		4889F17D212D5C3300983A82 /* LZNetworkUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZNetworkUtil.m; sourceTree = "<group>"; };
-		4889F17E212D5C3300983A82 /* LZReachabilityUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZReachabilityUtil.h; sourceTree = "<group>"; };
-		4889F17F212D5C3300983A82 /* LZReachabilityUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZReachabilityUtil.m; sourceTree = "<group>"; };
-		4889F180212D5C3300983A82 /* LZNetworkUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZNetworkUtil.h; sourceTree = "<group>"; };
-		4889F181212D5C3300983A82 /* LZCommonUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZCommonUtil.m; sourceTree = "<group>"; };
-		4889F182212D5C3300983A82 /* LZDispatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZDispatch.m; sourceTree = "<group>"; };
-		4889F184212D5C3300983A82 /* LZSystemUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZSystemUtil.h; sourceTree = "<group>"; };
-		4889F185212D5C3300983A82 /* LZScreenUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZScreenUtil.h; sourceTree = "<group>"; };
-		4889F186212D5C3300983A82 /* LZAppUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZAppUtil.m; sourceTree = "<group>"; };
-		4889F187212D5C3300983A82 /* LZDeviceUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZDeviceUtil.h; sourceTree = "<group>"; };
-		4889F188212D5C3300983A82 /* LZAppUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZAppUtil.h; sourceTree = "<group>"; };
-		4889F189212D5C3300983A82 /* LZScreenUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZScreenUtil.m; sourceTree = "<group>"; };
-		4889F18A212D5C3300983A82 /* LZSystemUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZSystemUtil.m; sourceTree = "<group>"; };
-		4889F18B212D5C3300983A82 /* LZDeviceUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZDeviceUtil.m; sourceTree = "<group>"; };
-		4889F18C212D5C3300983A82 /* LZMathUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZMathUtil.h; sourceTree = "<group>"; };
-		4889F18D212D5C3300983A82 /* CGRectExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGRectExtension.h; sourceTree = "<group>"; };
-		4889F18E212D5C3300983A82 /* LZRandomUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZRandomUtil.h; sourceTree = "<group>"; };
-		4889F18F212D5C3300983A82 /* LZImageUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZImageUtil.m; sourceTree = "<group>"; };
-		4889F191212D5C3300983A82 /* LZJSONParseUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZJSONParseUtil.m; sourceTree = "<group>"; };
-		4889F192212D5C3300983A82 /* LZEncryptUtl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZEncryptUtl.m; sourceTree = "<group>"; };
-		4889F193212D5C3300983A82 /* LZJSONParseUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZJSONParseUtil.h; sourceTree = "<group>"; };
-		4889F194212D5C3300983A82 /* LZEncryptUtl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZEncryptUtl.h; sourceTree = "<group>"; };
-		4889F195212D5C3300983A82 /* LZStringUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZStringUtil.m; sourceTree = "<group>"; };
-		4889F196212D5C3300983A82 /* LZDispatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZDispatch.h; sourceTree = "<group>"; };
-		4889F197212D5C3300983A82 /* LZCommonUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZCommonUtil.h; sourceTree = "<group>"; };
-		4889F198212D5C3300983A82 /* LZUtilitiesSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZUtilitiesSDK.h; sourceTree = "<group>"; };
-		4889F19A212D5C3300983A82 /* LZVideoUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZVideoUtil.m; sourceTree = "<group>"; };
-		4889F19B212D5C3300983A82 /* LZFileUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZFileUtil.h; sourceTree = "<group>"; };
-		4889F19C212D5C3300983A82 /* LZAudioUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZAudioUtil.m; sourceTree = "<group>"; };
-		4889F19D212D5C3300983A82 /* LZAudioUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZAudioUtil.h; sourceTree = "<group>"; };
-		4889F19E212D5C3300983A82 /* LZFileUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZFileUtil.m; sourceTree = "<group>"; };
-		4889F19F212D5C3300983A82 /* LZVideoUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZVideoUtil.h; sourceTree = "<group>"; };
-		4889F1A0212D5C3300983A82 /* GSAudioUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSAudioUtil.h; sourceTree = "<group>"; };
-		55951FD22E0E31F1582BE0BFEA0725B8 /* LZCommonSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = LZCommonSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4590AB0815EA7C57C4FE49B197B1C467 /* UIView+LZFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+LZFrame.h"; sourceTree = "<group>"; };
+		480E3C4496A0E3F6307E6A0CFDF441E6 /* UIScreen+LZHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIScreen+LZHelper.h"; sourceTree = "<group>"; };
+		496ED027B460F5311D2DE7380FDF78DA /* NSFileManager+LZHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+LZHelper.m"; sourceTree = "<group>"; };
+		4A37FFBEAFF0157EA6DA418C762E6FBC /* NSArray+LZHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+LZHelper.h"; sourceTree = "<group>"; };
+		4B130AFBB39221E23D0B7E216F5DD208 /* UIScrollView+LZHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+LZHelper.h"; sourceTree = "<group>"; };
+		4BF301FC6DE1D63FD51401535E56E2DF /* RegexKitLite-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RegexKitLite-umbrella.h"; sourceTree = "<group>"; };
+		50830D630A767894FC9313A4015194E4 /* UIPasteboard+LZHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIPasteboard+LZHelper.h"; sourceTree = "<group>"; };
+		50E353155B58FB51920BB386901468F5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55A69C6B43D866FF7AB15A859C743B73 /* SSKeychain-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SSKeychain-umbrella.h"; sourceTree = "<group>"; };
+		5702A38DD2568A55FAC0957E9E50F3BA /* Aspects.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Aspects.m; sourceTree = "<group>"; };
+		572FDCFA3EAE203828D87DD2E349E45B /* UIView+LZGusture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+LZGusture.h"; sourceTree = "<group>"; };
+		5AB0F337D0EDEFC6B489D2991C3E5C0E /* LZMacroDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LZMacroDefine.h; path = LZCommonSDK/Classes/LZMacroDefine.h; sourceTree = "<group>"; };
+		5C3D67448070AF09FFE3B1F5A86BCA5F /* Aspects.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Aspects.h; sourceTree = "<group>"; };
+		5DA23CBBCCD79305153A577D634C1687 /* LZCommonSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LZCommonSDK.framework; path = LZCommonSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F1921A02EF5371903E089FE4C32DB14 /* LZDeviceUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LZDeviceUtil.h; sourceTree = "<group>"; };
+		6063BC02EA5745F7AE803BFA9804B150 /* LZFileUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LZFileUtil.m; sourceTree = "<group>"; };
+		6092161D5935D24EED5123B87A64C2AF /* Aspects.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Aspects.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		60BDDFB280DB2D83920CD349D2D76634 /* UIPasteboard+LZHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIPasteboard+LZHelper.m"; sourceTree = "<group>"; };
+		63D46B8DB248C952A7A97F82830BE32F /* LZSystemUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LZSystemUtil.h; sourceTree = "<group>"; };
+		6565D1B347828C35796FD8F8F30040CB /* LZScreenUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LZScreenUtil.h; sourceTree = "<group>"; };
+		657E6FBF98CFF9D2E9F188DE9CD6ED84 /* SSKeychain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSKeychain.h; path = Sources/SSKeychain.h; sourceTree = "<group>"; };
+		66E6213042754021E1D62FE9B6B55E47 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		68F516C5A76851566263F89E218523DA /* NSString+LZUrlEncode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+LZUrlEncode.m"; sourceTree = "<group>"; };
+		6953600BBFE5FEB720B08580BED48A94 /* SSKeychain.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SSKeychain.bundle; path = Support/SSKeychain.bundle; sourceTree = "<group>"; };
 		6AD51392878B4F7985E293B340267539 /* Pods-LZCommonSDK_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LZCommonSDK_Tests-resources.sh"; sourceTree = "<group>"; };
+		6C9BE0B3EF7B4D20AB81F011E3844C1A /* LZDeviceUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LZDeviceUtil.m; sourceTree = "<group>"; };
+		6FC7E45A9F380D0EB2B56DC8FE713108 /* NSDictionary+LZHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+LZHelper.h"; sourceTree = "<group>"; };
+		726F2274FC650A02557BDB7EBF69A4BA /* LZEncryptUtl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LZEncryptUtl.m; sourceTree = "<group>"; };
+		72A6CEA649204F9FD81D9D658C652B11 /* SSKeychain.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SSKeychain.xcconfig; sourceTree = "<group>"; };
 		7374946C6175769D4875B4AEBDD3ADE8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74E7C7EC3393F66DCBB35E7B3BD2E39F /* LZReachabilityUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LZReachabilityUtil.h; sourceTree = "<group>"; };
+		765AEB6928ED9D47041F3B1B79F80F2E /* NSMutableAttributedString+LZHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+LZHelper.m"; sourceTree = "<group>"; };
 		77964C3C6E050EA457520BA59D453E0F /* Pods-LZCommonSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LZCommonSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		77F99D8E65E1C7D14D3C5D8C1EE40C7A /* LZCommonSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LZCommonSDK-umbrella.h"; sourceTree = "<group>"; };
+		784AF727A8B7226068CE370CD8E34AE5 /* Pods_LZCommonSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LZCommonSDK_Example.framework; path = "Pods-LZCommonSDK_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79BBA8A0BEBB8F5B8A1CEE4FFD2E81DA /* LZNetworkUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LZNetworkUtil.h; sourceTree = "<group>"; };
 		7C53BF801B97EBABC30B482E28FE9BA8 /* Pods-LZCommonSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LZCommonSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		7CC841F65C6CBE631572A56EFD196EF7 /* Pods-LZCommonSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LZCommonSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7D3FCC47E2CA333DA93D3C2FF8DA4550 /* NSString+LZUrlEncode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+LZUrlEncode.h"; sourceTree = "<group>"; };
+		7E4292F7BE1C57F0A90A9497231DD0A4 /* UILabel+LZHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UILabel+LZHelper.h"; sourceTree = "<group>"; };
+		8087307779ADD0AD973FC22F672A6F09 /* RegexKitLite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RegexKitLite.h; sourceTree = "<group>"; };
+		810632797F91DBFACF793E3CC2C7EC9C /* Aspects.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Aspects.modulemap; sourceTree = "<group>"; };
+		81E37B052794178754C4B49066DAD2B8 /* LZVideoUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LZVideoUtil.h; sourceTree = "<group>"; };
+		82BAC1CDE082B4DBBC4D98A622C4A515 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		84A823FF1B3BB8BE2B5D6FBD0D4C97A6 /* NSDictionary+LZHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+LZHelper.m"; sourceTree = "<group>"; };
+		86A1D7B6465E8D1E5FB1C0DF36FED606 /* UIColor+LZHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+LZHelper.h"; sourceTree = "<group>"; };
+		885719FA8BD3BA561AC5F2F834E2D373 /* UITableViewCell+LZHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+LZHelper.m"; sourceTree = "<group>"; };
+		88B6BA87D4437890068499852309F050 /* UIViewController+LZHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+LZHelper.h"; sourceTree = "<group>"; };
+		894AF0C00EA4F9AE14C6B7A00C740794 /* UILabel+LZHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UILabel+LZHelper.m"; sourceTree = "<group>"; };
+		8B8EB8A4B6B55CB99FFB8653034306E0 /* LZImageUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LZImageUtil.h; sourceTree = "<group>"; };
+		8CA000A7703545703F51646AADF3DDB9 /* UIButton+LZHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIButton+LZHelper.m"; sourceTree = "<group>"; };
+		8CEB56551B3DB9A007490B8A5AE45B98 /* UITableViewCell+LZHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+LZHelper.h"; sourceTree = "<group>"; };
 		92678B54FD20DF5D7C2EBD4CEFBE14C7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A87A216BAC82C1F2DB71C36ED0DBA06C /* Pods_LZCommonSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LZCommonSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AC712BD31415ADB1BFF05999E78F9977 /* LZCommonSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LZCommonSDK-umbrella.h"; sourceTree = "<group>"; };
-		B7460EC7F3444ED54FFFAD3C54498DE3 /* LZCommonSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LZCommonSDK-dummy.m"; sourceTree = "<group>"; };
+		93844929C30DD0D65B22F80AECB9C42C /* LZCommonSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LZCommonSDK-prefix.pch"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9490D2AEAF2D1DB7B6A7491D9B76F047 /* SSKeychainQuery.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SSKeychainQuery.m; path = Sources/SSKeychainQuery.m; sourceTree = "<group>"; };
+		94FFA94200A2D5EB0E1DC81A8BC15BAF /* CGRectExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CGRectExtension.h; sourceTree = "<group>"; };
+		95B9E7C847F802EAE4A3CA09477B47D8 /* LZMathUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LZMathUtil.m; sourceTree = "<group>"; };
+		96CDF6C5C0D7E258E8403EB17FF9697E /* NSTimer+LZHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+LZHelper.m"; sourceTree = "<group>"; };
+		971FF753E32967B01D810C9CD4BACA53 /* LZVideoUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LZVideoUtil.m; sourceTree = "<group>"; };
+		9DF719C4A30CB8D28A14F2392F4340FC /* UIEvent+LZHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIEvent+LZHelper.h"; sourceTree = "<group>"; };
+		9E2913BBB15E0FCA1AC88D9616400469 /* LZAppUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LZAppUtil.m; sourceTree = "<group>"; };
+		A1216937606667577A317686814B67D0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2FCB1933DC44436BD0B59C492BFCA43 /* LZRandomUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LZRandomUtil.h; sourceTree = "<group>"; };
+		A3151EDC151444DB0056F7AD1832BB96 /* LZCommonSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LZCommonSDK.xcconfig; sourceTree = "<group>"; };
+		A41C1A4D0A94007663FC8A83B241E45D /* LZAudioUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LZAudioUtil.m; sourceTree = "<group>"; };
+		AB84746E48159999A128BD5F93124469 /* UIImageView+LZHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+LZHelper.m"; sourceTree = "<group>"; };
+		AE9ABEB90D4593066B2525471DAE710B /* NSUserDefaults+LZHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+LZHelper.m"; sourceTree = "<group>"; };
+		AFEEB797961340C5D4BC7EF925DC31DC /* UIView+LZHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+LZHelper.h"; sourceTree = "<group>"; };
+		B0381F5838316686406E228CA180A3A6 /* UIApplication+LZHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIApplication+LZHelper.h"; sourceTree = "<group>"; };
+		B0773D0C75EAA72818591575BBE87335 /* NSString+LZHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+LZHelper.m"; sourceTree = "<group>"; };
+		B15938E5B79937F6492E3EDF600BBA6D /* Aspects.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Aspects.framework; path = Aspects.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B264DB86AB3BBC03FA92E4F219A2E2BF /* LZEncryptUtl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LZEncryptUtl.h; sourceTree = "<group>"; };
+		B340CED5D9DEBDC061A2A619147502E3 /* UIViewController+LZHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+LZHelper.m"; sourceTree = "<group>"; };
+		B4948FA52BE3F5E485E9CAECC0C55DEB /* UITableView+LZHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITableView+LZHelper.m"; sourceTree = "<group>"; };
 		B87AC56ADE9B2C17DCF72EFF61FD0BD6 /* Pods-LZCommonSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LZCommonSDK_Example-umbrella.h"; sourceTree = "<group>"; };
+		B89058FC8C99A87242F444F82488C9DF /* LZFileUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LZFileUtil.h; sourceTree = "<group>"; };
 		B958208AE2B7D10925B1642D2E5DCD99 /* Pods-LZCommonSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LZCommonSDK_Tests.modulemap"; sourceTree = "<group>"; };
-		BABB775F1CC70958273D51565EA73A87 /* Pods_LZCommonSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LZCommonSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C57D6225A1BCF1D71BBCE8509A7F24FD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C7167491F28F4A1ECC519EDDF6CC34B1 /* LZCommonSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LZCommonSDK.modulemap; sourceTree = "<group>"; };
-		CA5637A6A7289E2B1AF5B100AA53D9E7 /* LZCommonSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LZCommonSDK.xcconfig; sourceTree = "<group>"; };
+		BA1F63969D818ADCC76AFB67CA0CE0C0 /* RegexKitLite-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RegexKitLite-prefix.pch"; sourceTree = "<group>"; };
+		BB02D1F5F962A846CF0247B68EC4A6BE /* NSString+LZHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+LZHelper.h"; sourceTree = "<group>"; };
+		BB499C62F09A07D32B55EF161C26B430 /* LZStringUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LZStringUtil.m; sourceTree = "<group>"; };
+		BCACB34959E89703144E18137CF25B01 /* NSURL+LZHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSURL+LZHelper.m"; sourceTree = "<group>"; };
+		BD9752D556BB1661E5FE909ADDDBA0BD /* UIWebView+LZHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIWebView+LZHelper.h"; sourceTree = "<group>"; };
+		BDF6AD52248422212D974FC823F64F76 /* LZCommonSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LZCommonSDK.modulemap; sourceTree = "<group>"; };
+		C013F1C4534273C5D6FDD2FB1071E0C6 /* NSFileManager+LZHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+LZHelper.h"; sourceTree = "<group>"; };
+		C09D10E980BB3007DE9348AD8D7EEBD3 /* Aspects-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Aspects-umbrella.h"; sourceTree = "<group>"; };
+		C448881B65B470881BA6F4C2782F71D7 /* UIScreen+LZHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+LZHelper.m"; sourceTree = "<group>"; };
+		C5C4C446706D2F873330259F6284C9D1 /* UITableView+LZHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITableView+LZHelper.h"; sourceTree = "<group>"; };
+		C7E5E45044D8C4036F6188B4C7232F3F /* UITextField+LZHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextField+LZHelper.m"; sourceTree = "<group>"; };
+		C931430AC377BBDF72D41F937C51D873 /* Aspects-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Aspects-dummy.m"; sourceTree = "<group>"; };
+		CAF5613575658D124C34B3BFA3A7D3DF /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		CAFE7A952F4F7794DB6BDB9BDE0844DD /* NSTimer+LZHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSTimer+LZHelper.h"; sourceTree = "<group>"; };
+		CBA5C487A4E348415825610894E5AC40 /* LZScreenUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LZScreenUtil.m; sourceTree = "<group>"; };
+		CD053FF045EAB0E45CEA94201DC08E17 /* UIImageView+LZHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImageView+LZHelper.h"; sourceTree = "<group>"; };
 		CE7213CFB93649358B7083E98B7CE64E /* Pods-LZCommonSDK_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LZCommonSDK_Example-resources.sh"; sourceTree = "<group>"; };
+		CEBCF4167284783F56FB82F0DF9AD5E2 /* LZNetworkUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LZNetworkUtil.m; sourceTree = "<group>"; };
+		D2C1A5B315535B102E78CB6F34B5EBE0 /* LZAudioUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LZAudioUtil.h; sourceTree = "<group>"; };
 		D3142771BE39BB499F6E69E0EBDCC695 /* Pods-LZCommonSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LZCommonSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
+		D510635F8C05A75B97C4624817BD0862 /* NSNumber+LZHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSNumber+LZHelper.h"; sourceTree = "<group>"; };
+		D58DE3B77D2F67EE750A95B70D609540 /* SSKeychain-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SSKeychain-dummy.m"; sourceTree = "<group>"; };
+		D5C87C552DE5930365A3DE875C348EC2 /* NSMutableString+LZHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSMutableString+LZHelper.h"; sourceTree = "<group>"; };
+		D5FA88A942668B30899A8B9A9FABA29A /* RegexKitLite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RegexKitLite.framework; path = RegexKitLite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D66FBE54DD297E0B7ED13B705266AB8D /* LZUtilitiesSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LZUtilitiesSDK.h; sourceTree = "<group>"; };
+		D80D7D0E74D3F39C1C6BA4EF60B0D141 /* UIView+LZFrame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+LZFrame.m"; sourceTree = "<group>"; };
+		D86193A285BFACD0784ACDB493DFB8A7 /* LZHelperSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LZHelperSDK.h; sourceTree = "<group>"; };
+		D8900EC0D0E7590FA1246F8FA88D291C /* RegexKitLite.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RegexKitLite.modulemap; sourceTree = "<group>"; };
+		D8DF327AAC3BD333248C360C5FB79340 /* NSNumber+LZHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+LZHelper.m"; sourceTree = "<group>"; };
+		D90B8BE5ABB3A4A4DE2A5DE4D8F4223C /* SSKeychain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SSKeychain.framework; path = SSKeychain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D92CD7C381ED419A9285889A92CD813F /* LZReachabilityUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LZReachabilityUtil.m; sourceTree = "<group>"; };
+		DB357D1047767C646383F49BEF565D91 /* LZStringUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LZStringUtil.h; sourceTree = "<group>"; };
+		DC82BDF1A1A0FD301CE2B5333EA9AAC9 /* LZJSONParseUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LZJSONParseUtil.m; sourceTree = "<group>"; };
+		DE1374D6EF71FFCA4E2A5A01D26B4754 /* LZDispatch.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LZDispatch.m; sourceTree = "<group>"; };
+		E033975C7B117076CE682FE5D049B09E /* LZDispatch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LZDispatch.h; sourceTree = "<group>"; };
 		E52AED0DBC3E1EAC1604EDD599365569 /* Pods-LZCommonSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LZCommonSDK_Example.modulemap"; sourceTree = "<group>"; };
-		EFA59EB73E214C5AD255FAD60F483D46 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		E7D2C2D10A52B4B9136FB75190FA075C /* Pods_LZCommonSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LZCommonSDK_Tests.framework; path = "Pods-LZCommonSDK_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBB8C535ABFF72D2D66039E80958FAF9 /* SSKeychain-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SSKeychain-prefix.pch"; sourceTree = "<group>"; };
+		ED6D3E66235CD98A6F3C68B108FB6F0E /* LZJSONParseUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LZJSONParseUtil.h; sourceTree = "<group>"; };
+		ED9D107EF29D3EF13F66C31FF7BDB9A3 /* UIWebView+LZHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+LZHelper.m"; sourceTree = "<group>"; };
 		F0DB4F042CFCA7A5B1AD1AACA444F03F /* Pods-LZCommonSDK_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LZCommonSDK_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		F11DEBAB384B6688B16FA0F2A024AE37 /* UITextField+LZHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextField+LZHelper.h"; sourceTree = "<group>"; };
+		F2F9AA20C6DA061E8B7B6F48611B96E2 /* NSDate+LZHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDate+LZHelper.h"; sourceTree = "<group>"; };
+		F404EC36F6A3C8EC23BB8A8354711ECE /* LZCommonSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LZCommonSDK-dummy.m"; sourceTree = "<group>"; };
+		F4FCAE4FD83C9751E0025DF43B3891FE /* NSDate+LZHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDate+LZHelper.m"; sourceTree = "<group>"; };
+		F6D6E4B91AD0613B791B57731EB2AF90 /* Aspects.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Aspects.xcconfig; sourceTree = "<group>"; };
 		FB437DC33EA2FB47A162B367EEB33E29 /* Pods-LZCommonSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LZCommonSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		FB91FCB49CA8B77089F35932D61C215D /* Pods-LZCommonSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LZCommonSDK_Example-dummy.m"; sourceTree = "<group>"; };
+		FBDA38B0095C8C7FAD0B357F6CACB167 /* UIEvent+LZHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIEvent+LZHelper.m"; sourceTree = "<group>"; };
+		FBDF92DCF8BCC97476554A90E5E88C7A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE0EB8A1F89E1681E9C174FB2EB67C6D /* Pods-LZCommonSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LZCommonSDK_Tests-dummy.m"; sourceTree = "<group>"; };
+		FE77BFCA5F021049114E251D2F165993 /* GSAudioUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GSAudioUtil.h; sourceTree = "<group>"; };
+		FEBD8BF251CA73C865D8F06D64AAD170 /* NSURL+LZHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSURL+LZHelper.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8B7A46F9ED06BE327CCB0C42E790B642 /* Frameworks */ = {
+		0AE79090B132666D52DFA18E7876E323 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4BD980E6EDCC283D18028555396B934 /* Foundation.framework in Frameworks */,
+				16F359D24FC247D4D76030AAD5763AC2 /* Aspects.framework in Frameworks */,
+				F295401A49378CC7005286F15145FF55 /* Foundation.framework in Frameworks */,
+				CA0355BC386DF0203EA44E7AE97B4037 /* RegexKitLite.framework in Frameworks */,
+				ADA18BBE68FA436F04AD9C34FCAB7862 /* SSKeychain.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B0F7C0B3A6C7CF59D5DBDF0222DC459C /* Frameworks */ = {
+		63EFCEB6E3813BC4A08A185C4026AE94 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28FC97C93C6C0BB27D915A341B4E457B /* Foundation.framework in Frameworks */,
+				0F89894D82CADBE46B60B2584313DD84 /* Foundation.framework in Frameworks */,
+				8B0AE8047754EA3A2E7F18CAA623FAA1 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E3DA278738DBB76285605FC280DD3E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				526368E8FC99A161A55C7B82E80897E3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0B93F7203D5A2F9D5F7FB81CAA9D088 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ACBD7AA81BC32DE0E90C733498C7E34 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,21 +423,106 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36F6A29556227F25974370CDCAD749E7 /* Foundation.framework in Frameworks */,
+				6061EE42FA3F992A369DD987098EFB75 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE4697BBB37061FEE49CD59ECB463302 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C40C953A591723F560725406842978D4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		111E633853597BC5D34C77DCCB417DA7 /* Pod */ = {
+		06E4993F9E86B0D079F65BBFF273776A /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				EFA59EB73E214C5AD255FAD60F483D46 /* LICENSE */,
-				55951FD22E0E31F1582BE0BFEA0725B8 /* LZCommonSDK.podspec */,
-				01B43ACC89CA0D622486B26368ACED5B /* README.md */,
+				415D34C9359813C824B0F16E1A2580A2 /* Foundation.framework */,
+				CAF5613575658D124C34B3BFA3A7D3DF /* Security.framework */,
 			);
-			name = Pod;
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		08A591580FFD46AE70D473F2BE40D914 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				1620D494DCAEC7A9474C364B9ADDD256 /* UIButton+LZHelper.h */,
+				8CA000A7703545703F51646AADF3DDB9 /* UIButton+LZHelper.m */,
+				CD053FF045EAB0E45CEA94201DC08E17 /* UIImageView+LZHelper.h */,
+				AB84746E48159999A128BD5F93124469 /* UIImageView+LZHelper.m */,
+				7E4292F7BE1C57F0A90A9497231DD0A4 /* UILabel+LZHelper.h */,
+				894AF0C00EA4F9AE14C6B7A00C740794 /* UILabel+LZHelper.m */,
+				4B130AFBB39221E23D0B7E216F5DD208 /* UIScrollView+LZHelper.h */,
+				2F8F3EBEB86FA9F07D74EC0FEA8D1B7B /* UIScrollView+LZHelper.m */,
+				C5C4C446706D2F873330259F6284C9D1 /* UITableView+LZHelper.h */,
+				B4948FA52BE3F5E485E9CAECC0C55DEB /* UITableView+LZHelper.m */,
+				8CEB56551B3DB9A007490B8A5AE45B98 /* UITableViewCell+LZHelper.h */,
+				885719FA8BD3BA561AC5F2F834E2D373 /* UITableViewCell+LZHelper.m */,
+				F11DEBAB384B6688B16FA0F2A024AE37 /* UITextField+LZHelper.h */,
+				C7E5E45044D8C4036F6188B4C7232F3F /* UITextField+LZHelper.m */,
+				4590AB0815EA7C57C4FE49B197B1C467 /* UIView+LZFrame.h */,
+				D80D7D0E74D3F39C1C6BA4EF60B0D141 /* UIView+LZFrame.m */,
+				572FDCFA3EAE203828D87DD2E349E45B /* UIView+LZGusture.h */,
+				0B7ACF7C12617B865712EF3AD9085077 /* UIView+LZGusture.m */,
+				AFEEB797961340C5D4BC7EF925DC31DC /* UIView+LZHelper.h */,
+				0AE2435C55888E3057A803781A19AE98 /* UIView+LZHelper.m */,
+				BD9752D556BB1661E5FE909ADDDBA0BD /* UIWebView+LZHelper.h */,
+				ED9D107EF29D3EF13F66C31FF7BDB9A3 /* UIWebView+LZHelper.m */,
+			);
+			name = view;
+			path = view;
+			sourceTree = "<group>";
+		};
+		0A010222ED2356ABB89396A537E8880B /* codding */ = {
+			isa = PBXGroup;
+			children = (
+				B264DB86AB3BBC03FA92E4F219A2E2BF /* LZEncryptUtl.h */,
+				726F2274FC650A02557BDB7EBF69A4BA /* LZEncryptUtl.m */,
+				ED6D3E66235CD98A6F3C68B108FB6F0E /* LZJSONParseUtil.h */,
+				DC82BDF1A1A0FD301CE2B5333EA9AAC9 /* LZJSONParseUtil.m */,
+			);
+			name = codding;
+			path = codding;
+			sourceTree = "<group>";
+		};
+		0AE2CE9160DBAF722BE5A10F6DE605B3 /* network */ = {
+			isa = PBXGroup;
+			children = (
+				79BBA8A0BEBB8F5B8A1CEE4FFD2E81DA /* LZNetworkUtil.h */,
+				CEBCF4167284783F56FB82F0DF9AD5E2 /* LZNetworkUtil.m */,
+				74E7C7EC3393F66DCBB35E7B3BD2E39F /* LZReachabilityUtil.h */,
+				D92CD7C381ED419A9285889A92CD813F /* LZReachabilityUtil.m */,
+			);
+			name = network;
+			path = network;
+			sourceTree = "<group>";
+		};
+		15C079EBABA8632C18938CED36E1FD69 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5E43421458E3C425B896A5E34CAE4DC5 /* Aspects */,
+				5C61C635EF11F1E715654D349AC7EC8B /* RegexKitLite */,
+				F224F89DC36FD3C95E01A527494F76A1 /* SSKeychain */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		27051DA3928590DE4F70CB536E44A25C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A1216937606667577A317686814B67D0 /* Info.plist */,
+				D8900EC0D0E7590FA1246F8FA88D291C /* RegexKitLite.modulemap */,
+				1416EDFF71584ECC42FF23B4C17874FD /* RegexKitLite.xcconfig */,
+				192AA91937AF794C0B4EFBC5685B41D1 /* RegexKitLite-dummy.m */,
+				BA1F63969D818ADCC76AFB67CA0CE0C0 /* RegexKitLite-prefix.pch */,
+				4BF301FC6DE1D63FD51401535E56E2DF /* RegexKitLite-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RegexKitLite";
 			sourceTree = "<group>";
 		};
 		2F2BCBB425591A26F6639FBB2C24953D /* Targets Support Files */ = {
@@ -331,248 +534,199 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		4889F12B212D5C3200983A82 /* thirdParty */ = {
+		30E1DE5A4FD556550F784A497C10570C /* thirdParty */ = {
 			isa = PBXGroup;
 			children = (
-				4889F12C212D5C3200983A82 /* Reachability */,
+				E2B2068AB1B11D1059DCE34E71258DA9 /* Reachability */,
 			);
 			name = thirdParty;
 			path = LZCommonSDK/Classes/thirdParty;
 			sourceTree = "<group>";
 		};
-		4889F12C212D5C3200983A82 /* Reachability */ = {
+		3F02AA35005928947F8FE6BB16E76CAF /* LZCommonSDK */ = {
 			isa = PBXGroup;
 			children = (
-				4889F12D212D5C3200983A82 /* LZReachability.m */,
-				4889F12E212D5C3200983A82 /* LZReachability.h */,
-			);
-			path = Reachability;
-			sourceTree = "<group>";
-		};
-		4889F130212D5C3200983A82 /* helper */ = {
-			isa = PBXGroup;
-			children = (
-				4889F131212D5C3200983A82 /* UIImage+LZHelper.m */,
-				4889F132212D5C3200983A82 /* LZHelperSDK.h */,
-				4889F133212D5C3200983A82 /* UIApplication+LZHelper.m */,
-				4889F134212D5C3200983A82 /* NSNumber+LZHelper.h */,
-				4889F135212D5C3200983A82 /* NSURL+LZHelper.h */,
-				4889F136212D5C3200983A82 /* UIPasteboard+LZHelper.h */,
-				4889F137212D5C3200983A82 /* UIEvent+LZHelper.h */,
-				4889F138212D5C3200983A82 /* NSDate+LZHelper.m */,
-				4889F139212D5C3200983A82 /* NSFileManager+LZHelper.m */,
-				4889F13A212D5C3200983A82 /* NSUserDefaults+LZHelper.m */,
-				4889F13B212D5C3200983A82 /* UIColor+LZHelper.h */,
-				4889F13C212D5C3200983A82 /* NSObject+LZHelper.h */,
-				4889F13D212D5C3200983A82 /* NSTimer+LZHelper.h */,
-				4889F13E212D5C3200983A82 /* UIScreen+LZHelper.m */,
-				4889F13F212D5C3200983A82 /* controller */,
-				4889F142212D5C3200983A82 /* stroage */,
-				4889F149212D5C3200983A82 /* UIApplication+LZHelper.h */,
-				4889F14A212D5C3200983A82 /* NSNumber+LZHelper.m */,
-				4889F14B212D5C3200983A82 /* NSString */,
-				4889F154212D5C3200983A82 /* UIImage+LZHelper.h */,
-				4889F155212D5C3200983A82 /* NSDate+LZHelper.h */,
-				4889F156212D5C3200983A82 /* view */,
-				4889F16D212D5C3200983A82 /* UIEvent+LZHelper.m */,
-				4889F16E212D5C3200983A82 /* UIPasteboard+LZHelper.m */,
-				4889F16F212D5C3200983A82 /* NSURL+LZHelper.m */,
-				4889F170212D5C3200983A82 /* NSUserDefaults+LZHelper.h */,
-				4889F171212D5C3200983A82 /* NSFileManager+LZHelper.h */,
-				4889F172212D5C3200983A82 /* UIScreen+LZHelper.h */,
-				4889F173212D5C3200983A82 /* NSTimer+LZHelper.m */,
-				4889F174212D5C3200983A82 /* NSObject+LZHelper.m */,
-				4889F175212D5C3200983A82 /* UIColor+LZHelper.m */,
-			);
-			name = helper;
-			path = LZCommonSDK/Classes/helper;
-			sourceTree = "<group>";
-		};
-		4889F13F212D5C3200983A82 /* controller */ = {
-			isa = PBXGroup;
-			children = (
-				4889F140212D5C3200983A82 /* UIViewController+LZHelper.h */,
-				4889F141212D5C3200983A82 /* UIViewController+LZHelper.m */,
-			);
-			path = controller;
-			sourceTree = "<group>";
-		};
-		4889F142212D5C3200983A82 /* stroage */ = {
-			isa = PBXGroup;
-			children = (
-				4889F143212D5C3200983A82 /* NSArray+LZHelper.m */,
-				4889F144212D5C3200983A82 /* NSMutableArray+LZHelper.h */,
-				4889F145212D5C3200983A82 /* NSDictionary+LZHelper.h */,
-				4889F146212D5C3200983A82 /* NSArray+LZHelper.h */,
-				4889F147212D5C3200983A82 /* NSMutableArray+LZHelper.m */,
-				4889F148212D5C3200983A82 /* NSDictionary+LZHelper.m */,
-			);
-			path = stroage;
-			sourceTree = "<group>";
-		};
-		4889F14B212D5C3200983A82 /* NSString */ = {
-			isa = PBXGroup;
-			children = (
-				4889F14C212D5C3200983A82 /* NSString+LZHelper.h */,
-				4889F14D212D5C3200983A82 /* NSMutableString+LZHelper.m */,
-				4889F14E212D5C3200983A82 /* NSString+LZUrlEncode.h */,
-				4889F14F212D5C3200983A82 /* NSMutableAttributedString+LZHelper.h */,
-				4889F150212D5C3200983A82 /* NSMutableString+LZHelper.h */,
-				4889F151212D5C3200983A82 /* NSString+LZHelper.m */,
-				4889F152212D5C3200983A82 /* NSMutableAttributedString+LZHelper.m */,
-				4889F153212D5C3200983A82 /* NSString+LZUrlEncode.m */,
-			);
-			path = NSString;
-			sourceTree = "<group>";
-		};
-		4889F156212D5C3200983A82 /* view */ = {
-			isa = PBXGroup;
-			children = (
-				4889F157212D5C3200983A82 /* UIScrollView+LZHelper.h */,
-				4889F158212D5C3200983A82 /* UIWebView+LZHelper.h */,
-				4889F159212D5C3200983A82 /* UITableView+LZHelper.m */,
-				4889F15A212D5C3200983A82 /* UIView+LZFrame.m */,
-				4889F15B212D5C3200983A82 /* UIImageView+LZHelper.m */,
-				4889F15C212D5C3200983A82 /* UILabel+LZHelper.m */,
-				4889F15D212D5C3200983A82 /* UIView+LZHelper.m */,
-				4889F15E212D5C3200983A82 /* UIView+LZGusture.m */,
-				4889F15F212D5C3200983A82 /* UIButton+LZHelper.m */,
-				4889F160212D5C3200983A82 /* UITableViewCell+LZHelper.h */,
-				4889F161212D5C3200983A82 /* UITextField+LZHelper.h */,
-				4889F162212D5C3200983A82 /* UITableView+LZHelper.h */,
-				4889F163212D5C3200983A82 /* UIScrollView+LZHelper.m */,
-				4889F164212D5C3200983A82 /* UIWebView+LZHelper.m */,
-				4889F165212D5C3200983A82 /* UIImageView+LZHelper.h */,
-				4889F166212D5C3200983A82 /* UIView+LZFrame.h */,
-				4889F167212D5C3200983A82 /* UILabel+LZHelper.h */,
-				4889F168212D5C3200983A82 /* UITableViewCell+LZHelper.m */,
-				4889F169212D5C3200983A82 /* UITextField+LZHelper.m */,
-				4889F16A212D5C3200983A82 /* UIButton+LZHelper.h */,
-				4889F16B212D5C3200983A82 /* UIView+LZGusture.h */,
-				4889F16C212D5C3200983A82 /* UIView+LZHelper.h */,
-			);
-			path = view;
-			sourceTree = "<group>";
-		};
-		4889F176212D5C3300983A82 /* utility */ = {
-			isa = PBXGroup;
-			children = (
-				4889F177212D5C3300983A82 /* LZRandomUtil.m */,
-				4889F178212D5C3300983A82 /* CGRectExtension.m */,
-				4889F179212D5C3300983A82 /* LZMathUtil.m */,
-				4889F17A212D5C3300983A82 /* LZStringUtil.h */,
-				4889F17B212D5C3300983A82 /* LZImageUtil.h */,
-				4889F17C212D5C3300983A82 /* network */,
-				4889F181212D5C3300983A82 /* LZCommonUtil.m */,
-				4889F182212D5C3300983A82 /* LZDispatch.m */,
-				4889F183212D5C3300983A82 /* about */,
-				4889F18C212D5C3300983A82 /* LZMathUtil.h */,
-				4889F18D212D5C3300983A82 /* CGRectExtension.h */,
-				4889F18E212D5C3300983A82 /* LZRandomUtil.h */,
-				4889F18F212D5C3300983A82 /* LZImageUtil.m */,
-				4889F190212D5C3300983A82 /* codding */,
-				4889F195212D5C3300983A82 /* LZStringUtil.m */,
-				4889F196212D5C3300983A82 /* LZDispatch.h */,
-				4889F197212D5C3300983A82 /* LZCommonUtil.h */,
-				4889F198212D5C3300983A82 /* LZUtilitiesSDK.h */,
-				4889F199212D5C3300983A82 /* media */,
-			);
-			name = utility;
-			path = LZCommonSDK/Classes/utility;
-			sourceTree = "<group>";
-		};
-		4889F17C212D5C3300983A82 /* network */ = {
-			isa = PBXGroup;
-			children = (
-				4889F17D212D5C3300983A82 /* LZNetworkUtil.m */,
-				4889F17E212D5C3300983A82 /* LZReachabilityUtil.h */,
-				4889F17F212D5C3300983A82 /* LZReachabilityUtil.m */,
-				4889F180212D5C3300983A82 /* LZNetworkUtil.h */,
-			);
-			path = network;
-			sourceTree = "<group>";
-		};
-		4889F183212D5C3300983A82 /* about */ = {
-			isa = PBXGroup;
-			children = (
-				4889F184212D5C3300983A82 /* LZSystemUtil.h */,
-				4889F185212D5C3300983A82 /* LZScreenUtil.h */,
-				4889F186212D5C3300983A82 /* LZAppUtil.m */,
-				4889F187212D5C3300983A82 /* LZDeviceUtil.h */,
-				4889F188212D5C3300983A82 /* LZAppUtil.h */,
-				4889F189212D5C3300983A82 /* LZScreenUtil.m */,
-				4889F18A212D5C3300983A82 /* LZSystemUtil.m */,
-				4889F18B212D5C3300983A82 /* LZDeviceUtil.m */,
-			);
-			path = about;
-			sourceTree = "<group>";
-		};
-		4889F190212D5C3300983A82 /* codding */ = {
-			isa = PBXGroup;
-			children = (
-				4889F191212D5C3300983A82 /* LZJSONParseUtil.m */,
-				4889F192212D5C3300983A82 /* LZEncryptUtl.m */,
-				4889F193212D5C3300983A82 /* LZJSONParseUtil.h */,
-				4889F194212D5C3300983A82 /* LZEncryptUtl.h */,
-			);
-			path = codding;
-			sourceTree = "<group>";
-		};
-		4889F199212D5C3300983A82 /* media */ = {
-			isa = PBXGroup;
-			children = (
-				4889F19A212D5C3300983A82 /* LZVideoUtil.m */,
-				4889F19B212D5C3300983A82 /* LZFileUtil.h */,
-				4889F19C212D5C3300983A82 /* LZAudioUtil.m */,
-				4889F19D212D5C3300983A82 /* LZAudioUtil.h */,
-				4889F19E212D5C3300983A82 /* LZFileUtil.m */,
-				4889F19F212D5C3300983A82 /* LZVideoUtil.h */,
-				4889F1A0212D5C3300983A82 /* GSAudioUtil.h */,
-			);
-			path = media;
-			sourceTree = "<group>";
-		};
-		63EEE747033A5B88DAADE8EC066A3BD6 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				396139CB649B3B83C1067EEACF29EBA9 /* LZCommonSDK.framework */,
-				A87A216BAC82C1F2DB71C36ED0DBA06C /* Pods_LZCommonSDK_Example.framework */,
-				BABB775F1CC70958273D51565EA73A87 /* Pods_LZCommonSDK_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		6B8F08FC41B77D5C728742C73E82E781 /* LZCommonSDK */ = {
-			isa = PBXGroup;
-			children = (
-				4889F130212D5C3200983A82 /* helper */,
-				4889F12F212D5C3200983A82 /* LZMacroDefine.h */,
-				4889F12B212D5C3200983A82 /* thirdParty */,
-				4889F176212D5C3300983A82 /* utility */,
-				111E633853597BC5D34C77DCCB417DA7 /* Pod */,
-				9F2BD2AEE308040A9857D016FB5236EF /* Support Files */,
+				5AB0F337D0EDEFC6B489D2991C3E5C0E /* LZMacroDefine.h */,
+				49D62FE207ACB99B4399DC6BE5649F4F /* helper */,
+				6A0DD3F14F14941D562B1C84F8E9AFE4 /* Pod */,
+				B52063FE45788B74B31FEA0CE7CE1D6F /* Support Files */,
+				30E1DE5A4FD556550F784A497C10570C /* thirdParty */,
+				5EFD515C717662F2CFC600E021CF828C /* utility */,
 			);
 			name = LZCommonSDK;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		7382AE3F4825F8E1CE4A346AF52B7FF5 /* Development Pods */ = {
+		46F8284896052DE385BC118BC96A3A09 /* NSString */ = {
 			isa = PBXGroup;
 			children = (
-				6B8F08FC41B77D5C728742C73E82E781 /* LZCommonSDK */,
+				2F218F10C9C52A1FC3BB74E6B748D45A /* NSMutableAttributedString+LZHelper.h */,
+				765AEB6928ED9D47041F3B1B79F80F2E /* NSMutableAttributedString+LZHelper.m */,
+				D5C87C552DE5930365A3DE875C348EC2 /* NSMutableString+LZHelper.h */,
+				08F6393AAE0CD97F07882CB328A1A119 /* NSMutableString+LZHelper.m */,
+				BB02D1F5F962A846CF0247B68EC4A6BE /* NSString+LZHelper.h */,
+				B0773D0C75EAA72818591575BBE87335 /* NSString+LZHelper.m */,
+				7D3FCC47E2CA333DA93D3C2FF8DA4550 /* NSString+LZUrlEncode.h */,
+				68F516C5A76851566263F89E218523DA /* NSString+LZUrlEncode.m */,
 			);
-			name = "Development Pods";
+			name = NSString;
+			path = NSString;
+			sourceTree = "<group>";
+		};
+		495D2FC0B7EF228932AEEFBB3209DD90 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6953600BBFE5FEB720B08580BED48A94 /* SSKeychain.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		49D62FE207ACB99B4399DC6BE5649F4F /* helper */ = {
+			isa = PBXGroup;
+			children = (
+				D86193A285BFACD0784ACDB493DFB8A7 /* LZHelperSDK.h */,
+				F2F9AA20C6DA061E8B7B6F48611B96E2 /* NSDate+LZHelper.h */,
+				F4FCAE4FD83C9751E0025DF43B3891FE /* NSDate+LZHelper.m */,
+				C013F1C4534273C5D6FDD2FB1071E0C6 /* NSFileManager+LZHelper.h */,
+				496ED027B460F5311D2DE7380FDF78DA /* NSFileManager+LZHelper.m */,
+				D510635F8C05A75B97C4624817BD0862 /* NSNumber+LZHelper.h */,
+				D8DF327AAC3BD333248C360C5FB79340 /* NSNumber+LZHelper.m */,
+				182F0C9FB1ECD37A43C0C4F113B82A46 /* NSObject+LZHelper.h */,
+				087504E0AA38AD0134CEFEB043E99E74 /* NSObject+LZHelper.m */,
+				CAFE7A952F4F7794DB6BDB9BDE0844DD /* NSTimer+LZHelper.h */,
+				96CDF6C5C0D7E258E8403EB17FF9697E /* NSTimer+LZHelper.m */,
+				FEBD8BF251CA73C865D8F06D64AAD170 /* NSURL+LZHelper.h */,
+				BCACB34959E89703144E18137CF25B01 /* NSURL+LZHelper.m */,
+				3C1151B8E5DA97A4DF4617499B797032 /* NSUserDefaults+LZHelper.h */,
+				AE9ABEB90D4593066B2525471DAE710B /* NSUserDefaults+LZHelper.m */,
+				B0381F5838316686406E228CA180A3A6 /* UIApplication+LZHelper.h */,
+				0B05683C5404A512D03535822FCF6A30 /* UIApplication+LZHelper.m */,
+				86A1D7B6465E8D1E5FB1C0DF36FED606 /* UIColor+LZHelper.h */,
+				1BC1DC193B8F90C6C1068EA5060C6107 /* UIColor+LZHelper.m */,
+				9DF719C4A30CB8D28A14F2392F4340FC /* UIEvent+LZHelper.h */,
+				FBDA38B0095C8C7FAD0B357F6CACB167 /* UIEvent+LZHelper.m */,
+				3078BFCAF10AE08CB68F36C162196DE4 /* UIImage+LZHelper.h */,
+				3DE74B41EECCCEED4D6767D121214E20 /* UIImage+LZHelper.m */,
+				50830D630A767894FC9313A4015194E4 /* UIPasteboard+LZHelper.h */,
+				60BDDFB280DB2D83920CD349D2D76634 /* UIPasteboard+LZHelper.m */,
+				480E3C4496A0E3F6307E6A0CFDF441E6 /* UIScreen+LZHelper.h */,
+				C448881B65B470881BA6F4C2782F71D7 /* UIScreen+LZHelper.m */,
+				5A89A5B0AF7DBB50F0292A4ED4541F0D /* controller */,
+				46F8284896052DE385BC118BC96A3A09 /* NSString */,
+				FE252C2018089E29AB38CA1433332842 /* stroage */,
+				08A591580FFD46AE70D473F2BE40D914 /* view */,
+			);
+			name = helper;
+			path = LZCommonSDK/Classes/helper;
+			sourceTree = "<group>";
+		};
+		55F766667A9C7BDC81659DED890E4300 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				810632797F91DBFACF793E3CC2C7EC9C /* Aspects.modulemap */,
+				F6D6E4B91AD0613B791B57731EB2AF90 /* Aspects.xcconfig */,
+				C931430AC377BBDF72D41F937C51D873 /* Aspects-dummy.m */,
+				37F24574E68BC513334A90CE4CDC5CB4 /* Aspects-prefix.pch */,
+				C09D10E980BB3007DE9348AD8D7EEBD3 /* Aspects-umbrella.h */,
+				310B0750B558FA646EEF6B085E16BBD4 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Aspects";
+			sourceTree = "<group>";
+		};
+		5A89A5B0AF7DBB50F0292A4ED4541F0D /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				88B6BA87D4437890068499852309F050 /* UIViewController+LZHelper.h */,
+				B340CED5D9DEBDC061A2A619147502E3 /* UIViewController+LZHelper.m */,
+			);
+			name = controller;
+			path = controller;
+			sourceTree = "<group>";
+		};
+		5C61C635EF11F1E715654D349AC7EC8B /* RegexKitLite */ = {
+			isa = PBXGroup;
+			children = (
+				8087307779ADD0AD973FC22F672A6F09 /* RegexKitLite.h */,
+				32A32F2FB03313ED7899051EB5D1658A /* RegexKitLite.m */,
+				27051DA3928590DE4F70CB536E44A25C /* Support Files */,
+			);
+			name = RegexKitLite;
+			path = RegexKitLite;
+			sourceTree = "<group>";
+		};
+		5E43421458E3C425B896A5E34CAE4DC5 /* Aspects */ = {
+			isa = PBXGroup;
+			children = (
+				5C3D67448070AF09FFE3B1F5A86BCA5F /* Aspects.h */,
+				5702A38DD2568A55FAC0957E9E50F3BA /* Aspects.m */,
+				55F766667A9C7BDC81659DED890E4300 /* Support Files */,
+			);
+			name = Aspects;
+			path = Aspects;
+			sourceTree = "<group>";
+		};
+		5EFD515C717662F2CFC600E021CF828C /* utility */ = {
+			isa = PBXGroup;
+			children = (
+				94FFA94200A2D5EB0E1DC81A8BC15BAF /* CGRectExtension.h */,
+				0E7B11C902905100B89D914619AC7B8D /* CGRectExtension.m */,
+				4214842954A8E1D69DB808641EC49726 /* LZCommonUtil.h */,
+				130C7A8313B3DA55CFE15BEA6F02C9A9 /* LZCommonUtil.m */,
+				E033975C7B117076CE682FE5D049B09E /* LZDispatch.h */,
+				DE1374D6EF71FFCA4E2A5A01D26B4754 /* LZDispatch.m */,
+				8B8EB8A4B6B55CB99FFB8653034306E0 /* LZImageUtil.h */,
+				3A7B1CB1FF498637A61EFA9947A6A164 /* LZImageUtil.m */,
+				1066D4C704B3F30ECD76E6A0889766C8 /* LZMathUtil.h */,
+				95B9E7C847F802EAE4A3CA09477B47D8 /* LZMathUtil.m */,
+				A2FCB1933DC44436BD0B59C492BFCA43 /* LZRandomUtil.h */,
+				18A8B575530C3401A3D06A2AA810EBC7 /* LZRandomUtil.m */,
+				DB357D1047767C646383F49BEF565D91 /* LZStringUtil.h */,
+				BB499C62F09A07D32B55EF161C26B430 /* LZStringUtil.m */,
+				D66FBE54DD297E0B7ED13B705266AB8D /* LZUtilitiesSDK.h */,
+				E27E66F8D096D9532E09CA32237552A1 /* about */,
+				0A010222ED2356ABB89396A537E8880B /* codding */,
+				DFC0779CA4A9765FB4803DB0A9F53FF1 /* media */,
+				0AE2CE9160DBAF722BE5A10F6DE605B3 /* network */,
+			);
+			name = utility;
+			path = LZCommonSDK/Classes/utility;
+			sourceTree = "<group>";
+		};
+		6A0DD3F14F14941D562B1C84F8E9AFE4 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				82BAC1CDE082B4DBBC4D98A622C4A515 /* LICENSE */,
+				119E59C8F866790666E89609A1037431 /* LZCommonSDK.podspec */,
+				66E6213042754021E1D62FE9B6B55E47 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				7382AE3F4825F8E1CE4A346AF52B7FF5 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				63EEE747033A5B88DAADE8EC066A3BD6 /* Products */,
+				A76047AB8E99BA01DA2402AFE2A1ED39 /* Development Pods */,
+				A7BDB3A995C5E276F9FEB7B95EDC7946 /* Frameworks */,
+				15C079EBABA8632C18938CED36E1FD69 /* Pods */,
+				9FA79BCD5CD52C7255CD5CC784A98F8A /* Products */,
 				2F2BCBB425591A26F6639FBB2C24953D /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		7F8DDF0D4D979FF259A0AD71F569D000 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FBDF92DCF8BCC97476554A90E5E88C7A /* Info.plist */,
+				1CF8113D6958EE1DAA09AEC83A7DE58B /* SSKeychain.modulemap */,
+				72A6CEA649204F9FD81D9D658C652B11 /* SSKeychain.xcconfig */,
+				D58DE3B77D2F67EE750A95B70D609540 /* SSKeychain-dummy.m */,
+				EBB8C535ABFF72D2D66039E80958FAF9 /* SSKeychain-prefix.pch */,
+				55A69C6B43D866FF7AB15A859C743B73 /* SSKeychain-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SSKeychain";
 			sourceTree = "<group>";
 		};
 		87281D648A10C90A09573512E608E00F /* Pods-LZCommonSDK_Example */ = {
@@ -593,15 +747,47 @@
 			path = "Target Support Files/Pods-LZCommonSDK_Example";
 			sourceTree = "<group>";
 		};
-		9F2BD2AEE308040A9857D016FB5236EF /* Support Files */ = {
+		9FA79BCD5CD52C7255CD5CC784A98F8A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C57D6225A1BCF1D71BBCE8509A7F24FD /* Info.plist */,
-				C7167491F28F4A1ECC519EDDF6CC34B1 /* LZCommonSDK.modulemap */,
-				CA5637A6A7289E2B1AF5B100AA53D9E7 /* LZCommonSDK.xcconfig */,
-				B7460EC7F3444ED54FFFAD3C54498DE3 /* LZCommonSDK-dummy.m */,
-				3A240F542882D35A26AA7AE8122F30D4 /* LZCommonSDK-prefix.pch */,
-				AC712BD31415ADB1BFF05999E78F9977 /* LZCommonSDK-umbrella.h */,
+				B15938E5B79937F6492E3EDF600BBA6D /* Aspects.framework */,
+				5DA23CBBCCD79305153A577D634C1687 /* LZCommonSDK.framework */,
+				784AF727A8B7226068CE370CD8E34AE5 /* Pods_LZCommonSDK_Example.framework */,
+				E7D2C2D10A52B4B9136FB75190FA075C /* Pods_LZCommonSDK_Tests.framework */,
+				D5FA88A942668B30899A8B9A9FABA29A /* RegexKitLite.framework */,
+				D90B8BE5ABB3A4A4DE2A5DE4D8F4223C /* SSKeychain.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A76047AB8E99BA01DA2402AFE2A1ED39 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3F02AA35005928947F8FE6BB16E76CAF /* LZCommonSDK */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A7BDB3A995C5E276F9FEB7B95EDC7946 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6092161D5935D24EED5123B87A64C2AF /* Aspects.framework */,
+				17526E0FD3B7E57000CC0178EB9B399D /* RegexKitLite.framework */,
+				0D1865A3631C5935261BDE705B9E209A /* SSKeychain.framework */,
+				06E4993F9E86B0D079F65BBFF273776A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B52063FE45788B74B31FEA0CE7CE1D6F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				50E353155B58FB51920BB386901468F5 /* Info.plist */,
+				BDF6AD52248422212D974FC823F64F76 /* LZCommonSDK.modulemap */,
+				A3151EDC151444DB0056F7AD1832BB96 /* LZCommonSDK.xcconfig */,
+				F404EC36F6A3C8EC23BB8A8354711ECE /* LZCommonSDK-dummy.m */,
+				93844929C30DD0D65B22F80AECB9C42C /* LZCommonSDK-prefix.pch */,
+				77F99D8E65E1C7D14D3C5D8C1EE40C7A /* LZCommonSDK-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/LZCommonSDK";
@@ -625,30 +811,164 @@
 			path = "Target Support Files/Pods-LZCommonSDK_Tests";
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		DFC0779CA4A9765FB4803DB0A9F53FF1 /* media */ = {
 			isa = PBXGroup;
 			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+				FE77BFCA5F021049114E251D2F165993 /* GSAudioUtil.h */,
+				D2C1A5B315535B102E78CB6F34B5EBE0 /* LZAudioUtil.h */,
+				A41C1A4D0A94007663FC8A83B241E45D /* LZAudioUtil.m */,
+				B89058FC8C99A87242F444F82488C9DF /* LZFileUtil.h */,
+				6063BC02EA5745F7AE803BFA9804B150 /* LZFileUtil.m */,
+				81E37B052794178754C4B49066DAD2B8 /* LZVideoUtil.h */,
+				971FF753E32967B01D810C9CD4BACA53 /* LZVideoUtil.m */,
 			);
-			name = Frameworks;
+			name = media;
+			path = media;
 			sourceTree = "<group>";
 		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+		E27E66F8D096D9532E09CA32237552A1 /* about */ = {
 			isa = PBXGroup;
 			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+				13BCAE6320E4EDA6A6C6FDF93C8507D2 /* LZAppUtil.h */,
+				9E2913BBB15E0FCA1AC88D9616400469 /* LZAppUtil.m */,
+				5F1921A02EF5371903E089FE4C32DB14 /* LZDeviceUtil.h */,
+				6C9BE0B3EF7B4D20AB81F011E3844C1A /* LZDeviceUtil.m */,
+				6565D1B347828C35796FD8F8F30040CB /* LZScreenUtil.h */,
+				CBA5C487A4E348415825610894E5AC40 /* LZScreenUtil.m */,
+				63D46B8DB248C952A7A97F82830BE32F /* LZSystemUtil.h */,
+				1EF283296BBDE25F90DC13AE2630DD25 /* LZSystemUtil.m */,
 			);
-			name = iOS;
+			name = about;
+			path = about;
+			sourceTree = "<group>";
+		};
+		E2B2068AB1B11D1059DCE34E71258DA9 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				012D611F7630308AF5E519CE2F5D34E4 /* LZReachability.h */,
+				2FEF0F827EEE0322BE263F6A46D2FC0B /* LZReachability.m */,
+			);
+			name = Reachability;
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		F224F89DC36FD3C95E01A527494F76A1 /* SSKeychain */ = {
+			isa = PBXGroup;
+			children = (
+				657E6FBF98CFF9D2E9F188DE9CD6ED84 /* SSKeychain.h */,
+				2F9E82430A400E730E0BF66CEACC2A42 /* SSKeychain.m */,
+				37DBC9D57711A98DD6D0BB474164F86E /* SSKeychainQuery.h */,
+				9490D2AEAF2D1DB7B6A7491D9B76F047 /* SSKeychainQuery.m */,
+				495D2FC0B7EF228932AEEFBB3209DD90 /* Resources */,
+				7F8DDF0D4D979FF259A0AD71F569D000 /* Support Files */,
+			);
+			name = SSKeychain;
+			path = SSKeychain;
+			sourceTree = "<group>";
+		};
+		FE252C2018089E29AB38CA1433332842 /* stroage */ = {
+			isa = PBXGroup;
+			children = (
+				4A37FFBEAFF0157EA6DA418C762E6FBC /* NSArray+LZHelper.h */,
+				31FD034FA6FD8A1857E949E5B38E1F71 /* NSArray+LZHelper.m */,
+				6FC7E45A9F380D0EB2B56DC8FE713108 /* NSDictionary+LZHelper.h */,
+				84A823FF1B3BB8BE2B5D6FBD0D4C97A6 /* NSDictionary+LZHelper.m */,
+				17B58754CE48E7BE6D34F34F6387ABA0 /* NSMutableArray+LZHelper.h */,
+				0118BE0C3DDA37902D7597EE8C822EF9 /* NSMutableArray+LZHelper.m */,
+			);
+			name = stroage;
+			path = stroage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		46FFBEE0095426F57E2B18D9C7AC6A39 /* Headers */ = {
+		15E080D8159009C0D5A5AAE1B9C4539D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				641123D26392B197FDBC9FC94CD56909 /* Pods-LZCommonSDK_Example-umbrella.h in Headers */,
+				601DE5978F463E2996D33CF448F13ADD /* CGRectExtension.h in Headers */,
+				4AEA549FF1284057ABBF17D3821C66D2 /* GSAudioUtil.h in Headers */,
+				1DC710F0EC32B9DE4BB30CC8895609A7 /* LZAppUtil.h in Headers */,
+				9DE3C5937EE668051E70461B64A5DD1A /* LZAudioUtil.h in Headers */,
+				43D70C0BDEEB050CC0A07D7768D7EC2D /* LZCommonSDK-umbrella.h in Headers */,
+				D787D6D6035B36A381165BFF4649E9D0 /* LZCommonUtil.h in Headers */,
+				913B42B99B8C74D6678CDF7A9C90D7FA /* LZDeviceUtil.h in Headers */,
+				8A66E949809B3C99B202E0CEEF28BD53 /* LZDispatch.h in Headers */,
+				C35906BF23BF54E9AC98A841613B18EF /* LZEncryptUtl.h in Headers */,
+				0DF85CCA55C1B99EEAF8C2418BDA3F1A /* LZFileUtil.h in Headers */,
+				305FC89D26392843C9B3465A046C0E0A /* LZHelperSDK.h in Headers */,
+				0E4294ECBBA92B3E6F62EDF37EA8B2C1 /* LZImageUtil.h in Headers */,
+				DD661A39106CFF77B303A8004CD65A03 /* LZJSONParseUtil.h in Headers */,
+				644F3B4552ED02783BBB2E0105CA70ED /* LZMacroDefine.h in Headers */,
+				25C521692353CCE02A3E0615A05B3508 /* LZMathUtil.h in Headers */,
+				78AC0C3F86385EB1264EEA3CAAD8DA50 /* LZNetworkUtil.h in Headers */,
+				03CDF77543047DED70FBEA61DA3DAD84 /* LZRandomUtil.h in Headers */,
+				249533644C526D572BDE9F6DDBE39125 /* LZReachability.h in Headers */,
+				669E019FE352EC84575ECE1BE2A8E320 /* LZReachabilityUtil.h in Headers */,
+				A1568757F9CA221AB86595D0770AB05C /* LZScreenUtil.h in Headers */,
+				CFFACB60DA021D6FF639EF7B3FE5C03F /* LZStringUtil.h in Headers */,
+				D667DE188AA5E610A664ACEAE07302D2 /* LZSystemUtil.h in Headers */,
+				B0C10C43C3471F3F84E2C7A975FA9AB5 /* LZUtilitiesSDK.h in Headers */,
+				DCBEA97C17A9CB4056EB3BF151223BA8 /* LZVideoUtil.h in Headers */,
+				BCCABA5593B3694E6F1AF2EEABE71042 /* NSArray+LZHelper.h in Headers */,
+				11875210AC8D1A4CBB0FED796FAB7ACF /* NSDate+LZHelper.h in Headers */,
+				E2CB7695E7D51CDA1477C496C0782A5A /* NSDictionary+LZHelper.h in Headers */,
+				311FDFCE15F7A1F4086F3BE193CFD96C /* NSFileManager+LZHelper.h in Headers */,
+				BD26EED7815B277148FF1C1174975332 /* NSMutableArray+LZHelper.h in Headers */,
+				FD2E6D47B5B1E15D6E62DFD43DED59C7 /* NSMutableAttributedString+LZHelper.h in Headers */,
+				3FDF7C2D0A9D2A25F0D17A88002E8F78 /* NSMutableString+LZHelper.h in Headers */,
+				6900727C4E1DFB57F23340E462B0914D /* NSNumber+LZHelper.h in Headers */,
+				6D23F138B59454BDB00D992525CA81B1 /* NSObject+LZHelper.h in Headers */,
+				A093CB0C3AEE316BC1D48ABABCC38D15 /* NSString+LZHelper.h in Headers */,
+				3BB75F63089129C3454B557AB238EAA4 /* NSString+LZUrlEncode.h in Headers */,
+				9B0921B775D31C18EFCF573A70673549 /* NSTimer+LZHelper.h in Headers */,
+				5C097FEE61C72D1E15A27DCCD76A5166 /* NSURL+LZHelper.h in Headers */,
+				CCFFDED14FDF3B948A611AF64823F26A /* NSUserDefaults+LZHelper.h in Headers */,
+				6DB9DFC656AC7614AEF777A4A63F65CD /* UIApplication+LZHelper.h in Headers */,
+				E676133F96AB3BF7F7A5CEDFADE860ED /* UIButton+LZHelper.h in Headers */,
+				3D445374FD627F69AB54E63EF2FD6A90 /* UIColor+LZHelper.h in Headers */,
+				4C49088079BB360378F372061CEEAFD8 /* UIEvent+LZHelper.h in Headers */,
+				57D07F5F6AA087F540D9E02E9D7C0666 /* UIImage+LZHelper.h in Headers */,
+				5FE033B33153FCCD6C83784F930A812A /* UIImageView+LZHelper.h in Headers */,
+				D49C3594F0CF740F7BF4DF86DB40CD74 /* UILabel+LZHelper.h in Headers */,
+				5DFCAFAA067077BE8E5BE76A4DB51919 /* UIPasteboard+LZHelper.h in Headers */,
+				56BA23437FBA21D8CAE2F712B75E7226 /* UIScreen+LZHelper.h in Headers */,
+				D5A853EB430190DFA4A334468A7BDD01 /* UIScrollView+LZHelper.h in Headers */,
+				DC42E5E575689FC2513F5320127F586A /* UITableView+LZHelper.h in Headers */,
+				51253B2322EC7EF147CB316ADC7809B8 /* UITableViewCell+LZHelper.h in Headers */,
+				4F180DEA63269C0BC14E97A64B753503 /* UITextField+LZHelper.h in Headers */,
+				FBCD388DE486E4AE30FD542EB18852F8 /* UIView+LZFrame.h in Headers */,
+				50F259ECC28742C66A269FD4FEA18A86 /* UIView+LZGusture.h in Headers */,
+				D47BF722384752E95FB17318F6A7F4C2 /* UIView+LZHelper.h in Headers */,
+				C7CD67230D7C194159A6221F061BEF41 /* UIViewController+LZHelper.h in Headers */,
+				B39DB0B9D5AD338B4B6D587D9A653E88 /* UIWebView+LZHelper.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61A1708B7066B49FD2941552851C7CF0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81138FE08F5A2DDF792325C49CBBE209 /* RegexKitLite-umbrella.h in Headers */,
+				0071AFAD6F839C60F2D0991E7AA81D69 /* RegexKitLite.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68E96ED3791CABC2FA5600EE15E96914 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B46FF1DBCB3A9D21CF2D1940D160F50B /* Pods-LZCommonSDK_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D03B59D9E997FA2A2846B63100E6165 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7229B182A392FF577FA24236AD3FBA56 /* Aspects-umbrella.h in Headers */,
+				1215D7E033A55DC07483D9327D0F08AD /* Aspects.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -660,105 +980,110 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A18A4B6BF9D8CF2660FB9F0A83F6EBEC /* Headers */ = {
+		DC71F4A48FC57EBB01F29848EE9A3AF8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4889F1EB212D5C3300983A82 /* LZReachabilityUtil.h in Headers */,
-				4889F1AE212D5C3300983A82 /* UIColor+LZHelper.h in Headers */,
-				4889F1F4212D5C3300983A82 /* LZAppUtil.h in Headers */,
-				4889F1DA212D5C3300983A82 /* UIView+LZGusture.h in Headers */,
-				4889F1BA212D5C3300983A82 /* UIApplication+LZHelper.h in Headers */,
-				4889F20A212D5C3300983A82 /* GSAudioUtil.h in Headers */,
-				4889F1D5212D5C3300983A82 /* UIView+LZFrame.h in Headers */,
-				4889F205212D5C3300983A82 /* LZFileUtil.h in Headers */,
-				4889F1A9212D5C3300983A82 /* UIPasteboard+LZHelper.h in Headers */,
-				4889F1AA212D5C3300983A82 /* UIEvent+LZHelper.h in Headers */,
-				4889F202212D5C3300983A82 /* LZCommonUtil.h in Headers */,
-				4889F1F9212D5C3300983A82 /* CGRectExtension.h in Headers */,
-				4889F203212D5C3300983A82 /* LZUtilitiesSDK.h in Headers */,
-				4889F1DF212D5C3300983A82 /* NSUserDefaults+LZHelper.h in Headers */,
-				4889F1D6212D5C3300983A82 /* UILabel+LZHelper.h in Headers */,
-				4889F1DB212D5C3300983A82 /* UIView+LZHelper.h in Headers */,
-				4889F1E8212D5C3300983A82 /* LZStringUtil.h in Headers */,
-				4889F1B0212D5C3300983A82 /* NSTimer+LZHelper.h in Headers */,
-				4889F1BF212D5C3300983A82 /* NSMutableAttributedString+LZHelper.h in Headers */,
-				4889F1F3212D5C3300983A82 /* LZDeviceUtil.h in Headers */,
-				4889F1FE212D5C3300983A82 /* LZJSONParseUtil.h in Headers */,
-				4889F1E0212D5C3300983A82 /* NSFileManager+LZHelper.h in Headers */,
-				F57034C6F6D3091E7975CA7BA84DD361 /* LZCommonSDK-umbrella.h in Headers */,
-				4889F1C5212D5C3300983A82 /* NSDate+LZHelper.h in Headers */,
-				4889F1D0212D5C3300983A82 /* UITextField+LZHelper.h in Headers */,
-				4889F1D1212D5C3300983A82 /* UITableView+LZHelper.h in Headers */,
-				4889F1CF212D5C3300983A82 /* UITableViewCell+LZHelper.h in Headers */,
-				4889F1ED212D5C3300983A82 /* LZNetworkUtil.h in Headers */,
-				4889F1C6212D5C3300983A82 /* UIScrollView+LZHelper.h in Headers */,
-				4889F1C0212D5C3300983A82 /* NSMutableString+LZHelper.h in Headers */,
-				4889F1D4212D5C3300983A82 /* UIImageView+LZHelper.h in Headers */,
-				4889F1FA212D5C3300983A82 /* LZRandomUtil.h in Headers */,
-				4889F209212D5C3300983A82 /* LZVideoUtil.h in Headers */,
-				4889F207212D5C3300983A82 /* LZAudioUtil.h in Headers */,
-				4889F201212D5C3300983A82 /* LZDispatch.h in Headers */,
-				4889F1C7212D5C3300983A82 /* UIWebView+LZHelper.h in Headers */,
-				4889F1F1212D5C3300983A82 /* LZScreenUtil.h in Headers */,
-				4889F1AF212D5C3300983A82 /* NSObject+LZHelper.h in Headers */,
-				4889F1FF212D5C3300983A82 /* LZEncryptUtl.h in Headers */,
-				4889F1F8212D5C3300983A82 /* LZMathUtil.h in Headers */,
-				4889F1A3212D5C3300983A82 /* LZMacroDefine.h in Headers */,
-				4889F1B6212D5C3300983A82 /* NSDictionary+LZHelper.h in Headers */,
-				4889F1E1212D5C3300983A82 /* UIScreen+LZHelper.h in Headers */,
-				4889F1D9212D5C3300983A82 /* UIButton+LZHelper.h in Headers */,
-				4889F1A2212D5C3300983A82 /* LZReachability.h in Headers */,
-				4889F1E9212D5C3300983A82 /* LZImageUtil.h in Headers */,
-				4889F1A5212D5C3300983A82 /* LZHelperSDK.h in Headers */,
-				4889F1A7212D5C3300983A82 /* NSNumber+LZHelper.h in Headers */,
-				4889F1A8212D5C3300983A82 /* NSURL+LZHelper.h in Headers */,
-				4889F1BC212D5C3300983A82 /* NSString+LZHelper.h in Headers */,
-				4889F1B7212D5C3300983A82 /* NSArray+LZHelper.h in Headers */,
-				4889F1B5212D5C3300983A82 /* NSMutableArray+LZHelper.h in Headers */,
-				4889F1C4212D5C3300983A82 /* UIImage+LZHelper.h in Headers */,
-				4889F1F0212D5C3300983A82 /* LZSystemUtil.h in Headers */,
-				4889F1BE212D5C3300983A82 /* NSString+LZUrlEncode.h in Headers */,
-				4889F1B2212D5C3300983A82 /* UIViewController+LZHelper.h in Headers */,
+				F218CCA218FD681C2ABFC2A9E9DD955D /* SSKeychain-umbrella.h in Headers */,
+				D86DCB0797B1F4FE558921132C122468 /* SSKeychain.h in Headers */,
+				CD8EEBDC0A58B8046F73596F7ECA8631 /* SSKeychainQuery.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		6EB19C4C4395CA7DD6BC54C06D22C67F /* LZCommonSDK */ = {
+		085A148379FF76CC3413073AAB7DD829 /* Pods-LZCommonSDK_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AF2E948AF68E68A0D5939BD16A635E0E /* Build configuration list for PBXNativeTarget "LZCommonSDK" */;
+			buildConfigurationList = 214C9726F8B9D7142FE316978F2F8533 /* Build configuration list for PBXNativeTarget "Pods-LZCommonSDK_Example" */;
 			buildPhases = (
-				3E058F18EDC1DDEB846926FA90C5F8B3 /* Sources */,
-				B0F7C0B3A6C7CF59D5DBDF0222DC459C /* Frameworks */,
-				A18A4B6BF9D8CF2660FB9F0A83F6EBEC /* Headers */,
+				8BD1FED57650A1143991B7A374FB841C /* Sources */,
+				A0B93F7203D5A2F9D5F7FB81CAA9D088 /* Frameworks */,
+				68E96ED3791CABC2FA5600EE15E96914 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-			);
-			name = LZCommonSDK;
-			productName = LZCommonSDK;
-			productReference = 396139CB649B3B83C1067EEACF29EBA9 /* LZCommonSDK.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		C9FBACD526C3FFB2C681161847F1BC30 /* Pods-LZCommonSDK_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D1C4B749068FF00325AAAF156B9B2F14 /* Build configuration list for PBXNativeTarget "Pods-LZCommonSDK_Example" */;
-			buildPhases = (
-				3D1FA0F6954D80BC56A764C4BAEA20B6 /* Sources */,
-				8B7A46F9ED06BE327CCB0C42E790B642 /* Frameworks */,
-				46FFBEE0095426F57E2B18D9C7AC6A39 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				13EDF32EEB6A4C6DD49F9F65428212B8 /* PBXTargetDependency */,
+				450BE013FF55D97FFC6C601B0B833B17 /* PBXTargetDependency */,
+				1CCE2147EDA172EB2ACF7D19D529A13D /* PBXTargetDependency */,
+				8F05C8632611E65E87492F54600994A5 /* PBXTargetDependency */,
+				0BBB3F7B6676EEB95EF994A4ACC4F358 /* PBXTargetDependency */,
 			);
 			name = "Pods-LZCommonSDK_Example";
 			productName = "Pods-LZCommonSDK_Example";
-			productReference = A87A216BAC82C1F2DB71C36ED0DBA06C /* Pods_LZCommonSDK_Example.framework */;
+			productReference = 784AF727A8B7226068CE370CD8E34AE5 /* Pods_LZCommonSDK_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8FE394C39AC89A793C75CF8D2E6C8643 /* Aspects */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 169D9CF6AD1E745F7DD3059DC47C6B62 /* Build configuration list for PBXNativeTarget "Aspects" */;
+			buildPhases = (
+				910D2040F5511BB5D5F440EB952EA5D8 /* Sources */,
+				9E3DA278738DBB76285605FC280DD3E5 /* Frameworks */,
+				7D03B59D9E997FA2A2846B63100E6165 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Aspects;
+			productName = Aspects;
+			productReference = B15938E5B79937F6492E3EDF600BBA6D /* Aspects.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B55F31D317B070DB9D75883165CB2C8E /* LZCommonSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAB1F0D74F838207017C81E22598DD6A /* Build configuration list for PBXNativeTarget "LZCommonSDK" */;
+			buildPhases = (
+				A87C3BC21F2146C48BE97FB5FEDA1C57 /* Sources */,
+				0AE79090B132666D52DFA18E7876E323 /* Frameworks */,
+				15E080D8159009C0D5A5AAE1B9C4539D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D34C6D38FE096346D9C4382646BE0BFC /* PBXTargetDependency */,
+				9012D0477691A2D5568E5385A39E09B0 /* PBXTargetDependency */,
+				9DDA23C75401D2D5AE6A8C20DE6AA21D /* PBXTargetDependency */,
+			);
+			name = LZCommonSDK;
+			productName = LZCommonSDK;
+			productReference = 5DA23CBBCCD79305153A577D634C1687 /* LZCommonSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DDAE3D54CBAA4D24A73E2AD3B9863F79 /* RegexKitLite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F5917C4D247FF9695337CB770B186A4 /* Build configuration list for PBXNativeTarget "RegexKitLite" */;
+			buildPhases = (
+				4B3D64A30F9B3BCE69542700422EA993 /* Sources */,
+				FE4697BBB37061FEE49CD59ECB463302 /* Frameworks */,
+				61A1708B7066B49FD2941552851C7CF0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RegexKitLite;
+			productName = RegexKitLite;
+			productReference = D5FA88A942668B30899A8B9A9FABA29A /* RegexKitLite.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F768458E596D76F0041F653B446C0788 /* SSKeychain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1617FB633D9059AAD3C56F6BDCB0FB3 /* Build configuration list for PBXNativeTarget "SSKeychain" */;
+			buildPhases = (
+				4A3ACE27F3735F471A2012A904D5A4C9 /* Sources */,
+				63EFCEB6E3813BC4A08A185C4026AE94 /* Frameworks */,
+				DC71F4A48FC57EBB01F29848EE9A3AF8 /* Headers */,
+				00C4BD29B427290B5ED5F865918561E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SSKeychain;
+			productName = SSKeychain;
+			productReference = D90B8BE5ABB3A4A4DE2A5DE4D8F4223C /* SSKeychain.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		FE10B8B09E10F974B3CDD3D9B521C779 /* Pods-LZCommonSDK_Tests */ = {
@@ -776,7 +1101,7 @@
 			);
 			name = "Pods-LZCommonSDK_Tests";
 			productName = "Pods-LZCommonSDK_Tests";
-			productReference = BABB775F1CC70958273D51565EA73A87 /* Pods_LZCommonSDK_Tests.framework */;
+			productReference = E7D2C2D10A52B4B9136FB75190FA075C /* Pods_LZCommonSDK_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -796,82 +1121,48 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 63EEE747033A5B88DAADE8EC066A3BD6 /* Products */;
+			productRefGroup = 9FA79BCD5CD52C7255CD5CC784A98F8A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6EB19C4C4395CA7DD6BC54C06D22C67F /* LZCommonSDK */,
-				C9FBACD526C3FFB2C681161847F1BC30 /* Pods-LZCommonSDK_Example */,
+				8FE394C39AC89A793C75CF8D2E6C8643 /* Aspects */,
+				B55F31D317B070DB9D75883165CB2C8E /* LZCommonSDK */,
+				085A148379FF76CC3413073AAB7DD829 /* Pods-LZCommonSDK_Example */,
 				FE10B8B09E10F974B3CDD3D9B521C779 /* Pods-LZCommonSDK_Tests */,
+				DDAE3D54CBAA4D24A73E2AD3B9863F79 /* RegexKitLite */,
+				F768458E596D76F0041F653B446C0788 /* SSKeychain */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXSourcesBuildPhase section */
-		3D1FA0F6954D80BC56A764C4BAEA20B6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
+/* Begin PBXResourcesBuildPhase section */
+		00C4BD29B427290B5ED5F865918561E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BC5F714314FC99B5643461FE21E00CA /* Pods-LZCommonSDK_Example-dummy.m in Sources */,
+				173740894EAC9E857423BB5041EE5826 /* SSKeychain.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3E058F18EDC1DDEB846926FA90C5F8B3 /* Sources */ = {
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A3ACE27F3735F471A2012A904D5A4C9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4889F1E2212D5C3300983A82 /* NSTimer+LZHelper.m in Sources */,
-				4889F1F5212D5C3300983A82 /* LZScreenUtil.m in Sources */,
-				4889F1F6212D5C3300983A82 /* LZSystemUtil.m in Sources */,
-				4889F1E6212D5C3300983A82 /* CGRectExtension.m in Sources */,
-				4889F1C9212D5C3300983A82 /* UIView+LZFrame.m in Sources */,
-				4889F1AB212D5C3300983A82 /* NSDate+LZHelper.m in Sources */,
-				4889F1CA212D5C3300983A82 /* UIImageView+LZHelper.m in Sources */,
-				4889F1CB212D5C3300983A82 /* UILabel+LZHelper.m in Sources */,
-				4889F1E4212D5C3300983A82 /* UIColor+LZHelper.m in Sources */,
-				4889F1DD212D5C3300983A82 /* UIPasteboard+LZHelper.m in Sources */,
-				4889F1CD212D5C3300983A82 /* UIView+LZGusture.m in Sources */,
-				4889F204212D5C3300983A82 /* LZVideoUtil.m in Sources */,
-				4889F1AD212D5C3300983A82 /* NSUserDefaults+LZHelper.m in Sources */,
-				4889F200212D5C3300983A82 /* LZStringUtil.m in Sources */,
-				4889F1B9212D5C3300983A82 /* NSDictionary+LZHelper.m in Sources */,
-				4889F208212D5C3300983A82 /* LZFileUtil.m in Sources */,
-				4889F1FC212D5C3300983A82 /* LZJSONParseUtil.m in Sources */,
-				4889F1BB212D5C3300983A82 /* NSNumber+LZHelper.m in Sources */,
-				4889F1B8212D5C3300983A82 /* NSMutableArray+LZHelper.m in Sources */,
-				4889F1CE212D5C3300983A82 /* UIButton+LZHelper.m in Sources */,
-				4889F1F7212D5C3300983A82 /* LZDeviceUtil.m in Sources */,
-				4889F1B4212D5C3300983A82 /* NSArray+LZHelper.m in Sources */,
-				4889F1C3212D5C3300983A82 /* NSString+LZUrlEncode.m in Sources */,
-				4889F1A1212D5C3300983A82 /* LZReachability.m in Sources */,
-				4889F1A4212D5C3300983A82 /* UIImage+LZHelper.m in Sources */,
-				4889F1E7212D5C3300983A82 /* LZMathUtil.m in Sources */,
-				4889F1BD212D5C3300983A82 /* NSMutableString+LZHelper.m in Sources */,
-				4889F1D3212D5C3300983A82 /* UIWebView+LZHelper.m in Sources */,
-				4889F1F2212D5C3300983A82 /* LZAppUtil.m in Sources */,
-				4889F1A6212D5C3300983A82 /* UIApplication+LZHelper.m in Sources */,
-				4889F1EE212D5C3300983A82 /* LZCommonUtil.m in Sources */,
-				4889F1CC212D5C3300983A82 /* UIView+LZHelper.m in Sources */,
-				4889F1DE212D5C3300983A82 /* NSURL+LZHelper.m in Sources */,
-				4889F1C2212D5C3300983A82 /* NSMutableAttributedString+LZHelper.m in Sources */,
-				4889F1EF212D5C3300983A82 /* LZDispatch.m in Sources */,
-				4889F1C1212D5C3300983A82 /* NSString+LZHelper.m in Sources */,
-				4889F1D7212D5C3300983A82 /* UITableViewCell+LZHelper.m in Sources */,
-				4889F1FB212D5C3300983A82 /* LZImageUtil.m in Sources */,
-				4889F1E5212D5C3300983A82 /* LZRandomUtil.m in Sources */,
-				4889F1DC212D5C3300983A82 /* UIEvent+LZHelper.m in Sources */,
-				4889F1D8212D5C3300983A82 /* UITextField+LZHelper.m in Sources */,
-				4889F1C8212D5C3300983A82 /* UITableView+LZHelper.m in Sources */,
-				4889F1B3212D5C3300983A82 /* UIViewController+LZHelper.m in Sources */,
-				4889F1EA212D5C3300983A82 /* LZNetworkUtil.m in Sources */,
-				4889F206212D5C3300983A82 /* LZAudioUtil.m in Sources */,
-				4889F1FD212D5C3300983A82 /* LZEncryptUtl.m in Sources */,
-				4889F1B1212D5C3300983A82 /* UIScreen+LZHelper.m in Sources */,
-				4889F1AC212D5C3300983A82 /* NSFileManager+LZHelper.m in Sources */,
-				C4CECF2EE7692744522236A942B6B34C /* LZCommonSDK-dummy.m in Sources */,
-				4889F1D2212D5C3300983A82 /* UIScrollView+LZHelper.m in Sources */,
-				4889F1EC212D5C3300983A82 /* LZReachabilityUtil.m in Sources */,
-				4889F1E3212D5C3300983A82 /* NSObject+LZHelper.m in Sources */,
+				DDEFAABDE90FAF41E42FF855E8AB7D47 /* SSKeychain-dummy.m in Sources */,
+				3F1553108816DD7DECBE146D72244983 /* SSKeychain.m in Sources */,
+				321BC378F9A6D8A60F03005BA078771B /* SSKeychainQuery.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B3D64A30F9B3BCE69542700422EA993 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BE21F55B8CB1697C934A34C3D1150BE /* RegexKitLite-dummy.m in Sources */,
+				DEF2EFE3BE882FC4A6F4226258F250A5 /* RegexKitLite.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -883,24 +1174,200 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8BD1FED57650A1143991B7A374FB841C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				726F126878F15D91E4823536163155C3 /* Pods-LZCommonSDK_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		910D2040F5511BB5D5F440EB952EA5D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0AE7A90DC17757A4799C5FB36EEB83A /* Aspects-dummy.m in Sources */,
+				1940835D23ED4933E2D6E6E1860C7CE8 /* Aspects.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A87C3BC21F2146C48BE97FB5FEDA1C57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EFF2307875F3081C549674AE2BB4D98 /* CGRectExtension.m in Sources */,
+				3DFAA0F6FB2124DF62F41651A946F115 /* LZAppUtil.m in Sources */,
+				0ECC8007E9EA6D0EFF8E4FDDD38290C5 /* LZAudioUtil.m in Sources */,
+				5708735EC22F1F6D4332B41FBE868811 /* LZCommonSDK-dummy.m in Sources */,
+				FFB8BFC81B6C65C40F439ECEB2CE3987 /* LZCommonUtil.m in Sources */,
+				9D6CA42F32CE2D084861C878F11611DA /* LZDeviceUtil.m in Sources */,
+				5248571629AEF03B6AFB6DFC0C182853 /* LZDispatch.m in Sources */,
+				4558BA358604C01460E88BE50D7FBAC5 /* LZEncryptUtl.m in Sources */,
+				302E336B176D8803ABEFF2F574E28689 /* LZFileUtil.m in Sources */,
+				8652DC190C391B812C8A53487013651D /* LZImageUtil.m in Sources */,
+				DACACE2FF421EBACDFFB6DCEFBB424E9 /* LZJSONParseUtil.m in Sources */,
+				516A3CA1467A239505C95A48758BCEA8 /* LZMathUtil.m in Sources */,
+				EF863607F024BED02322224EE5F57A1A /* LZNetworkUtil.m in Sources */,
+				653B24881B913F52189C6E87B5138CC6 /* LZRandomUtil.m in Sources */,
+				16C5926D2F7889956E9295080EF2564A /* LZReachability.m in Sources */,
+				983E42F8F0BD0C68DC1EC12865F66956 /* LZReachabilityUtil.m in Sources */,
+				2FB54530FEACAAA6BDB0920F2D362CFA /* LZScreenUtil.m in Sources */,
+				3417C148AA5AEF0E6F3A94C14AB567DD /* LZStringUtil.m in Sources */,
+				4C566A7E9587FD8C3BDE7BE153200FEF /* LZSystemUtil.m in Sources */,
+				F8B5229E3A985163914D704BAE60975B /* LZVideoUtil.m in Sources */,
+				7026DB94555E0592504F389F74D32B43 /* NSArray+LZHelper.m in Sources */,
+				DD522240D5D8DB7E823FEA0B9EC92748 /* NSDate+LZHelper.m in Sources */,
+				5C226B86E033F5A0B3FE395919B9FBB8 /* NSDictionary+LZHelper.m in Sources */,
+				A5F76BCD45B4A76CE475338BE0EAC285 /* NSFileManager+LZHelper.m in Sources */,
+				32303E15AF4699BA02B886B3E02ED479 /* NSMutableArray+LZHelper.m in Sources */,
+				E322B2A11EFF33225409B2FDE25461B4 /* NSMutableAttributedString+LZHelper.m in Sources */,
+				B6DD1A3AD8E61AB5FEF65837729503F7 /* NSMutableString+LZHelper.m in Sources */,
+				9D1F4169CA65F6A51C9CAD2AA65EBD61 /* NSNumber+LZHelper.m in Sources */,
+				5EE9CCDE1EDADDEB06CA09D2B2CCB786 /* NSObject+LZHelper.m in Sources */,
+				63DF0E7CD144E4BE04F80F887B15E613 /* NSString+LZHelper.m in Sources */,
+				EA8EEEE587B2AC41D348FDAE2406D2EA /* NSString+LZUrlEncode.m in Sources */,
+				47468568DF52A71113AE86EC004CD082 /* NSTimer+LZHelper.m in Sources */,
+				52B15613B79078AEE5C89D8247FB725C /* NSURL+LZHelper.m in Sources */,
+				2B2A8C925B8AC3B4DDF7DF3289C1435B /* NSUserDefaults+LZHelper.m in Sources */,
+				26D0F1AFD4C46F26E393689965F297DF /* UIApplication+LZHelper.m in Sources */,
+				FDEB820D58FC28E711A6B8DD194FC1DF /* UIButton+LZHelper.m in Sources */,
+				1AED62239C6AE3E0D77BD42855302D5D /* UIColor+LZHelper.m in Sources */,
+				80CDC487C12EA3569F1717205A03432F /* UIEvent+LZHelper.m in Sources */,
+				97089AAAE2972808CD97DBED0E058BA9 /* UIImage+LZHelper.m in Sources */,
+				E4F779011EB232124D530CDFC9EA7CA9 /* UIImageView+LZHelper.m in Sources */,
+				19242560FB97A5CDE918CD7C4B84453B /* UILabel+LZHelper.m in Sources */,
+				45D5DA0EC62FDFF85A703BC4776F3A54 /* UIPasteboard+LZHelper.m in Sources */,
+				FD866315D38A13BA3ECABACCF54AA418 /* UIScreen+LZHelper.m in Sources */,
+				794DBF407FDD67C95EA7F1333050B502 /* UIScrollView+LZHelper.m in Sources */,
+				69A4043356BBC5EB52EAA4CAFF2595F3 /* UITableView+LZHelper.m in Sources */,
+				0CE6293F1695D41EC86DAB8E8E7BB6EF /* UITableViewCell+LZHelper.m in Sources */,
+				3066B8505EDA9D09F7F3239AF1BA63F3 /* UITextField+LZHelper.m in Sources */,
+				94F718F084AF8A5B4994FA04FCDD7C17 /* UIView+LZFrame.m in Sources */,
+				175B75B6AD85C7A0BB003F909E1579EB /* UIView+LZGusture.m in Sources */,
+				0997358892837A27BEA81053D769170A /* UIView+LZHelper.m in Sources */,
+				7C782FCEB0E8F296EC9955E59F5727A3 /* UIViewController+LZHelper.m in Sources */,
+				1EE9E71D12884EE7EDE25D6047B526F8 /* UIWebView+LZHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		13EDF32EEB6A4C6DD49F9F65428212B8 /* PBXTargetDependency */ = {
+		0BBB3F7B6676EEB95EF994A4ACC4F358 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SSKeychain;
+			target = F768458E596D76F0041F653B446C0788 /* SSKeychain */;
+			targetProxy = 5CEEB9627B69596A335A5B4B70E17E1E /* PBXContainerItemProxy */;
+		};
+		1CCE2147EDA172EB2ACF7D19D529A13D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = LZCommonSDK;
-			target = 6EB19C4C4395CA7DD6BC54C06D22C67F /* LZCommonSDK */;
-			targetProxy = 8C58214CEE0CE419A51D85AFC62C9EBF /* PBXContainerItemProxy */;
+			target = B55F31D317B070DB9D75883165CB2C8E /* LZCommonSDK */;
+			targetProxy = D69B61FF5366E1F28BC622EEE1C5F75A /* PBXContainerItemProxy */;
+		};
+		450BE013FF55D97FFC6C601B0B833B17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Aspects;
+			target = 8FE394C39AC89A793C75CF8D2E6C8643 /* Aspects */;
+			targetProxy = CCD0D337CA6BD38E3359E2BF1E55416C /* PBXContainerItemProxy */;
+		};
+		8F05C8632611E65E87492F54600994A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RegexKitLite;
+			target = DDAE3D54CBAA4D24A73E2AD3B9863F79 /* RegexKitLite */;
+			targetProxy = AF5CC6F56FDB5D01818AFD8F7A911B59 /* PBXContainerItemProxy */;
+		};
+		9012D0477691A2D5568E5385A39E09B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RegexKitLite;
+			target = DDAE3D54CBAA4D24A73E2AD3B9863F79 /* RegexKitLite */;
+			targetProxy = E4210D44A80C73D34EAFCC67221DE4CB /* PBXContainerItemProxy */;
+		};
+		9DDA23C75401D2D5AE6A8C20DE6AA21D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SSKeychain;
+			target = F768458E596D76F0041F653B446C0788 /* SSKeychain */;
+			targetProxy = EC12E77699B3859F7C8AC4CE69A4756E /* PBXContainerItemProxy */;
+		};
+		D34C6D38FE096346D9C4382646BE0BFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Aspects;
+			target = 8FE394C39AC89A793C75CF8D2E6C8643 /* Aspects */;
+			targetProxy = C40A709E70A8B59B94CDC36E5E1A1054 /* PBXContainerItemProxy */;
 		};
 		E5B91BAE1A8DD62A3107A632E20AD090 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-LZCommonSDK_Example";
-			target = C9FBACD526C3FFB2C681161847F1BC30 /* Pods-LZCommonSDK_Example */;
+			target = 085A148379FF76CC3413073AAB7DD829 /* Pods-LZCommonSDK_Example */;
 			targetProxy = 24464C30279B3D7ED536BE74A08250B4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		3C4420AB97586A89876FD1BAC465A3A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77964C3C6E050EA457520BA59D453E0F /* Pods-LZCommonSDK_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LZCommonSDK_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LZCommonSDK_Example/Pods-LZCommonSDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		41C0CFFC11E662EAD775E032EE8E026B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3151EDC151444DB0056F7AD1832BB96 /* LZCommonSDK.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LZCommonSDK/LZCommonSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LZCommonSDK/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LZCommonSDK/LZCommonSDK.modulemap";
+				PRODUCT_MODULE_NAME = LZCommonSDK;
+				PRODUCT_NAME = LZCommonSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		4EF691A2FE4FCA1E520F33CCE5C791F0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7CC841F65C6CBE631572A56EFD196EF7 /* Pods-LZCommonSDK_Tests.release.xcconfig */;
@@ -935,9 +1402,43 @@
 			};
 			name = Release;
 		};
-		509EF1F75E34FB1B268E912171C94056 /* Release */ = {
+		5AA33D2BA152DAD7EC5F2593457F588F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CA5637A6A7289E2B1AF5B100AA53D9E7 /* LZCommonSDK.xcconfig */;
+			baseConfigurationReference = 03FD958F8382D5D500737744016F5205 /* Pods-LZCommonSDK_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LZCommonSDK_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LZCommonSDK_Example/Pods-LZCommonSDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		75CBACDD904102B2A436ADAF4FB6470A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1416EDFF71584ECC42FF23B4C17874FD /* RegexKitLite.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -948,14 +1449,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LZCommonSDK/LZCommonSDK-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LZCommonSDK/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/RegexKitLite/RegexKitLite-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RegexKitLite/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LZCommonSDK/LZCommonSDK.modulemap";
-				PRODUCT_MODULE_NAME = LZCommonSDK;
-				PRODUCT_NAME = LZCommonSDK;
+				MODULEMAP_FILE = "Target Support Files/RegexKitLite/RegexKitLite.modulemap";
+				PRODUCT_MODULE_NAME = RegexKitLite;
+				PRODUCT_NAME = RegexKitLite;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -993,6 +1494,67 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		79BD74D8D1C87B3BD4AED85984C05587 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72A6CEA649204F9FD81D9D658C652B11 /* SSKeychain.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SSKeychain/SSKeychain-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SSKeychain/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SSKeychain/SSKeychain.modulemap";
+				PRODUCT_MODULE_NAME = SSKeychain;
+				PRODUCT_NAME = SSKeychain;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7DD3118AB62DDA53C8C3352E1AC03159 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72A6CEA649204F9FD81D9D658C652B11 /* SSKeychain.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SSKeychain/SSKeychain-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SSKeychain/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SSKeychain/SSKeychain.modulemap";
+				PRODUCT_MODULE_NAME = SSKeychain;
+				PRODUCT_NAME = SSKeychain;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1062,11 +1624,10 @@
 			};
 			name = Debug;
 		};
-		90082AF3DC170680DD004B7214CD1E8D /* Debug */ = {
+		965C6AB1BE8C8BF7C0D7C154AE94CD92 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 77964C3C6E050EA457520BA59D453E0F /* Pods-LZCommonSDK_Example.debug.xcconfig */;
+			baseConfigurationReference = A3151EDC151444DB0056F7AD1832BB96 /* LZCommonSDK.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1076,19 +1637,17 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LZCommonSDK_Example/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/LZCommonSDK/LZCommonSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LZCommonSDK/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LZCommonSDK_Example/Pods-LZCommonSDK_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/LZCommonSDK/LZCommonSDK.modulemap";
+				PRODUCT_MODULE_NAME = LZCommonSDK;
+				PRODUCT_NAME = LZCommonSDK;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1153,11 +1712,10 @@
 			};
 			name = Release;
 		};
-		EA4D9EB5A7B9721C4F291EB82BF4EA30 /* Release */ = {
+		B9F7B78CEBA03F3B45659E5445D79C95 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 03FD958F8382D5D500737744016F5205 /* Pods-LZCommonSDK_Example.release.xcconfig */;
+			baseConfigurationReference = F6D6E4B91AD0613B791B57731EB2AF90 /* Aspects.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1167,19 +1725,17 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LZCommonSDK_Example/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Aspects/Aspects-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Aspects/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LZCommonSDK_Example/Pods-LZCommonSDK_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/Aspects/Aspects.modulemap";
+				PRODUCT_MODULE_NAME = Aspects;
+				PRODUCT_NAME = Aspects;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1187,9 +1743,9 @@
 			};
 			name = Release;
 		};
-		F11C32C1E63C672A2282AFE2302B805A /* Debug */ = {
+		C347C1406A03E0C9AFAF49E5DC4FE130 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CA5637A6A7289E2B1AF5B100AA53D9E7 /* LZCommonSDK.xcconfig */;
+			baseConfigurationReference = F6D6E4B91AD0613B791B57731EB2AF90 /* Aspects.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1200,14 +1756,44 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LZCommonSDK/LZCommonSDK-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LZCommonSDK/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Aspects/Aspects-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Aspects/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LZCommonSDK/LZCommonSDK.modulemap";
-				PRODUCT_MODULE_NAME = LZCommonSDK;
-				PRODUCT_NAME = LZCommonSDK;
+				MODULEMAP_FILE = "Target Support Files/Aspects/Aspects.modulemap";
+				PRODUCT_MODULE_NAME = Aspects;
+				PRODUCT_NAME = Aspects;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F31D2536CEEA28B41C966CE3DC7A42A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1416EDFF71584ECC42FF23B4C17874FD /* RegexKitLite.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RegexKitLite/RegexKitLite-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RegexKitLite/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RegexKitLite/RegexKitLite.modulemap";
+				PRODUCT_MODULE_NAME = RegexKitLite;
+				PRODUCT_NAME = RegexKitLite;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -1220,6 +1806,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		169D9CF6AD1E745F7DD3059DC47C6B62 /* Build configuration list for PBXNativeTarget "Aspects" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C347C1406A03E0C9AFAF49E5DC4FE130 /* Debug */,
+				B9F7B78CEBA03F3B45659E5445D79C95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		214C9726F8B9D7142FE316978F2F8533 /* Build configuration list for PBXNativeTarget "Pods-LZCommonSDK_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C4420AB97586A89876FD1BAC465A3A6 /* Debug */,
+				5AA33D2BA152DAD7EC5F2593457F588F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1238,20 +1842,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AF2E948AF68E68A0D5939BD16A635E0E /* Build configuration list for PBXNativeTarget "LZCommonSDK" */ = {
+		3F5917C4D247FF9695337CB770B186A4 /* Build configuration list for PBXNativeTarget "RegexKitLite" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F11C32C1E63C672A2282AFE2302B805A /* Debug */,
-				509EF1F75E34FB1B268E912171C94056 /* Release */,
+				F31D2536CEEA28B41C966CE3DC7A42A5 /* Debug */,
+				75CBACDD904102B2A436ADAF4FB6470A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D1C4B749068FF00325AAAF156B9B2F14 /* Build configuration list for PBXNativeTarget "Pods-LZCommonSDK_Example" */ = {
+		A1617FB633D9059AAD3C56F6BDCB0FB3 /* Build configuration list for PBXNativeTarget "SSKeychain" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				90082AF3DC170680DD004B7214CD1E8D /* Debug */,
-				EA4D9EB5A7B9721C4F291EB82BF4EA30 /* Release */,
+				7DD3118AB62DDA53C8C3352E1AC03159 /* Debug */,
+				79BD74D8D1C87B3BD4AED85984C05587 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAB1F0D74F838207017C81E22598DD6A /* Build configuration list for PBXNativeTarget "LZCommonSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				965C6AB1BE8C8BF7C0D7C154AE94CD92 /* Debug */,
+				41C0CFFC11E662EAD775E032EE8E026B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

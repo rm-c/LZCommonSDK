@@ -20,7 +20,7 @@
 #import <mach/mach.h>
 #import <mach/mach_host.h>
 #import <mach/processor_info.h>
-#import <SSKeychain.h>
+#import "SSKeychain.h"
 
 @implementation LZDeviceUtil
 

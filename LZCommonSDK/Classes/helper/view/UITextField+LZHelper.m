@@ -7,6 +7,12 @@
 //
 
 #import "UITextField+LZHelper.h"
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <objc/runtime.h>
 
 @implementation UITextField (LZHelper)
 

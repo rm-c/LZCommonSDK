@@ -7,6 +7,7 @@
 //
 
 #import "UITableViewCell+LZHelper.h"
+#import "Aspects.h"
 
 @implementation UITableViewCell (LZHelper)
 
