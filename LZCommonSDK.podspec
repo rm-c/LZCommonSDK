@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'LZCommonSDK/Classes/helper/**/*', 'LZCommonSDK/Classes/thirdParty/**/*', 'LZCommonSDK/Classes/utility/**/*'
+  s.source_files = 'LZCommonSDK/Classes/**/*', 'LZCommonSDK/Classes/helper/**/*', 'LZCommonSDK/Classes/thirdParty/**/*', 'LZCommonSDK/Classes/utility/**/*'
   
   # s.resource_bundles = {
   #   'LZCommonSDK' => ['LZCommonSDK/Assets/*.png']
