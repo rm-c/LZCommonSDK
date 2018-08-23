@@ -60,12 +60,12 @@
                 if (status == ReachableViaWWAN)
                 {
                     NSLog(@"block-3g");
-                    [uesrDefaults setInteger:GSNetworkStatus3G forKey:NETWORK_STATUS_KEY];
+                    [uesrDefaults setInteger:LZNetworkStatus3G forKey:NETWORK_STATUS_KEY];
                 }
                 else if (status == ReachableViaWiFi)
                 {
                     NSLog(@"block-wifi");
-                    [uesrDefaults setInteger:GSNetworkStatusWIFI forKey:NETWORK_STATUS_KEY];
+                    [uesrDefaults setInteger:LZNetworkStatusWIFI forKey:NETWORK_STATUS_KEY];
                 }
                 
             };
@@ -73,7 +73,7 @@
             reach.unreachableBlock = ^(LZReachability * reachability)
             {
                 NSLog(@"block-无网络");
-                [uesrDefaults setInteger:GSNetworkStatusOFFLINE forKey:NETWORK_STATUS_KEY];
+                [uesrDefaults setInteger:LZNetworkStatusOFFLINE forKey:NETWORK_STATUS_KEY];
                 
             };
         }
@@ -100,28 +100,28 @@
     [LZReachabilityUtil registerReachabilityChangedObserver:nil selector:nil object:nil];
 }
 
-+ (GSNetworkStatus)getCachedNetworkStatus
++ (LZNetworkStatus)getCachedNetworkStatus
 {
     NSUserDefaults* userDefaults = [NSUserDefaults standardUserDefaults];
-    GSNetworkStatus netWorkStatus = (GSNetworkStatus)[userDefaults integerForKey:NETWORK_STATUS_KEY];
+    LZNetworkStatus netWorkStatus = (LZNetworkStatus)[userDefaults integerForKey:NETWORK_STATUS_KEY];
     
     return netWorkStatus;
 }
 
-+ (GSNetworkStatus)getCurrentNetworkStatus
++ (LZNetworkStatus)getCurrentNetworkStatus
 {
-    GSNetworkStatus result = GSNetworkStatusWIFI;
+    LZNetworkStatus result = LZNetworkStatusWIFI;
     LZReachability * reach = [LZReachability reachabilityWithHostname:@"www.baidu.com"];
     
     switch ([reach currentReachabilityStatus]) {
         case NotReachable:// 没有网络连接
-            result=GSNetworkStatusOFFLINE;
+            result=LZNetworkStatusOFFLINE;
             break;
         case ReachableViaWWAN:// 使用3G网络
-            result=GSNetworkStatus3G;
+            result=LZNetworkStatus3G;
             break;
         case ReachableViaWiFi:// 使用WiFi网络
-            result=GSNetworkStatusWIFI;
+            result=LZNetworkStatusWIFI;
             break;
     }
     
@@ -139,15 +139,15 @@
     switch (status) {
         case NotReachable:// 没有网络连接
             NSLog(@"无网络");
-            [uesrDefaults setInteger:GSNetworkStatusOFFLINE forKey:NETWORK_STATUS_KEY];
+            [uesrDefaults setInteger:LZNetworkStatusOFFLINE forKey:NETWORK_STATUS_KEY];
             break;
         case ReachableViaWWAN:// 使用3G网络
             NSLog(@"3g");
-            [uesrDefaults setInteger:GSNetworkStatus3G forKey:NETWORK_STATUS_KEY];
+            [uesrDefaults setInteger:LZNetworkStatus3G forKey:NETWORK_STATUS_KEY];
             break;
         case ReachableViaWiFi:// 使用WiFi网络
             NSLog(@"wifi");
-            [uesrDefaults setInteger:GSNetworkStatusWIFI forKey:NETWORK_STATUS_KEY];
+            [uesrDefaults setInteger:LZNetworkStatusWIFI forKey:NETWORK_STATUS_KEY];
             break;
     }
     
