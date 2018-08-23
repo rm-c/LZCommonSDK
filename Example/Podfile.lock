@@ -1,6 +1,6 @@
 PODS:
   - Aspects (1.4.1)
-  - LZCommonSDK (2.0.1):
+  - LZCommonSDK (2.0.2):
     - Aspects
     - RegexKitLite
     - SSKeychain
@@ -19,7 +19,7 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   Aspects: 7595ba96a6727a58ebcbfc954497fc5d2fdde546
-  LZCommonSDK: a8e8ffc4f2975010465c2a765cb035530e80e81f
+  LZCommonSDK: f5e5b9fe1eaa24688b69de5e8c7ddb68fed2c466
   RegexKitLite: c0e4c12e6e7de0769f3a3ed679f0f61604170661
   SSKeychain: 55cc80f66f5c73da827e3077f02e43528897db41
 

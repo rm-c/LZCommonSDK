@@ -1,15 +1,28 @@
-#ifdef __OBJC__
-#import <UIKit/UIKit.h>
-#else
-#ifndef FOUNDATION_EXPORT
-#if defined(__cplusplus)
-#define FOUNDATION_EXPORT extern "C"
-#else
-#define FOUNDATION_EXPORT extern
-#endif
-#endif
-#endif
 
+#import <Foundation/Foundation.h>
+
+#ifndef _LZCOMMONSDK_
+#define _LZCOMMONSDK_
+
+#import "LZMacroDefine.h"
+#import "LZAppUtil.h"
+#import "LZDeviceUtil.h"
+#import "LZScreenUtil.h"
+#import "LZSystemUtil.h"
+#import "CGRectExtension.h"
+#import "LZJSONParseUtil.h"
+#import "LZCommonUtil.h"
+#import "LZDispatch.h"
+#import "LZImageUtil.h"
+#import "LZMathUtil.h"
+#import "LZRandomUtil.h"
+#import "LZStringUtil.h"
+#import "LZAudioUtil.h"
+#import "LZFileUtil.h"
+#import "LZVideoUtil.h"
+#import "LZNetworkUtil.h"
+#import "LZReachabilityUtil.h"
+#import "LZReachability.h"
 #import "UIViewController+LZHelper.h"
 #import "NSDate+LZHelper.h"
 #import "NSFileManager+LZHelper.h"
@@ -42,27 +55,5 @@
 #import "UIView+LZGusture.h"
 #import "UIView+LZHelper.h"
 #import "UIWebView+LZHelper.h"
-#import "LZCommonSDK.h"
-#import "LZMacroDefine.h"
-#import "LZReachability.h"
-#import "LZAppUtil.h"
-#import "LZDeviceUtil.h"
-#import "LZScreenUtil.h"
-#import "LZSystemUtil.h"
-#import "CGRectExtension.h"
-#import "LZJSONParseUtil.h"
-#import "LZCommonUtil.h"
-#import "LZDispatch.h"
-#import "LZImageUtil.h"
-#import "LZMathUtil.h"
-#import "LZRandomUtil.h"
-#import "LZStringUtil.h"
-#import "LZAudioUtil.h"
-#import "LZFileUtil.h"
-#import "LZVideoUtil.h"
-#import "LZNetworkUtil.h"
-#import "LZReachabilityUtil.h"
 
-FOUNDATION_EXPORT double LZCommonSDKVersionNumber;
-FOUNDATION_EXPORT const unsigned char LZCommonSDKVersionString[];
-
+#endif /* _LZCOMMONSDK_ */
