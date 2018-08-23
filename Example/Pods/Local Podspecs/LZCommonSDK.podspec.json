@@ -18,7 +18,16 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "LZCommonSDK/Classes/**/*",
+  "source_files": [
+    "LZCommonSDK/Classes/**/*",
+    "LZCommonSDK/Classes/helper/**/*",
+    "LZCommonSDK/Classes/thirdParty/**/*",
+    "LZCommonSDK/Classes/utility/**/*"
+  ],
+  "frameworks": [
+    "UIKit",
+    "MapKit"
+  ],
   "dependencies": {
     "SSKeychain": [
 

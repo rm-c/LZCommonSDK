@@ -11,7 +11,6 @@
 #endif
 
 #import "UIViewController+LZHelper.h"
-#import "LZHelperSDK.h"
 #import "NSDate+LZHelper.h"
 #import "NSFileManager+LZHelper.h"
 #import "NSNumber+LZHelper.h"
@@ -50,7 +49,6 @@
 #import "LZScreenUtil.h"
 #import "LZSystemUtil.h"
 #import "CGRectExtension.h"
-#import "LZEncryptUtl.h"
 #import "LZJSONParseUtil.h"
 #import "LZCommonUtil.h"
 #import "LZDispatch.h"
@@ -58,8 +56,6 @@
 #import "LZMathUtil.h"
 #import "LZRandomUtil.h"
 #import "LZStringUtil.h"
-#import "LZUtilitiesSDK.h"
-#import "GSAudioUtil.h"
 #import "LZAudioUtil.h"
 #import "LZFileUtil.h"
 #import "LZVideoUtil.h"

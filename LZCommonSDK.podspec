@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LZCommonSDK'
-  s.version          = '2.0.0'
+  s.version          = '2.0.1'
   s.summary          = 'LZCommonSDK.'
 
 # This description is used to generate tags and improve search results.
@@ -36,7 +36,7 @@ TODO: Add long description of the pod here.
   #   'LZCommonSDK' => ['LZCommonSDK/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'LZCommonSDK/Classes/**/*.h', 'LZCommonSDK/Classes/helper/**/*.h', 'LZCommonSDK/Classes/thirdParty/**/*.h', 'LZCommonSDK/Classes/utility/**/*.h'
   s.frameworks = 'UIKit', 'MapKit'#, 'libresolv'
   # s.dependency 'AFNetworking', '~> 2.3'
   s.dependency 'SSKeychain'
