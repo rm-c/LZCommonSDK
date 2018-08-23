@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		0323353EF859055609E6AF09 /* Pods_LZCommonSDK_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47709F011FA5BDB959EF19BB /* Pods_LZCommonSDK_Example.framework */; };
+		48C08558212E4E70005C5517 /* libresolv.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 48C08557212E4E70005C5517 /* libresolv.9.tbd */; };
+		48C0855A212E4E7D005C5517 /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 48C08559212E4E7D005C5517 /* libresolv.tbd */; };
+		48C0855C212E4F4A005C5517 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 48C0855B212E4F4A005C5517 /* libz.tbd */; };
+		48C0855E212E4F6A005C5517 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 48C0855D212E4F6A005C5517 /* libicucore.tbd */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -38,6 +42,10 @@
 
 /* Begin PBXFileReference section */
 		47709F011FA5BDB959EF19BB /* Pods_LZCommonSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LZCommonSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		48C08557212E4E70005C5517 /* libresolv.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.9.tbd; path = usr/lib/libresolv.9.tbd; sourceTree = SDKROOT; };
+		48C08559212E4E7D005C5517 /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
+		48C0855B212E4F4A005C5517 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		48C0855D212E4F6A005C5517 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
 		4BBFE01C9F0780F16DC3BC14 /* Pods_LZCommonSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LZCommonSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EB6B2A9051371601C00796B /* Pods-LZCommonSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LZCommonSDK_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-LZCommonSDK_Example/Pods-LZCommonSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		5934A74421AE50E352C9B54E /* Pods-LZCommonSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LZCommonSDK_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LZCommonSDK_Tests/Pods-LZCommonSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -74,6 +82,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48C0855E212E4F6A005C5517 /* libicucore.tbd in Frameworks */,
+				48C0855C212E4F4A005C5517 /* libz.tbd in Frameworks */,
+				48C0855A212E4E7D005C5517 /* libresolv.tbd in Frameworks */,
+				48C08558212E4E70005C5517 /* libresolv.9.tbd in Frameworks */,
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
@@ -119,6 +131,10 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				48C0855D212E4F6A005C5517 /* libicucore.tbd */,
+				48C0855B212E4F4A005C5517 /* libz.tbd */,
+				48C08559212E4E7D005C5517 /* libresolv.tbd */,
+				48C08557212E4E70005C5517 /* libresolv.9.tbd */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
@@ -508,9 +524,9 @@
 					"-framework",
 					"\"SSKeychain\"",
 					"-ObjC",
-					"-l\"icucore\"",
 					"-licucore",
 					"-lresolv",
+					"-l\"icucore\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -538,9 +554,9 @@
 					"-framework",
 					"\"SSKeychain\"",
 					"-ObjC",
-					"-l\"icucore\"",
 					"-licucore",
 					"-lresolv",
+					"-l\"icucore\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";

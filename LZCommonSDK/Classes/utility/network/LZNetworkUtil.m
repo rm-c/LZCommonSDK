@@ -29,7 +29,9 @@
 #import <mach/processor_info.h>
 
 @implementation LZNetworkUtil
+
 /*
+
 + (NSString *)getDNSServers
 {
     NSMutableString *addresses = [[NSMutableString alloc]initWithString:@""];
