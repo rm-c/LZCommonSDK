@@ -103,7 +103,6 @@
 		A1568757F9CA221AB86595D0770AB05C /* LZScreenUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 6565D1B347828C35796FD8F8F30040CB /* LZScreenUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A5F76BCD45B4A76CE475338BE0EAC285 /* NSFileManager+LZHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 496ED027B460F5311D2DE7380FDF78DA /* NSFileManager+LZHelper.m */; };
 		ADA18BBE68FA436F04AD9C34FCAB7862 /* SSKeychain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D1865A3631C5935261BDE705B9E209A /* SSKeychain.framework */; };
-		B0C10C43C3471F3F84E2C7A975FA9AB5 /* LZUtilitiesSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = D66FBE54DD297E0B7ED13B705266AB8D /* LZUtilitiesSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B39DB0B9D5AD338B4B6D587D9A653E88 /* UIWebView+LZHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = BD9752D556BB1661E5FE909ADDDBA0BD /* UIWebView+LZHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B46FF1DBCB3A9D21CF2D1940D160F50B /* Pods-LZCommonSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B87AC56ADE9B2C17DCF72EFF61FD0BD6 /* Pods-LZCommonSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B6DD1A3AD8E61AB5FEF65837729503F7 /* NSMutableString+LZHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F6393AAE0CD97F07882CB328A1A119 /* NSMutableString+LZHelper.m */; };
@@ -217,7 +216,7 @@
 		0D1865A3631C5935261BDE705B9E209A /* SSKeychain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SSKeychain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E7B11C902905100B89D914619AC7B8D /* CGRectExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CGRectExtension.m; sourceTree = "<group>"; };
 		1066D4C704B3F30ECD76E6A0889766C8 /* LZMathUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LZMathUtil.h; sourceTree = "<group>"; };
-		119E59C8F866790666E89609A1037431 /* LZCommonSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = LZCommonSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		119E59C8F866790666E89609A1037431 /* LZCommonSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = LZCommonSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		130C7A8313B3DA55CFE15BEA6F02C9A9 /* LZCommonUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LZCommonUtil.m; sourceTree = "<group>"; };
 		13BCAE6320E4EDA6A6C6FDF93C8507D2 /* LZAppUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LZAppUtil.h; sourceTree = "<group>"; };
 		1416EDFF71584ECC42FF23B4C17874FD /* RegexKitLite.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RegexKitLite.xcconfig; sourceTree = "<group>"; };
@@ -262,7 +261,7 @@
 		572FDCFA3EAE203828D87DD2E349E45B /* UIView+LZGusture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+LZGusture.h"; sourceTree = "<group>"; };
 		5AB0F337D0EDEFC6B489D2991C3E5C0E /* LZMacroDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LZMacroDefine.h; path = LZCommonSDK/Classes/LZMacroDefine.h; sourceTree = "<group>"; };
 		5C3D67448070AF09FFE3B1F5A86BCA5F /* Aspects.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Aspects.h; sourceTree = "<group>"; };
-		5DA23CBBCCD79305153A577D634C1687 /* LZCommonSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LZCommonSDK.framework; path = LZCommonSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DA23CBBCCD79305153A577D634C1687 /* LZCommonSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LZCommonSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F1921A02EF5371903E089FE4C32DB14 /* LZDeviceUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LZDeviceUtil.h; sourceTree = "<group>"; };
 		6063BC02EA5745F7AE803BFA9804B150 /* LZFileUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LZFileUtil.m; sourceTree = "<group>"; };
 		6092161D5935D24EED5123B87A64C2AF /* Aspects.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Aspects.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -270,7 +269,7 @@
 		63D46B8DB248C952A7A97F82830BE32F /* LZSystemUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LZSystemUtil.h; sourceTree = "<group>"; };
 		6565D1B347828C35796FD8F8F30040CB /* LZScreenUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LZScreenUtil.h; sourceTree = "<group>"; };
 		657E6FBF98CFF9D2E9F188DE9CD6ED84 /* SSKeychain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSKeychain.h; path = Sources/SSKeychain.h; sourceTree = "<group>"; };
-		66E6213042754021E1D62FE9B6B55E47 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		66E6213042754021E1D62FE9B6B55E47 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		68F516C5A76851566263F89E218523DA /* NSString+LZUrlEncode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+LZUrlEncode.m"; sourceTree = "<group>"; };
 		6953600BBFE5FEB720B08580BED48A94 /* SSKeychain.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SSKeychain.bundle; path = Support/SSKeychain.bundle; sourceTree = "<group>"; };
 		6AD51392878B4F7985E293B340267539 /* Pods-LZCommonSDK_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LZCommonSDK_Tests-resources.sh"; sourceTree = "<group>"; };
@@ -283,7 +282,7 @@
 		765AEB6928ED9D47041F3B1B79F80F2E /* NSMutableAttributedString+LZHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+LZHelper.m"; sourceTree = "<group>"; };
 		77964C3C6E050EA457520BA59D453E0F /* Pods-LZCommonSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LZCommonSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		77F99D8E65E1C7D14D3C5D8C1EE40C7A /* LZCommonSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LZCommonSDK-umbrella.h"; sourceTree = "<group>"; };
-		784AF727A8B7226068CE370CD8E34AE5 /* Pods_LZCommonSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LZCommonSDK_Example.framework; path = "Pods-LZCommonSDK_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		784AF727A8B7226068CE370CD8E34AE5 /* Pods_LZCommonSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LZCommonSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		79BBA8A0BEBB8F5B8A1CEE4FFD2E81DA /* LZNetworkUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LZNetworkUtil.h; sourceTree = "<group>"; };
 		7C53BF801B97EBABC30B482E28FE9BA8 /* Pods-LZCommonSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LZCommonSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		7CC841F65C6CBE631572A56EFD196EF7 /* Pods-LZCommonSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LZCommonSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -292,7 +291,7 @@
 		8087307779ADD0AD973FC22F672A6F09 /* RegexKitLite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RegexKitLite.h; sourceTree = "<group>"; };
 		810632797F91DBFACF793E3CC2C7EC9C /* Aspects.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Aspects.modulemap; sourceTree = "<group>"; };
 		81E37B052794178754C4B49066DAD2B8 /* LZVideoUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LZVideoUtil.h; sourceTree = "<group>"; };
-		82BAC1CDE082B4DBBC4D98A622C4A515 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		82BAC1CDE082B4DBBC4D98A622C4A515 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		84A823FF1B3BB8BE2B5D6FBD0D4C97A6 /* NSDictionary+LZHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+LZHelper.m"; sourceTree = "<group>"; };
 		86A1D7B6465E8D1E5FB1C0DF36FED606 /* UIColor+LZHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+LZHelper.h"; sourceTree = "<group>"; };
 		885719FA8BD3BA561AC5F2F834E2D373 /* UITableViewCell+LZHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+LZHelper.m"; sourceTree = "<group>"; };
@@ -303,7 +302,7 @@
 		8CEB56551B3DB9A007490B8A5AE45B98 /* UITableViewCell+LZHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+LZHelper.h"; sourceTree = "<group>"; };
 		92678B54FD20DF5D7C2EBD4CEFBE14C7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93844929C30DD0D65B22F80AECB9C42C /* LZCommonSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LZCommonSDK-prefix.pch"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9490D2AEAF2D1DB7B6A7491D9B76F047 /* SSKeychainQuery.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SSKeychainQuery.m; path = Sources/SSKeychainQuery.m; sourceTree = "<group>"; };
 		94FFA94200A2D5EB0E1DC81A8BC15BAF /* CGRectExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CGRectExtension.h; sourceTree = "<group>"; };
 		95B9E7C847F802EAE4A3CA09477B47D8 /* LZMathUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LZMathUtil.m; sourceTree = "<group>"; };
@@ -320,7 +319,7 @@
 		AFEEB797961340C5D4BC7EF925DC31DC /* UIView+LZHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+LZHelper.h"; sourceTree = "<group>"; };
 		B0381F5838316686406E228CA180A3A6 /* UIApplication+LZHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIApplication+LZHelper.h"; sourceTree = "<group>"; };
 		B0773D0C75EAA72818591575BBE87335 /* NSString+LZHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+LZHelper.m"; sourceTree = "<group>"; };
-		B15938E5B79937F6492E3EDF600BBA6D /* Aspects.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Aspects.framework; path = Aspects.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B15938E5B79937F6492E3EDF600BBA6D /* Aspects.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Aspects.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B264DB86AB3BBC03FA92E4F219A2E2BF /* LZEncryptUtl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LZEncryptUtl.h; sourceTree = "<group>"; };
 		B340CED5D9DEBDC061A2A619147502E3 /* UIViewController+LZHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+LZHelper.m"; sourceTree = "<group>"; };
 		B4948FA52BE3F5E485E9CAECC0C55DEB /* UITableView+LZHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITableView+LZHelper.m"; sourceTree = "<group>"; };
@@ -350,20 +349,19 @@
 		D510635F8C05A75B97C4624817BD0862 /* NSNumber+LZHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSNumber+LZHelper.h"; sourceTree = "<group>"; };
 		D58DE3B77D2F67EE750A95B70D609540 /* SSKeychain-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SSKeychain-dummy.m"; sourceTree = "<group>"; };
 		D5C87C552DE5930365A3DE875C348EC2 /* NSMutableString+LZHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSMutableString+LZHelper.h"; sourceTree = "<group>"; };
-		D5FA88A942668B30899A8B9A9FABA29A /* RegexKitLite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RegexKitLite.framework; path = RegexKitLite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D66FBE54DD297E0B7ED13B705266AB8D /* LZUtilitiesSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LZUtilitiesSDK.h; sourceTree = "<group>"; };
+		D5FA88A942668B30899A8B9A9FABA29A /* RegexKitLite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RegexKitLite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D80D7D0E74D3F39C1C6BA4EF60B0D141 /* UIView+LZFrame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+LZFrame.m"; sourceTree = "<group>"; };
 		D86193A285BFACD0784ACDB493DFB8A7 /* LZHelperSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LZHelperSDK.h; sourceTree = "<group>"; };
 		D8900EC0D0E7590FA1246F8FA88D291C /* RegexKitLite.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RegexKitLite.modulemap; sourceTree = "<group>"; };
 		D8DF327AAC3BD333248C360C5FB79340 /* NSNumber+LZHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+LZHelper.m"; sourceTree = "<group>"; };
-		D90B8BE5ABB3A4A4DE2A5DE4D8F4223C /* SSKeychain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SSKeychain.framework; path = SSKeychain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D90B8BE5ABB3A4A4DE2A5DE4D8F4223C /* SSKeychain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SSKeychain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D92CD7C381ED419A9285889A92CD813F /* LZReachabilityUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LZReachabilityUtil.m; sourceTree = "<group>"; };
 		DB357D1047767C646383F49BEF565D91 /* LZStringUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LZStringUtil.h; sourceTree = "<group>"; };
 		DC82BDF1A1A0FD301CE2B5333EA9AAC9 /* LZJSONParseUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LZJSONParseUtil.m; sourceTree = "<group>"; };
 		DE1374D6EF71FFCA4E2A5A01D26B4754 /* LZDispatch.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LZDispatch.m; sourceTree = "<group>"; };
 		E033975C7B117076CE682FE5D049B09E /* LZDispatch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LZDispatch.h; sourceTree = "<group>"; };
 		E52AED0DBC3E1EAC1604EDD599365569 /* Pods-LZCommonSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LZCommonSDK_Example.modulemap"; sourceTree = "<group>"; };
-		E7D2C2D10A52B4B9136FB75190FA075C /* Pods_LZCommonSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LZCommonSDK_Tests.framework; path = "Pods-LZCommonSDK_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7D2C2D10A52B4B9136FB75190FA075C /* Pods_LZCommonSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LZCommonSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBB8C535ABFF72D2D66039E80958FAF9 /* SSKeychain-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SSKeychain-prefix.pch"; sourceTree = "<group>"; };
 		ED6D3E66235CD98A6F3C68B108FB6F0E /* LZJSONParseUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LZJSONParseUtil.h; sourceTree = "<group>"; };
 		ED9D107EF29D3EF13F66C31FF7BDB9A3 /* UIWebView+LZHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+LZHelper.m"; sourceTree = "<group>"; };
@@ -473,7 +471,6 @@
 				BD9752D556BB1661E5FE909ADDDBA0BD /* UIWebView+LZHelper.h */,
 				ED9D107EF29D3EF13F66C31FF7BDB9A3 /* UIWebView+LZHelper.m */,
 			);
-			name = view;
 			path = view;
 			sourceTree = "<group>";
 		};
@@ -485,7 +482,6 @@
 				ED6D3E66235CD98A6F3C68B108FB6F0E /* LZJSONParseUtil.h */,
 				DC82BDF1A1A0FD301CE2B5333EA9AAC9 /* LZJSONParseUtil.m */,
 			);
-			name = codding;
 			path = codding;
 			sourceTree = "<group>";
 		};
@@ -497,7 +493,6 @@
 				74E7C7EC3393F66DCBB35E7B3BD2E39F /* LZReachabilityUtil.h */,
 				D92CD7C381ED419A9285889A92CD813F /* LZReachabilityUtil.m */,
 			);
-			name = network;
 			path = network;
 			sourceTree = "<group>";
 		};
@@ -547,11 +542,11 @@
 			isa = PBXGroup;
 			children = (
 				5AB0F337D0EDEFC6B489D2991C3E5C0E /* LZMacroDefine.h */,
+				5EFD515C717662F2CFC600E021CF828C /* utility */,
+				30E1DE5A4FD556550F784A497C10570C /* thirdParty */,
 				49D62FE207ACB99B4399DC6BE5649F4F /* helper */,
 				6A0DD3F14F14941D562B1C84F8E9AFE4 /* Pod */,
 				B52063FE45788B74B31FEA0CE7CE1D6F /* Support Files */,
-				30E1DE5A4FD556550F784A497C10570C /* thirdParty */,
-				5EFD515C717662F2CFC600E021CF828C /* utility */,
 			);
 			name = LZCommonSDK;
 			path = ../..;
@@ -569,7 +564,6 @@
 				7D3FCC47E2CA333DA93D3C2FF8DA4550 /* NSString+LZUrlEncode.h */,
 				68F516C5A76851566263F89E218523DA /* NSString+LZUrlEncode.m */,
 			);
-			name = NSString;
 			path = NSString;
 			sourceTree = "<group>";
 		};
@@ -640,7 +634,6 @@
 				88B6BA87D4437890068499852309F050 /* UIViewController+LZHelper.h */,
 				B340CED5D9DEBDC061A2A619147502E3 /* UIViewController+LZHelper.m */,
 			);
-			name = controller;
 			path = controller;
 			sourceTree = "<group>";
 		};
@@ -651,7 +644,6 @@
 				32A32F2FB03313ED7899051EB5D1658A /* RegexKitLite.m */,
 				27051DA3928590DE4F70CB536E44A25C /* Support Files */,
 			);
-			name = RegexKitLite;
 			path = RegexKitLite;
 			sourceTree = "<group>";
 		};
@@ -662,7 +654,6 @@
 				5702A38DD2568A55FAC0957E9E50F3BA /* Aspects.m */,
 				55F766667A9C7BDC81659DED890E4300 /* Support Files */,
 			);
-			name = Aspects;
 			path = Aspects;
 			sourceTree = "<group>";
 		};
@@ -683,7 +674,6 @@
 				18A8B575530C3401A3D06A2AA810EBC7 /* LZRandomUtil.m */,
 				DB357D1047767C646383F49BEF565D91 /* LZStringUtil.h */,
 				BB499C62F09A07D32B55EF161C26B430 /* LZStringUtil.m */,
-				D66FBE54DD297E0B7ED13B705266AB8D /* LZUtilitiesSDK.h */,
 				E27E66F8D096D9532E09CA32237552A1 /* about */,
 				0A010222ED2356ABB89396A537E8880B /* codding */,
 				DFC0779CA4A9765FB4803DB0A9F53FF1 /* media */,
@@ -822,7 +812,6 @@
 				81E37B052794178754C4B49066DAD2B8 /* LZVideoUtil.h */,
 				971FF753E32967B01D810C9CD4BACA53 /* LZVideoUtil.m */,
 			);
-			name = media;
 			path = media;
 			sourceTree = "<group>";
 		};
@@ -838,7 +827,6 @@
 				63D46B8DB248C952A7A97F82830BE32F /* LZSystemUtil.h */,
 				1EF283296BBDE25F90DC13AE2630DD25 /* LZSystemUtil.m */,
 			);
-			name = about;
 			path = about;
 			sourceTree = "<group>";
 		};
@@ -848,7 +836,6 @@
 				012D611F7630308AF5E519CE2F5D34E4 /* LZReachability.h */,
 				2FEF0F827EEE0322BE263F6A46D2FC0B /* LZReachability.m */,
 			);
-			name = Reachability;
 			path = Reachability;
 			sourceTree = "<group>";
 		};
@@ -862,7 +849,6 @@
 				495D2FC0B7EF228932AEEFBB3209DD90 /* Resources */,
 				7F8DDF0D4D979FF259A0AD71F569D000 /* Support Files */,
 			);
-			name = SSKeychain;
 			path = SSKeychain;
 			sourceTree = "<group>";
 		};
@@ -876,7 +862,6 @@
 				17B58754CE48E7BE6D34F34F6387ABA0 /* NSMutableArray+LZHelper.h */,
 				0118BE0C3DDA37902D7597EE8C822EF9 /* NSMutableArray+LZHelper.m */,
 			);
-			name = stroage;
 			path = stroage;
 			sourceTree = "<group>";
 		};
@@ -909,7 +894,6 @@
 				A1568757F9CA221AB86595D0770AB05C /* LZScreenUtil.h in Headers */,
 				CFFACB60DA021D6FF639EF7B3FE5C03F /* LZStringUtil.h in Headers */,
 				D667DE188AA5E610A664ACEAE07302D2 /* LZSystemUtil.h in Headers */,
-				B0C10C43C3471F3F84E2C7A975FA9AB5 /* LZUtilitiesSDK.h in Headers */,
 				DCBEA97C17A9CB4056EB3BF151223BA8 /* LZVideoUtil.h in Headers */,
 				BCCABA5593B3694E6F1AF2EEABE71042 /* NSArray+LZHelper.h in Headers */,
 				11875210AC8D1A4CBB0FED796FAB7ACF /* NSDate+LZHelper.h in Headers */,
