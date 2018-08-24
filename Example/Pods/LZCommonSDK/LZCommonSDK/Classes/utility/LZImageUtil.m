@@ -152,4 +152,38 @@
     }
 }
 
++ (UIImage*)maskImage:(UIImage *)image withMask:(UIImage *)maskImage
+{
+    CGColorSpaceRef colorSpace = CGColorSpaceCreateDeviceRGB();
+    
+    CGImageRef maskImageRef = [maskImage CGImage];
+    CGContextRef mainViewContentContext = CGBitmapContextCreate(NULL, maskImage.size.width, maskImage.size.height, 8, 0, colorSpace, (kCGBitmapByteOrderDefault | kCGImageAlphaPremultipliedLast));
+    
+    if (mainViewContentContext == NULL) {
+        CGColorSpaceRelease(colorSpace);
+        return nil;
+    }
+    
+    CGFloat ratio = 0;
+    ratio = maskImage.size.width/ image.size.width;
+    if(ratio * image.size.height < maskImage.size.height) {
+        ratio = maskImage.size.height/ image.size.height;
+    }
+    CGRect rect1 = {{0, 0}, {maskImage.size.width, maskImage.size.height}};
+    CGRect rect2 = {{-((image.size.width * ratio) - maskImage.size.width) / 2 , -((image.size.height * ratio) - maskImage.size.height) / 2}, {image.size.width * ratio, image.size.height * ratio}};
+    
+    CGContextClipToMask(mainViewContentContext, rect1, maskImageRef);
+    CGContextDrawImage(mainViewContentContext, rect2, image.CGImage);
+    
+    CGImageRef newImage = CGBitmapContextCreateImage(mainViewContentContext);
+    CGContextRelease(mainViewContentContext);
+    UIImage *theImage = [UIImage imageWithCGImage:newImage];
+    
+    CGImageRelease(newImage);
+    CGColorSpaceRelease(colorSpace);
+    
+    return theImage;
+}
+
+
 @end

@@ -19,4 +19,14 @@
  */
 +(CGSize)getImageSizeWithURL:(id)imageURL;
 
+
+/**
+ 裁剪图片
+
+ @param image 原始图片
+ @param maskImage 模板遮罩
+ @return 裁剪后图片
+ */
++ (UIImage*)maskImage:(UIImage *)image withMask:(UIImage *)maskImage;
+
 @end
