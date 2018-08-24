@@ -30,8 +30,6 @@
 
 @implementation LZNetworkUtil
 
-/*
-
 + (NSString *)getDNSServers
 {
     NSMutableString *addresses = [[NSMutableString alloc]initWithString:@""];
@@ -126,5 +124,5 @@
     
     return outstring;
 }
-*/
+
 @end
