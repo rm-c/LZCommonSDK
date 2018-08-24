@@ -12,6 +12,13 @@
 
 @implementation LZAppUtil
 
++ (NSString*)getAppIcon
+{
+    NSDictionary *infoPlist = [[NSBundle mainBundle] infoDictionary];
+    NSString *icon = [[infoPlist valueForKeyPath:@"CFBundleIcons.CFBundlePrimaryIcon.CFBundleIconFiles"] lastObject];
+    return [UIImage imageNamed:icon];
+}
+
 + (NSString*)getAppVersion
 {
     NSDictionary *infoDictionary = [[NSBundle mainBundle] infoDictionary];
@@ -21,21 +28,18 @@
 + (NSString*)getBundleID
 {
     NSString* idntifier = [[NSBundle mainBundle]bundleIdentifier];
-    
     return idntifier;
 }
 
 + (NSString*)getAppDisplayName
 {
     NSString *appName = [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleDisplayName"];
-    
     return appName;
 }
 
 + (BOOL)isAppFirstLaunch
 {
     BOOL hasLaunchedOnce = [[NSUserDefaults standardUserDefaults] boolForKey:@"HasLaunchedOnce"];
-    
     if (!hasLaunchedOnce) {
         [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"HasLaunchedOnce"];
         [[NSUserDefaults standardUserDefaults] synchronize];

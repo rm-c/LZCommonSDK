@@ -10,6 +10,8 @@
 
 @interface LZAppUtil : NSObject
 
++ (NSString*)getAppIcon;
+
 + (NSString*)getAppVersion;
 
 + (NSString*)getBundleID;

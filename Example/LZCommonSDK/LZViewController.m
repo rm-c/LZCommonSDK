@@ -7,6 +7,7 @@
 //
 
 #import "LZViewController.h"
+#import <LZCommonSDK/LZCommonSDK.h>
 
 @interface LZViewController ()
 
@@ -17,7 +18,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    self.view.backgroundColor = UIColorFromRGB(0x888888);
+    if (IsEmpty(self)) {
+        return;
+    }
 }
 
 - (void)didReceiveMemoryWarning
