@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LZCommonSDK'
-  s.version          = '2.0.3'
+  s.version          = '2.0.4'
   s.summary          = 'LZCommonSDK.'
 
 # This description is used to generate tags and improve search results.
