@@ -30,6 +30,6 @@
  @param color 颜色
  @param font 字体
  */
-- (void)drawText:(NSString*)text inFrame:(CGRect)frame aligment:(NSTextAlignment)aligment color:(UIColor*)color font:(UIFont)font;
+- (void)drawText:(NSString*)text inFrame:(CGRect)frame aligment:(NSTextAlignment)aligment color:(UIColor*)color font:(UIFont*)font;
 
 @end
