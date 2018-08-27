@@ -46,6 +46,8 @@
 		431EF5A0038A25C4DDCBD87B6ADA376D /* UIView+LZHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F098D9FC45C7CBA5FEC036A1C0AFA7 /* UIView+LZHelper.m */; };
 		43969A38AAD741071EB6CA929589F80E /* UILabel+LZHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DF5E81590AB775FE35965F94A9B1C25 /* UILabel+LZHelper.m */; };
 		47833A1BD6935ADCDBDB434B57247AEA /* UIApplication+LZHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = AC15A854C2D7ABCCE0E7EE8D9EC30B20 /* UIApplication+LZHelper.m */; };
+		4876B4B4213398AE0044CDDF /* UIView+LZDraw.h in Headers */ = {isa = PBXBuildFile; fileRef = 4876B4B2213398AE0044CDDF /* UIView+LZDraw.h */; };
+		4876B4B5213398AE0044CDDF /* UIView+LZDraw.m in Sources */ = {isa = PBXBuildFile; fileRef = 4876B4B3213398AE0044CDDF /* UIView+LZDraw.m */; };
 		48EA3951212F878E00BE23EE /* libresolv.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 48EA3950212F878E00BE23EE /* libresolv.9.tbd */; };
 		49841A770AD373C0FD473632434D0603 /* LZMathUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = EBA52EA09AE42D9319265E3E06DD0AF4 /* LZMathUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4B559C0D7B595FDC27ACAB1D8B4FE58F /* LZAppUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AFFAA7BB0FC3686D5E61BEFD4F6B9B6 /* LZAppUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -245,6 +247,8 @@
 		43E60325AC0F726DB3E69BEF72D19680 /* Pods-LZCommonSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LZCommonSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4683CFC954462FC1B18322E3C6EB1D49 /* UIScreen+LZHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScreen+LZHelper.h"; path = "LZCommonSDK/Classes/helper/UIScreen+LZHelper.h"; sourceTree = "<group>"; };
 		47E45A7B2B9BB865A1064B510A7D4788 /* UIButton+LZHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+LZHelper.m"; path = "LZCommonSDK/Classes/helper/view/UIButton+LZHelper.m"; sourceTree = "<group>"; };
+		4876B4B2213398AE0044CDDF /* UIView+LZDraw.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+LZDraw.h"; sourceTree = "<group>"; };
+		4876B4B3213398AE0044CDDF /* UIView+LZDraw.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+LZDraw.m"; sourceTree = "<group>"; };
 		48EA3950212F878E00BE23EE /* libresolv.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.9.tbd; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/usr/lib/libresolv.9.tbd; sourceTree = DEVELOPER_DIR; };
 		49C7D7497E4D7C2DFF495AD9B06EB6D9 /* RegexKitLite-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RegexKitLite-dummy.m"; sourceTree = "<group>"; };
 		4B2F5CBCB1C1095771E54DD55E7802A7 /* NSString+LZUrlEncode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+LZUrlEncode.m"; path = "LZCommonSDK/Classes/helper/NSString/NSString+LZUrlEncode.m"; sourceTree = "<group>"; };
@@ -650,6 +654,8 @@
 				D487CC6B6D88029E21BF94A229AAECCE /* UIView+LZGusture.m */,
 				8F0609CFA77EE52EBDDA5D5711590BCB /* UIView+LZHelper.h */,
 				13F098D9FC45C7CBA5FEC036A1C0AFA7 /* UIView+LZHelper.m */,
+				4876B4B2213398AE0044CDDF /* UIView+LZDraw.h */,
+				4876B4B3213398AE0044CDDF /* UIView+LZDraw.m */,
 				72FCA044AAC5144DE62063CA9F33A718 /* UIViewController+LZHelper.h */,
 				EDFE44C76E72FEE9CA45BF59DA16CC76 /* UIViewController+LZHelper.m */,
 				9DB1335E18D95D14D64EE2FBAED36D02 /* UIWebView+LZHelper.h */,
@@ -804,6 +810,7 @@
 				C220078E89A310732B2D7B59DE9F2B27 /* UIView+LZFrame.h in Headers */,
 				F4F65D00C1D567EE20985FF53FEAD46B /* UIView+LZGusture.h in Headers */,
 				634564DED00062234594C4D0FBC96A80 /* UIView+LZHelper.h in Headers */,
+				4876B4B4213398AE0044CDDF /* UIView+LZDraw.h in Headers */,
 				61C7234EF67F1E0D1229B414230A6113 /* UIViewController+LZHelper.h in Headers */,
 				0FFF95CC040EB081B5D396F86B969F8D /* UIWebView+LZHelper.h in Headers */,
 			);
@@ -1020,6 +1027,7 @@
 				EF747D34C8341FDD8EB1E00BEFD14B8F /* LZCommonSDK-dummy.m in Sources */,
 				774314D892B0F89D70B25BCBEE961FDF /* LZCommonUtil.m in Sources */,
 				D2443ED44DEF777A63A32966BE069A16 /* LZDeviceUtil.m in Sources */,
+				4876B4B5213398AE0044CDDF /* UIView+LZDraw.m in Sources */,
 				88C9DDA242657534C9D7FBD1640293B3 /* LZDispatch.m in Sources */,
 				9E677C4F295413C81A58B1CD2584A30E /* LZFileUtil.m in Sources */,
 				E8EA87DFFD34FF9FDC88D2AB5DE1FC0A /* LZImageUtil.m in Sources */,
