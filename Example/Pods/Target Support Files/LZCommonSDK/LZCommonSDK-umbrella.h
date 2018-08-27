@@ -38,6 +38,7 @@
 #import "UITableView+LZHelper.h"
 #import "UITableViewCell+LZHelper.h"
 #import "UITextField+LZHelper.h"
+#import "UIView+LZDraw.h"
 #import "UIView+LZFrame.h"
 #import "UIView+LZGusture.h"
 #import "UIView+LZHelper.h"
