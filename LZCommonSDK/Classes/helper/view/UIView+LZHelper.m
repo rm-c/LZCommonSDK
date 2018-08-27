@@ -124,12 +124,13 @@
     }
 }
 
-+ (void)addSubView:(UIView*)subView toSuperView:(UIView*)superView addedCallback:(LZAddedSubviewHandler)handler
++ (UIView*)addSubView:(UIView*)subView toSuperView:(UIView*)superView addedCallback:(LZAddedSubviewHandler)handler
 {
     [superView addSubview:subView];
     if (handler) {
         handler(subView, superView);
     }
+    return subView;
 }
 
 @end

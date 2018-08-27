@@ -48,6 +48,6 @@ typedef void(^LZAddedSubviewHandler)(UIView* subView, UIView* superView);
 
 - (UIImage*)capture;//截图
 
-+ (void)addSubView:(UIView*)subView toSuperView:(UIView*)superView addedCallback:(LZAddedSubviewHandler)handler;
++ (UIView*)addSubView:(UIView*)subView toSuperView:(UIView*)superView addedCallback:(LZAddedSubviewHandler)handler;
 
 @end

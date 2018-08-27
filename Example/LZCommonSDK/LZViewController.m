@@ -22,7 +22,11 @@
     if (IsEmpty(self)) {
         return;
     }
+    [UIView addSubView:self.view toSuperView:self.view addedCallback:^(UIView *subView, UIView *superView) {
+        
+    }];
 }
+
 
 - (void)didReceiveMemoryWarning
 {
