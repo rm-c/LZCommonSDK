@@ -55,5 +55,6 @@
 #import "UIView+LZGusture.h"
 #import "UIView+LZHelper.h"
 #import "UIWebView+LZHelper.h"
+#import "UIView+LZDraw.h"
 
 #endif /* _LZCOMMONSDK_ */
