@@ -42,24 +42,8 @@
 
 - (BOOL)isWorkday;
 
-/**
- *  判断两个日期是否是同一天
- *
- *  @param day1 Day1
- *  @param day2 Day2
- *
- *  @return 是否是同一天
- */
 + (BOOL)isSameDay:(NSDate*)day1 and:(NSDate*)day2;
 
-/**
- *  判断d1是否在d2之前
- *
- *  @param date1 day1
- *  @param date2 day2
- *
- *  @return YES/NO
- */
 + (BOOL)isDay:(NSDate*)date1 before:(NSDate*)date2;
 
 #pragma mark - 简便方法
@@ -83,15 +67,9 @@
  */
 + (NSDate *)dateWithDateString:(NSString *)dateString formatString:(NSString *)formatString;
 
++ (NSDate*)dateWithBeijing:(NSDate*)date; // 将iOS默认GMT时间转换为北京时间
 
-/**
- *  将iOS默认GMT时间转换为北京时间
- *
- *  @param date 日期对象
- *
- *  @return date
- */
-+ (NSDate*)dateWithBeijing:(NSDate*)date;
++ (NSDate *)localDate; // 获取本地时间
 
 #pragma mark - 实用方法
 
