@@ -15,16 +15,13 @@ typedef void(^LZAddedSubviewHandler)(UIView* subView, UIView* superView);
 
 - (UIViewController *)viewController; // 视图对应的控制器
 
-/**
- *  获取视图第一响应者
- *
- *  @return 视图第一响应者
- */
-- (UIView *)firstResponder;
+- (UIView *)firstResponder; // 获取视图第一响应者
 
 - (void)setCornerRadius:(CGFloat)cornerRadius;  // 设置cornerRadius
+
 - (void)setBorderWidth:(CGFloat)borderWidth borderColor:(UIColor*)borderColor;  // 设置border
 
+- (void)setCornerRadius:(UIRectCorner)corners cornerRadii:(CGSize)cornerRadii;  // 设置部分圆角
 
 #pragma mark - 实用方法
 

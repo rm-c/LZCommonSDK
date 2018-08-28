@@ -120,6 +120,18 @@
     self.layer.masksToBounds = YES;
 }
 
+- (void)setCornerRadius:(UIRectCorner)corners cornerRadii:(CGSize)cornerRadii
+{
+    UIBezierPath * bezierPath = [UIBezierPath bezierPathWithRoundedRect:self.bounds
+                                                      byRoundingCorners:corners
+                                                            cornerRadii:cornerRadii];
+    CAShapeLayer *maskLayer = [CAShapeLayer layer];
+    maskLayer.frame = self.bounds;
+    maskLayer.path = bezierPath.CGPath;
+    self.layer.mask = maskLayer;
+}
+
+
 /**
  *  设置border
  *
