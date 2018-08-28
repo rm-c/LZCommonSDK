@@ -90,6 +90,16 @@
     }
 }
 
+- (void)addGradientColor:(UIColor*)fromColor toColor:(UIColor*)toColor
+{
+    UIView *colorView = [[UIView alloc] initWithFrame:self.bounds];
+    CAGradientLayer *gradient = [CAGradientLayer layer];
+    gradient.frame = colorView.bounds;
+    gradient.colors = [NSArray arrayWithObjects:fromColor.CGColor, toColor.CGColor, nil];
+    [colorView.layer addSublayer:gradient];
+    [self insertSubview:colorView atIndex:0];
+}
+
 - (UIImage*)capture
 {
     UIGraphicsBeginImageContextWithOptions(self.bounds.size, YES, 0);

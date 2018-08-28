@@ -46,6 +46,8 @@ typedef void(^LZAddedSubviewHandler)(UIView* subView, UIView* superView);
 - (void)addBlurEffect; //添加毛玻璃效果
 - (void)removeBlurEffect; //删除毛玻璃效果
 
+- (void)addGradientColor:(UIColor*)fromColor toColor:(UIColor*)toColor; // 添加渐变色
+
 - (UIImage*)capture;//截图
 
 + (UIView*)addSubView:(UIView*)subView toSuperView:(UIView*)superView addedCallback:(LZAddedSubviewHandler)handler;
