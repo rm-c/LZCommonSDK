@@ -21,4 +21,6 @@
 
 + (BOOL)isEmptyString:(NSString*)string;    // 判断是否为空字符串
 
++ (NSString *)UTF8StringToUnicode:(NSString *)UTF8String; // utf8字符串转换成unicode
+
 @end

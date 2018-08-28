@@ -45,4 +45,29 @@
     return NO;
 }
 
++ (NSString *)UTF8StringToUnicode:(NSString *)UTF8String
+{   // utf8 to unicode
+    NSUInteger length = [UTF8String length];
+    NSMutableString *s = [NSMutableString stringWithCapacity:0];
+    NSString *tem;
+    for (int i = 0;i < length; i++) {
+        unichar _char = [UTF8String characterAtIndex:i];
+        [s appendString:@"\\u"];
+        int j = _char >> 8;     // 取出高8位
+        tem = [NSString stringWithFormat:@"%x",j];
+        if (tem.length == 1) {
+            [s appendString:@"0"];
+        }
+        [s appendString:tem];
+        
+        j = _char & 0xFF;      // 取出低八位
+        tem = [NSString stringWithFormat:@"%x",j];
+        if (tem.length == 1) {
+            [s appendString:@"0"];
+        }
+        [s appendString:tem];
+    }
+    return s;
+}
+
 @end
