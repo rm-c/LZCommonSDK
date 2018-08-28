@@ -26,6 +26,10 @@ NSString* SetDefaultStringIfNil(NSString*string, NSString* defaultString);  // �
 #pragma mark - 简便方法
 NSString* StringWithInteger(NSInteger value); // 整数字符串
 NSString* StringWithFloat(CGFloat value);   // 浮点数字符串
+UIFont* FontWithSize(CGFloat size);         // 系统字体
+UIFont* BlodFontWithSize(CGFloat size);     // 系统粗体
+NSURL* URLWithString(NSString *string);     // url
+UIImage* imageNamed(NSString *name);        // 图片
 
 CGFloat DegreesToRadian(CGFloat degrees);   // 角度转弧度
 CGFloat RadianToDegrees(CGFloat radian);    // 弧度转角度

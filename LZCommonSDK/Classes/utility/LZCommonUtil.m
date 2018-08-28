@@ -61,6 +61,26 @@ NSString* StringWithFloat(CGFloat value)
     return [NSString stringWithFormat:@"%f", value];
 }
 
+UIFont *FontWithSize(CGFloat size)
+{
+    return [UIFont systemFontOfSize:size];
+}
+
+UIFont *BlodFontWithSize(CGFloat size)
+{
+    return [UIFont boldSystemFontOfSize:size];
+}
+
+NSURL *URLWithString(NSString *string)
+{
+    return [NSURL URLWithString:string];
+}
+
+UIImage *imageNamed(NSString *name)
+{
+    return [UIImage imageNamed:name];
+}
+
 CGFloat DegreesToRadian(CGFloat degrees)
 {
     return (M_PI * (degrees) / 180.0);
