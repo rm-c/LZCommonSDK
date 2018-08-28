@@ -71,4 +71,10 @@ CGFloat RadianToDegrees(CGFloat radian)
     return (radian*180.0)/(M_PI);
 }
 
+BOOL IsRespondsToSelector(id target, NSString* selectorName)
+{
+    return YES;
+}
+
+
 @end

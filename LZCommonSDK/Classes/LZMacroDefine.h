@@ -59,6 +59,8 @@
 #define IsEmpty(thing)                      [LZCommonUtil isEmpty:(thing)]
 #define IsNotEmpty(thing)                   [LZCommonUtil isNotEmpty:(thing)]
 
+#define IsRespondsToSelector(target, selectorName)  ((target) && [(target) respondsToSelector:NSSelectorFromString(selectorName)])
+
 // 强引用弱引用转换
 #define DECLARE_WEAK_SELF                   __weak __typeof(self) weakSelf = self               //声明self弱引用
 #define DECLARE_WEAK_OBJ(o)                 autoreleasepool{} __weak typeof(o) o##Weak = o;     //声明对象弱引用

@@ -155,4 +155,10 @@
     return subView;
 }
 
+- (UIView*)viewWithXib:(NSString*)xibName
+{
+    UIView* view = [[NSBundle mainBundle] loadNibNamed:xibName owner:nil options:nil].lastObject;
+    return view;
+}
+
 @end
