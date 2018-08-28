@@ -34,6 +34,6 @@ UIImage* imageNamed(NSString *name);        // 图片
 CGFloat DegreesToRadian(CGFloat degrees);   // 角度转弧度
 CGFloat RadianToDegrees(CGFloat radian);    // 弧度转角度
 
-BOOL IsRespondsToSelector(id target, NSString* selectorName);
+BOOL CanRespondsToSelector(id target, NSString* selectorName);
 
 @end
