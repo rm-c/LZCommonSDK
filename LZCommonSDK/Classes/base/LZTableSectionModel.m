@@ -38,6 +38,7 @@
     }
 }
 
+
 + (instancetype)itemWithIcon:(NSString *)icon
                    headTitle:(NSString *)headTitle
                    footTitle:(NSString *)footTitle
