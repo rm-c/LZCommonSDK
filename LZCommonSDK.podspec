@@ -76,8 +76,8 @@ TODO: Add long description of the pod here.
   # s.dependency 'GPUImage'                                  #滤镜效果，个人衣柜的板块需要用到
   # s.dependency 'ZLPhotoBrowser'
   s.dependency 'BANetManager', '2.3.8.1'
-  # s.dependency 'MLLabel'
-  #pod 'MLeaksFinder'                              #检测内存泄漏
+  s.dependency 'MLLabel'
+  s.dependency 'MLeaksFinder'                              #检测内存泄漏
   # s.dependency 'LLSimpleCamera'                            #摄像机的库
   #pod 'SMVerticalSegmentedControl'                #纵向的segment
   #pod 'VOSegmentedControl'                        #加强版的横向segment
