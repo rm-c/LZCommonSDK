@@ -7,12 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <LZBaseModel.h>
 
 @class LZTableRowModel;
 
 typedef void (^LZTableRowOperationBlock)(LZTableRowModel *item);
 
-@interface LZTableRowModel : NSObject
+@interface LZTableRowModel : LZBaseModel
 
 @property (nonatomic, copy) NSString *icon;         // 图标
 @property (nonatomic, copy) NSString *title;        // 标题

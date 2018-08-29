@@ -7,8 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <LZBaseModel.h>
 
-@interface LZTableSectionModel : NSObject
+@interface LZTableSectionModel : LZBaseModel
 
 @property (nonatomic, strong) NSString *icon;       // 图标
 @property (nonatomic, strong) NSString *headTitle;  // 头部标题
