@@ -6,7 +6,7 @@
 //
 
 #import "UIView+LZDraw.h"
-//#import "UIColor+LZHelper.h"
+#import "UIColor+LZHelper.h"
 
 @implementation UIView (LZDraw)
 
@@ -14,7 +14,7 @@
 {
     CGContextRef context = UIGraphicsGetCurrentContext();
     CGContextSetLineWidth(context, width);
-   // CGContextSetRGBStrokeColor(context, color.red, color.green, color.blue, color.alpha);//线条颜色
+    CGContextSetRGBStrokeColor(context, color.red, color.green, color.blue, color.alpha);//线条颜色
     CGContextMoveToPoint(context, from.x, from.y);
     CGContextAddLineToPoint(context, to.x, to.y);
     CGContextDrawPath(context, kCGPathStroke);
@@ -36,7 +36,7 @@
 - (void)drawRect:(CGRect)rect style:(LZDrawStyle)style color:(UIColor*)color lineWith:(CGFloat)lineWith
 {
      CGContextRef context = UIGraphicsGetCurrentContext();
-    // CGContextSetRGBFillColor(context, color.red, color.green, color.blue, color.alpha);
+     CGContextSetRGBFillColor(context, color.red, color.green, color.blue, color.alpha);
      if (style == LZDrawStyleNormal) {
          CGContextSetLineWidth(context, lineWith);
          CGContextAddRect(context, rect);
@@ -50,7 +50,7 @@
 - (void)drawCircle:(CGRect)rect style:(LZDrawStyle)style color:(UIColor*)color lineWith:(CGFloat)lineWith
 {
     CGContextRef context = UIGraphicsGetCurrentContext();
-    //CGContextSetRGBStrokeColor(context, color.red, color.green, color.blue, color.alpha);
+    CGContextSetRGBStrokeColor(context, color.red, color.green, color.blue, color.alpha);
     if (style == LZDrawStyleNormal) {
         CGContextSetLineWidth(context, lineWith);
         CGContextAddEllipseInRect(context, rect);
@@ -71,7 +71,7 @@
        lineWith:(CGFloat)lineWith
 {
      CGContextRef context = UIGraphicsGetCurrentContext();
-     //CGContextSetRGBStrokeColor(context, color.red, color.green, color.blue, color.alpha);
+     CGContextSetRGBStrokeColor(context, color.red, color.green, color.blue, color.alpha);
      CGContextSetLineWidth(context, lineWith);
      CGContextSetStrokeColorWithColor(context, color.CGColor);
      CGContextMoveToPoint(context, location.x, location.y);
