@@ -16,11 +16,21 @@
 
 - (UIViewController*)lastPresentingViewController;
 
+- (BOOL)isVisible;  // 是否可见
+
 /**
- *  是否可见
- *
- *  @return 是否可见
+ 视图悬空
+
+ @param subView 被添加的view
+ @param scrollView 父view
+ @param yOnScrollView 子视图在scrollView上的坐标
+ @param toView 目标视图
+ @param yToSuspendView 子视图在ContainView上的坐标
  */
-- (BOOL)isVisible;
+- (void)suspendSubViewIfNeed:(UIView*)subView
+              formScrollView:(UIScrollView *)scrollView
+               yOnScrollView:(CGFloat)yOnScrollView
+                      toView:(UIView *)toView
+              yToSuspendView:(CGFloat)yToSuspendView;
 
 @end
