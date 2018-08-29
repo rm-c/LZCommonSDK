@@ -61,21 +61,20 @@
     CGContextDrawPath(context, kCGPathStroke);
 }
 
-- (void)drawArc:(CGRect)rect
-       location:(CGPoint)location
-           form:(CGPoint)from
-             to:(CGPoint)to
-         radius:(CGFloat)radius
-          style:(LZDrawStyle)style
-          color:(UIColor*)color
-       lineWith:(CGFloat)lineWith
+- (void)drawArcAtLocation:(CGPoint)location
+                     form:(CGPoint)from
+                       to:(CGPoint)to
+                   radius:(CGFloat)radius
+                    style:(LZDrawStyle)style
+                    color:(UIColor*)color
+                 lineWith:(CGFloat)lineWith
 {
      CGContextRef context = UIGraphicsGetCurrentContext();
      CGContextSetRGBStrokeColor(context, color.red, color.green, color.blue, color.alpha);
      CGContextSetLineWidth(context, lineWith);
      CGContextSetStrokeColorWithColor(context, color.CGColor);
      CGContextMoveToPoint(context, location.x, location.y);
-    CGContextAddArcToPoint(context, from.x, from.y, to.x, to.y, radius);
+     CGContextAddArcToPoint(context, from.x, from.y, to.x, to.y, radius);
      if (style == LZDrawStyleNormal) {
          CGContextStrokePath(context);
      }

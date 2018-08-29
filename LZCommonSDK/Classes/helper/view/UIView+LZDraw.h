@@ -24,14 +24,13 @@ typedef enum : NSUInteger {
 - (void)drawCircle:(CGRect)rect style:(LZDrawStyle)style color:(UIColor*)color lineWith:(CGFloat)lineWith;
 
 // 画弧
-- (void)drawArc:(CGRect)rect
-       location:(CGPoint)location
-           form:(CGPoint)from
-             to:(CGPoint)to
-         radius:(CGFloat)radius
-          style:(LZDrawStyle)style
-          color:(UIColor*)color
-       lineWith:(CGFloat)lineWith;
+- (void)drawArcAtLocation:(CGPoint)location
+                     form:(CGPoint)from
+                       to:(CGPoint)to
+                   radius:(CGFloat)radius
+                    style:(LZDrawStyle)style
+                    color:(UIColor*)color
+                 lineWith:(CGFloat)lineWith;
 
 // 画图
 - (void)drawImageInRect:(CGRect)rect image:(UIImage*)image;
