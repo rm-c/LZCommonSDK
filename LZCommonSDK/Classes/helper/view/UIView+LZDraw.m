@@ -61,9 +61,9 @@
     CGContextDrawPath(context, kCGPathStroke);
 }
 
-- (void)drawArcAtLocation:(CGPoint)location
-                     startAngle:(CGFloat)startAngle
-                       endAngle:(CGFloat)endAngle
+- (void)drawArcAtPosition:(CGPoint)position
+               startAngle:(CGFloat)startAngle
+                 endAngle:(CGFloat)endAngle
                    radius:(CGFloat)radius
                     style:(LZDrawStyle)style
                     color:(UIColor*)color
@@ -73,7 +73,7 @@
      CGContextSetRGBStrokeColor(context, color.red, color.green, color.blue, color.alpha);
      CGContextSetLineWidth(context, lineWith);
      CGContextSetStrokeColorWithColor(context, color.CGColor);
-     CGContextAddArc(context, location.x, location.y, radius, startAngle, endAngle, YES);
+     CGContextAddArc(context, position.x, position.y, radius, startAngle, endAngle, YES);
      if (style == LZDrawStyleNormal) {
          CGContextStrokePath(context);
      }

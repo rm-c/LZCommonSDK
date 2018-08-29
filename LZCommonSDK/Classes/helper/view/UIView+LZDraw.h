@@ -24,7 +24,7 @@ typedef enum : NSUInteger {
 - (void)drawCircle:(CGRect)rect style:(LZDrawStyle)style color:(UIColor*)color lineWith:(CGFloat)lineWith;
 
 // 画弧
-- (void)drawArcAtLocation:(CGPoint)location
+- (void)drawArcAtPosition:(CGPoint)position
                startAngle:(CGFloat)startAngle
                  endAngle:(CGFloat)endAngle
                    radius:(CGFloat)radius
