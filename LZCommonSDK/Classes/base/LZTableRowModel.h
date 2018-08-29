@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <LZBaseModel.h>
+#import "LZBaseModel.h"
 
 @class LZTableRowModel;
 
