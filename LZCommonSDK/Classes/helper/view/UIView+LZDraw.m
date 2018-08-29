@@ -62,8 +62,8 @@
 }
 
 - (void)drawArcAtLocation:(CGPoint)location
-                     startAngle:(CGPoint)startAngle
-                       endAngle:(CGPoint)endAngle
+                     startAngle:(CGFloat)startAngle
+                       endAngle:(CGFloat)endAngle
                    radius:(CGFloat)radius
                     style:(LZDrawStyle)style
                     color:(UIColor*)color
