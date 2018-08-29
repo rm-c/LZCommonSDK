@@ -25,8 +25,8 @@ typedef enum : NSUInteger {
 
 // 画弧
 - (void)drawArcAtLocation:(CGPoint)location
-                     form:(CGPoint)from
-                       to:(CGPoint)to
+               startAngle:(CGPoint)startAngle
+                 endAngle:(CGPoint)endAngle
                    radius:(CGFloat)radius
                     style:(LZDrawStyle)style
                     color:(UIColor*)color
