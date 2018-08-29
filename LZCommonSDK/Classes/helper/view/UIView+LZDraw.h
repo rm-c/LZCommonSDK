@@ -34,6 +34,6 @@ typedef enum : NSUInteger {
        lineWith:(CGFloat)lineWith;
 
 // 画图
-- (void)drawImage:(CGRect)frame image:(UIImage*)image;
+- (void)drawImageInRect:(CGRect)rect image:(UIImage*)image;
 
 @end

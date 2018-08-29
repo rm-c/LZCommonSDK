@@ -84,9 +84,9 @@
      }
 }
 
-- (void)drawImage:(CGRect)frame image:(UIImage*)image
+- (void)drawImageInRect:(CGRect)rect image:(UIImage*)image
 {
-    [image drawInRect:frame];
+    [image drawInRect:rect];
 }
 
 
