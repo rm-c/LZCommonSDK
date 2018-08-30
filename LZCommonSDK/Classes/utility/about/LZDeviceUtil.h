@@ -24,4 +24,9 @@
 + (NSString*)getDeviceUUID; // 根据Keychain文件,获取设备UUID
 + (void)setDeviceInterfaceOrientation:(UIInterfaceOrientation)orientation;      // 设置屏幕方向
 
+- (BOOL)isCameraAvailable;
+- (BOOL)isRearCameraAvailable;
+- (BOOL)isFrontCameraAvailable;
+- (BOOL)isPhotoLibraryAvailable;
+
 @end
