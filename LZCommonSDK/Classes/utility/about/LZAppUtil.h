@@ -20,4 +20,6 @@
 
 + (BOOL)isAppFirstLaunchForThisVersion;   // 是否是此版本第一次启动
 
+- (void)openAppSetting; // 跳转到app设置页面
+
 @end

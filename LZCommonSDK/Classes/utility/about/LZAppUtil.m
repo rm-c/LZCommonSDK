@@ -59,4 +59,9 @@
     return !hasLaunched;
 }
 
+- (void)openAppSetting
+{
+     [[UIApplication sharedApplication]openURL:[NSURL URLWithString:UIApplicationOpenSettingsURLString]];
+}
+
 @end
