@@ -55,6 +55,7 @@
 		48552FB721366B8900DC0376 /* LZTableRowModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 48552FB521366B8900DC0376 /* LZTableRowModel.h */; };
 		48552FBA213670AB00DC0376 /* LZBaseModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 48552FB8213670AB00DC0376 /* LZBaseModel.h */; };
 		48552FBB213670AB00DC0376 /* LZBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 48552FB9213670AB00DC0376 /* LZBaseModel.m */; };
+		48568260213780EF00EC7E29 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4856825F213780EF00EC7E29 /* MobileCoreServices.framework */; };
 		497B3B22C694B736E2BB05EDDD63D42B /* LZDispatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 36E7F0872D78DFA39792003F51A75AE0 /* LZDispatch.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		4DE954209AE3AF73F26AA41A3A8BA749 /* NSMutableString+LZHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AA69959C49B32C194467865FABE344 /* NSMutableString+LZHelper.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		4F1E61D2C6FCD7DB2C4A817EE2F80526 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 902CAFA0FD746BA1853FF3EF1FBCC707 /* UIKit.framework */; };
@@ -270,6 +271,7 @@
 		48552FB521366B8900DC0376 /* LZTableRowModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZTableRowModel.h; sourceTree = "<group>"; };
 		48552FB8213670AB00DC0376 /* LZBaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZBaseModel.h; sourceTree = "<group>"; };
 		48552FB9213670AB00DC0376 /* LZBaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZBaseModel.m; sourceTree = "<group>"; };
+		4856825F213780EF00EC7E29 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
 		4AE80B3B5E5A108F611C48F8FBEAA265 /* UIApplication+LZHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+LZHelper.m"; sourceTree = "<group>"; };
 		4BDCB7899A330B18E7159679251E061F /* NSNumber+LZHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+LZHelper.m"; sourceTree = "<group>"; };
 		4BF301FC6DE1D63FD51401535E56E2DF /* RegexKitLite-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RegexKitLite-umbrella.h"; sourceTree = "<group>"; };
@@ -412,6 +414,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48568260213780EF00EC7E29 /* MobileCoreServices.framework in Frameworks */,
 				359777E3EB3B21A7D6E6330D5F754A29 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -636,6 +639,7 @@
 		597E126E8B9E4B325B293926AF646530 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4856825F213780EF00EC7E29 /* MobileCoreServices.framework */,
 				5E7F263F182DA644672C928BC1F89409 /* Aspects.framework */,
 				08F435261B1DC1ABB5B3D43739846CE8 /* RegexKitLite.framework */,
 				93DCCA97E5DE318C5DDB11F3C8048090 /* SSKeychain.framework */,

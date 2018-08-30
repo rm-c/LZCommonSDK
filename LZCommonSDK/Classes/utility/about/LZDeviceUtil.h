@@ -28,5 +28,8 @@
 - (BOOL)isRearCameraAvailable;
 - (BOOL)isFrontCameraAvailable;
 - (BOOL)isPhotoLibraryAvailable;
+- (BOOL)doesCameraSupportTakingPhotos;
+- (BOOL)canUserPickVideosFromPhotoLibrary;
+- (BOOL)canUserPickPhotosFromPhotoLibrary;
 
 @end
