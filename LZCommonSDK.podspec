@@ -37,7 +37,7 @@ TODO: Add long description of the pod here.
   # }
 
   s.public_header_files = 'LZCommonSDK/Classes/**/*.h', 'LZCommonSDK/Classes/helper/**/*.h', 'LZCommonSDK/Classes/thirdParty/**/*.h', 'LZCommonSDK/Classes/utility/**/*.h'
-  s.frameworks = 'UIKit', 'MapKit'#, 'libresolv'
+  s.frameworks = 'UIKit', 'MapKit', 'MobileCoreServices'
   # s.dependency 'AFNetworking', '~> 2.3'
   s.dependency 'SSKeychain'
   s.dependency 'Aspects'

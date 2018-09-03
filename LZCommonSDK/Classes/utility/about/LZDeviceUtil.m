@@ -21,6 +21,7 @@
 #import <mach/mach_host.h>
 #import <mach/processor_info.h>
 #import "SSKeychain.h"
+#import <MobileCoreServices/MobileCoreServices.h>
 
 @implementation LZDeviceUtil
 
