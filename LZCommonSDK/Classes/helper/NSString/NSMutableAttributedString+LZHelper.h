@@ -11,6 +11,8 @@
 
 @interface NSMutableAttributedString (LZHelper)
 
++ (NSMutableAttributedString*)attributedWithString:(NSString*)string;
+
 - (void)addColorAttribute:(UIColor*)color range:(NSRange)range;
 
 - (void)addFontAttribute:(UIFont*)font range:(NSRange)range;

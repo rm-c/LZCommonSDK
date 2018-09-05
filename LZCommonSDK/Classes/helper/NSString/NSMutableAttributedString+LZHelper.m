@@ -10,6 +10,11 @@
 
 @implementation NSMutableAttributedString (LZHelper)
 
++ (NSMutableAttributedString*)attributedWithString:(NSString*)string
+{
+    return [[NSMutableAttributedString alloc]initWithString:string];
+}
+
 - (void)addColorAttribute:(UIColor*)color range:(NSRange)range
 {
     [self addAttribute:NSForegroundColorAttributeName value:color range:range];

@@ -7,6 +7,7 @@
 //
 
 #import "UILabel+LZHelper.h"
+#import "NSMutableAttributedString+LZHelper.h"
 
 @implementation UILabel (LZHelper)
 
@@ -55,6 +56,26 @@
     if (font) {
         self.font = font;
     }
+}
+
+- (void)setColorAttribute:(UIColor*)color range:(NSRange)range
+{
+    if (self.attributedText == nil) {
+        self.attributedText = [NSMutableAttributedString attributedWithString:self.text];
+    }
+    NSMutableAttributedString* str = [self.attributedText mutableCopy];
+    [str addColorAttribute:color range:range];
+    self.attributedText = str;
+}
+
+- (void)setFontAttribute:(UIFont*)font range:(NSRange)range
+{
+    if (self.attributedText == nil) {
+        self.attributedText = [NSMutableAttributedString attributedWithString:self.text];
+    }
+    NSMutableAttributedString* str = [self.attributedText mutableCopy];
+    [str addFontAttribute:font range:range];
+    self.attributedText = str;
 }
 
 @end

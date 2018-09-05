@@ -40,4 +40,8 @@
 
 - (void)setText:(NSString*)text textAliment:(NSTextAlignment)aliment textColor:(UIColor*)textColor font:(UIFont*)font;
 
+- (void)setColorAttribute:(UIColor*)color range:(NSRange)range;
+
+- (void)setFontAttribute:(UIFont*)font range:(NSRange)range;
+
 @end
