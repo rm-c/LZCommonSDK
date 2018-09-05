@@ -13,7 +13,7 @@
 
 + (NSString *)getChineseNumWithArebicNum:(NSUInteger)arebic
 {
-    NSString *str = StringWithInteger(arebic);
+    NSString *str = LZStringWithInteger(arebic);
     NSArray *arabic_numerals = @[@"1",@"2",@"3",@"4",@"5",@"6",@"7",@"8",@"9",@"0"];
     NSArray *chinese_numerals = @[@"一",@"二",@"三",@"四",@"五",@"六",@"七",@"八",@"九",@"零"];
     NSArray *digits = @[@"个",@"十",@"百",@"千",@"万",@"十",@"百",@"千",@"亿",@"十",@"百",@"千",@"兆"];

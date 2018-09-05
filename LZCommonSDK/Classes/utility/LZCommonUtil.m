@@ -51,47 +51,47 @@ NSString* SetDefaultStringIfNil(NSString*string, NSString* defaultString)
     return string;
 }
 
-NSString* StringWithInteger(NSInteger value)
+NSString* LZStringWithInteger(NSInteger value)
 {
     return [NSString stringWithFormat:@"%ld", (long)value];
 }
 
-NSString* StringWithFloat(CGFloat value)
+NSString* LZStringWithFloat(CGFloat value)
 {
     return [NSString stringWithFormat:@"%f", value];
 }
 
-UIFont *FontWithSize(CGFloat size)
+UIFont *LZFontWithSize(CGFloat size)
 {
     return [UIFont systemFontOfSize:size];
 }
 
-UIFont *BlodFontWithSize(CGFloat size)
+UIFont *LZBlodFontWithSize(CGFloat size)
 {
     return [UIFont boldSystemFontOfSize:size];
 }
 
-NSURL *URLWithString(NSString *string)
+NSURL *LZURLWithString(NSString *string)
 {
     return [NSURL URLWithString:string];
 }
 
-UIImage *imageNamed(NSString *name)
+UIImage *LZImageNamed(NSString *name)
 {
     return [UIImage imageNamed:name];
 }
 
-CGFloat DegreesToRadian(CGFloat degrees)
+CGFloat LZDegreesToRadian(CGFloat degrees)
 {
     return (M_PI * (degrees) / 180.0);
 }
 
-CGFloat RadianToDegrees(CGFloat radian)
+CGFloat LZRadianToDegrees(CGFloat radian)
 {
     return (radian*180.0)/(M_PI);
 }
 
-BOOL CanRespondsToSelector(id target, NSString* selectorName)
+BOOL LZCanRespondsToSelector(id target, NSString* selectorName)
 {
     return YES;
 }

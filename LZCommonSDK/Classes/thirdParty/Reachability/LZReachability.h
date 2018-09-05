@@ -58,22 +58,22 @@
 
 extern NSString *const kLZReachabilityChangedNotification;
 
-typedef NS_ENUM(NSInteger, NetworkStatus) {
+typedef NS_ENUM(NSInteger, LZNetworkStatus) {
     // Apple NetworkStatus Compatible Names.
-    NotReachable = 0,
-    ReachableViaWiFi = 2,
-    ReachableViaWWAN = 1
+    LZNotReachable = 0,
+    LZReachableViaWiFi = 2,
+    LZReachableViaWWAN = 1
 };
 
 @class LZReachability;
 
-typedef void (^NetworkReachable)(LZReachability * reachability);
-typedef void (^NetworkUnreachable)(LZReachability * reachability);
+typedef void (^LZNetworkReachable)(LZReachability * reachability);
+typedef void (^LZNetworkUnreachable)(LZReachability * reachability);
 
 @interface LZReachability : NSObject
 
-@property (nonatomic, copy) NetworkReachable    reachableBlock;
-@property (nonatomic, copy) NetworkUnreachable  unreachableBlock;
+@property (nonatomic, copy) LZNetworkReachable    reachableBlock;
+@property (nonatomic, copy) LZNetworkUnreachable  unreachableBlock;
 
 
 @property (nonatomic, assign) BOOL reachableOnWWAN;
@@ -101,7 +101,7 @@ typedef void (^NetworkUnreachable)(LZReachability * reachability);
 // Is user intervention required?
 -(BOOL)isInterventionRequired;
 
--(NetworkStatus)currentReachabilityStatus;
+-(LZNetworkStatus)currentReachabilityStatus;
 -(SCNetworkReachabilityFlags)reachabilityFlags;
 -(NSString*)currentReachabilityString;
 -(NSString*)currentReachabilityFlags;

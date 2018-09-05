@@ -18,8 +18,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    self.view.backgroundColor = UIColorFromRGB(0x888888);
-    if (IsEmpty(self)) {
+    self.view.backgroundColor = lz_UIColorFromRGB(0x888888);
+    if (lz_IsEmpty(self)) {
         return;
     }
 }

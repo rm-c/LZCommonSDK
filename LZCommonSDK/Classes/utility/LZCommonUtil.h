@@ -24,16 +24,16 @@ NSString* SetEmptyStringIfNil(NSString* string);    // 设置默认字符串为�
 NSString* SetDefaultStringIfNil(NSString*string, NSString* defaultString);  // 设置默认字符串
 
 #pragma mark - 简便方法
-NSString* StringWithInteger(NSInteger value); // 整数字符串
-NSString* StringWithFloat(CGFloat value);   // 浮点数字符串
-UIFont* FontWithSize(CGFloat size);         // 系统字体
-UIFont* BlodFontWithSize(CGFloat size);     // 系统粗体
-NSURL* URLWithString(NSString *string);     // url
-UIImage* imageNamed(NSString *name);        // 图片
+NSString* LZStringWithInteger(NSInteger value); // 整数字符串
+NSString* LZStringWithFloat(CGFloat value);   // 浮点数字符串
+UIFont* LZFontWithSize(CGFloat size);         // 系统字体
+UIFont* LZBlodFontWithSize(CGFloat size);     // 系统粗体
+NSURL* LZURLWithString(NSString *string);     // url
+UIImage* LZImageNamed(NSString *name);        // 图片
 
-CGFloat DegreesToRadian(CGFloat degrees);   // 角度转弧度
-CGFloat RadianToDegrees(CGFloat radian);    // 弧度转角度
+CGFloat LZDegreesToRadian(CGFloat degrees);   // 角度转弧度
+CGFloat LZRadianToDegrees(CGFloat radian);    // 弧度转角度
 
-BOOL CanRespondsToSelector(id target, NSString* selectorName);
+BOOL LZCanRespondsToSelector(id target, NSString* selectorName);
 
 @end
