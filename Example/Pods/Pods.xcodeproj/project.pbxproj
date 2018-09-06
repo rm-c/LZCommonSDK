@@ -58,6 +58,8 @@
 		48568260213780EF00EC7E29 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4856825F213780EF00EC7E29 /* MobileCoreServices.framework */; };
 		4856828B213CCCC900EC7E29 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4856825F213780EF00EC7E29 /* MobileCoreServices.framework */; };
 		4856828C213CD63600EC7E29 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4856825F213780EF00EC7E29 /* MobileCoreServices.framework */; };
+		485CE31A2140FD3F0053366F /* LZTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 485CE3182140FD3F0053366F /* LZTableViewCell.m */; };
+		485CE31B2140FD3F0053366F /* LZTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 485CE3192140FD3F0053366F /* LZTableViewCell.h */; };
 		497B3B22C694B736E2BB05EDDD63D42B /* LZDispatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 36E7F0872D78DFA39792003F51A75AE0 /* LZDispatch.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		4DE954209AE3AF73F26AA41A3A8BA749 /* NSMutableString+LZHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AA69959C49B32C194467865FABE344 /* NSMutableString+LZHelper.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		4F1E61D2C6FCD7DB2C4A817EE2F80526 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 902CAFA0FD746BA1853FF3EF1FBCC707 /* UIKit.framework */; };
@@ -274,6 +276,8 @@
 		48552FB8213670AB00DC0376 /* LZBaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZBaseModel.h; sourceTree = "<group>"; };
 		48552FB9213670AB00DC0376 /* LZBaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZBaseModel.m; sourceTree = "<group>"; };
 		4856825F213780EF00EC7E29 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		485CE3182140FD3F0053366F /* LZTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZTableViewCell.m; sourceTree = "<group>"; };
+		485CE3192140FD3F0053366F /* LZTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZTableViewCell.h; sourceTree = "<group>"; };
 		4AE80B3B5E5A108F611C48F8FBEAA265 /* UIApplication+LZHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+LZHelper.m"; sourceTree = "<group>"; };
 		4BDCB7899A330B18E7159679251E061F /* NSNumber+LZHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+LZHelper.m"; sourceTree = "<group>"; };
 		4BF301FC6DE1D63FD51401535E56E2DF /* RegexKitLite-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RegexKitLite-umbrella.h"; sourceTree = "<group>"; };
@@ -555,6 +559,16 @@
 			path = LZCommonSDK/Classes/base;
 			sourceTree = "<group>";
 		};
+		485CE3172140FD3F0053366F /* ext */ = {
+			isa = PBXGroup;
+			children = (
+				485CE3192140FD3F0053366F /* LZTableViewCell.h */,
+				485CE3182140FD3F0053366F /* LZTableViewCell.m */,
+			);
+			name = ext;
+			path = LZCommonSDK/Classes/ext;
+			sourceTree = "<group>";
+		};
 		495D2FC0B7EF228932AEEFBB3209DD90 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -577,6 +591,7 @@
 			children = (
 				38EAB9C4B37ABD3B11771FDA269022A3 /* LZCommonSDK.h */,
 				AE0F02AD3A2BD897B8042A7E0A8B308A /* LZMacroDefine.h */,
+				485CE3172140FD3F0053366F /* ext */,
 				48552FAF21366A2600DC0376 /* base */,
 				57B93CF3CC4DA74124C4F3A67FB35C83 /* helper */,
 				F39E7AA76FC4B342A41CCF1E370E44B4 /* Pod */,
@@ -986,6 +1001,7 @@
 				12C56A0D83B7A699E3AD7A0B1C728B43 /* UIButton+LZHelper.h in Headers */,
 				1C54D82F4203C970787E2868D135FC3C /* UIColor+LZHelper.h in Headers */,
 				48552FB221366A3B00DC0376 /* LZTableSectionModel.h in Headers */,
+				485CE31B2140FD3F0053366F /* LZTableViewCell.h in Headers */,
 				216106CF5B08AEF08407A56DFB21FF09 /* UIEvent+LZHelper.h in Headers */,
 				7D47FDA2852195A25158F4DC2B141F62 /* UIImage+LZHelper.h in Headers */,
 				03047A9AAB40A625CABE6D2034A6769A /* UIImageView+LZHelper.h in Headers */,
@@ -1232,6 +1248,7 @@
 				48552FB321366A3B00DC0376 /* LZTableSectionModel.m in Sources */,
 				F5A850359B70138084F8774F380638EC /* LZImageUtil.m in Sources */,
 				6C8D825F36FCA60011C94E9A72DAF6AD /* LZJSONParseUtil.m in Sources */,
+				485CE31A2140FD3F0053366F /* LZTableViewCell.m in Sources */,
 				E6031452D9DD291D2979FF23F28D4A05 /* LZMathUtil.m in Sources */,
 				A379AE4A0E3952EA009E598382D98900 /* LZNetworkUtil.m in Sources */,
 				A8EE462BA30645D961BF400B6536EEA6 /* LZRandomUtil.m in Sources */,
