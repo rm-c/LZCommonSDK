@@ -161,4 +161,12 @@
     return view;
 }
 
+- (UIView*)addColorViewWithFrame:(CGRect)frame color:(UIColor*)color
+{
+    UIView* line = [[UIView alloc]initWithFrame:frame];
+    line.backgroundColor = color;
+    [self addSubview:line];
+    return line;
+}
+
 @end

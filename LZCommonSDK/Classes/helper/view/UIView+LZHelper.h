@@ -51,4 +51,6 @@ typedef void(^LZAddedSubviewHandler)(UIView* subView, UIView* superView);
 
 + (UIView*)addSubView:(UIView*)subView toSuperView:(UIView*)superView addedCallback:(LZAddedSubviewHandler)handler;
 
+- (UIView*)addColorViewWithFrame:(CGRect)frame color:(UIColor*)color;
+
 @end
