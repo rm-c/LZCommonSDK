@@ -15,7 +15,7 @@
 @property(nonatomic, strong)UIImageView* imageView;
 @property(nonatomic, strong)UILabel* accessoryView;
 
-- (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier;
+- (instancetype)initWithFrame:(CGRect)frame;    // 需要调用下面的方法手动设置子视图位置
 
 - (void)setImageFrame:(CGRect)imageFrame textFrame:(CGRect)textFrame;
 

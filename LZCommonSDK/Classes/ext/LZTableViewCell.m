@@ -10,9 +10,9 @@
 
 @implementation LZTableViewCell
 
-- (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(nullable NSString *)reuseIdentifier
+- (instancetype)initWithFrame:(CGRect)frame
 {
-    if (self = [super init]) {
+    if (self = [super initWithFrame:frame]) {
         _detailTextLabel = [UILabel new];
         _textLabel = [UILabel new];
         _imageView = [UIImageView new];
