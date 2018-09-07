@@ -12,6 +12,7 @@
 // 设备判断
 #define LZ_IS_IPAD                             (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
 #define LZ_IS_IPHONE                           (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone)
+#define LZ_IS_IPHONE_X ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1125, 2436), [[UIScreen mainScreen] currentMode].size) : NO)
 
 // 屏幕相关
 #define LZ_VERTICAL_NAVIGATION_BAR_HEIGHT      44
@@ -33,6 +34,7 @@
 #define LZ_IS_SCREEN_4_0                       (LZ_IS_IPHONE && LZ_SCREEN_MAX_LENGTH == 568.0)           // 4.0英寸屏幕
 #define LZ_IS_SCREEN_4_7                       (LZ_IS_IPHONE && LZ_SCREEN_MAX_LENGTH == 667.0)           // 4.7英寸屏幕
 #define LZ_IS_SCREEN_5_5                       (LZ_IS_IPHONE && LZ_SCREEN_MAX_LENGTH == 736.0)           // 5.5英寸屏幕
+#define LZ_IS_SCREEN_5_8                       LZ_IS_IPHONE_X                                            // 5.8英寸屏幕
 #define LZ_SCREEN_SCALE_320                    (MIN(LZ_SCREEN_WIDTH,LZ_SCREEN_HEIGHT) / 320.0)
 #define LZ_SCREEN_SCALE_375                    (MIN(LZ_SCREEN_WIDTH,LZ_SCREEN_HEIGHT) / 375.0)
 
