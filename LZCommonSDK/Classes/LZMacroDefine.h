@@ -63,8 +63,8 @@
 
 // 强引用弱引用转换
 #define LZ_DECLARE_WEAK_SELF                   __weak __typeof(self) weakSelf = self               //声明self弱引用
-#define LZ_DECLARE_WEAK_OBJ(o)                 autoreleasepool{} __weak typeof(o) o##Weak = o;     //声明对象弱引用
-#define LZ_DECLARE_STRONG_OBJ(o)               autoreleasepool{} __strong typeof(o) o = o##Weak;   //声明对象强引用
+#define LZ_DECLARE_WEAK_OBJ(o)                 __weak typeof(o) o##Weak = o;     //声明对象弱引用
+#define LZ_DECLARE_STRONG_OBJ(o)               __strong typeof(o) o = o##Weak;   //声明对象强引用
 
 // 属性声明
 #define LZ_DECLARE_OBJECT_PROPERTY(className, propertyName)            @property(nonatomic, strong)className* propertyName;      // 声明对象属性，默认强引用
