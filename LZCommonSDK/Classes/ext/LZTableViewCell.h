@@ -8,12 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
+/**
+ 仿UITableViewCell
+ */
 @interface LZTableViewCell : UIView
 
 @property(nonatomic, strong)UILabel* textLabel;
 @property(nonatomic, strong)UILabel* detailTextLabel;
 @property(nonatomic, strong)UIImageView* imageView;
-@property(nonatomic, strong)UILabel* accessoryView;
+@property(nonatomic, strong)UIView* accessoryView;
 
 - (instancetype)initWithFrame:(CGRect)frame;    // 需要调用下面的方法手动设置子视图位置
 
