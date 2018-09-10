@@ -16,10 +16,10 @@
 
 // 屏幕相关
 #define LZ_VERTICAL_NAVIGATION_BAR_HEIGHT      44
-#define LZ_VERTICAL_SCREEN_WIDTH               [GSScreenUtil getVerticalWidthOfScreen]           //竖屏宽度
-#define LZ_VERTICAL_SCREEN_HEIGHT              [GSScreenUtil getVerticalHeightOfScreen]          //竖屏高度
-#define LZ_HORIZONTAL_SCREEN_WIDTH             [GSScreenUtil getHorizontalWidthOfScreen]         //横屏宽度
-#define LZ_HORIZONTAL_SCREEN_HEIGHT            [GSScreenUtil getHorizontalHeightOfScreen]        //横屏高度
+#define LZ_VERTICAL_SCREEN_WIDTH               [LZScreenUtil getVerticalWidthOfScreen]           //竖屏宽度
+#define LZ_VERTICAL_SCREEN_HEIGHT              [LZScreenUtil getVerticalHeightOfScreen]          //竖屏高度
+#define LZ_HORIZONTAL_SCREEN_WIDTH             [LZScreenUtil getHorizontalWidthOfScreen]         //横屏宽度
+#define LZ_HORIZONTAL_SCREEN_HEIGHT            [LZScreenUtil getHorizontalHeightOfScreen]        //横屏高度
 #define LZ_STATUS_BAR_HEIGHT                   [GSScreenUtil getStatusBarHeight]                 //状态栏高度
 #define LZ_SCREEN_BOUNDS                       ([UIScreen mainScreen].bounds)                    //当前屏幕的bounds
 #define LZ_SCREEN_HEIGHT                       ([UIScreen mainScreen].bounds.size.height)        //当前屏幕的高
@@ -27,8 +27,8 @@
 
 #define LZ_IS_RETINA                           ([[UIScreen mainScreen] scale] >= 2.0)
 #define LZ_IS_RETINA_HD                        ([[UIScreen mainScreen] scale] >= 3.0)
-#define LZ_SCREEN_MAX_LENGTH                   (MAX(SCREEN_WIDTH, SCREEN_HEIGHT))
-#define LZ_SCREEN_MIN_LENGTH                   (MIN(SCREEN_WIDTH, SCREEN_HEIGHT))
+#define LZ_SCREEN_MAX_LENGTH                   (MAX(LZ_SCREEN_WIDTH, LZ_SCREEN_HEIGHT))
+#define LZ_SCREEN_MIN_LENGTH                   (MIN(LZ_SCREEN_WIDTH, LZ_SCREEN_HEIGHT))
 
 #define LZ_IS_SCREEN_3_5                       (LZ_IS_IPHONE && LZ_SCREEN_MAX_LENGTH == 480.0)           // 3.5英寸屏幕
 #define LZ_IS_SCREEN_4_0                       (LZ_IS_IPHONE && LZ_SCREEN_MAX_LENGTH == 568.0)           // 4.0英寸屏幕
@@ -39,18 +39,18 @@
 #define LZ_SCREEN_SCALE_375                    (MIN(LZ_SCREEN_WIDTH,LZ_SCREEN_HEIGHT) / 375.0)
 
 // 系统判断
-#define LZ_IS_IOS6                             ([GSDeviceUtil getDeviceSystemMajorVersion] >= 6) //是否是运行iOS6及以的系统
-#define LZ_IS_IOS7                             ([GSDeviceUtil getDeviceSystemMajorVersion] >= 7) //是否是运行iOS7及以上系统
-#define LZ_IS_IOS8                             ([GSDeviceUtil getDeviceSystemMajorVersion] >= 8) //是否是运行iOS8以上系统
-#define LZ_IS_IOS9                             ([GSDeviceUtil getDeviceSystemMajorVersion] >= 9) //是否是运行iOS9以上系统
-#define LZ_IS_IOS10                            ([GSDeviceUtil getDeviceSystemMajorVersion] >= 10)//是否是运行iOS10系统
+#define LZ_IS_IOS6                             ([LZDeviceUtil getDeviceSystemMajorVersion] >= 6) //是否是运行iOS6及以的系统
+#define LZ_IS_IOS7                             ([LZDeviceUtil getDeviceSystemMajorVersion] >= 7) //是否是运行iOS7及以上系统
+#define LZ_IS_IOS8                             ([LZDeviceUtil getDeviceSystemMajorVersion] >= 8) //是否是运行iOS8以上系统
+#define LZ_IS_IOS9                             ([LZDeviceUtil getDeviceSystemMajorVersion] >= 9) //是否是运行iOS9以上系统
+#define LZ_IS_IOS10                            ([LZDeviceUtil getDeviceSystemMajorVersion] >= 10)//是否是运行iOS10系统
 
 // 颜色快捷方式
 #define lz_UIColorFromRGB(rgbValue)            [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 \
                                                             green:((float)((rgbValue & 0xFF00) >> 8))/255.0 \
                                                              blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
 #define lz_UIColorFromR_G_B_A(r,g,b,a)         [UIColor colorWithRed:(r) / 255.0 green:(g) / 255.0 blue:(b) / 255.0 alpha:a]
-#define lz_UIColorFromR_G_B(r,g,b)             UIColorFromR_G_B_A(r,g,b,1.0)
+#define lz_UIColorFromR_G_B(r,g,b)             lz_UIColorFromR_G_B_A(r,g,b,1.0)
 
 //文件操作相关
 #define lz_FilePathInSandBox(fileName)         [[NSSearchPathForDirectoriesInDomains(NSDocumentDirectory,NSUserDomainMask,YES) objectAtIndex:0] stringByAppendingPathComponent:fileName]
