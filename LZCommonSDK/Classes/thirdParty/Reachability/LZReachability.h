@@ -58,7 +58,7 @@
 
 extern NSString *const kLZReachabilityChangedNotification;
 
-typedef NS_ENUM(NSInteger, LZNetworkStatus) {
+typedef NS_ENUM(NSInteger, LZReachableStatus) {
     // Apple NetworkStatus Compatible Names.
     LZNotReachable = 0,
     LZReachableViaWiFi = 2,
@@ -101,7 +101,7 @@ typedef void (^LZNetworkUnreachable)(LZReachability * reachability);
 // Is user intervention required?
 -(BOOL)isInterventionRequired;
 
--(LZNetworkStatus)currentReachabilityStatus;
+-(LZReachableStatus)currentReachabilityStatus;
 -(SCNetworkReachabilityFlags)reachabilityFlags;
 -(NSString*)currentReachabilityString;
 -(NSString*)currentReachabilityFlags;
