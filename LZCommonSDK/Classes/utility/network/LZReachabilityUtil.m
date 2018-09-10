@@ -34,7 +34,7 @@
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
         
         NSUserDefaults* uesrDefaults = [NSUserDefaults standardUserDefaults];
-        [uesrDefaults setInteger:[LZReachabilityUtil getCurrentNetworkStatus] forKey:NETWORK_STATUS_KEY];
+        [uesrDefaults setInteger:[LZReachabilityUtil getCurrentNetworkStatus] forKey:LZ_NETWORK_STATUS_KEY];
         
         LZReachability * reach = [LZReachability reachabilityWithHostname:@"www.baidu.com"];
         
@@ -60,12 +60,12 @@
                 if (status == LZReachableViaWWAN)
                 {
                     NSLog(@"block-3g");
-                    [uesrDefaults setInteger:GSNetworkStatus3G forKey:NETWORK_STATUS_KEY];
+                    [uesrDefaults setInteger:LZNetworkStatus3G forKey:LZ_NETWORK_STATUS_KEY];
                 }
                 else if (status == LZReachableViaWiFi)
                 {
                     NSLog(@"block-wifi");
-                    [uesrDefaults setInteger:GSNetworkStatusWIFI forKey:NETWORK_STATUS_KEY];
+                    [uesrDefaults setInteger:LZNetworkStatusWIFI forKey:LZ_NETWORK_STATUS_KEY];
                 }
                 
             };
@@ -73,7 +73,7 @@
             reach.unreachableBlock = ^(LZReachability * reachability)
             {
                 NSLog(@"block-无网络");
-                [uesrDefaults setInteger:GSNetworkStatusOFFLINE forKey:NETWORK_STATUS_KEY];
+                [uesrDefaults setInteger:LZNetworkStatusOFFLINE forKey:LZ_NETWORK_STATUS_KEY];
                 
             };
         }
@@ -100,28 +100,28 @@
     [LZReachabilityUtil registerReachabilityChangedObserver:nil selector:nil object:nil];
 }
 
-+ (GSNetworkStatus)getCachedNetworkStatus
++ (LZNetworkStatus)getCachedNetworkStatus
 {
     NSUserDefaults* userDefaults = [NSUserDefaults standardUserDefaults];
-    GSNetworkStatus netWorkStatus = (GSNetworkStatus)[userDefaults integerForKey:NETWORK_STATUS_KEY];
+    LZNetworkStatus netWorkStatus = (LZNetworkStatus)[userDefaults integerForKey:LZ_NETWORK_STATUS_KEY];
     
     return netWorkStatus;
 }
 
-+ (GSNetworkStatus)getCurrentNetworkStatus
++ (LZNetworkStatus)getCurrentNetworkStatus
 {
-    GSNetworkStatus result = GSNetworkStatusWIFI;
+    LZNetworkStatus result = LZNetworkStatusWIFI;
     LZReachability * reach = [LZReachability reachabilityWithHostname:@"www.baidu.com"];
     
     switch ([reach currentReachabilityStatus]) {
         case LZNotReachable:// 没有网络连接
-            result=GSNetworkStatusOFFLINE;
+            result=LZNetworkStatusOFFLINE;
             break;
         case LZReachableViaWWAN:// 使用3G网络
-            result=GSNetworkStatus3G;
+            result=LZNetworkStatus3G;
             break;
         case LZReachableViaWiFi:// 使用WiFi网络
-            result=GSNetworkStatusWIFI;
+            result=LZNetworkStatusWIFI;
             break;
     }
     
@@ -139,15 +139,15 @@
     switch (status) {
         case LZNotReachable:// 没有网络连接
             NSLog(@"无网络");
-            [uesrDefaults setInteger:GSNetworkStatusOFFLINE forKey:NETWORK_STATUS_KEY];
+            [uesrDefaults setInteger:LZNetworkStatusOFFLINE forKey:LZ_NETWORK_STATUS_KEY];
             break;
         case LZReachableViaWWAN:// 使用3G网络
             NSLog(@"3g");
-            [uesrDefaults setInteger:GSNetworkStatus3G forKey:NETWORK_STATUS_KEY];
+            [uesrDefaults setInteger:LZNetworkStatus3G forKey:LZ_NETWORK_STATUS_KEY];
             break;
         case LZReachableViaWiFi:// 使用WiFi网络
             NSLog(@"wifi");
-            [uesrDefaults setInteger:GSNetworkStatusWIFI forKey:NETWORK_STATUS_KEY];
+            [uesrDefaults setInteger:LZNetworkStatusWIFI forKey:LZ_NETWORK_STATUS_KEY];
             break;
     }
     

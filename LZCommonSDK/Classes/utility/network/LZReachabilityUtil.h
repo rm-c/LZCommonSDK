@@ -10,14 +10,14 @@
 
 typedef enum
 {
-    GSNetworkStatusWIFI     = 0,
-    GSNetworkStatus3G       = 1,
-    GSNetworkStatusOFFLINE  = 2
+    LZNetworkStatusWIFI     = 0,
+    LZNetworkStatus3G       = 1,
+    LZNetworkStatusOFFLINE  = 2
     
-} GSNetworkStatus;
+} LZNetworkStatus;
 
-#define NETWORK_STATUS_KEY   @"GSNetworkStatusKey"
-#define NETWORK_TEST_WEBSITE @"www.baidu.com"
+#define LZ_NETWORK_STATUS_KEY   @"LZNetworkStatusKey"
+#define LZ_NETWORK_TEST_WEBSITE @"www.baidu.com"
 
 @interface LZReachabilityUtil : NSObject
 
@@ -44,13 +44,13 @@ typedef enum
  *
  *  @return 网络状态值
  */
-+ (GSNetworkStatus)getCachedNetworkStatus;
++ (LZNetworkStatus)getCachedNetworkStatus;
 
 /**
  *  获取当前的网络状态
  *
  *  @return 网络状态值
  */
-+ (GSNetworkStatus)getCurrentNetworkStatus;
++ (LZNetworkStatus)getCurrentNetworkStatus;
 
 @end
