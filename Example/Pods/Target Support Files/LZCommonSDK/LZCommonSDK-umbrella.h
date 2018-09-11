@@ -14,6 +14,7 @@
 #import "LZTableRowModel.h"
 #import "LZTableSectionModel.h"
 #import "LZTableViewCell.h"
+#import "LZWebViewController.h"
 #import "UIViewController+LZHelper.h"
 #import "NSDate+LZHelper.h"
 #import "NSFileManager+LZHelper.h"

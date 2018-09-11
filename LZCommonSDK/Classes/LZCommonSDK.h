@@ -56,5 +56,6 @@
 #import "UIWebView+LZHelper.h"
 #import "UIView+LZDraw.h"
 #import "LZTableViewCell.h"
+#import "LZWebViewController.h"
 
 #endif /* _LZCOMMONSDK_ */

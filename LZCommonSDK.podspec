@@ -42,6 +42,7 @@ TODO: Add long description of the pod here.
   s.dependency 'SSKeychain'
   s.dependency 'Aspects'
   s.dependency 'RegexKitLite'
+  s.dependency 'SDAutoLayout'                              #高少东的autolayout库
   
   # s.dependency 'JSONModel'
   # s.dependency 'Masonry'                                     #autolayout库
@@ -60,7 +61,6 @@ TODO: Add long description of the pod here.
   # s.dependency 'FDFullscreenPopGesture'                    #全屏滑动返回手势
   # s.dependency 'MJRefresh'                                 #上拉下拉刷新控件
   # s.dependency 'Doppelganger'                              #UITableView和UICollectionView数据变化时加入切换动画
-  #  s.dependency 'SDAutoLayout'                              #高少东的autolayout库
   # s.dependency 'AFNetworking', '3.0.0'                     #网络通讯库
   # s.dependency 'SDCycleScrollView','1.65'                 #无限循环滚动的轮播图
   # s.dependency 'BAButton'                                  #博爱的按钮category
