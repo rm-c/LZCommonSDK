@@ -11,6 +11,21 @@
 
 @implementation UITableViewCell (LZHelper)
 
++ (instancetype)cellForTableView:(UITableView *)tableView
+{
+    NSString *reuseIdentifier = NSStringFromClass(self);
+    return [self cellForTableView:tableView style:UITableViewCellStyleDefault reuseIdentifier:reuseIdentifier];
+}
+
++ (instancetype)cellForTableView:(UITableView *)tableView style:(UITableViewStyle)style reuseIdentifier:(NSString*)reuseIdentifier
+{
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:reuseIdentifier];
+    if (!cell) {
+        cell = [[self alloc] initWithStyle:style reuseIdentifier:reuseIdentifier];
+    }
+    return cell;
+}
+
 - (void)setImageFrame:(CGRect)imageFrame textFrame:(CGRect)textFrame
 {
     [self setImageFrame:imageFrame textFrame:textFrame detailTextFrame:CGRectNull accessoryViewFrame:CGRectNull];

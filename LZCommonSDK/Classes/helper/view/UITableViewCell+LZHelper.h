@@ -10,6 +10,14 @@
 
 @interface UITableViewCell (LZHelper)
 
+
++ (instancetype)cellForTableView:(UITableView *)tableView;      //reuseIdentifier:NSStringFromClass(self)
+                                                                //style:UITableViewCellStyleDefault
+
++ (instancetype)cellForTableView:(UITableView *)tableView
+                           style:(UITableViewStyle)style
+                 reuseIdentifier:(NSString*)reuseIdentifier;
+
 /**
  *  重新设置按钮图标和标题位置
  *
