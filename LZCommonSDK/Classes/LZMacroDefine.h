@@ -61,6 +61,7 @@
 #define lz_IsEmpty(thing)                      [LZCommonUtil isEmpty:(thing)]
 #define lz_IsNotEmpty(thing)                   [LZCommonUtil isNotEmpty:(thing)]
 #define lz_SAFE_STR(STR)                       ((STR)&&(![STR isEqual:[NSNull null]]) ? (STR) : @"")
+#define lz_SAFE_NUM(NUM)                       ((NUM)&&(![NUM isEqual:[NSNull null]]) ? (NUM) : @(0))
 
 #define lz_IsRespondsToSelector(target, selectorName)  ((target) && [(target) respondsToSelector:NSSelectorFromString(selectorName)])
 
