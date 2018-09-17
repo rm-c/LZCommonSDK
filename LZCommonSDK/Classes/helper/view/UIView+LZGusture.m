@@ -1,5 +1,5 @@
 //
-//  UIView+GSGusture.m
+//  UIView+LZGusture.m
 //  MMC_BabyLearn
 //
 //  Created by maochao04 on 2017/3/9.
@@ -14,7 +14,7 @@ const char longPressGestureHandlerKey;
 const char swipeGestureHandlerKey;
 const char panGestureHandlerKey;
 
-@implementation UIView (GSGusture)
+@implementation UIView (LZGusture)
 
 #pragma mark - 点击手势
 
@@ -27,7 +27,7 @@ const char panGestureHandlerKey;
     return tapGesture;
 }
 
-- (UITapGestureRecognizer*)addTapGestureWithNumber:(NSInteger)number handler:(GSViewGestureEventHandler)handler
+- (UITapGestureRecognizer*)addTapGestureWithNumber:(NSInteger)number handler:(LZViewGestureEventHandler)handler
 {
     objc_setAssociatedObject(self, &tapGestureHandlerKey, handler, OBJC_ASSOCIATION_COPY_NONATOMIC);
     return [self addTapGestureWithTarget:self number:number selector:@selector(tapEvent:)];
@@ -35,7 +35,7 @@ const char panGestureHandlerKey;
 
 - (void)tapEvent:(id)sender
 {
-    GSViewGestureEventHandler handler = objc_getAssociatedObject(self, &tapGestureHandlerKey);
+    LZViewGestureEventHandler handler = objc_getAssociatedObject(self, &tapGestureHandlerKey);
     if (handler) {
         handler(self, sender);
     }
@@ -52,7 +52,7 @@ const char panGestureHandlerKey;
     return longPressGestureRecognizer;
 }
 
-- (UILongPressGestureRecognizer*)addLongPressGestureWithHandler:(GSViewGestureEventHandler)handler
+- (UILongPressGestureRecognizer*)addLongPressGestureWithHandler:(LZViewGestureEventHandler)handler
 {
     objc_setAssociatedObject(self, &longPressGestureHandlerKey, handler, OBJC_ASSOCIATION_COPY_NONATOMIC);
     return [self addLongPressGestureWithTarget:self selector:@selector(longPressEvent:)];
@@ -60,7 +60,7 @@ const char panGestureHandlerKey;
 
 - (void)longPressEvent:(id)sender
 {
-    GSViewGestureEventHandler handler = objc_getAssociatedObject(self, &longPressGestureHandlerKey);
+    LZViewGestureEventHandler handler = objc_getAssociatedObject(self, &longPressGestureHandlerKey);
     if (handler) {
         handler(self, sender);
     }
@@ -77,7 +77,7 @@ const char panGestureHandlerKey;
     return swipeGesture;
 }
 
-- (UISwipeGestureRecognizer*)addSwipeGestureWithDirection:(UISwipeGestureRecognizerDirection)direction handler:(GSViewGestureEventHandler)handler
+- (UISwipeGestureRecognizer*)addSwipeGestureWithDirection:(UISwipeGestureRecognizerDirection)direction handler:(LZViewGestureEventHandler)handler
 {
     objc_setAssociatedObject(self, &swipeGestureHandlerKey, handler, OBJC_ASSOCIATION_COPY_NONATOMIC);
     return [self addSwipeGestureWithTarget:self direction:direction selector:@selector(swipeEvent:)];
@@ -85,7 +85,7 @@ const char panGestureHandlerKey;
 
 - (void)swipeEvent:(id)sender
 {
-    GSViewGestureEventHandler handler = objc_getAssociatedObject(self, &swipeGestureHandlerKey);
+    LZViewGestureEventHandler handler = objc_getAssociatedObject(self, &swipeGestureHandlerKey);
     if (handler) {
         handler(self, sender);
     }
@@ -101,7 +101,7 @@ const char panGestureHandlerKey;
     return panGusture;
 }
 
-- (UIPanGestureRecognizer*)addPanGestureWithDirection:(UISwipeGestureRecognizerDirection)direction handler:(GSViewGestureEventHandler)handler
+- (UIPanGestureRecognizer*)addPanGestureWithDirection:(UISwipeGestureRecognizerDirection)direction handler:(LZViewGestureEventHandler)handler
 {
     objc_setAssociatedObject(self, &panGestureHandlerKey, handler, OBJC_ASSOCIATION_COPY_NONATOMIC);
     return [self addPanGestureWithTarget:self direction:direction selector:@selector(panEvent:)];
@@ -109,7 +109,7 @@ const char panGestureHandlerKey;
 
 - (void)panEvent:(id)sender
 {
-    GSViewGestureEventHandler handler = objc_getAssociatedObject(self, &panGestureHandlerKey);
+    LZViewGestureEventHandler handler = objc_getAssociatedObject(self, &panGestureHandlerKey);
     if (handler) {
         handler(self, sender);
     }

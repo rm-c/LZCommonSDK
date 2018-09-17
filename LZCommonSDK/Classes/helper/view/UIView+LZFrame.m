@@ -1,5 +1,5 @@
 //
-//  UIView+GSFrame.m
+//  UIView+LZFrame.m
 //  GSCommonSDK
 //
 //  Created by maochao04 on 2017/6/12.
@@ -8,7 +8,7 @@
 
 #import "UIView+LZFrame.h"
 
-@implementation UIView (GSFrame)
+@implementation UIView (LZFrame)
 
 
 - (CGFloat)x1

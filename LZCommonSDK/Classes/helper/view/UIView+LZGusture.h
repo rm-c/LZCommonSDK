@@ -1,5 +1,5 @@
 //
-//  UIView+GSGusture.h
+//  UIView+LZGusture.h
 //  MMC_BabyLearn
 //
 //  Created by maochao04 on 2017/3/9.
@@ -12,9 +12,9 @@
 #define UISwipeGestureRecognizerDirectionHorizontal (UISwipeGestureRecognizerDirectionLeft | UISwipeGestureRecognizerDirectionRight)
 #define UISwipeGestureRecognizerDirectionVertical   (UISwipeGestureRecognizerDirectionUp | UISwipeGestureRecognizerDirectionDown)
 
-typedef void(^GSViewGestureEventHandler)(UIView* view, id gestureRecognize);
+typedef void(^LZViewGestureEventHandler)(UIView* view, id gestureRecognize);
 
-@interface UIView (GSGusture)
+@interface UIView (LZGusture)
 
 #pragma mark - 手势相关
 
@@ -29,7 +29,7 @@ typedef void(^GSViewGestureEventHandler)(UIView* view, id gestureRecognize);
  */
 - (UITapGestureRecognizer*)addTapGestureWithTarget:(id)target number:(NSInteger)number  selector:(SEL)selector;
 
-- (UITapGestureRecognizer*)addTapGestureWithNumber:(NSInteger)number handler:(GSViewGestureEventHandler)handler;
+- (UITapGestureRecognizer*)addTapGestureWithNumber:(NSInteger)number handler:(LZViewGestureEventHandler)handler;
 
 /**
  *  添加长按手势
@@ -41,7 +41,7 @@ typedef void(^GSViewGestureEventHandler)(UIView* view, id gestureRecognize);
  */
 - (UILongPressGestureRecognizer*)addLongPressGestureWithTarget:(id)target selector:(SEL)selector;
 
-- (UILongPressGestureRecognizer*)addLongPressGestureWithHandler:(GSViewGestureEventHandler)handler;
+- (UILongPressGestureRecognizer*)addLongPressGestureWithHandler:(LZViewGestureEventHandler)handler;
 
 /**
  *  添加轻扫手势
@@ -54,7 +54,7 @@ typedef void(^GSViewGestureEventHandler)(UIView* view, id gestureRecognize);
  */
 - (UISwipeGestureRecognizer*)addSwipeGestureWithTarget:(id)target direction:(UISwipeGestureRecognizerDirection)direction selector:(SEL)selector;
 
-- (UISwipeGestureRecognizer*)addSwipeGestureWithDirection:(UISwipeGestureRecognizerDirection)direction handler:(GSViewGestureEventHandler)handler;
+- (UISwipeGestureRecognizer*)addSwipeGestureWithDirection:(UISwipeGestureRecognizerDirection)direction handler:(LZViewGestureEventHandler)handler;
 
 /**
  *  添加滑动手势
@@ -67,6 +67,6 @@ typedef void(^GSViewGestureEventHandler)(UIView* view, id gestureRecognize);
  */
 - (UIPanGestureRecognizer*)addPanGestureWithTarget:(id)target direction:(UISwipeGestureRecognizerDirection)direction selector:(SEL)selector;
 
-- (UIPanGestureRecognizer*)addPanGestureWithDirection:(UISwipeGestureRecognizerDirection)direction handler:(GSViewGestureEventHandler)handler;
+- (UIPanGestureRecognizer*)addPanGestureWithDirection:(UISwipeGestureRecognizerDirection)direction handler:(LZViewGestureEventHandler)handler;
 
 @end

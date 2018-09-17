@@ -1,5 +1,5 @@
 //
-//  UIView+GSFrame.h
+//  UIView+LZFrame.h
 //  GSCommonSDK
 //
 //  Created by maochao04 on 2017/6/12.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIView (GSFrame)
+@interface UIView (LZFrame)
 
 #pragma mark - 获取坐标快捷方式
 
