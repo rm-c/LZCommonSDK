@@ -25,19 +25,8 @@ typedef void(^LZAddedSubviewHandler)(UIView* subView, UIView* superView);
 
 #pragma mark - 实用方法
 
-/**
- *  添加子视图并适配子视图大小
- *
- *  @param view 姿势图
- */
-- (void)addSubviewEx:(UIView *)view;
-
-/**
- *  删除子视图
- *
- *  @param tag 子视图tag
- */
-- (void)removeSubviewWithTag:(NSInteger)tag;
+- (void)addSubviewEx:(UIView *)view;    // 添加子视图并适配子视图大小
+- (void)removeSubviewWithTag:(NSInteger)tag;    // 删除子视图
 - (void)removeAllSubviews;  // 删除所有子视图
 
 - (void)addBlurEffect; //添加毛玻璃效果
