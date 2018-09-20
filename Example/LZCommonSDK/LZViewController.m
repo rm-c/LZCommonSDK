@@ -8,6 +8,7 @@
 
 #import "LZViewController.h"
 #import <LZCommonSDK/LZCommonSDK.h>
+#import <SDAutoLayout/SDAutoLayout.h>
 
 @interface LZViewController ()
 

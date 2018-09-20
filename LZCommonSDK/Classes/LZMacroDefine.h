@@ -20,7 +20,7 @@
 #define LZ_VERTICAL_SCREEN_HEIGHT              [LZScreenUtil getVerticalHeightOfScreen]          //竖屏高度
 #define LZ_HORIZONTAL_SCREEN_WIDTH             [LZScreenUtil getHorizontalWidthOfScreen]         //横屏宽度
 #define LZ_HORIZONTAL_SCREEN_HEIGHT            [LZScreenUtil getHorizontalHeightOfScreen]        //横屏高度
-#define LZ_STATUS_BAR_HEIGHT                   [GSScreenUtil getStatusBarHeight]                 //状态栏高度
+#define LZ_STATUS_BAR_HEIGHT                   [LZScreenUtil getStatusBarHeight]                 //状态栏高度
 #define LZ_SCREEN_BOUNDS                       ([UIScreen mainScreen].bounds)                    //当前屏幕的bounds
 #define LZ_SCREEN_HEIGHT                       ([UIScreen mainScreen].bounds.size.height)        //当前屏幕的高
 #define LZ_SCREEN_WIDTH                        ([UIScreen mainScreen].bounds.size.width)         //当前屏幕的宽
@@ -67,15 +67,25 @@
 #define lz_IsRespondsToSelector(target, selectorName)  ((target) && [(target) respondsToSelector:NSSelectorFromString(selectorName)])
 
 // 强引用弱引用转换
-#define LZ_DECLARE_WEAK_SELF                   __weak __typeof(self) weakSelf = self               //声明self弱引用
-#define LZ_DECLARE_WEAK_OBJ(o)                 __weak typeof(o) o##Weak = o;     //声明对象弱引用
-#define LZ_DECLARE_STRONG_OBJ(o)               __strong typeof(o) o = o##Weak;   //声明对象强引用
+#define DECLARE_WEAK_SELF                   __weak __typeof(self) weakSelf = self               //声明self弱引用
+#define DECLARE_WEAK_OBJ(o)                 __weak typeof(o) o##Weak = o;     //声明对象弱引用
+#define DECLARE_STRONG_OBJ(o)               __strong typeof(o) o = o##Weak;   //声明对象强引用
 
 // 属性声明
-#define LZ_DECLARE_OBJECT_PROPERTY(className, propertyName)            @property(nonatomic, strong)className* propertyName;      // 声明对象属性，默认强引用
-#define LZ_DECLARE_VALUE_PROPERTY(type, propertyName)                  @property(nonatomic, assign)type propertyName;            // 声明值属性
-#define LZ_DECLARE_WEAK_OBJECT_PROPERTY(className, propertyName)       @property(nonatomic, weak)className* propertyName;        // 声明弱引用对象属性
-#define LZ_DECLARE_COPY_OBJECT_PROPERTY(className, propertyName)       @property(nonatomic, copy)className* propertyName;        // 声明copy对象属性
+#define DECLARE_OBJECT_PROPERTY(className, propertyName)        @property(nonatomic, strong)className* propertyName;// 声明对象属性，默认强引用
+#define DECLARE_VALUE_PROPERTY(type, propertyName)              @property(nonatomic, assign)type propertyName;// 声明值属性
+#define DECLARE_WEAK_OBJECT_PROPERTY(className, propertyName)   @property(nonatomic, weak)className* propertyName;// 声明弱引用对象属性
+#define DECLARE_COPY_OBJECT_PROPERTY(className, propertyName)   @property(nonatomic, copy)className* propertyName;// 声明copy对象属性
 
+#define DECLARE_SHARE_INSTANCE   \
+                                        + (instancetype)sharedInstance \
+                                        { \
+                                            static id shareInstance; \
+                                            static dispatch_once_t onceToken;\
+                                            dispatch_once(&onceToken, ^{\
+                                                _instance = [[self alloc] init]; \
+                                            });\
+                                            return _instance; \
+                                        } \
 
 #endif /* GSGlobal_h */
