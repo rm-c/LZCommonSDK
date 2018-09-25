@@ -108,14 +108,7 @@
 
 + (NSNumber*)getNumberValueInDict:(NSDictionary*)dict withKey:(NSString*)key
 {
-    NSNumber* num = [LZJSONParseUtil getDataInDict:dict withKey:key ofClass:[NSNumber class]];
-    if (num == nil) {
-        NSString* str = [LZJSONParseUtil getDataInDict:dict withKey:key ofClass:[NSString class]];
-        if (str != nil) {
-            return @(str.floatValue);
-        }
-    }
-    return num;
+    return [LZJSONParseUtil getDataInDict:dict withKey:key ofClass:[NSNumber class]];
 }
 
 + (NSString*)getStringValueInDict:(NSDictionary*)dict withKey:(NSString*)key
@@ -124,7 +117,7 @@
     if (str == nil) {
         NSNumber* num = [LZJSONParseUtil getDataInDict:dict withKey:key ofClass:[NSNumber class]];
         if (num != nil) {
-            return [NSString stringWithFormat:@"%f", num.floatValue];
+            return  num.stringValue;
         }
     }
     return str;
