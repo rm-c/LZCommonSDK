@@ -88,4 +88,7 @@
                                             return _instance; \
                                         } \
 
+#define LzSafeStr(STR)        ((STR)&&(![STR isEqual:[NSNull null]]) ? (STR) : @"")
+#define LzSafeNum(Num)        ((Num)&&(![Num isEqual:[NSNull null]]) ? (Num) : @(0))
+
 #endif /* GSGlobal_h */
