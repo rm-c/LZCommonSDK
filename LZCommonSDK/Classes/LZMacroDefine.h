@@ -47,24 +47,24 @@
 #define LZ_IS_IOS10                            ([LZDeviceUtil getDeviceSystemMajorVersion] >= 10)//是否是运行iOS10系统
 
 // 颜色快捷方式
-#define lz_UIColorFromRGB(rgbValue)            [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 \
+#define LzUIColorFromRGB(rgbValue)            [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 \
                                                             green:((float)((rgbValue & 0xFF00) >> 8))/255.0 \
                                                              blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
-#define lz_UIColorFromR_G_B_A(r,g,b,a)         [UIColor colorWithRed:(r) / 255.0 green:(g) / 255.0 blue:(b) / 255.0 alpha:a]
-#define lz_UIColorFromR_G_B(r,g,b)             lz_UIColorFromR_G_B_A(r,g,b,1.0)
+#define LzUIColorFromR_G_B_A(r,g,b,a)         [UIColor colorWithRed:(r) / 255.0 green:(g) / 255.0 blue:(b) / 255.0 alpha:a]
+#define LzUIColorFromR_G_B(r,g,b)             LzUIColorFromR_G_B_A(r,g,b,1.0)
 
 //文件操作相关
-#define lz_FilePathInSandBox(fileName)         [[NSSearchPathForDirectoriesInDomains(NSDocumentDirectory,NSUserDomainMask,YES) objectAtIndex:0] stringByAppendingPathComponent:fileName]
-#define lz_FilePathInMainBundle(file, ext)     [[NSBundle mainBundle]pathForResource:(file) ofType:(ext)]
-#define lz_FileExistsAtPath(filePath)          [[NSFileManager defaultManager] fileExistsAtPath:filePath]
+#define LzFilePathInSandBox(fileName)         [[NSSearchPathForDirectoriesInDomains(NSDocumentDirectory,NSUserDomainMask,YES) objectAtIndex:0] stringByAppendingPathComponent:fileName]
+#define LzFilePathInMainBundle(file, ext)     [[NSBundle mainBundle]pathForResource:(file) ofType:(ext)]
+#define LzFileExistsAtPath(filePath)          [[NSFileManager defaultManager] fileExistsAtPath:filePath]
 
 //空值判断
-#define lz_IsEmpty(thing)                      [LZCommonUtil isEmpty:(thing)]
-#define lz_IsNotEmpty(thing)                   [LZCommonUtil isNotEmpty:(thing)]
-#define lz_SafeStr(STR)                       ((STR)&&(![STR isEqual:[NSNull null]]) ? (STR) : @"")
-#define lz_SafeNum(NUM)                       ((NUM)&&(![NUM isEqual:[NSNull null]]) ? (NUM) : @(0))
+#define LzIsEmpty(thing)                      [LZCommonUtil isEmpty:(thing)]
+#define LzIsNotEmpty(thing)                   [LZCommonUtil isNotEmpty:(thing)]
+#define LzSafeStr(STR)                       ((STR)&&(![STR isEqual:[NSNull null]]) ? (STR) : @"")
+#define LzSafeNum(NUM)                       ((NUM)&&(![NUM isEqual:[NSNull null]]) ? (NUM) : @(0))
 
-#define lz_IsRespondsToSelector(target, selectorName)  ((target) && [(target) respondsToSelector:NSSelectorFromString(selectorName)])
+#define LzIsRespondsToSelector(target, selectorName)  ((target) && [(target) respondsToSelector:NSSelectorFromString(selectorName)])
 
 // 强引用弱引用转换
 #define DECLARE_WEAK_SELF                   __weak __typeof(self) weakSelf = self               //声明self弱引用
@@ -88,7 +88,5 @@
                                             return _instance; \
                                         } \
 
-#define LzSafeStr(STR)        ((STR)&&(![STR isEqual:[NSNull null]]) ? (STR) : @"")
-#define LzSafeNum(Num)        ((Num)&&(![Num isEqual:[NSNull null]]) ? (Num) : @(0))
 
 #endif /* GSGlobal_h */
