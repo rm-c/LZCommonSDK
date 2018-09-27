@@ -46,7 +46,7 @@
     return isVaild ? url: nil;
 }
 
-- (BOOL)validateNum
+- (BOOL)isValidateNum
 {
     return [[NSPredicate predicateWithFormat:@"SELF MATCHES %@",@"^(\\d)$"] evaluateWithObject:self];
 }
@@ -71,6 +71,31 @@
     return [pwdTest evaluateWithObject:self];
 }
 
+//判断是否为整形
+- (BOOL)isIntegerString {
+    if (!self) {
+        return NO;
+    }
+    if (self.length < 1) {
+        return NO;
+    }
+    NSScanner* scan = [NSScanner scannerWithString:self];
+    int val;
+    return[scan scanInt:&val] && [scan isAtEnd];
+}
+
+//判断是否为浮点型
+- (BOOL)isFloatString {
+    if (!self) {
+        return NO;
+    }
+    if (self.length < 1) {
+        return NO;
+    }
+    NSScanner* scan = [NSScanner scannerWithString:self];
+    float val;
+    return[scan scanFloat:&val] && [scan isAtEnd];
+}
 
 - (CGSize)sizeWithFontEx:(UIFont *)font
 {
