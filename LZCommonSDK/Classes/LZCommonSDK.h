@@ -30,6 +30,7 @@
 #import "NSMutableAttributedString+LZHelper.h"
 #import "NSMutableString+LZHelper.h"
 #import "NSString+LZHelper.h"
+#import "NSString+LZValidate.h"
 #import "NSString+LZUrlEncode.h"
 #import "NSTimer+LZHelper.h"
 #import "NSURL+LZHelper.h"
