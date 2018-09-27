@@ -12,7 +12,7 @@
 @implementation NSString (LZValidate)
 
 
-+ (NSString*)isValidateUrl:(NSString *)url
++ (NSString*)isUrlString:(NSString *)url
 {
     NSString *urlRegEx =
     @"(http|ftp|https):\\/\\/[\\w\\-_]+(\\.[\\w\\-_]+)+([\\w\\-\\.,@?^=%&amp;:/~\\+#]*[\\w\\-\\@?^=%&amp;/~\\+#])?";
@@ -31,27 +31,27 @@
     return isVaild ? url: nil;
 }
 
-- (BOOL)isValidateNum
+- (BOOL)isNumberString
 {
     return [[NSPredicate predicateWithFormat:@"SELF MATCHES %@",@"^(\\d)$"] evaluateWithObject:self];
 }
 
-- (BOOL)isValidateEmail
+- (BOOL)isEmailString
 {
     NSString *emailRegex = @"[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,4}";
     NSPredicate *emailTest = [NSPredicate predicateWithFormat:@"SELF MATCHES %@", emailRegex];
     return [emailTest evaluateWithObject:self];
 }
 
-- (BOOL)isValidateMobile
+- (BOOL)isMobileString
 {
     NSString *phoneRegex = @"^((13[0-9])|(15[^4,\\D])|(18[0,0-9]))\\d{8}$";
     NSPredicate *phoneTest = [NSPredicate predicateWithFormat:@"SELF MATCHES %@",phoneRegex];
     return [phoneTest evaluateWithObject:self];
 }
 
-- (BOOL)isValidatePasswordWithRangeMin:(int)min rangeMax:(int)max{
-    NSString *pwdRegex = [NSString stringWithFormat:@"(^[0-9]{%d,%d}$)", min, max] ;
+- (BOOL)isPasswordStringWithMinLength:(int)minLength maxLength:(int)maxLength{
+    NSString *pwdRegex = [NSString stringWithFormat:@"(^[0-9]{%d,%d}$)", minLength, maxLength] ;
     NSPredicate *pwdTest = [NSPredicate predicateWithFormat:@"SELF MATCHES %@", pwdRegex];
     return [pwdTest evaluateWithObject:self];
 }

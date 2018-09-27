@@ -10,28 +10,21 @@
 
 @interface NSString (LZValidate)
 
-/**
- *  是否合法url
- *
- *  @param url url
- *
- *  @return 是否合法url, 不合法返回nil
- */
-+ (NSString*)isValidateUrl:(NSString *)url;
++ (NSString*)isUrlString:(NSString *)url;   // 是否合法url, 合法返回完整url, 不合法返回nil
 
-- (BOOL)isValidateEmail;    // 是否合法邮件字符串
-- (BOOL)isValidateMobile;   // 是否合法手机号格式
-- (BOOL)isValidateNum;        // 是否数字字符串
-- (BOOL)isIntegerString;      // 判断是否为整形
+- (BOOL)isEmailString;      // 是否合法邮件字符串
+- (BOOL)isMobileString;     // 是否合法手机号格式
+- (BOOL)isNumberString;     // 是否数字字符串
+- (BOOL)isIntegerString;    // 判断是否为整形
 - (BOOL)isFloatString;      //判断是否为浮点型
 
 /**
  是否合格密码
 
- @param min 最小长度
- @param max 最大长度
+ @param minLength 最小长度
+ @param maxLength 最大长度
  @return 是否合格
  */
-- (BOOL)isValidatePasswordWithRangeMin:(int)min rangeMax:(int)max;
+- (BOOL)isPasswordStringWithMinLength:(int)minLength maxLength:(int)maxLength;
 
 @end
