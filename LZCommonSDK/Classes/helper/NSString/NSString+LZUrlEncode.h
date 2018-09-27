@@ -8,7 +8,7 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-@interface NSString (GSUrlEncode)
+@interface NSString (LZUrlEncode)
 
 - (NSString *)urlEncode;
 - (NSString *)urlEncodeUsingEncoding:(NSStringEncoding)encoding;
