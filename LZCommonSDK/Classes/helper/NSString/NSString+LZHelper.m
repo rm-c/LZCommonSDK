@@ -31,22 +31,24 @@
     NSPredicate *urlTest = [NSPredicate predicateWithFormat:@"SELF MATCHES %@", urlRegEx];
     BOOL isVaild = [urlTest evaluateWithObject:url];
     
-    if (!isVaild)
-    {
-        if ([url hasPrefix:@"www"])
-        {
+    if (!isVaild){
+        if ([url hasPrefix:@"www"]){
             url = [NSString stringWithFormat:@"http://%@", url];
             isVaild = [urlTest evaluateWithObject:url];
         }
     }
     
     //通过正则判断 但无法打开，依旧判断为无效url
-    if (![[UIApplication sharedApplication] canOpenURL:[NSURL URLWithString:url]])
-    {
+    if (![[UIApplication sharedApplication] canOpenURL:[NSURL URLWithString:url]]){
         isVaild = NO;
     }
     
     return isVaild ? url: nil;
+}
+
+- (BOOL)validateNum
+{
+    return [[NSPredicate predicateWithFormat:@"SELF MATCHES %@",@"^(\\d)$"] evaluateWithObject:self];
 }
 
 - (BOOL)isValidateEmail
@@ -62,6 +64,13 @@
     NSPredicate *phoneTest = [NSPredicate predicateWithFormat:@"SELF MATCHES %@",phoneRegex];
     return [phoneTest evaluateWithObject:self];
 }
+
+- (BOOL)validatePasswordWithRangeMin:(int)min rangeMax:(int)max{
+    NSString *pwdRegex = [NSString stringWithFormat:@"(^[0-9]{%d,%d}$)", min, max] ;
+    NSPredicate *pwdTest = [NSPredicate predicateWithFormat:@"SELF MATCHES %@", pwdRegex];
+    return [pwdTest evaluateWithObject:self];
+}
+
 
 - (CGSize)sizeWithFontEx:(UIFont *)font
 {
@@ -90,8 +99,7 @@
     return matches;
 }
 
-- (NSString*)reverseString
-{
+- (NSString*)reverseString{
     NSMutableString *reverString = [NSMutableString stringWithCapacity:self.length];
     [self enumerateSubstringsInRange:NSMakeRange(0, self.length)
                             options:NSStringEnumerationReverse | NSStringEnumerationByComposedCharacterSequences

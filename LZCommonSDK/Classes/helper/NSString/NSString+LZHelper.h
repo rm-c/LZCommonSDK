@@ -25,6 +25,16 @@
 + (NSString*)isValidateUrl:(NSString *)url;
 - (BOOL)isValidateEmail;    // 是否合法邮件字符串
 - (BOOL)isValidateMobile;   // 是否合法手机号格式
+- (BOOL)validateNum;        // 是否数字字符串
+
+/**
+ 是否合格密码
+
+ @param min 最小长度
+ @param max 最大长度
+ @return 是否合格
+ */
+- (BOOL)validatePasswordWithRangeMin:(int)min rangeMax:(int)max;
 
 #pragma mark - 系统扩展
 /**
