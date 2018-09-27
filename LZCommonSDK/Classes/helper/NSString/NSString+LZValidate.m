@@ -16,22 +16,18 @@
 {
     NSString *urlRegEx =
     @"(http|ftp|https):\\/\\/[\\w\\-_]+(\\.[\\w\\-_]+)+([\\w\\-\\.,@?^=%&amp;:/~\\+#]*[\\w\\-\\@?^=%&amp;/~\\+#])?";
-    
     NSPredicate *urlTest = [NSPredicate predicateWithFormat:@"SELF MATCHES %@", urlRegEx];
     BOOL isVaild = [urlTest evaluateWithObject:url];
-    
     if (!isVaild){
         if ([url hasPrefix:@"www"]){
             url = [NSString stringWithFormat:@"http://%@", url];
             isVaild = [urlTest evaluateWithObject:url];
         }
     }
-    
     //通过正则判断 但无法打开，依旧判断为无效url
     if (![[UIApplication sharedApplication] canOpenURL:[NSURL URLWithString:url]]){
         isVaild = NO;
     }
-    
     return isVaild ? url: nil;
 }
 

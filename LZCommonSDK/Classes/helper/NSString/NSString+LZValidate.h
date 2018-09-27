@@ -18,6 +18,7 @@
  *  @return 是否合法url, 不合法返回nil
  */
 + (NSString*)isValidateUrl:(NSString *)url;
+
 - (BOOL)isValidateEmail;    // 是否合法邮件字符串
 - (BOOL)isValidateMobile;   // 是否合法手机号格式
 - (BOOL)isValidateNum;        // 是否数字字符串
