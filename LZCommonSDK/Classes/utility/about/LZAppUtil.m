@@ -47,7 +47,7 @@
 + (BOOL)isAppFirstLaunchForThisVersion
 {
     NSString* version = [self getAppVersion];
-    if (lz_IsEmpty(version)) {
+    if (LzIsEmpty(version)) {
         return NO;
     }
     BOOL hasLaunched = [[NSUserDefaults standardUserDefaults] boolForKey:version];
