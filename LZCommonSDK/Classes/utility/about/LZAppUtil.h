@@ -16,6 +16,10 @@
 
 + (NSString*)getAppDisplayName;
 
++ (UIImage*)getAppIcon;     // 获取应用图标
+
++ (UIImage *)launchImage(); // 获取启动图
+
 + (BOOL)isAppFirstLaunch;
 
 + (BOOL)isAppFirstLaunchForThisVersion;   // 是否是此版本第一次启动
