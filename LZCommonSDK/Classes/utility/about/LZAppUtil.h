@@ -18,7 +18,7 @@
 
 + (UIImage*)getAppIcon;     // 获取应用图标
 
-+ (UIImage *)launchImage(); // 获取启动图
++ (UIImage *)launchImage; // 获取启动图
 
 + (BOOL)isAppFirstLaunch;
 

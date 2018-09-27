@@ -39,7 +39,7 @@
     return [UIImage imageNamed:icon];
 }
 
-+ (UIImage *)launchImage()
++ (UIImage *)launchImage
 {
     UIImage *imageP = [self launchImageWithType:@"Portrait" ];
     if(imageP)
