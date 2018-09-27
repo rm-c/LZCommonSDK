@@ -35,9 +35,8 @@
 #define LZ_IS_SCREEN_4_7                       (LZ_IS_IPHONE && LZ_SCREEN_MAX_LENGTH == 667.0)           // 4.7英寸屏幕
 #define LZ_IS_SCREEN_5_5                       (LZ_IS_IPHONE && LZ_SCREEN_MAX_LENGTH == 736.0)           // 5.5英寸屏幕
 #define LZ_IS_SCREEN_5_8                       (LZ_IS_IPHONE && LZ_SCREEN_MAX_LENGTH == 812.0)           // 5.8英寸屏幕
-#define LZ_SCREEN_SCALE_320                    (MIN(LZ_SCREEN_WIDTH,LZ_SCREEN_HEIGHT) / 320.0)          // 相对宽度320像素分辨率
-#define LZ_SCREEN_SCALE_375                    (MIN(LZ_SCREEN_WIDTH,LZ_SCREEN_HEIGHT) / 375.0)          // 相对宽度375像素分辨率
-#define LZ_ZOOM_47                             (MIN(LZ_SCREEN_WIDTH,LZ_SCREEN_HEIGHT) / 375.0)          // 相对4.7英寸屏幕分辨率
+#define LZ_ZOOM_320                             (MIN(LZ_SCREEN_WIDTH,LZ_SCREEN_HEIGHT) / 320.0)          // 相对4.0英寸屏幕分辨率
+#define LZ_ZOOM_375                             (MIN(LZ_SCREEN_WIDTH,LZ_SCREEN_HEIGHT) / 375.0)          // 相对4.7英寸屏幕分辨率
 
 // 系统判断
 #define LZ_IS_IOS6                             ([LZDeviceUtil getDeviceSystemMajorVersion] >= 6) //是否是运行iOS6及以的系统
