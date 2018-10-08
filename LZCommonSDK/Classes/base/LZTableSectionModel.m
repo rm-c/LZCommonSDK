@@ -12,6 +12,7 @@
 
 - (instancetype)init {
     if (self = [super init]) {
+        self.rows = [NSMutableArray array];
         self.headHeight = 0.01;
         self.footHeight = 0.01;
     }
