@@ -260,7 +260,7 @@
             UIImagePickerControllerSourceTypePhotoLibrary];
 }
 
-- (BOOL) doesCameraSupportTakingPhotos {
+- (BOOL) isCameraSupportTakingPhotos {
     return [self cameraSupportsMedia:(__bridge NSString *)kUTTypeImage
                           sourceType:UIImagePickerControllerSourceTypeCamera];
 }
