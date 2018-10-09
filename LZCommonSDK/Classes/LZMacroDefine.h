@@ -83,9 +83,9 @@
                                             static id shareInstance; \
                                             static dispatch_once_t onceToken;\
                                             dispatch_once(&onceToken, ^{\
-                                                _instance = [[self alloc] init]; \
+                                                shareInstance = [[self alloc] init]; \
                                             });\
-                                            return _instance; \
+                                            return shareInstance; \
                                         } \
 
 
