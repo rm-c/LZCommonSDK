@@ -15,6 +15,7 @@ typedef void (^LZTableRowOperationBlock)(LZTableRowModel *item);
 
 @interface LZTableRowModel : LZBaseModel
 
+@property (nonatomic, assign) NSInteger index;      // 索引
 @property (nonatomic, copy) NSString *icon;         // 图标
 @property (nonatomic, copy) NSString *title;        // 标题
 @property (nonatomic, copy) NSString *subtitle;     // 子标题

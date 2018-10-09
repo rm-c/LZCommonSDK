@@ -21,7 +21,7 @@
 
 -(void)setHeadTitle:(NSString *)headTitle
 {
-    _headTitle = [headTitle copy];
+    _headTitle = headTitle;
     if (headTitle) {
         _headHeight = 22.f;
     }else{

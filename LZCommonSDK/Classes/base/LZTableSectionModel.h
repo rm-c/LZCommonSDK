@@ -11,6 +11,7 @@
 
 @interface LZTableSectionModel : LZBaseModel
 
+@property (nonatomic, assign) NSInteger index;      // 索引
 @property (nonatomic, strong) NSString *icon;       // 图标
 @property (nonatomic, strong) NSString *headTitle;  // 头部标题
 @property (nonatomic, strong) NSString *footTitle;  // 尾部标题
