@@ -260,36 +260,36 @@
             UIImagePickerControllerSourceTypePhotoLibrary];
 }
 
-//- (BOOL) doesCameraSupportTakingPhotos {
-//    return [self cameraSupportsMedia:(__bridge NSString *)kUTTypeImage
-//                          sourceType:UIImagePickerControllerSourceTypeCamera];
-//}
-//
-//- (BOOL) canUserPickVideosFromPhotoLibrary{
-//    return [self cameraSupportsMedia:(__bridge NSString *)kUTTypeMovie
-//                          sourceType:UIImagePickerControllerSourceTypePhotoLibrary];
-//}
-//- (BOOL) canUserPickPhotosFromPhotoLibrary{
-//    return [self
-//            cameraSupportsMedia:(__bridge NSString *)kUTTypeImage
-//            sourceType:UIImagePickerControllerSourceTypePhotoLibrary];
-//}
-//
-//- (BOOL) cameraSupportsMedia:(NSString *)paramMediaType sourceType:(UIImagePickerControllerSourceType)paramSourceType{
-//    __block BOOL result = NO;
-//    if ([paramMediaType length] == 0) {
-//        return NO;
-//    }
-//    NSArray *availableMediaTypes = [UIImagePickerController availableMediaTypesForSourceType:paramSourceType];
-//    [availableMediaTypes enumerateObjectsUsingBlock: ^(id obj, NSUInteger idx, BOOL *stop) {
-//        NSString *mediaType = (NSString *)obj;
-//        if ([mediaType isEqualToString:paramMediaType]){
-//            result = YES;
-//            *stop= YES;
-//        }
-//    }];
-//    return result;
-//}
+- (BOOL) doesCameraSupportTakingPhotos {
+    return [self cameraSupportsMedia:(__bridge NSString *)kUTTypeImage
+                          sourceType:UIImagePickerControllerSourceTypeCamera];
+}
+
+- (BOOL) canUserPickVideosFromPhotoLibrary{
+    return [self cameraSupportsMedia:(__bridge NSString *)kUTTypeMovie
+                          sourceType:UIImagePickerControllerSourceTypePhotoLibrary];
+}
+- (BOOL) canUserPickPhotosFromPhotoLibrary{
+    return [self
+            cameraSupportsMedia:(__bridge NSString *)kUTTypeImage
+            sourceType:UIImagePickerControllerSourceTypePhotoLibrary];
+}
+
+- (BOOL) cameraSupportsMedia:(NSString *)paramMediaType sourceType:(UIImagePickerControllerSourceType)paramSourceType{
+    __block BOOL result = NO;
+    if ([paramMediaType length] == 0) {
+        return NO;
+    }
+    NSArray *availableMediaTypes = [UIImagePickerController availableMediaTypesForSourceType:paramSourceType];
+    [availableMediaTypes enumerateObjectsUsingBlock: ^(id obj, NSUInteger idx, BOOL *stop) {
+        NSString *mediaType = (NSString *)obj;
+        if ([mediaType isEqualToString:paramMediaType]){
+            result = YES;
+            *stop= YES;
+        }
+    }];
+    return result;
+}
 
 
 @end

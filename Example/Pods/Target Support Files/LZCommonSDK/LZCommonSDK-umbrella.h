@@ -24,6 +24,7 @@
 #import "NSMutableString+LZHelper.h"
 #import "NSString+LZHelper.h"
 #import "NSString+LZUrlEncode.h"
+#import "NSString+LZValidate.h"
 #import "NSTimer+LZHelper.h"
 #import "NSURL+LZHelper.h"
 #import "NSUserDefaults+LZHelper.h"
