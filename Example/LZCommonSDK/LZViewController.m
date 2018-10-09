@@ -23,8 +23,17 @@
     if (LzIsEmpty(self)) {
         return;
     }
+    
+    [UIView addSubView:[UIView new] toSuperView:self.view addedCallback:^(UIView *subView, UIView *superView) {
+        subView.sd_layout.topEqualToView(superView).rightEqualToView(superView).widthIs(100).heightIs(100);
+        subView.backgroundColor = [UIColor redColor];
+    }];
 }
 
+- (void)viewDidAppear:(BOOL)animated
+{
+    [LZDeviceUtil setDeviceInterfaceOrientation:UIInterfaceOrientationLandscapeLeft];
+}
 
 - (void)didReceiveMemoryWarning
 {
