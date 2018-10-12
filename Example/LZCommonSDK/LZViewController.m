@@ -24,9 +24,9 @@
         return;
     }
     
-    [UIView addSubView:[UIView new] toSuperView:self.view addedCallback:^(UIView *subView, UIView *superView) {
-        subView.sd_layout.topEqualToView(superView).rightEqualToView(superView).widthIs(100).heightIs(100);
-        subView.backgroundColor = [UIColor redColor];
+    [UIView addSubView:[UIView new] toSuperView:self.view addedCallback:^(UIView *subV, UIView *supV) {
+        subV.sd_layout.topEqualToView(supV).rightEqualToView(supV).widthIs(100).heightIs(100);
+        subV.backgroundColor = [UIColor redColor];
     }];
 }
 

@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-typedef void(^LZAddedSubviewHandler)(UIView* sub, UIView* sup);
+typedef void(^LZAddedSubviewHandler)(UIView* subV, UIView* supV);
 
 
 @interface UIView (LZHelper)
