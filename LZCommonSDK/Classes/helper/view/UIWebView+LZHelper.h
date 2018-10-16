@@ -43,4 +43,8 @@
  */
 - (NSString *)getTitle;
 
+- (void)setLocalStorage:(NSString*)key value:(NSString*)value;      // 设置localStorage键值，需在webViewDidFinishLoad后执行
+
+- (NSString*)getLocalStorage:(NSString*)key;            // 获取localStorage键值
+
 @end

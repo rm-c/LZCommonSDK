@@ -53,4 +53,16 @@
     return [self stringByEvaluatingJavaScriptFromString:@"document.title"];
 }
 
+- (void)setLocalStorage:(NSString*)key value:(NSString*)value
+{
+    NSString *jsString = [NSString stringWithFormat:@"localStorage.setItem('%@', '%@')", key, value];
+    [self stringByEvaluatingJavaScriptFromString:jsString];
+}
+
+- (NSString*)getLocalStorage:(NSString*)key
+{
+    NSString *jsString = [NSString stringWithFormat:@"localStorage.getItem('%@')", key];
+    return [self stringByEvaluatingJavaScriptFromString:jsString];
+}
+
 @end
