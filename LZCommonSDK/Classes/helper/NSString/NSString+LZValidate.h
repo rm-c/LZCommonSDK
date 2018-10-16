@@ -16,7 +16,7 @@
 - (BOOL)isMobileString;     // 是否合法手机号格式
 - (BOOL)isNumberString;     // 是否数字字符串
 - (BOOL)isIntegerString;    // 判断是否为整形
-- (BOOL)isFloatString;      //判断是否为浮点型
+- (BOOL)isFloatString;      // 判断是否为浮点型
 
 /**
  是否合格密码

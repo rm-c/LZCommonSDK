@@ -24,15 +24,16 @@
         return;
     }
     
-    [UIView addSubView:[UIView new] toSuperView:self.view addedCallback:^(UIView *subV, UIView *supV) {
-        subV.sd_layout.topEqualToView(supV).rightEqualToView(supV).widthIs(100).heightIs(100);
+    UIView* btn = [UIView addSubView:[UIView new] toSuperView:self.view addedCallback:^(UIView *subV, UIView *supV) {
+        subV.sd_layout.topEqualToView(supV).offset(30).rightEqualToView(supV).offset(-30).widthIs(100).heightIs(100);
         subV.backgroundColor = [UIColor redColor];
     }];
+    btn.backgroundColor = [UIColor greenColor];
 }
 
 - (void)viewDidAppear:(BOOL)animated
 {
-    [LZDeviceUtil setDeviceInterfaceOrientation:UIInterfaceOrientationLandscapeLeft];
+
 }
 
 - (void)didReceiveMemoryWarning

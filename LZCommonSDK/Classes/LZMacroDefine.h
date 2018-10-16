@@ -77,7 +77,8 @@
 #define DECLARE_WEAK_OBJECT_PROPERTY(className, propertyName)   @property(nonatomic, weak)className* propertyName;// 声明弱引用对象属性
 #define DECLARE_COPY_OBJECT_PROPERTY(className, propertyName)   @property(nonatomic, copy)className* propertyName;// 声明copy对象属性
 
-#define DECLARE_SHARE_INSTANCE   \
+#define DECLARE_SHARE_INSTANCE_H        + (instancetype)sharedInstance;
+#define DECLARE_SHARE_INSTANCE_M   \
                                         + (instancetype)sharedInstance \
                                         { \
                                             static id shareInstance; \
