@@ -7,12 +7,14 @@
 //
 
 #import "LZAppDelegate.h"
+#import "LZViewController.h"
 
 @implementation LZAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[LZViewController new]];
     return YES;
 }
 

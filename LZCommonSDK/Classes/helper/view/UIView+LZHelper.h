@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 
 typedef void(^LZAddedSubviewHandler)(UIView* subV, UIView* supV);
+typedef void(^LZAddedSubviewWithVCHandler)(UIViewController* subVC, UIView* supV);
 
 
 @interface UIView (LZHelper)
@@ -39,6 +40,11 @@ typedef void(^LZAddedSubviewHandler)(UIView* subV, UIView* supV);
 - (UIView*)viewWithXib:(NSString*)xibName;//用xib生成视图
 
 + (UIView*)addSubView:(UIView*)subView toSuperView:(UIView*)superView addedCallback:(LZAddedSubviewHandler)handler;
+
+
++ (UIViewController*)addSubViewWithController:(UIViewController*)childController
+                                  toSuperView:(UIView*)superView
+                                addedCallback:(LZAddedSubviewWithVCHandler)handler;
 
 - (UIView*)addColorViewWithFrame:(CGRect)frame color:(UIColor*)color;
 
