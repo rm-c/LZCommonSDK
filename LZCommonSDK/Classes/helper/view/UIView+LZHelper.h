@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 typedef void(^LZAddedSubviewHandler)(UIView* subV, UIView* supV);
-typedef void(^LZAddedSubviewWithVCHandler)(UIViewController* subVC, UIView* supV);
+typedef void(^LZAddedSubviewWithVC_Handler)(UIViewController* subVC, UIView* supV);
 
 
 @interface UIView (LZHelper)
@@ -44,7 +44,7 @@ typedef void(^LZAddedSubviewWithVCHandler)(UIViewController* subVC, UIView* supV
 
 + (UIViewController*)addSubViewWithController:(UIViewController*)childController
                                   toSuperView:(UIView*)superView
-                                addedCallback:(LZAddedSubviewWithVCHandler)handler;
+                                addedCallback:(LZAddedSubviewWithVC_Handler)handler;
 
 - (UIView*)addColorViewWithFrame:(CGRect)frame color:(UIColor*)color;
 

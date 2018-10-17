@@ -157,7 +157,7 @@
 
 + (UIViewController*)addSubViewWithController:(UIViewController*)childController
                                   toSuperView:(UIView*)superView
-                                addedCallback:(LZAddedSubviewWithVCHandler)handler
+                                addedCallback:(LZAddedSubviewWithVC_Handler)handler
 {
     [superView addSubview:childController.view];
     if (handler) {
