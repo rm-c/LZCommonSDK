@@ -72,20 +72,20 @@
 
 #pragma mark - set maxLength
 
-static const char *GSTextFieldInputLimitMaxLength;
+static const char *LZTextFieldInputLimitMaxLength;
 
 - (NSInteger)maxLength
 {
-    return [objc_getAssociatedObject(self, GSTextFieldInputLimitMaxLength) integerValue];
+    return [objc_getAssociatedObject(self, LZTextFieldInputLimitMaxLength) integerValue];
 }
 
 - (void)setMaxLength:(NSInteger)maxLength
 {
-    objc_setAssociatedObject(self, GSTextFieldInputLimitMaxLength, @(maxLength), OBJC_ASSOCIATION_ASSIGN);
-    [self addTarget:self action:@selector(gsTextFieldTextDidChange) forControlEvents:UIControlEventEditingChanged];
+    objc_setAssociatedObject(self, LZTextFieldInputLimitMaxLength, @(maxLength), OBJC_ASSOCIATION_ASSIGN);
+    [self addTarget:self action:@selector(lzTextFieldTextDidChange) forControlEvents:UIControlEventEditingChanged];
 }
 
-- (void)gsTextFieldTextDidChange
+- (void)lzTextFieldTextDidChange
 {
     NSString *toBeString = self.text;
     //获取高亮部分
