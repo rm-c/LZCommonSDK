@@ -51,9 +51,9 @@ typedef void(^LZAddedSubviewWithVC_Handler)(UIViewController* subVC, UIView* sup
  @param handler 添加后处理
  @return 自视图控制器
  */
-+ (UIViewController*)addSubViewWithController:(UIViewController*)childController
-                                  toSuperView:(UIView*)superView
-                                addedCallback:(LZAddedSubviewWithVC_Handler)handler;
++ (UIViewController*)addSubViewWithChildVC:(UIViewController*)childController
+                               toSuperView:(UIView*)superView
+                             addedCallback:(LZAddedSubviewWithVC_Handler)handler;
 
 - (UIView*)addColorViewWithFrame:(CGRect)frame color:(UIColor*)color;
 

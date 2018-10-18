@@ -155,9 +155,9 @@
     return subView;
 }
 
-+ (UIViewController*)addSubViewWithController:(UIViewController*)childController
-                                  toSuperView:(UIView*)superView
-                                addedCallback:(LZAddedSubviewWithVC_Handler)handler
++ (UIViewController*)addSubViewWithChildVC:(UIViewController*)childController
+                               toSuperView:(UIView*)superView
+                             addedCallback:(LZAddedSubviewWithVC_Handler)handler
 {
     [superView addSubview:childController.view];
     [superView.viewController addChildViewController:childController];
