@@ -42,6 +42,15 @@ typedef void(^LZAddedSubviewWithVC_Handler)(UIViewController* subVC, UIView* sup
 + (UIView*)addSubView:(UIView*)subView toSuperView:(UIView*)superView addedCallback:(LZAddedSubviewHandler)handler;
 
 
+
+/**
+ 添加子视图控制器视图
+
+ @param childController 子视图控制器, 同时会加入父视图的控制器作为父视图的子控制器
+ @param superView 父视图
+ @param handler 添加后处理
+ @return 自视图控制器
+ */
 + (UIViewController*)addSubViewWithController:(UIViewController*)childController
                                   toSuperView:(UIView*)superView
                                 addedCallback:(LZAddedSubviewWithVC_Handler)handler;

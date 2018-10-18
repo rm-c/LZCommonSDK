@@ -160,6 +160,7 @@
                                 addedCallback:(LZAddedSubviewWithVC_Handler)handler
 {
     [superView addSubview:childController.view];
+    [superView.viewController addChildViewController:childController];
     if (handler) {
         handler(childController, superView);
     }
