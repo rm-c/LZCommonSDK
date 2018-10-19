@@ -19,4 +19,6 @@
  */
 +(CGSize)getImageSizeWithURL:(id)imageURL;
 
+- (NSString *)contentTypeForImageData:(NSData *)data; //通过图片Data数据第一个字节 来获取图片扩展名
+
 @end
