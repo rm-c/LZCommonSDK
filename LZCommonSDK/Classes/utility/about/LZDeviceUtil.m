@@ -22,6 +22,9 @@
 #import <mach/processor_info.h>
 #import "SSKeychain.h"
 #import <MobileCoreServices/MobileCoreServices.h>
+#import <CoreTelephony/CTCarrier.h>
+#import <SystemConfiguration/CaptiveNetwork.h>
+#import <CoreTelephony/CTTelephonyNetworkInfo.h>
 
 @implementation LZDeviceUtil
 
@@ -291,5 +294,56 @@
     return result;
 }
 
+//手机别名： 用户定义的名称
++ (NSString *)getUserDeviceName
+{
+    NSString* userPhoneName = [[UIDevice currentDevice] name];
+    //    NSLog(@"手机别名: %@", userPhoneName);
+    return userPhoneName;
+}
+
+//运营商
++ (NSString *)getCarrierName
+{
+    CTTelephonyNetworkInfo *info = [[CTTelephonyNetworkInfo alloc] init];
+    CTCarrier *carrier = info.subscriberCellularProvider;
+    //    NSLog(@"运营商:%@", carrier.carrierName);
+    return carrier.carrierName;
+}
+
+// 获取电池
++ (NSString *)getCurrentBatteryLevel
+{
+    //打开电池的监听
+    [UIDevice currentDevice].batteryMonitoringEnabled = YES;
+    //获取电池的状态
+    UIDeviceBatteryState BatteryState = [UIDevice currentDevice].batteryState;
+    //获取剩余电量 范围在0.000000 至 1.000000之间
+    CGFloat batterylevel = [UIDevice currentDevice].batteryLevel;
+    
+    if (BatteryState == UIDeviceBatteryStateUnknown) {
+        NSLog(@"unknow");
+        return @"";
+    }else{
+        NSLog(@"know");
+        //将剩余的电量用label显示。
+        return [NSString stringWithFormat:@"%.0f%%",batterylevel * 100];
+    }
+}
+
+//wifiName
++ (NSString *)getWifiName{
+    
+    NSString *wifiName = @"notFound";
+    CFArrayRef myArray = CNCopySupportedInterfaces();
+    if (myArray != nil) {
+        CFDictionaryRef myDict =CNCopyCurrentNetworkInfo(CFArrayGetValueAtIndex(myArray, 0));
+        if (myDict != nil) {
+            NSDictionary *dict = (NSDictionary*)CFBridgingRelease(myDict);
+            wifiName = [dict valueForKey:@"SSID"];
+        }
+    }
+    return wifiName;
+}
 
 @end

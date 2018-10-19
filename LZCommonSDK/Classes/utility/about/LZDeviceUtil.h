@@ -21,6 +21,10 @@
  */
 + (NSString*)getDeviceScreenResolution;
 + (NSString*)getDeviceName; // 获取设备名称
++ (NSString *)getUserDeviceName;
++ (NSString *)getCarrierName;  //运营商
++ (NSString *)getCurrentBatteryLevel;
++ (NSString *)getWifiName;
 + (NSString*)getDeviceUUID; // 根据Keychain文件,获取设备UUID
 + (void)setDeviceInterfaceOrientation:(UIInterfaceOrientation)orientation;      // 设置屏幕方向
 
