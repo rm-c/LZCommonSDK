@@ -63,6 +63,18 @@
     return [phoneTest evaluateWithObject:self];
 }
 
+- (BOOL)isIdentityCard
+{
+    BOOL flag;
+    if (self.length <= 0) {
+        flag = NO;
+        return flag;
+    }
+    NSString *regex2 = @"^(\\d{14}|\\d{17})(\\d|[xX])$";
+    NSPredicate *identityCardPredicate = [NSPredicate predicateWithFormat:@"SELF MATCHES %@",regex2];
+    return [identityCardPredicate evaluateWithObject:self];
+}
+
 - (BOOL)isPasswordStringWithMinLength:(int)minLength maxLength:(int)maxLength{
     NSString *pwdRegex = [NSString stringWithFormat:@"(^[0-9]{%d,%d}$)", minLength, maxLength] ;
     NSPredicate *pwdTest = [NSPredicate predicateWithFormat:@"SELF MATCHES %@", pwdRegex];
