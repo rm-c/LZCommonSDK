@@ -15,4 +15,6 @@
  */
 - (void)maskMuteKey;
 
+- (void)playAudioWithPath:(NSString*)path;  // 播放声音
+
 @end
