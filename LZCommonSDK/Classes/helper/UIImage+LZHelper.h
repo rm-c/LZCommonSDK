@@ -93,4 +93,6 @@
 
 - (BOOL)isEqualToImage:(id)image;   // 图片是否一样
 
+- (BOOL)hasAlphaChannel;        // 图片是否有透明度通道
+
 @end

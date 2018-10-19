@@ -106,4 +106,12 @@
     return [data1 isEqual:data2];
 }
 
+- (BOOL)hasAlphaChannel
+{
+    CGImageAlphaInfo alpha = CGImageGetAlphaInfo(self.CGImage);
+    return (alpha == kCGImageAlphaFirst ||
+            alpha == kCGImageAlphaLast ||
+            alpha == kCGImageAlphaPremultipliedFirst ||
+            alpha == kCGImageAlphaPremultipliedLast);
+
 @end
