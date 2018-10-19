@@ -91,4 +91,6 @@
  */
 - (UIImage*)convertToGrayImage;
 
+- (BOOL)isEqualToImage:(id)image;   // 图片是否一样
+
 @end

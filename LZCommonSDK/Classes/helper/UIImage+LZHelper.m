@@ -99,5 +99,11 @@
     return grayImage;
 }
 
+- (BOOL)isEqualToImage:(id)image
+{
+    NSData *data1 = UIImagePNGRepresentation(image1);
+    NSData *data2 = UIImagePNGRepresentation(image2);
+    return [data1 isEqual:data2];
+}
 
 @end
