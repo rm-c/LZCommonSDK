@@ -63,4 +63,6 @@
  */
 - (NSArray*)randomSorted;
 
+- (NSArray*)removeRepeatObjects;    // 删除重复元素
+
 @end
