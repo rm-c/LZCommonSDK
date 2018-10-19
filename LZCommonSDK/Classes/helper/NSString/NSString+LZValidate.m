@@ -31,6 +31,19 @@
     return isVaild ? url: nil;
 }
 
+- (BOOL)isChineseString
+{
+    for(int i = 0; i < [self length]; i++){
+        int a = [self characterAtIndex:i];
+        if( a > 0x4e00 && a < 0x9fff){
+            return YES;
+        } else{
+            return NO;
+        }
+    }
+    return NO;
+}
+
 - (BOOL)isNumberString
 {
     return [[NSPredicate predicateWithFormat:@"SELF MATCHES %@",@"^(\\d)$"] evaluateWithObject:self];

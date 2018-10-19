@@ -17,6 +17,7 @@
 - (BOOL)isNumberString;     // 是否数字字符串
 - (BOOL)isIntegerString;    // 判断是否为整形
 - (BOOL)isFloatString;      // 判断是否为浮点型
+- (BOOL)isChineseString;    // 是否中文字符串
 
 /**
  是否合格密码

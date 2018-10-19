@@ -19,6 +19,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    [LZStringUtil isEmptyString:@"yes"];
 }
 
 - (void)viewDidAppear:(BOOL)animated
