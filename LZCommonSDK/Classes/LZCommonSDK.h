@@ -46,6 +46,7 @@
 #import "UIScreen+LZHelper.h"
 #import "UIButton+LZHelper.h"
 #import "UIBarButtonItem+LZHelper.h"
+#import "UINavigationBar+LZHelper.h"
 #import "UIImageView+LZHelper.h"
 #import "UILabel+LZHelper.h"
 #import "UIScrollView+LZHelper.h"

@@ -56,6 +56,8 @@
 		438AC0A15DF88DC814D17376CEB0A261 /* LZWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AD635BCF26C316CF92D4CD1A1A76FC8 /* LZWebViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		48930BBE2179D30500EC6131 /* UIBarButtonItem+LZHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 48930BBC2179D30500EC6131 /* UIBarButtonItem+LZHelper.h */; };
 		48930BBF2179D30500EC6131 /* UIBarButtonItem+LZHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 48930BBD2179D30500EC6131 /* UIBarButtonItem+LZHelper.m */; };
+		48930BC62179DC3F00EC6131 /* UINavigationBar+LZHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 48930BC42179DC3E00EC6131 /* UINavigationBar+LZHelper.h */; };
+		48930BC72179DC3F00EC6131 /* UINavigationBar+LZHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 48930BC52179DC3F00EC6131 /* UINavigationBar+LZHelper.m */; };
 		4D1FA5E2ECB0C65EA2F6AE81091F03B7 /* NSMutableArray+LZHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 50620B18568CE192B4EFAC4A26AF2BF8 /* NSMutableArray+LZHelper.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		4E76F4A3F01E1964FBB9A5527F155B9A /* NSUserDefaults+LZHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 281739BFF6B34736425C0C2F76CC1017 /* NSUserDefaults+LZHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		50EEF4DF24FB1D13CED1938F8831DD72 /* LZCommonSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 70ECB8AB1DC96E057C19B73DC79ED470 /* LZCommonSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -301,6 +303,8 @@
 		460ED088E7B943370D0E9B464AF1701D /* LZReachabilityUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LZReachabilityUtil.m; sourceTree = "<group>"; };
 		48930BBC2179D30500EC6131 /* UIBarButtonItem+LZHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+LZHelper.h"; sourceTree = "<group>"; };
 		48930BBD2179D30500EC6131 /* UIBarButtonItem+LZHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+LZHelper.m"; sourceTree = "<group>"; };
+		48930BC42179DC3E00EC6131 /* UINavigationBar+LZHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+LZHelper.h"; sourceTree = "<group>"; };
+		48930BC52179DC3F00EC6131 /* UINavigationBar+LZHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+LZHelper.m"; sourceTree = "<group>"; };
 		4C359D05B294EF4F0CA134A20EDEDC0C /* UIWebView+LZHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIWebView+LZHelper.h"; sourceTree = "<group>"; };
 		4CA0E46569D1C60A1528A704F00BBCC3 /* RegexKitLite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RegexKitLite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F761F471F07C4D01231E318B5633EDC /* LZCommonUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LZCommonUtil.m; sourceTree = "<group>"; };
@@ -771,6 +775,8 @@
 			children = (
 				C3023178FFD2125F4282BC9646BE76FF /* UIButton+LZHelper.h */,
 				1F83046130FCCD00EE1B8AA783DCFB2E /* UIButton+LZHelper.m */,
+				48930BC42179DC3E00EC6131 /* UINavigationBar+LZHelper.h */,
+				48930BC52179DC3F00EC6131 /* UINavigationBar+LZHelper.m */,
 				93A523CA751DB204BE569233D5165C87 /* UIImageView+LZHelper.h */,
 				EE57EA5E5EDB5AC9B10CB17E05732B16 /* UIImageView+LZHelper.m */,
 				552F2B0A81E95DBB37204A9647223FE5 /* UILabel+LZHelper.h */,
@@ -1076,6 +1082,7 @@
 				1FAC5B20C9F984E4D6621392A024D088 /* UIEvent+LZHelper.h in Headers */,
 				51BD15D9112EC81A358B485A8C91ADE5 /* UIImage+LZHelper.h in Headers */,
 				DA9A2FE20EFEE3B91D2944652F483307 /* UIImageView+LZHelper.h in Headers */,
+				48930BC62179DC3F00EC6131 /* UINavigationBar+LZHelper.h in Headers */,
 				125CA6A6DB81B1C9BFC92E000A167C01 /* UILabel+LZHelper.h in Headers */,
 				D31F8EC5A501B42E28408D5CB0573E67 /* UIPasteboard+LZHelper.h in Headers */,
 				D739C0D8BD7586F2FDEEEC29B78C0E0E /* UIScreen+LZHelper.h in Headers */,
@@ -1357,6 +1364,7 @@
 				605AAD196E631AF9FA89BC8D0713F523 /* UIPasteboard+LZHelper.m in Sources */,
 				1DA6B2C966D108225B75338B71E70063 /* UIScreen+LZHelper.m in Sources */,
 				0544754D8F184BD4E5B9FB80FCE7FFEC /* UIScrollView+LZHelper.m in Sources */,
+				48930BC72179DC3F00EC6131 /* UINavigationBar+LZHelper.m in Sources */,
 				48930BBF2179D30500EC6131 /* UIBarButtonItem+LZHelper.m in Sources */,
 				F664D023BAA65D30DE008CFC3BC23EE7 /* UITableView+LZHelper.m in Sources */,
 				3FFAB8F813E20BAFA79CC2DCB9B204ED /* UITableViewCell+LZHelper.m in Sources */,
