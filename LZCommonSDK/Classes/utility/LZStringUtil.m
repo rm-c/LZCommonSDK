@@ -70,4 +70,10 @@
     return s;
 }
 
+- (NSString *)getNumberFromStr:(NSString *)str
+{
+    NSCharacterSet *nonDigitCharacterSet = [[NSCharacterSet decimalDigitCharacterSet] invertedSet];
+    return [[str componentsSeparatedByCharactersInSet:nonDigitCharacterSet] componentsJoinedByString:@""];
+}
+
 @end

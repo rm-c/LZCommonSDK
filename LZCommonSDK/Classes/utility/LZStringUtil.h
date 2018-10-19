@@ -23,4 +23,6 @@
 
 + (NSString *)UTF8StringToUnicode:(NSString *)UTF8String; // utf8字符串转换成unicode
 
+- (NSString *)getNumberFromStr:(NSString *)str;
+
 @end
