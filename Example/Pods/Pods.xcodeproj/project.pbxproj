@@ -54,6 +54,8 @@
 		3FFAB8F813E20BAFA79CC2DCB9B204ED /* UITableViewCell+LZHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D9C506542C23B02E9D5E29AB850E6A1 /* UITableViewCell+LZHelper.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		42F9302C458F5A12AC13C6BD01DAA445 /* NSString+LZUrlEncode.m in Sources */ = {isa = PBXBuildFile; fileRef = 510C24771AD1534615A0BB7ECF7BA4A1 /* NSString+LZUrlEncode.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		438AC0A15DF88DC814D17376CEB0A261 /* LZWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AD635BCF26C316CF92D4CD1A1A76FC8 /* LZWebViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48930BBE2179D30500EC6131 /* UIBarButtonItem+LZHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 48930BBC2179D30500EC6131 /* UIBarButtonItem+LZHelper.h */; };
+		48930BBF2179D30500EC6131 /* UIBarButtonItem+LZHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 48930BBD2179D30500EC6131 /* UIBarButtonItem+LZHelper.m */; };
 		4D1FA5E2ECB0C65EA2F6AE81091F03B7 /* NSMutableArray+LZHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 50620B18568CE192B4EFAC4A26AF2BF8 /* NSMutableArray+LZHelper.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		4E76F4A3F01E1964FBB9A5527F155B9A /* NSUserDefaults+LZHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 281739BFF6B34736425C0C2F76CC1017 /* NSUserDefaults+LZHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		50EEF4DF24FB1D13CED1938F8831DD72 /* LZCommonSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 70ECB8AB1DC96E057C19B73DC79ED470 /* LZCommonSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -279,7 +281,7 @@
 		2CF0F20D8C334958ABA403892766018A /* UIScreen+LZHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+LZHelper.m"; sourceTree = "<group>"; };
 		2FC7D76233DE26EB35E5F543096FD1F9 /* Pods-LZCommonSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LZCommonSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
 		300685F4F9CEDA6B658D1C669BE14D34 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		30789D365DF86473C7CD3EDDDE4620BD /* SDAutoLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SDAutoLayout.framework; path = SDAutoLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		30789D365DF86473C7CD3EDDDE4620BD /* SDAutoLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SDAutoLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		32DF366E164562E95A17675617415788 /* UIView+SDAutoLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+SDAutoLayout.m"; path = "SDAutoLayoutDemo/SDAutoLayout/UIView+SDAutoLayout.m"; sourceTree = "<group>"; };
 		33FB78836FC4318E83192810D45F0040 /* UIView+LZFrame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+LZFrame.m"; sourceTree = "<group>"; };
 		345D09536635347953682459C153035D /* SDAutoLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SDAutoLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -287,7 +289,7 @@
 		37D7C892AB5F48E22964E838AD21C52B /* LZTableSectionModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LZTableSectionModel.m; sourceTree = "<group>"; };
 		39E7C48AC16DF06965FE9FDFC66A44F5 /* Pods-LZCommonSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LZCommonSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		3B51A32FFBBF6032852050F3B9D560DD /* SDAutoLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SDAutoLayout-dummy.m"; sourceTree = "<group>"; };
-		3DA66B6B78CDBF9AA3AD490106D4F94D /* LZCommonSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = LZCommonSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3DA66B6B78CDBF9AA3AD490106D4F94D /* LZCommonSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = LZCommonSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3EBA52D0F41F4FFE34211F63BEC3C632 /* NSString+LZValidate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+LZValidate.m"; sourceTree = "<group>"; };
 		3F297DD7D730B5CFCAA1195AA70AF3F3 /* NSDictionary+LZHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+LZHelper.m"; sourceTree = "<group>"; };
 		3FE13820F80A5456BC4E151EBE51A9A8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -297,14 +299,16 @@
 		44D3814FA7657346C4DA38D3CD469D71 /* UITableView+SDAutoTableViewCellHeight.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView+SDAutoTableViewCellHeight.h"; path = "SDAutoLayoutDemo/SDAutoLayout/UITableView+SDAutoTableViewCellHeight.h"; sourceTree = "<group>"; };
 		45AD0C930F68D46F1E2969C44A2B34CB /* LZReachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LZReachability.m; sourceTree = "<group>"; };
 		460ED088E7B943370D0E9B464AF1701D /* LZReachabilityUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LZReachabilityUtil.m; sourceTree = "<group>"; };
+		48930BBC2179D30500EC6131 /* UIBarButtonItem+LZHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+LZHelper.h"; sourceTree = "<group>"; };
+		48930BBD2179D30500EC6131 /* UIBarButtonItem+LZHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+LZHelper.m"; sourceTree = "<group>"; };
 		4C359D05B294EF4F0CA134A20EDEDC0C /* UIWebView+LZHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIWebView+LZHelper.h"; sourceTree = "<group>"; };
-		4CA0E46569D1C60A1528A704F00BBCC3 /* RegexKitLite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RegexKitLite.framework; path = RegexKitLite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CA0E46569D1C60A1528A704F00BBCC3 /* RegexKitLite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RegexKitLite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F761F471F07C4D01231E318B5633EDC /* LZCommonUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LZCommonUtil.m; sourceTree = "<group>"; };
 		50034535DCA7F6C3F24CA2278B5ACAC5 /* SDAutoLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDAutoLayout-umbrella.h"; sourceTree = "<group>"; };
 		50620B18568CE192B4EFAC4A26AF2BF8 /* NSMutableArray+LZHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+LZHelper.m"; sourceTree = "<group>"; };
 		5064DCF9B7983585D930915B36432A3C /* LZNetworkUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LZNetworkUtil.h; sourceTree = "<group>"; };
 		510C24771AD1534615A0BB7ECF7BA4A1 /* NSString+LZUrlEncode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+LZUrlEncode.m"; sourceTree = "<group>"; };
-		51BD030A170590849153FD25AB8FC2A6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		51BD030A170590849153FD25AB8FC2A6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		52F413EF21B656AB43D3A1C16E2A4686 /* UIScreen+LZHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIScreen+LZHelper.h"; sourceTree = "<group>"; };
 		552F2B0A81E95DBB37204A9647223FE5 /* UILabel+LZHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UILabel+LZHelper.h"; sourceTree = "<group>"; };
 		56CF3E1593DDCDFBB78E34A40653B5D1 /* LZSystemUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LZSystemUtil.h; sourceTree = "<group>"; };
@@ -334,7 +338,7 @@
 		77964C3C6E050EA457520BA59D453E0F /* Pods-LZCommonSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LZCommonSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		785F5B79171FDBC234684C3C8212EF71 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/MapKit.framework; sourceTree = DEVELOPER_DIR; };
 		798BC75B5F46645298278F122BF96C09 /* LZTableRowModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LZTableRowModel.m; sourceTree = "<group>"; };
-		7A07B218656A84C8F9D1F1D65DF2FC17 /* Pods_LZCommonSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LZCommonSDK_Tests.framework; path = "Pods-LZCommonSDK_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A07B218656A84C8F9D1F1D65DF2FC17 /* Pods_LZCommonSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LZCommonSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C53BF801B97EBABC30B482E28FE9BA8 /* Pods-LZCommonSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LZCommonSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		7C9EE042345BB1FB310B2AC778D42C0C /* RegexKitLite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RegexKitLite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CC841F65C6CBE631572A56EFD196EF7 /* Pods-LZCommonSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LZCommonSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -354,7 +358,7 @@
 		8ECD9C8F1815C1F4A59E4A9A01914448 /* UIView+LZHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+LZHelper.h"; sourceTree = "<group>"; };
 		911B79C04A7FBE5FCCD2804DC6E955D2 /* LZStringUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LZStringUtil.m; sourceTree = "<group>"; };
 		92678B54FD20DF5D7C2EBD4CEFBE14C7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93A523CA751DB204BE569233D5165C87 /* UIImageView+LZHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImageView+LZHelper.h"; sourceTree = "<group>"; };
 		94CA27CCD74B1F16AE945FB0C5458848 /* LZTableRowModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LZTableRowModel.h; sourceTree = "<group>"; };
 		94CFC982F9637BFF473B363EF39338C6 /* Aspects.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Aspects.m; sourceTree = "<group>"; };
@@ -383,7 +387,7 @@
 		B87AC56ADE9B2C17DCF72EFF61FD0BD6 /* Pods-LZCommonSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LZCommonSDK_Example-umbrella.h"; sourceTree = "<group>"; };
 		B958208AE2B7D10925B1642D2E5DCD99 /* Pods-LZCommonSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LZCommonSDK_Tests.modulemap"; sourceTree = "<group>"; };
 		BAAE28401303B7220B7292E281B67172 /* SDAutoLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDAutoLayout-prefix.pch"; sourceTree = "<group>"; };
-		BAC9D9FC7588EC8C6526DB9AB2089745 /* Pods_LZCommonSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LZCommonSDK_Example.framework; path = "Pods-LZCommonSDK_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAC9D9FC7588EC8C6526DB9AB2089745 /* Pods_LZCommonSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LZCommonSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BACBCCDA600B6F42E994F65F88BA148A /* RegexKitLite-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RegexKitLite-dummy.m"; sourceTree = "<group>"; };
 		BC1569403D721E9D82533241698DAA3D /* NSURL+LZHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSURL+LZHelper.h"; sourceTree = "<group>"; };
 		BC642A665AE6E584A00FBC0DCD67304D /* NSObject+LZHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LZHelper.m"; sourceTree = "<group>"; };
@@ -392,7 +396,7 @@
 		BFC073B500B91241F609A06B0ECE9BE5 /* LZTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LZTableViewCell.h; sourceTree = "<group>"; };
 		C00AB2648BFFAA9997CEA43634C0B065 /* LZCommonSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LZCommonSDK.xcconfig; sourceTree = "<group>"; };
 		C112539030AF3A40D8450AC0B3EDAA16 /* RegexKitLite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RegexKitLite.m; sourceTree = "<group>"; };
-		C190AA0C7AC4AFDD62A44D964A3AC242 /* Aspects.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Aspects.framework; path = Aspects.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C190AA0C7AC4AFDD62A44D964A3AC242 /* Aspects.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Aspects.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3023178FFD2125F4282BC9646BE76FF /* UIButton+LZHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButton+LZHelper.h"; sourceTree = "<group>"; };
 		C47050BB23D35CA4CDA7ABC6356B698E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		C5C72703A02BFE3C2DD6DBF3D5F02399 /* LZBaseModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LZBaseModel.h; sourceTree = "<group>"; };
@@ -414,10 +418,10 @@
 		E36E67BADD87E43C1641D75BEE5CCCEC /* UIView+LZGusture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+LZGusture.h"; sourceTree = "<group>"; };
 		E3A79BC8AFFAEBD7031E3E5C125384F2 /* Aspects.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Aspects.xcconfig; sourceTree = "<group>"; };
 		E441146423CFB1DDA93B8BE900F8D5F1 /* Aspects.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Aspects.h; sourceTree = "<group>"; };
-		E4C091536C8B8FE791520072AB008795 /* SSKeychain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SSKeychain.framework; path = SSKeychain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4C091536C8B8FE791520072AB008795 /* SSKeychain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SSKeychain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E52AED0DBC3E1EAC1604EDD599365569 /* Pods-LZCommonSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LZCommonSDK_Example.modulemap"; sourceTree = "<group>"; };
 		E5E29D33B370259ACF7770FE782607FE /* LZCommonSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LZCommonSDK-prefix.pch"; sourceTree = "<group>"; };
-		EA4F18BCF8C4F18E77A6D18B8459C832 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		EA4F18BCF8C4F18E77A6D18B8459C832 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		ECA3672AC025B4CBA2A554D379D46E5A /* NSFileManager+LZHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+LZHelper.m"; sourceTree = "<group>"; };
 		EE57EA5E5EDB5AC9B10CB17E05732B16 /* UIImageView+LZHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+LZHelper.m"; sourceTree = "<group>"; };
 		F06B090DF0320B1EF8BFC11D3F1C5791 /* Aspects-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Aspects-umbrella.h"; sourceTree = "<group>"; };
@@ -435,7 +439,7 @@
 		FB405DA1B7FF956C45A06BC04F11E4C5 /* UIView+LZGusture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+LZGusture.m"; sourceTree = "<group>"; };
 		FB437DC33EA2FB47A162B367EEB33E29 /* Pods-LZCommonSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LZCommonSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		FB91FCB49CA8B77089F35932D61C215D /* Pods-LZCommonSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LZCommonSDK_Example-dummy.m"; sourceTree = "<group>"; };
-		FDF167D0658E30F59DF4ED5F7359AFEC /* LZCommonSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LZCommonSDK.framework; path = LZCommonSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDF167D0658E30F59DF4ED5F7359AFEC /* LZCommonSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LZCommonSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE0EB8A1F89E1681E9C174FB2EB67C6D /* Pods-LZCommonSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LZCommonSDK_Tests-dummy.m"; sourceTree = "<group>"; };
 		FF5B772DA8C0EE43C2E4E560758B1088 /* UIViewController+LZHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+LZHelper.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -556,7 +560,6 @@
 				94CFC982F9637BFF473B363EF39338C6 /* Aspects.m */,
 				3300442929ADDA84A313DF5B6009DD45 /* Support Files */,
 			);
-			name = Aspects;
 			path = Aspects;
 			sourceTree = "<group>";
 		};
@@ -584,7 +587,6 @@
 				32DF366E164562E95A17675617415788 /* UIView+SDAutoLayout.m */,
 				820133AEFBA2E2306BD5B330EAA6E711 /* Support Files */,
 			);
-			name = SDAutoLayout;
 			path = SDAutoLayout;
 			sourceTree = "<group>";
 		};
@@ -596,7 +598,6 @@
 				041B67D57D9B761B74A2700C111E9A2A /* LZReachabilityUtil.h */,
 				460ED088E7B943370D0E9B464AF1701D /* LZReachabilityUtil.m */,
 			);
-			name = network;
 			path = network;
 			sourceTree = "<group>";
 		};
@@ -655,7 +656,6 @@
 				00A61C45D843C6EB8C6E5D8DF5EBE63A /* LZReachability.h */,
 				45AD0C930F68D46F1E2969C44A2B34CB /* LZReachability.m */,
 			);
-			name = Reachability;
 			path = Reachability;
 			sourceTree = "<group>";
 		};
@@ -669,7 +669,6 @@
 				9EAA94F84ECBCF34DE8E48B26184C4BC /* LZVideoUtil.h */,
 				AD6E708E0658C8E1E692BF05D6F976DE /* LZVideoUtil.m */,
 			);
-			name = media;
 			path = media;
 			sourceTree = "<group>";
 		};
@@ -708,7 +707,6 @@
 				8E4B3C075C536DD1D0FC3FACFF8A54C7 /* NSMutableArray+LZHelper.h */,
 				50620B18568CE192B4EFAC4A26AF2BF8 /* NSMutableArray+LZHelper.m */,
 			);
-			name = stroage;
 			path = stroage;
 			sourceTree = "<group>";
 		};
@@ -795,8 +793,9 @@
 				C6D355733486608206ACC8F8E34FD12F /* UIView+LZHelper.m */,
 				4C359D05B294EF4F0CA134A20EDEDC0C /* UIWebView+LZHelper.h */,
 				8B9EEA28B882390B37812B0B4EF0928E /* UIWebView+LZHelper.m */,
+				48930BBC2179D30500EC6131 /* UIBarButtonItem+LZHelper.h */,
+				48930BBD2179D30500EC6131 /* UIBarButtonItem+LZHelper.m */,
 			);
-			name = view;
 			path = view;
 			sourceTree = "<group>";
 		};
@@ -812,7 +811,6 @@
 				56CF3E1593DDCDFBB78E34A40653B5D1 /* LZSystemUtil.h */,
 				6601B4FCAC3548C3A05CB54BEBA69506 /* LZSystemUtil.m */,
 			);
-			name = about;
 			path = about;
 			sourceTree = "<group>";
 		};
@@ -830,7 +828,6 @@
 				2439375E97F21AA6792A9135C0BC3208 /* NSString+LZValidate.h */,
 				3EBA52D0F41F4FFE34211F63BEC3C632 /* NSString+LZValidate.m */,
 			);
-			name = NSString;
 			path = NSString;
 			sourceTree = "<group>";
 		};
@@ -844,7 +841,6 @@
 				4E490C4176767DBFB321C7B891B67B9E /* Resources */,
 				264F1C40328E1A3F2C0C84C2484F7DCE /* Support Files */,
 			);
-			name = SSKeychain;
 			path = SSKeychain;
 			sourceTree = "<group>";
 		};
@@ -854,7 +850,6 @@
 				22AC30DEAAF74872AE6CB5BE77A84DCB /* LZJSONParseUtil.h */,
 				1A3C2343A043CFEEF598308950BB5F41 /* LZJSONParseUtil.m */,
 			);
-			name = codding;
 			path = codding;
 			sourceTree = "<group>";
 		};
@@ -972,7 +967,6 @@
 				C112539030AF3A40D8450AC0B3EDAA16 /* RegexKitLite.m */,
 				EB6B7CA770704360F0235367BA75F138 /* Support Files */,
 			);
-			name = RegexKitLite;
 			path = RegexKitLite;
 			sourceTree = "<group>";
 		};
@@ -996,7 +990,6 @@
 				2029906292416EF381A0224E83D5FBC6 /* UIViewController+LZHelper.h */,
 				FF5B772DA8C0EE43C2E4E560758B1088 /* UIViewController+LZHelper.m */,
 			);
-			name = controller;
 			path = controller;
 			sourceTree = "<group>";
 		};
@@ -1096,6 +1089,7 @@
 				A5D34E18B38CE3D4C6BE835FAB561935 /* UIView+LZHelper.h in Headers */,
 				A003A87AD96411337070A26B9271D812 /* UIViewController+LZHelper.h in Headers */,
 				24BD2471EAE35F39130C5677E8749B7E /* UIWebView+LZHelper.h in Headers */,
+				48930BBE2179D30500EC6131 /* UIBarButtonItem+LZHelper.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1363,6 +1357,7 @@
 				605AAD196E631AF9FA89BC8D0713F523 /* UIPasteboard+LZHelper.m in Sources */,
 				1DA6B2C966D108225B75338B71E70063 /* UIScreen+LZHelper.m in Sources */,
 				0544754D8F184BD4E5B9FB80FCE7FFEC /* UIScrollView+LZHelper.m in Sources */,
+				48930BBF2179D30500EC6131 /* UIBarButtonItem+LZHelper.m in Sources */,
 				F664D023BAA65D30DE008CFC3BC23EE7 /* UITableView+LZHelper.m in Sources */,
 				3FFAB8F813E20BAFA79CC2DCB9B204ED /* UITableViewCell+LZHelper.m in Sources */,
 				2A01101FAA4A50E2E33DA16EA4672D17 /* UITextField+LZHelper.m in Sources */,
