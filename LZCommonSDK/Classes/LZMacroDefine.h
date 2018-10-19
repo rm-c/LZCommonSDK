@@ -66,6 +66,8 @@
 
 #define LzIsRespondsToSelector(target, selectorName)  ((target) && [(target) respondsToSelector:NSSelectorFromString(selectorName)])
 
+#define LzFormatString(f, ...)      [NSString stringWithFormat:f, ## __VA_ARGS__]
+
 // 强引用弱引用转换
 #define DECLARE_WEAK_SELF                   __weak __typeof(self) weakSelf = self               //声明self弱引用
 #define DECLARE_WEAK_OBJ(o)                 __weak typeof(o) o##Weak = o;     //声明对象弱引用
