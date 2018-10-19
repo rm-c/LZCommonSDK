@@ -74,6 +74,7 @@
 - (NSArray*)removeRepeatObjects
 {
     NSArray *newArr = [self valueForKeyPath:@"@distinctUnionOfObjects.self"];
+    return newArr;
 }
 
 @end
