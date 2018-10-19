@@ -16,6 +16,8 @@
 
 + (NSTimer*)timerWithTimeInterval:(NSTimeInterval)inTimeInterval block:(void (^)())inBlock repeats:(BOOL)inRepeats;
 
+- (void)beContinuous;   // 设置为持续的，不可间断的，退出后台继续计数
+
 #pragma mark - util
 /**
  *  暂停NSTimer

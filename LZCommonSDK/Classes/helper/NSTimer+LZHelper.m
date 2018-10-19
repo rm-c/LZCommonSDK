@@ -24,6 +24,11 @@
     return ret;
 }
 
+- (void)beContinuous
+{
+    [[NSRunLoop currentRunLoop] addTimer:self forMode:NSRunLoopCommonModes];
+}
+
 + (void)executeSimpleBlock:(NSTimer *)inTimer;
 {
     if([inTimer userInfo])
