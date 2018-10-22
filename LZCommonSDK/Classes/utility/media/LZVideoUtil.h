@@ -12,4 +12,6 @@
 
 + (NSTimeInterval)getVideoTotalTime:(NSURL*)videoUrl;
 
++ (UIImage*)getPreviewWithUrl:(NSURL*)videoUrl;
+
 @end
