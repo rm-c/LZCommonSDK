@@ -113,5 +113,6 @@
             alpha == kCGImageAlphaLast ||
             alpha == kCGImageAlphaPremultipliedFirst ||
             alpha == kCGImageAlphaPremultipliedLast);
+}
 
 @end
