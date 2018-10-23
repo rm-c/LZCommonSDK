@@ -78,6 +78,7 @@
 #define DECLARE_VALUE_PROPERTY(type, propertyName)              @property(nonatomic, assign)type propertyName;// 声明值属性
 #define DECLARE_WEAK_OBJECT_PROPERTY(className, propertyName)   @property(nonatomic, weak)className* propertyName;// 声明弱引用对象属性
 #define DECLARE_COPY_OBJECT_PROPERTY(className, propertyName)   @property(nonatomic, copy)className* propertyName;// 声明copy对象属性
+#define DECLARE_BLOCK_PROPERTY(blockType, propertyName)   @property(nonatomic, copy)blockType propertyName;// 声明block
 
 #define DECLARE_SHARE_INSTANCE_H        + (instancetype)sharedInstance;
 #define DECLARE_SHARE_INSTANCE_M   \
