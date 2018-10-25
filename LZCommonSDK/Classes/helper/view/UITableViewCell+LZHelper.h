@@ -31,4 +31,6 @@
       detailTextFrame:(CGRect)detailTextFrame
    accessoryViewFrame:(CGRect)accessoryViewFrame;
 
+- (void)setSelectedBackgroundColor:(UIColor*)color;
+
 @end

@@ -56,4 +56,11 @@
     } error:nil];
 }
 
+- (void)setSelectedBackgroundColor:(UIColor*)color
+{
+    UIView *bgColorView = [[UIView alloc] init];
+    bgColorView.backgroundColor = color;
+    [self setSelectedBackgroundView:bgColorView];
+}
+
 @end

@@ -37,4 +37,6 @@
 
 - (CGFloat)alpha;
 
+- (BOOL)isEqualToColor:(UIColor *)otherColor;
+
 @end
