@@ -92,5 +92,10 @@
                                             return shareInstance; \
                                         } \
 
+typedef id(^LZCommonBlock)(void);
+typedef id(^LZCommonBlock1)(id param1);
+typedef id(^LZCommonBlock2)(id param1, id param2);
+typedef id(^LZCommonBlock3)(id param1, id param2, id param3);
+
 
 #endif /* GSGlobal_h */
