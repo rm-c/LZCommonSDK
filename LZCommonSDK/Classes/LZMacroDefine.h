@@ -6,8 +6,8 @@
 //  Copyright © 2017年 MaoChao Network Co. Ltd. All rights reserved.
 //
 
-#ifndef GSGlobal_h
-#define GSGlobal_h
+#ifndef LZGlobal_h
+#define LZGlobal_h
 
 // 设备判断
 #define LZ_IS_IPAD                             (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
