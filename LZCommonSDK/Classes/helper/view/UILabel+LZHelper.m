@@ -79,7 +79,12 @@
 }
 
 - (CGRect)boundingRectForCharacterRange:(NSRange)range
-{   NSTextStorage *textStorage = [[NSTextStorage alloc] initWithAttributedString:[self attributedText]];
+{
+    NSMutableAttributedString* str = self.attributedText;
+    if (str == nil) {
+        str = [[NSMutableAttributedString alloc] initWithString:self.text];
+    }
+    NSTextStorage *textStorage = [[NSTextStorage alloc] initWithAttributedString:str]];
     NSLayoutManager *layoutManager = [[NSLayoutManager alloc] init];
     [textStorage addLayoutManager:layoutManager];
     NSTextContainer *textContainer = [[NSTextContainer alloc] initWithSize:[self bounds].size];

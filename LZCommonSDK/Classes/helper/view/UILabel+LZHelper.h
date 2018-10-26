@@ -34,7 +34,8 @@
  *
  *  @return 声明的label
  */
-+ (instancetype)labelWithFrame:(CGRect)frame text:(NSString*)text textAliment:(NSTextAlignment)aliment textColor:(UIColor*)textColor font:(UIFont*)font;
++ (instancetype)labelWithFrame:(CGRect)frame text:(NSString*)text textAliment:(NSTextAlignment)aliment
+                     textColor:(UIColor*)textColor font:(UIFont*)font;
 
 - (void)setText:(NSString*)text textColor:(UIColor*)textColor font:(UIFont*)font;
 
