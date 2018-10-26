@@ -44,4 +44,6 @@
 
 - (void)setFontAttribute:(UIFont*)font range:(NSRange)range;
 
+- (CGRect)boundingRectForCharacterRange:(NSRange)range; // 计算UILabel上某段文字的frame
+
 @end
