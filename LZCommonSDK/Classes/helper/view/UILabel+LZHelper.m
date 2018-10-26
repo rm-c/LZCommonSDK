@@ -83,6 +83,7 @@
     NSMutableAttributedString* str = self.attributedText;
     if (str == nil) {
         str = [[NSMutableAttributedString alloc] initWithString:self.text];
+        [str addFontAttribute:self.font range:NSMakeRange(0, self.text.length)];
     }
     NSTextStorage *textStorage = [[NSTextStorage alloc] initWithAttributedString:str]];
     NSLayoutManager *layoutManager = [[NSLayoutManager alloc] init];
