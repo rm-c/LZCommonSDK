@@ -60,4 +60,16 @@
     return reverString;
 }
 
++ (NSMutableString*)stringByJoinObjects:(NSArray*)objs separator:(NSString*)separator
+{
+    NSMutableString* s = [NSMutableString string];
+    [objs enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+        if (s.length > 0) {
+            [s appendString:separator];
+        }
+        [s appendString:[NSString stringWithFormat:@"%@", obj]];
+    }];
+    return s;
+}
+
 @end

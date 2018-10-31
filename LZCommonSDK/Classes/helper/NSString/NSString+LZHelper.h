@@ -48,4 +48,14 @@
  */
 - (NSString*)reverseString;
 
+
+/**
+ 对象拼接
+
+ @param objs 对象数组
+ @param separator 分隔符
+ @return 拼接字符串
+ */
++ (NSMutableString*)stringByJoinObjects:(NSArray*)objs separator:(NSString*)separator;     // 对象拼接成字符串
+
 @end
