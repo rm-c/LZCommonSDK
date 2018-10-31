@@ -85,7 +85,7 @@
         str = [[NSMutableAttributedString alloc] initWithString:self.text];
         [str addFontAttribute:self.font range:NSMakeRange(0, self.text.length)];
     }
-    NSTextStorage *textStorage = [[NSTextStorage alloc] initWithAttributedString:str]];
+    NSTextStorage *textStorage = [[NSTextStorage alloc] initWithAttributedString:str];
     NSLayoutManager *layoutManager = [[NSLayoutManager alloc] init];
     [textStorage addLayoutManager:layoutManager];
     NSTextContainer *textContainer = [[NSTextContainer alloc] initWithSize:[self bounds].size];
