@@ -82,7 +82,7 @@ TODO: Add long description of the pod here.
   #pod 'SMVerticalSegmentedControl'                #纵向的segment
   #pod 'VOSegmentedControl'                        #加强版的横向segment
   # s.dependency 'ZFPlayer'                                  #视频播放的库
-  
+  # s.dependency 'BlocksKit'
   #AXWebViewController需要用的库
   # s.dependency 'AXNavigationBackItemInjection'
   # s.dependency 'NJKWebViewProgress'
