@@ -52,7 +52,7 @@ TODO: Add long description of the pod here.
   # s.dependency 'Reachability'                               #网络状态监测的库
   # s.dependency 'IQKeyboardManager'                             #第三方键盘
   # s.dependency 'SVProgressHUD'                                #通用的HUD
-  ## s.dependency 'SCLAlertView-Objective-C'
+  # s.dependency 'SCLAlertView-Objective-C'
   # s.dependency 'TCBlobDownload'                            #文件下载的库，比较旧
   # s.dependency 'GBDeviceInfo'                              #系统版本和手机型号判断的库
   # s.dependency 'IBActionSheet'
@@ -64,13 +64,13 @@ TODO: Add long description of the pod here.
   # s.dependency 'AFNetworking', '3.0.0'                     #网络通讯库
   # s.dependency 'SDCycleScrollView','1.65'                 #无限循环滚动的轮播图
   # s.dependency 'BAButton'                                  #博爱的按钮category
-  #    # s.dependency 'EaseMobSDKFull'    #, :git => 'https://github.com/easemob/sdk-ios-cocoapods-integration.git'   #2.3.3
+  # s.dependency 'EaseMobSDKFull'    #, :git => 'https://github.com/easemob/sdk-ios-cocoapods-integration.git'   #2.3.3
   # s.dependency 'HexColors','4.0.0'                         #4.0之后都是swift版本了
-  #  s.dependency 'MBProgressHUD'
+  # s.dependency 'MBProgressHUD'
   # s.dependency 'DACircularProgress'
   # s.dependency 'FSCalendar'                                  #日历
-  #  s.dependency 'UITextView+Placeholder'
-  #    pod 'LGActionSheet'
+  # s.dependency 'UITextView+Placeholder'
+  # s.dependency 'LGActionSheet'
   # s.dependency 'NYSegmentedControl'
   # s.dependency 'LGAlertView'                                  #替代LGPlusButtonsView
   # s.dependency 'GPUImage'                                  #滤镜效果，个人衣柜的板块需要用到
@@ -79,8 +79,8 @@ TODO: Add long description of the pod here.
   #  s.dependency 'MLLabel'
   # s.dependency 'MLeaksFinder'                              #检测内存泄漏
   # s.dependency 'LLSimpleCamera'                            #摄像机的库
-  #pod 'SMVerticalSegmentedControl'                #纵向的segment
-  #pod 'VOSegmentedControl'                        #加强版的横向segment
+  # s.dependency 'SMVerticalSegmentedControl'                #纵向的segment
+  # s.dependency 'VOSegmentedControl'                        #加强版的横向segment
   # s.dependency 'ZFPlayer'                                  #视频播放的库
   # s.dependency 'BlocksKit'
   #AXWebViewController需要用的库
