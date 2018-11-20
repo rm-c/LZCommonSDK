@@ -28,4 +28,25 @@
     return suffix;
 }
 
+- (id)unarchiverObjectFromFile:(NSString*)filePath key:(NSString*)key
+{
+    NSData *undata = [[NSData alloc] initWithContentsOfFile:filePath];
+    NSKeyedUnarchiver *unarchiver = [[NSKeyedUnarchiver alloc] initForReadingWithData:undata];
+    id unModel = [unarchiver decodeObjectForKey:key];
+    [unarchiver finishDecoding];
+    return unModel;
+}
+
+- (BOOL)archiverObject:(id)obj toFile:(NSString*)filePath key:(NSString*)key
+{
+    NSMutableData *data = [[NSMutableData alloc] init];
+    NSKeyedArchiver *archiver = [[NSKeyedArchiver alloc] initForWritingWithMutableData:data];
+    [archiver encodeObject:obj forKey:key];
+    [archiver finishEncoding];
+    if([data writeToFile:filePath atomically:YES]){
+        return YES;
+    }
+    return NO;
+}
+
 @end
