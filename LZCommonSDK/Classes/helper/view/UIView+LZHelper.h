@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-typedef void(^LZAddedSubviewHandler)(UIView* subV, UIView* supV);
+typedef void(^LZAddedSubviewHandler)(id subV, UIView* supV);
 typedef void(^LZAddedSubviewWithVC_Handler)(UIViewController* childVC, UIView* supV);
 
 
