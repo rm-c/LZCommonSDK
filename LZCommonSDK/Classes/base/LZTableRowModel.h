@@ -21,7 +21,7 @@ typedef void (^LZTableRowOperationBlock)(LZTableRowModel *item);
 @property (nonatomic, copy) NSString *subtitle;     // 子标题
 @property (nonatomic, assign) CGFloat cellHeight;   // 高度
 @property (nonatomic, strong) id dataModel;         // 数据model
-@property (nonatomic, assign) UIViewController* detailVC;         // 目标控制器
+@property (nonatomic, strong) UIViewController* detailVC;         // 目标控制器
 @property (nonatomic, copy) LZTableRowOperationBlock operation;// 点击那个cell需要做什么事情
 
 + (instancetype)itemWithIcon:(NSString *)icon title:(NSString *)title;
