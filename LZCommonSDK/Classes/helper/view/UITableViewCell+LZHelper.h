@@ -15,7 +15,7 @@
                                                                 //style:UITableViewCellStyleDefault
 
 + (instancetype)cellForTableView:(UITableView *)tableView
-                           style:(UITableViewStyle)style
+                           style:(UITableViewCellStyle)style
                  reuseIdentifier:(NSString*)reuseIdentifier;
 
 /**

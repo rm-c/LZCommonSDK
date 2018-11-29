@@ -17,7 +17,7 @@
     return [self cellForTableView:tableView style:UITableViewCellStyleDefault reuseIdentifier:reuseIdentifier];
 }
 
-+ (instancetype)cellForTableView:(UITableView *)tableView style:(UITableViewStyle)style reuseIdentifier:(NSString*)reuseIdentifier
++ (instancetype)cellForTableView:(UITableView *)tableView style:(UITableViewCellStyle)style reuseIdentifier:(NSString*)reuseIdentifier
 {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:reuseIdentifier];
     if (!cell) {
