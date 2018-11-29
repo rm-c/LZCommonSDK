@@ -23,9 +23,14 @@
     return self;
 }
 
-- (void)willMoveToSuperview:(nullable UIView *)newSuperview
+- (void)setAccessoryView:(UIView *)accessoryView
 {
-    [super willMoveToSuperview:newSuperview];
+    if (_accessoryView) {
+        [_accessoryView removeFromSuperview];
+        [self setNeedsLayout];
+    }
+    
+    _accessoryView = accessoryView;
     if (_accessoryView) {
         [self addSubview:_accessoryView];
         [self setNeedsLayout];

@@ -43,19 +43,19 @@
 
 - (void)setText:(NSString*)text textColor:(UIColor*)textColor font:(UIFont*)font
 {
-    [self setText:text textAliment:NSTextAlignmentLeft textColor:textColor font:font];
-}
-
-- (void)setText:(NSString*)text textAliment:(NSTextAlignment)aliment textColor:(UIColor*)textColor font:(UIFont*)font
-{
     self.text = text;
-    self.textAlignment = aliment;
     if (textColor) {
         self.textColor = textColor;
     }
     if (font) {
         self.font = font;
     }
+}
+
+- (void)setText:(NSString*)text textAliment:(NSTextAlignment)aliment textColor:(UIColor*)textColor font:(UIFont*)font
+{
+    self.textAlignment = aliment;
+    [self setText:text textColor:textColor font:font];
 }
 
 - (void)setColorAttribute:(UIColor*)color range:(NSRange)range
