@@ -87,7 +87,7 @@ const NSString* dispatchedTag = @"dispatched";
  *  @param thing     事件处理
  *  @param initerval 定时事件
  */
-+ (void)dispatch:(dispatch_block_t)thing interval:(NSTimeInterval)interval
++ (dispatch_source_t)dispatch:(dispatch_block_t)thing interval:(NSTimeInterval)interval
 {
     dispatch_source_t timer = dispatch_source_create(DISPATCH_SOURCE_TYPE_TIMER, 0, 0, dispatch_queue_create("com.mmc.clock", DISPATCH_QUEUE_SERIAL));
     dispatch_source_set_timer(timer, interval* NSEC_PER_SEC, interval * NSEC_PER_SEC, 0.25 * NSEC_PER_SEC);

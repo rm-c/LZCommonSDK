@@ -64,7 +64,7 @@
  *  @param thing     事件处理
  *  @param interval 定时事件
  */
-+ (void)dispatch:(dispatch_block_t)thing interval:(NSTimeInterval)interval;
++ (dispatch_source_t)dispatch:(dispatch_block_t)thing interval:(NSTimeInterval)interval;
 
 /**
  *  延时执行
