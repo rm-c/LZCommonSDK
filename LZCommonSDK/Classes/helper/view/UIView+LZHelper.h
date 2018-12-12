@@ -37,9 +37,9 @@ typedef void(^LZAddedSubviewWithVC_Handler)(UIViewController* childVC, UIView* s
 
 - (UIImage*)capture;//截图
 
-- (UIView*)viewWithXib:(NSString*)xibName;//用xib生成视图
+- (id)viewWithXib:(NSString*)xibName;//用xib生成视图
 
-+ (UIView*)addSubView:(UIView*)subView toSuperView:(UIView*)superView addedCallback:(LZAddedSubviewHandler)handler;
++ (id)addSubView:(UIView*)subView toSuperView:(UIView*)superView addedCallback:(LZAddedSubviewHandler)handler;
 
 
 

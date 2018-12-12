@@ -146,7 +146,7 @@
     }
 }
 
-+ (UIView*)addSubView:(UIView*)subView toSuperView:(UIView*)superView addedCallback:(LZAddedSubviewHandler)handler
++ (id)addSubView:(UIView*)subView toSuperView:(UIView*)superView addedCallback:(LZAddedSubviewHandler)handler
 {
     [superView addSubview:subView];
     if (handler) {
@@ -167,7 +167,7 @@
     return childController;
 }
 
-- (UIView*)viewWithXib:(NSString*)xibName
+- (id)viewWithXib:(NSString*)xibName
 {
     UIView* view = [[NSBundle mainBundle] loadNibNamed:xibName owner:nil options:nil].lastObject;
     return view;
