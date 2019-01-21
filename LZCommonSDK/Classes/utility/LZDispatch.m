@@ -95,6 +95,7 @@ const NSString* dispatchedTag = @"dispatched";
         dispatch_source_set_event_handler(timer, thing);
     }
     dispatch_resume(timer);
+    return timer;
 }
 
 + (void)dispatch:(dispatch_block_t)thing afterDelays:(NSTimeInterval)delay
