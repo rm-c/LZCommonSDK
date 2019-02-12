@@ -43,6 +43,7 @@
 
 #pragma mark - 附加方法
 
+
 /**
  *  设置标题
  *
@@ -61,6 +62,22 @@
     if (font) {
         self.titleLabel.font = font;
     }
+}
+
+- (void)setImage:(UIImage*)image title:(NSString*)title titleColor:(UIColor*)titleColor font:(UIFont*)font
+{
+    if (image) {
+        [self setImage:image forState:UIControlStateNormal];
+    }
+    [self setTitle:title titleColor:titleColor font:font];
+}
+
+- (void)setBgImage:(UIImage*)image title:(NSString*)title titleColor:(UIColor*)titleColor font:(UIFont*)font
+{
+    if (image) {
+        [self setBackgroundImage:image forState:UIControlStateNormal];
+    }
+    [self setTitle:title titleColor:titleColor font:font];
 }
 
 - (void)setImageFrame:(CGRect)imageFrame titleFrame:(CGRect)titieFrame

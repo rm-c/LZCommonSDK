@@ -51,6 +51,10 @@
  */
 - (void)setTitle:(NSString*)title titleColor:(UIColor*)titleColor font:(UIFont*)font;
 
+- (void)setImage:(UIImage*)image title:(NSString*)title titleColor:(UIColor*)titleColor font:(UIFont*)font;
+
+- (void)setBgImage:(UIImage*)image title:(NSString*)title titleColor:(UIColor*)titleColor font:(UIFont*)font;
+
 
 /**
  *  重新设置按钮图标和标题位置
