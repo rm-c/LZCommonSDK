@@ -23,6 +23,17 @@
                               font:(UIFont*)font
                        placeholder:(NSString*)placeholder;
 
+- (void)setText:(NSString*)text
+      textColor:(UIColor*)textColor
+           font:(UIFont*)font
+    placeholder:(NSString*)placeholder;
+
+- (void)setText:(NSString*)text
+    textAliment:(NSTextAlignment)aliment
+      textColor:(UIColor*)textColor
+           font:(UIFont*)font
+    placeholder:(NSString*)placeholder;
+
 /**
  *  设置占位符颜色
  *

@@ -56,6 +56,32 @@
     return textField;
 }
 
+- (void)setText:(NSString*)text
+      textColor:(UIColor*)textColor
+           font:(UIFont*)font
+    placeholder:(NSString*)placeholder
+{
+    self.text = text;
+    if (textColor) {
+        self.textColor = textColor;
+    }
+    if (font) {
+        self.font = font;
+    }
+    self.placeholder = placeholder;
+    self.backgroundColor = [UIColor clearColor];
+}
+
+- (void)setText:(NSString*)text
+    textAliment:(NSTextAlignment)aliment
+      textColor:(UIColor*)textColor
+           font:(UIFont*)font
+    placeholder:(NSString*)placeholder
+{
+    self.textAlignment = aliment;
+    [self setText:text textColor:textColor font:font placeholder:placeholder];
+}
+
 - (void)setPlaceholderColor:(UIColor*)color
 {
     if (color) {
