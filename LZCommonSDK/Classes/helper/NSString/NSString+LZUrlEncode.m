@@ -32,6 +32,16 @@
                                                                                                  CFStringConvertNSStringEncodingToEncoding(encoding));
 }
 
+- (NSString*)chineseUrlEncode{
+    NSString *encodedString = (NSString *)
+    CFBridgingRelease(CFURLCreateStringByAddingPercentEscapes(kCFAllocatorDefault,
+                                                              (CFStringRef)self,
+                                                              (CFStringRef)@"!$&'()*+,-./:;=?@_~%#[]",
+                                                              NULL,
+                                                              kCFStringEncodingUTF8));
+    return encodedString;
+}
+
 @end
 
 

@@ -16,6 +16,8 @@
 - (NSString *)urlDecode;
 - (NSString *)urlDecodeUsingEncoding:(NSStringEncoding)encoding;
 
+- (NSString*)chineseUrlEncode;
+
 @end
 
 
