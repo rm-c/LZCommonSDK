@@ -20,4 +20,24 @@
     [self setTableFooterView:view];
 }
 
+- (CGFloat)sectionHeaderHeightForSection:(NSInteger)section
+{
+    if ([self.delegate respondsToSelector:@selector(tableView: heightForHeaderInSection:)]) {
+        return [self.delegate tableView:self heightForHeaderInSection:section  ];
+    }
+    else{
+        return self.sectionHeaderHeight;
+    }
+}
+
+- (CGFloat)sectionFooterHeightForSection:(NSInteger)section
+{
+    if ([self.delegate respondsToSelector:@selector(tableView: heightForFooterInSection:)]) {
+        return [self.delegate tableView:self heightForFooterInSection:section  ];
+    }
+    else{
+        return self.sectionFooterHeight;
+    }
+}
+
 @end

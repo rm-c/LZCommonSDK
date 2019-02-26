@@ -15,4 +15,8 @@
  */
 - (void)hideTableViewFooterLine;
 
+- (CGFloat)sectionHeaderHeightForSection:(NSInteger)section;        // 获取分区头部视图高度
+
+- (CGFloat)sectionFooterHeightForSection:(NSInteger)section;        // 获取分区脚步视图高度
+
 @end
