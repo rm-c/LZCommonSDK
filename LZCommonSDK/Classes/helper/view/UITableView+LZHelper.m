@@ -20,6 +20,13 @@
     [self setTableFooterView:view];
 }
 
+- (void)hideTableViewHeaderLine
+{
+    UIView *view = [UIView new];
+    view.backgroundColor = [UIColor clearColor];
+    [self setTableHeaderView:view];
+}
+
 - (CGFloat)sectionHeaderHeightForSection:(NSInteger)section
 {
     if ([self.delegate respondsToSelector:@selector(tableView: heightForHeaderInSection:)]) {
