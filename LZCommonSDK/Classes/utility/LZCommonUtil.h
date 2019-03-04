@@ -34,7 +34,7 @@ UIImage* LZImageNamed(NSString *name);        // 图片
 CGFloat LZDegreesToRadian(CGFloat degrees);   // 角度转弧度
 CGFloat LZRadianToDegrees(CGFloat radian);    // 弧度转角度
 
-NSMutableString* JoinObjs(NSArray* objs);
+NSMutableString* joinObjs(NSArray* objs);
 NSMutableString* joinObjsEx(NSArray* objs, NSString* separator);
 
 BOOL LZCanRespondsToSelector(id target, NSString* selectorName);
