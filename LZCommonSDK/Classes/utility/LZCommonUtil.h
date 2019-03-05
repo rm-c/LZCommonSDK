@@ -37,6 +37,6 @@ CGFloat LZRadianToDegrees(CGFloat radian);    // 弧度转角度
 NSMutableString* joinObjs(NSArray* objs);
 NSMutableString* joinObjsEx(NSArray* objs, NSString* separator);
 
-BOOL LZCanRespondsToSelector(id target, NSString* selectorName);
+BOOL LZRespondsToSelector(id target, NSString* selectorName);
 
 @end

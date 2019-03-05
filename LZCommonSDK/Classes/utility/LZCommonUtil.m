@@ -91,7 +91,7 @@ CGFloat LZRadianToDegrees(CGFloat radian)
     return (radian*180.0)/(M_PI);
 }
 
-BOOL LZCanRespondsToSelector(id target, NSString* selectorName)
+BOOL LZRespondsToSelector(id target, NSString* selectorName)
 {
     return [target respondsToSelector:NSSelectorFromString(selectorName)];
 }
