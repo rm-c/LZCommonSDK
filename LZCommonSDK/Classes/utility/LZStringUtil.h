@@ -25,4 +25,6 @@
 
 - (NSString *)getNumberFromStr:(NSString *)str; // 获取字符串中的数字
 
++ (BOOL)isBlankString:(NSString *)str; //是否空白字符串, 包括nil,null, 空字符串字符串等
+
 @end
