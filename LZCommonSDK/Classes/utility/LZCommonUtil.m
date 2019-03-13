@@ -56,12 +56,28 @@ NSString* LZStringWithInteger(NSInteger value)
     return [NSString stringWithFormat:@"%ld", (long)value];
 }
 
+NSString* s_int(NSInteger value)
+{
+    return [NSString stringWithFormat:@"%ld", (long)value];
+}
+
 NSString* LZStringWithFloat(CGFloat value)
 {
     return [NSString stringWithFormat:@"%f", value];
 }
 
+NSString* s_float(CGFloat value)
+{
+    return [NSString stringWithFormat:@"%f", value];
+}
+
+
 UIFont *LZFontWithSize(CGFloat size)
+{
+    return [UIFont systemFontOfSize:size];
+}
+
+UIFont *font(CGFloat size)
 {
     return [UIFont systemFontOfSize:size];
 }
@@ -71,7 +87,17 @@ UIFont *LZBlodFontWithSize(CGFloat size)
     return [UIFont boldSystemFontOfSize:size];
 }
 
+UIFont *blodFont(CGFloat size)
+{
+    return [UIFont boldSystemFontOfSize:size];
+}
+
 NSURL *LZURLWithString(NSString *string)
+{
+    return [NSURL URLWithString:string];
+}
+
+NSURL *url(NSString *string)
 {
     return [NSURL URLWithString:string];
 }
@@ -80,6 +106,12 @@ UIImage *LZImageNamed(NSString *name)
 {
     return [UIImage imageNamed:name];
 }
+
+UIImage *image(NSString *name)
+{
+    return [UIImage imageNamed:name];
+}
+
 
 CGFloat LZDegreesToRadian(CGFloat degrees)
 {

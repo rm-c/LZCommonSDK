@@ -65,8 +65,6 @@
 #define LzSafeStr(STR)                       ((STR)&&(![STR isEqual:[NSNull null]]) ? (STR) : @"")
 #define LzSafeStrEx(STR, placeholder)          ((STR)&&(![STR isEqual:[NSNull null]]) ? (STR) :placeholder )
 #define LzSafeNum(NUM)                       ((NUM)&&(![NUM isEqual:[NSNull null]]) ? (NUM) : @(0))
-#define s_int(value)        LZStringWithInteger(value)
-#define s_float(value)      LZStringWithFloat(value)
 
 #define LzIsRespondsToSelector(target, selectorName)  ((target) && [(target) respondsToSelector:NSSelectorFromString(selectorName)])
 

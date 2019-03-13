@@ -31,6 +31,10 @@ UIFont* LZBlodFontWithSize(CGFloat size);     // 系统粗体
 NSURL* LZURLWithString(NSString *string);     // url
 UIImage* LZImageNamed(NSString *name);        // 图片
 
+NSString* s_int(NSInteger value);
+NSString* s_float(CGFloat value);
+UIFont *font(CGFloat size);
+
 CGFloat LZDegreesToRadian(CGFloat degrees);   // 角度转弧度
 CGFloat LZRadianToDegrees(CGFloat radian);    // 弧度转角度
 
