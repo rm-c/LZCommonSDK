@@ -29,6 +29,7 @@ NSString* LZStringWithFloat(CGFloat value);   // 浮点数字符串
 UIFont* LZFontWithSize(CGFloat size);         // 系统字体
 UIFont* LZBlodFontWithSize(CGFloat size);     // 系统粗体
 NSURL* LZURLWithString(NSString *string);     // url
+NSURLRequest* LZRequestWithUrl(NSString *url);      // NSURLRequest
 UIImage* LZImageNamed(NSString *name);        // 图片
 
 NSString* s_int(NSInteger value);

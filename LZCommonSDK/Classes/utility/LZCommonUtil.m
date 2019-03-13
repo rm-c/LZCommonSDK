@@ -71,6 +71,11 @@ NSString* s_float(CGFloat value)
     return [NSString stringWithFormat:@"%f", value];
 }
 
+NSURLRequest* requestWithUrl(NSString *url)
+{
+    return [NSURLRequest requestWithURL:[NSURL URLWithString:url]];
+}
+
 
 UIFont *LZFontWithSize(CGFloat size)
 {
