@@ -77,6 +77,7 @@
 
 // 属性声明
 #define DECLARE_OBJECT_PROPERTY(className, propertyName)        @property(nonatomic, strong)className* propertyName;// 声明对象属性，默认强引用
+#define DECLARE_ARRAY_PROPERTY(className, objType, propertyName)        @property(nonatomic, strong)className<objType*>* propertyName;// 声明数组对象属性，默认强引用
 #define DECLARE_VALUE_PROPERTY(type, propertyName)              @property(nonatomic, assign)type propertyName;// 声明值属性
 #define DECLARE_WEAK_OBJECT_PROPERTY(className, propertyName)   @property(nonatomic, weak)className* propertyName;// 声明弱引用对象属性
 #define DECLARE_COPY_OBJECT_PROPERTY(className, propertyName)   @property(nonatomic, copy)className* propertyName;// 声明copy对象属性
