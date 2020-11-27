@@ -48,6 +48,7 @@
  */
 - (NSString*)reverseString;
 
++ (NSMutableString*)stringByJoinObjects:(NSArray*)objs;
 
 /**
  对象拼接

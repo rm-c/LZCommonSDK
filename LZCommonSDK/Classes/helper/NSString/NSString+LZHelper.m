@@ -60,6 +60,11 @@
     return reverString;
 }
 
++ (NSMutableString*)stringByJoinObjects:(NSArray*)objs
+{
+    return [self stringByJoinObjects:objs separator:@""];
+}
+
 + (NSMutableString*)stringByJoinObjects:(NSArray*)objs separator:(NSString*)separator
 {
     NSMutableString* s = [NSMutableString string];
