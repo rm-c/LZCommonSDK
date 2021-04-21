@@ -56,11 +56,11 @@
 #import "UIView+LZFrame.h"
 #import "UIView+LZGusture.h"
 #import "UIView+LZHelper.h"
-#import "UIWebView+LZHelper.h"
+//#import "UIWebView+LZHelper.h"
 #import "UIView+LZDraw.h"
 #import "LZTableViewCell.h"
 #import "LZTableRowModel.h"
 #import "LZTableSectionModel.h"
-#import "LZWebViewController.h"
+//#import "LZWebViewController.h"
 
 #endif /* _LZCOMMONSDK_ */
