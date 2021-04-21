@@ -41,7 +41,7 @@ TODO: Add long description of the pod here.
   # s.dependency 'AFNetworking', '~> 2.3'
   s.dependency 'SSKeychain'
   s.dependency 'Aspects'
-  s.dependency 'RegexKitLite'
+  s.dependency 'RegexKitLite-NoWarning'
   s.dependency 'SDAutoLayout'                              #高少东的autolayout库
   
   # s.dependency 'JSONModel'
